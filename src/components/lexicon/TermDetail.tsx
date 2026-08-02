@@ -10,6 +10,7 @@ type Props = {
 };
 
 export function TermDetail({ term, onSelectTerm, onClose }: Props) {
+  const examples = term.examples?.length ? term.examples : [term.example];
   return (
     <aside
       key={term.slug}
@@ -40,11 +41,17 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
         <p className="font-body text-[15px] leading-relaxed text-ink/85">{term.inDylan}</p>
       </Section>
 
-      <Section label="Example">
-        <MediaEmbed title={term.example.title} media={term.example.media} />
-        <p className="mt-3 font-body text-[14px] leading-relaxed text-ink/70">
-          {term.example.note}
-        </p>
+      <Section label={examples.length > 1 ? "Examples" : "Example"}>
+        <div className="space-y-5">
+          {examples.map((ex) => (
+            <div key={ex.title}>
+              <MediaEmbed title={ex.title} media={ex.media} />
+              <p className="mt-3 font-body text-[14px] leading-relaxed text-ink/70">
+                {ex.note}
+              </p>
+            </div>
+          ))}
+        </div>
       </Section>
 
       {term.documents && term.documents.length > 0 && (

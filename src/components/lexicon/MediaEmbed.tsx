@@ -16,7 +16,11 @@ export function MediaEmbed({ title, media }: Props) {
         </div>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[10px] uppercase tracking-wider">
           <a
-            href={`https://www.youtube.com/watch?v=${media.id}`}
+            href={
+              media.id
+                ? `https://www.youtube.com/watch?v=${media.id}`
+                : `https://www.youtube.com/results?search_query=${encodeURIComponent(title)}`
+            }
             target="_blank"
             rel="noopener noreferrer"
             referrerPolicy="no-referrer"
