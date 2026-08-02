@@ -18,7 +18,8 @@ export function MediaEmbed({ title, media }: Props) {
           <a
             href={`https://www.youtube.com/watch?v=${media.id}`}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            referrerPolicy="no-referrer"
             className="inline-flex items-center gap-1 text-accent hover:underline"
           >
             Watch on YouTube <ExternalLink className="h-3 w-3" aria-hidden />
@@ -32,7 +33,8 @@ export function MediaEmbed({ title, media }: Props) {
                   : `https://open.spotify.com/search/${encodeURIComponent(title)}`
             }
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            referrerPolicy="no-referrer"
             className="inline-flex items-center gap-1 text-accent hover:underline"
           >
             Listen on Spotify <ExternalLink className="h-3 w-3" aria-hidden />
@@ -71,7 +73,8 @@ export function MediaEmbed({ title, media }: Props) {
           <a
             href={spotify}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            referrerPolicy="no-referrer"
             className="inline-flex items-center gap-1 text-accent hover:underline"
           >
             Spotify <ExternalLink className="h-3 w-3" aria-hidden />
@@ -79,7 +82,8 @@ export function MediaEmbed({ title, media }: Props) {
           <a
             href={youtube}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            referrerPolicy="no-referrer"
             className="inline-flex items-center gap-1 text-accent hover:underline"
           >
             YouTube <ExternalLink className="h-3 w-3" aria-hidden />
