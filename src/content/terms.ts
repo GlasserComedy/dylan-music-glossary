@@ -11,7 +11,7 @@ export type Category =
   | "Reinvention";
 
 export type MediaRef =
-  | { kind: "youtube"; id: string }
+  | { kind: "youtube"; id: string; spotifyId?: string; albumId?: string }
   | { kind: "spotify"; id: string }
   | { kind: "search"; query: string };
 
