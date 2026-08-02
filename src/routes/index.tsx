@@ -72,6 +72,7 @@ function LexiconPage() {
         t.category,
         t.example.title,
         t.example.note,
+        ...(t.examples ?? []).flatMap((ex) => [ex.title, ex.note]),
         ...(t.aliases ?? []),
         ...(t.related ?? []),
       ]
@@ -93,13 +94,20 @@ function LexiconPage() {
       { title: string; score: number; terms: (typeof TERMS)[number][] }
     >();
     for (const t of TERMS) {
-      const song = t.example.title;
-      const lower = song.toLowerCase();
-      if (!lower.includes(q)) continue;
-      const score = lower.startsWith(q) ? 0 : 1;
-      const existing = groups.get(lower);
-      if (existing) existing.terms.push(t);
-      else groups.set(lower, { title: song, score, terms: [t] });
+      const songs = t.examples?.length
+        ? t.examples.map((ex) => ex.title)
+        : [t.example.title];
+      for (const song of songs) {
+        const lower = song.toLowerCase();
+        if (!lower.includes(q)) continue;
+        const score = lower.startsWith(q) ? 0 : 1;
+        const existing = groups.get(lower);
+        if (existing) {
+          if (!existing.terms.includes(t)) existing.terms.push(t);
+        } else {
+          groups.set(lower, { title: song, score, terms: [t] });
+        }
+      }
     }
     return [...groups.values()]
       .sort((a, b) => a.score - b.score || a.title.localeCompare(b.title))
