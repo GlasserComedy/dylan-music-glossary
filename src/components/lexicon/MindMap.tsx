@@ -182,7 +182,8 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
   const cy = h / 2;
   const rx = (w / 2) * RX_FRAC;
   const ry = (h / 2) * RY_FRAC;
-  const headR = headRadius(w, h) + 30;
+  const { hrx, hry } = headEllipse(w, h);
+  const headMargin = 34;
 
   const boxes = labels.map((l) => ({
     ...l,
@@ -236,7 +237,7 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
 
       // The label's own box must clear the head, not just its centre point.
       const reach = (b.w / 2) * Math.abs(ux) + (b.h / 2) * Math.abs(uy);
-      const minPx = headR + reach;
+      const minPx = headReachAt(ux, uy, hrx, hry) + headMargin + reach;
 
       let targetPx = Math.max(pd, minPx);
 
