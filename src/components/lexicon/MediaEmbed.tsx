@@ -9,36 +9,23 @@ type Props = {
 export function MediaEmbed({ title, media }: Props) {
   if (media.kind === "youtube") {
     return (
-      <div className="overflow-hidden border border-ink/15">
-        <div className="aspect-video w-full">
-          <iframe
-            className="h-full w-full"
-            src={`https://www.youtube.com/embed/${media.id}?rel=0`}
-            title={title}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            loading="lazy"
-            allowFullScreen
-          />
-        </div>
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-ink/10 px-3 py-2 font-mono text-[10px] uppercase tracking-wider">
-          <a
-            href={`https://www.youtube.com/watch?v=${media.id}`}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-1 text-accent hover:underline"
-          >
-            Watch on YouTube <ExternalLink className="h-3 w-3" aria-hidden />
-          </a>
-          <a
-            href={`https://open.spotify.com/search/${encodeURIComponent(title)}`}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-1 text-accent hover:underline"
-          >
-            Listen on Spotify <ExternalLink className="h-3 w-3" aria-hidden />
-          </a>
-        </div>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border border-ink/15 px-4 py-3 font-mono text-[10px] uppercase tracking-wider">
+        <a
+          href={`https://www.youtube.com/watch?v=${media.id}`}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-1 text-accent hover:underline"
+        >
+          Watch on YouTube <ExternalLink className="h-3 w-3" aria-hidden />
+        </a>
+        <a
+          href={`https://open.spotify.com/search/${encodeURIComponent(title)}`}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-1 text-accent hover:underline"
+        >
+          Listen on Spotify <ExternalLink className="h-3 w-3" aria-hidden />
+        </a>
       </div>
     );
   }
