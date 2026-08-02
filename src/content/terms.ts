@@ -1110,11 +1110,25 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan drew heavily from traditional folk songs, many of which use modal melodies inherited from British and Appalachian traditions.",
     example: {
-      title: "Little Sadie / Man of Constant Sorrow",
+      title: "Little Sadie",
       note:
-        "Little Sadie leans on a Mixolydian melody and Man of Constant Sorrow a Dorian one — both modal tunes carried over from the older folk repertoire.",
-      media: { kind: "youtube", id: "GC_Q-OWbPeo", spotifyId: "3SF5puV5eb6bgRSxBeMOk9" },
+        "Little Sadie leans on a Mixolydian melody — a modal tune carried over from the older folk repertoire.",
+      media: { kind: "youtube", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
     },
+    examples: [
+      {
+        title: "Little Sadie",
+        note:
+          "Little Sadie leans on a Mixolydian melody — a modal tune carried over from the older folk repertoire.",
+        media: { kind: "youtube", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
+      },
+      {
+        title: "Man of Constant Sorrow",
+        note:
+          "Man of Constant Sorrow sits in Dorian mode, the flattened third giving the old ballad its ancient, unresolved colour.",
+        media: { kind: "youtube", id: "GC_Q-OWbPeo", spotifyId: "3SF5puV5eb6bgRSxBeMOk9" },
+      },
+    ],
     related: ["minor-key", "major-key", "traditional"],
   },
   {
@@ -1174,11 +1188,25 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan often re-tempos his own songs in performance, turning a brisk number into a meditation or the reverse.",
     example: {
-      title: "Lily, Rosemary and the Jack of Hearts / Forever Young",
+      title: "Lily, Rosemary and the Jack of Hearts",
       note:
-        "Lily, Rosemary and the Jack of Hearts moves fast, its tempo carrying the narrative momentum, while the slow version of Forever Young settles into a reflective ballad tempo.",
+        "Lily, Rosemary and the Jack of Hearts moves fast, its tempo carrying the narrative momentum.",
       media: { kind: "youtube", id: "agdoeRpTfHg", spotifyId: "2Np0oPpnsECM4BQSVPZfVV" },
     },
+    examples: [
+      {
+        title: "Lily, Rosemary and the Jack of Hearts",
+        note:
+          "Lily, Rosemary and the Jack of Hearts moves fast, its tempo carrying the narrative momentum.",
+        media: { kind: "youtube", id: "agdoeRpTfHg", spotifyId: "2Np0oPpnsECM4BQSVPZfVV" },
+      },
+      {
+        title: "Forever Young (Slow Version)",
+        note:
+          "The slow version of Forever Young settles into a reflective ballad tempo — the same song, a different pace.",
+        media: { kind: "youtube", id: "Vz231O7Cw-I", spotifyId: "4yWl0tnEanf3zmZzl9kbQn" },
+      },
+    ],
     related: ["beat", "rhythm"],
   },
   {
