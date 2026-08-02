@@ -57,7 +57,7 @@ export const TERMS: Term[] = [
       title: "It's Alright, Ma (I'm Only Bleeding)",
       note:
         "The song piles up images of hypocrisy and disillusion without ever spelling out a single argument \u2014 meaning arrives through accumulation rather than statement.",
-      media: { kind: "youtube", id: "_CJHbfkROow" },
+      media: { kind: "youtube", id: "_CJHbfkROow", spotifyId: "6ERleVBO60Qdv4Yl1bJHKU" },
     },
     related: ["imagery", "surrealism", "lyric"],
   },
@@ -73,7 +73,7 @@ export const TERMS: Term[] = [
       title: "All I Really Want to Do",
       note:
         "A light, acoustic folk arrangement keeps the focus on the conversational vocal and the song's playful, sympathetic lyric.",
-      media: { kind: "youtube", id: "WYDfjV2B5Gk" },
+      media: { kind: "youtube", id: "WYDfjV2B5Gk", spotifyId: "2JcAqr3fUWIFZWPa9rjkwm" },
     },
     related: ["folk-revival", "newport-1965"],
   },
@@ -89,7 +89,7 @@ export const TERMS: Term[] = [
       title: "Boots of Spanish Leather",
       note:
         "A classic ballad exchange of letters between two lovers separated by an ocean, telling its story verse by verse in the voice of both characters.",
-      media: { kind: "youtube", id: "iy6wryJMwVU" },
+      media: { kind: "youtube", id: "iy6wryJMwVU", spotifyId: "6QHYEZlm9wyfXfEM1vSu1P" },
     },
     related: ["narrative", "folk-revival"],
   },
@@ -105,7 +105,7 @@ export const TERMS: Term[] = [
       title: "Meet Me in the Morning",
       note:
         "A straight 12-bar blues on Blood on the Tracks, complete with slide guitar and a lyric of weary, early-morning longing.",
-      media: { kind: "youtube", id: "VE6-uc1zr3s" },
+      media: { kind: "youtube", id: "VE6-uc1zr3s", spotifyId: "53ygARQf1f30Z0EmXPHWGT" },
     },
     related: ["chord-progression", "woody-guthrie"],
   },
@@ -121,7 +121,7 @@ export const TERMS: Term[] = [
       title: "Knockin' on Heaven's Door",
       note:
         "Its endlessly repeating four-chord cycle is so simple and so effective that it has become one of the most covered progressions in popular music.",
-      media: { kind: "youtube", id: "rm9coqlk8fY" },
+      media: { kind: "youtube", id: "rm9coqlk8fY", spotifyId: "5Qyq0oeQ0amjnpwne2usj0" },
     },
     related: ["harmony", "rhythm"],
   },
@@ -137,7 +137,7 @@ export const TERMS: Term[] = [
       title: "Make You Feel My Love (Adele version)",
       note:
         "Adele's version reshapes Dylan's song into a piano ballad \u2014 the same words and melody, a completely different reading.",
-      media: { kind: "youtube", id: "0put0_a--Ng" },
+      media: { kind: "youtube", id: "0put0_a--Ng", spotifyId: "3sWUxzbfXGLdoSe6dqF0bW" },
     },
     related: ["singer-songwriter"],
   },
@@ -153,7 +153,7 @@ export const TERMS: Term[] = [
       title: "House of the Risin' Sun",
       note:
         "A traditional song Dylan learned in the Village and recorded on his debut, showing how the revival passed old material into new hands.",
-      media: { kind: "youtube", id: "RP_caKDfoyU" },
+      media: { kind: "youtube", id: "RP_caKDfoyU", spotifyId: "3yFRbFaSj8MeNuYaN21HIu" },
     },
     related: ["acoustic", "woody-guthrie", "protest-song"],
   },
@@ -169,7 +169,7 @@ export const TERMS: Term[] = [
       title: "Gotta Serve Somebody",
       note:
         "Recorded during Dylan's born-again period, it carries the call-and-response drive and moral urgency of the Black gospel tradition.",
-      media: { kind: "youtube", id: "wC10VWDTzmU" },
+      media: { kind: "youtube", id: "wC10VWDTzmU", spotifyId: "760420tYNmNjFgi8bWvbop" },
     },
     related: ["blues"],
   },
@@ -185,7 +185,7 @@ export const TERMS: Term[] = [
       title: "Blowin' in the Wind",
       note:
         "The harmonica breaks between verses answer the vocal line, filling the silences with a plain, keening tone.",
-      media: { kind: "youtube", id: "MMFj8uDubsE" },
+      media: { kind: "youtube", id: "MMFj8uDubsE", spotifyId: "18GiV1BaXzPVYpp9rmOg0E" },
     },
     related: ["folk-revival"],
   },
@@ -201,7 +201,7 @@ export const TERMS: Term[] = [
       title: "I Shall Be Released (with The Band)",
       note:
         "The layered vocals of Dylan and The Band turn a simple hymn-like tune into a chorus of voices moving together in harmony.",
-      media: { kind: "youtube", id: "oHL5Y-ZCTY8" },
+      media: { kind: "youtube", id: "oHL5Y-ZCTY8", spotifyId: "7fGYJT5dBuGFxER8iWS8nQ" },
     },
     related: ["chord-progression", "rhythm"],
   },
@@ -217,7 +217,7 @@ export const TERMS: Term[] = [
       title: "Visions of Johanna",
       note:
         "Neon lights, ghosts of electricity and a night watchman's flashlight give the song a set of pictures far more precise than its story.",
-      media: { kind: "youtube", id: "AwuCF5lYqEE" },
+      media: { kind: "youtube", id: "AwuCF5lYqEE", spotifyId: "2rslQV48gNv3r9pPrQFPW1" },
     },
     related: ["abstract-lyrics", "metaphor", "surrealism"],
   },
@@ -233,7 +233,7 @@ export const TERMS: Term[] = [
       title: "Chimes of Freedom",
       note:
         "Its long, tumbling lines and visionary road imagery read like Kerouac's spontaneous prose set to a melody.",
-      media: { kind: "youtube", id: "zDOHhx_dk1g" },
+      media: { kind: "youtube", id: "zDOHhx_dk1g", spotifyId: "5zOiSgAZJhikocvA3KdSpX" },
     },
     related: ["surrealism", "abstract-lyrics"],
   },
@@ -249,7 +249,7 @@ export const TERMS: Term[] = [
       title: "Shelter from the Storm",
       note:
         "The words carry the whole song \u2014 a plainspoken narrative of refuge and betrayal whose power lies almost entirely in the writing.",
-      media: { kind: "youtube", id: "-gsDBuHwqbM" },
+      media: { kind: "youtube", id: "-gsDBuHwqbM", spotifyId: "0e7x8s2ke6KxkWwrL4HJMB" },
     },
     related: ["abstract-lyrics", "imagery", "narrative"],
   },
@@ -265,7 +265,7 @@ export const TERMS: Term[] = [
       title: "A Hard Rain's a-Gonna Fall",
       note:
         "The hard rain is never explained; it stands in for catastrophe, judgment and grief all at once.",
-      media: { kind: "youtube", id: "T5al0HmR4to" },
+      media: { kind: "youtube", id: "T5al0HmR4to", spotifyId: "7ny2ATvjtKszCpLpfsGnVQ" },
     },
     related: ["imagery", "abstract-lyrics", "protest-song"],
   },
@@ -281,7 +281,7 @@ export const TERMS: Term[] = [
       title: "Hurricane",
       note:
         "The song lays out a true story with named characters, scenes and a chronology, like reportage in verse.",
-      media: { kind: "youtube", id: "bpZvg_FjL3Q" },
+      media: { kind: "youtube", id: "bpZvg_FjL3Q", spotifyId: "1fYdZW9CJOwEjOjVHaxvQ5" },
     },
     related: ["ballad", "protest-song"],
   },
@@ -297,7 +297,7 @@ export const TERMS: Term[] = [
       title: "Maggie's Farm (Newport 1965)",
       note:
         "The opening number of the electric set \u2014 the recording captures the crowd's confusion in real time.",
-      media: { kind: "youtube", id: "32Rz7RLKUWA" },
+      media: { kind: "youtube", id: "32Rz7RLKUWA", spotifyId: "0DPYCtNwxDxAFZD9S6W2Jk" },
     },
     related: ["acoustic", "folk-revival"],
   },
@@ -313,7 +313,7 @@ export const TERMS: Term[] = [
       title: "Mr. Tambourine Man",
       note:
         "Often cited as the song where Dylan's writing moves fully into poetry, it was central to the case that his songs are literature.",
-      media: { kind: "youtube", id: "oecX_1pqxk0" },
+      media: { kind: "youtube", id: "oecX_1pqxk0", spotifyId: "7FsmZP2mj7qx7YDRrjGEUR" },
     },
     related: ["lyric", "singer-songwriter"],
   },
@@ -329,7 +329,7 @@ export const TERMS: Term[] = [
       title: "Masters of War",
       note:
         "A direct address to arms manufacturers, unsparing and unrhetorical \u2014 protest with no attempt at persuasion.",
-      media: { kind: "youtube", id: "JEmI_FT4YHU" },
+      media: { kind: "youtube", id: "JEmI_FT4YHU", spotifyId: "5kZotoDYqPbLgcB35jkmRZ" },
     },
     related: ["folk-revival", "narrative"],
   },
@@ -345,7 +345,7 @@ export const TERMS: Term[] = [
       title: "Subterranean Homesick Blues",
       note:
         "The words come in a clipped, hammering rhythm that pushes ahead of the beat, driving the song more than the melody does.",
-      media: { kind: "youtube", id: "MGxjIBEZvx0" },
+      media: { kind: "youtube", id: "MGxjIBEZvx0", spotifyId: "6k9DUKMJpWvu6eFG3O64Lg" },
     },
     related: ["chord-progression", "harmony"],
   },
@@ -361,7 +361,7 @@ export const TERMS: Term[] = [
       title: "Don't Think Twice, It's All Right",
       note:
         "Words, melody and performance all come from one person \u2014 a farewell song that only works in the writer's own voice.",
-      media: { kind: "youtube", id: "1iHhWh9FtsQ" },
+      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "5IMtdHjJ1OtkxbGe4HEFkZ" },
     },
     related: ["cover", "narrative", "lyric"],
   },
@@ -377,7 +377,7 @@ export const TERMS: Term[] = [
       title: "Desolation Row",
       note:
         "Historical and fictional figures wander through the same street scene, logic suspended in favour of dream imagery.",
-      media: { kind: "youtube", id: "hUvcWXTIjcU" },
+      media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
     },
     related: ["imagery", "abstract-lyrics", "kerouac-influence"],
   },
@@ -393,7 +393,7 @@ export const TERMS: Term[] = [
       title: "Talkin' World War III Blues",
       note:
         "Dylan half-speaks the verses over a plain blues shuffle, landing jokes between the chord changes.",
-      media: { kind: "youtube", id: "TYtVc56o9oo" },
+      media: { kind: "youtube", id: "TYtVc56o9oo", spotifyId: "0ePDsEDDIPZNpbwRUEXKoX" },
     },
     related: ["woody-guthrie", "blues"],
   },
@@ -409,7 +409,7 @@ export const TERMS: Term[] = [
       title: "Song to Woody",
       note:
         "Written for Guthrie and built on the melody of his own 1913 Massacre, it is a debt acknowledged in the song itself.",
-      media: { kind: "youtube", id: "lOWfCVQBixs" },
+      media: { kind: "youtube", id: "lOWfCVQBixs", spotifyId: "0dfdXhBg11XA16XgAEtFcN" },
     },
     related: ["folk-revival", "talkin-blues"],
   },
@@ -425,7 +425,7 @@ export const TERMS: Term[] = [
       title: "Things Have Changed (from Wonder Boys)",
       note:
         "Written for Wonder Boys, the song works both as a scene-setter in the film and as a standalone record.",
-      media: { kind: "youtube", id: "L9EKqQWPjyo" },
+      media: { kind: "youtube", id: "L9EKqQWPjyo", spotifyId: "2gmaLBS73JrG0zlnEb2Eeo" },
     },
   },
   {
@@ -440,7 +440,7 @@ export const TERMS: Term[] = [
       title: "Don't Think Twice, It's All Right",
       note:
         "The rolling fingerpicked pattern runs unbroken beneath the vocal, giving the song its restless forward motion.",
-      media: { kind: "youtube", id: "1iHhWh9FtsQ" },
+      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "5IMtdHjJ1OtkxbGe4HEFkZ" },
     },
     related: ["flat-picking", "strumming"],
   },
@@ -456,7 +456,7 @@ export const TERMS: Term[] = [
       title: "Ballad of Hollis Brown",
       note:
         "Struck with a flatpick, the insistent single-chord figure keeps the grim story moving.",
-      media: { kind: "youtube", id: "_8xkxy3tXTA" },
+      media: { kind: "youtube", id: "_8xkxy3tXTA", spotifyId: "3Si9u9FVlUTcUXVcawnstJ" },
     },
     related: ["finger-picking", "strumming"],
   },
@@ -472,7 +472,7 @@ export const TERMS: Term[] = [
       title: "Blind Willie McTell",
       note:
         "Organ and piano fill the arrangement behind the vocal, giving the outtake its slow, hymn-like weight.",
-      media: { kind: "youtube", id: "_AIRdU6CPf0" },
+      media: { kind: "youtube", id: "_AIRdU6CPf0", spotifyId: "2HT5jSAGQtNJ6nM8dhvrng" },
     },
     related: ["piano"],
   },
@@ -488,7 +488,7 @@ export const TERMS: Term[] = [
       title: "Man Gave Names to All the Animals",
       note:
         "The offbeat guitar accents and loping bass line lift a straight rock tune into reggae-inflected territory.",
-      media: { kind: "youtube", id: "OmxhajWJAnY" },
+      media: { kind: "youtube", id: "OmxhajWJAnY", spotifyId: "5mGq3cybgQDZgTEbu9ldV9" },
     },
   },
   {
@@ -503,7 +503,7 @@ export const TERMS: Term[] = [
       title: "Only a Pawn in Their Game",
       note:
         "The song argues that the man who fired the shot was himself a product of a system built on racial division.",
-      media: { kind: "youtube", id: "8X0UmfBwA_U" },
+      media: { kind: "youtube", id: "8X0UmfBwA_U", spotifyId: "6lib77q4koq52srysevRfT" },
     },
     related: ["protest-song", "topical-song"],
   },
@@ -519,7 +519,7 @@ export const TERMS: Term[] = [
       title: "Pretty Peggy-O",
       note:
         "A traditional song carried almost entirely by open-chord strumming that keeps a steady, dance-like pulse.",
-      media: { kind: "youtube", id: "RwZkMDxtYpo" },
+      media: { kind: "youtube", id: "RwZkMDxtYpo", spotifyId: "4aFM4HgUGRM1cB75qbh2Su" },
     },
     related: ["finger-picking", "flat-picking"],
   },
@@ -535,7 +535,7 @@ export const TERMS: Term[] = [
       title: "Just Like a Woman",
       note:
         "Its lilting 6/8 feel gives the song a swaying motion that a straight 4/4 would flatten.",
-      media: { kind: "youtube", id: "dRLXZVojdhQ" },
+      media: { kind: "youtube", id: "dRLXZVojdhQ", spotifyId: "37Dl7jQMmt0gUnzTKqnjkN" },
     },
     related: ["rhythm"],
   },
@@ -551,7 +551,7 @@ export const TERMS: Term[] = [
       title: "The Lonesome Death of Hattie Carroll",
       note:
         "Drawn from a 1963 court case, the song reports the facts and lets the sentence at the end deliver the verdict.",
-      media: { kind: "youtube", id: "FmbwU3J-2kk" },
+      media: { kind: "youtube", id: "FmbwU3J-2kk", spotifyId: "6j1fiAG1NFBqPDRfJY19Yv" },
     },
     related: ["protest-song", "social-commentary", "narrative"],
   },
@@ -567,7 +567,7 @@ export const TERMS: Term[] = [
       title: "Froggie Went a-Courtin'",
       note:
         "An old children's folk song passed down for centuries, recorded by Dylan almost exactly as it was handed to him.",
-      media: { kind: "youtube", id: "47NFLztId4E" },
+      media: { kind: "youtube", id: "47NFLztId4E", spotifyId: "5sEiHlDvo5CRpX5AT3Q8z1" },
     },
     related: ["folk-revival", "folklore"],
   },
@@ -583,7 +583,7 @@ export const TERMS: Term[] = [
       title: "With God on Our Side",
       note:
         "The quivering guitar figure behind the verses adds an unsettled shimmer beneath the song's hard questions.",
-      media: { kind: "youtube", id: "5y2FuDY6Q4M" },
+      media: { kind: "youtube", id: "5y2FuDY6Q4M", spotifyId: "4rEs697oKBUikr9yOnyD0I" },
     },
   },
   {
@@ -598,7 +598,7 @@ export const TERMS: Term[] = [
       title: "One More Cup of Coffee",
       note:
         "Scarlet Rivera's violin winds around the vocal line throughout, giving the song its Eastern, wandering character.",
-      media: { kind: "youtube", id: "95cufW4h-gA" },
+      media: { kind: "youtube", id: "95cufW4h-gA", spotifyId: "4WOruM7TiQSETsWYy8bDSX" },
     },
   },
   {
@@ -613,7 +613,7 @@ export const TERMS: Term[] = [
       title: "Tonight I'll Be Staying Here With You",
       note:
         "The Nashville Skyline croon here is barely recognisable as the same singer who made Highway 61 four years earlier.",
-      media: { kind: "youtube", id: "9ZhLGP5dF2k" },
+      media: { kind: "youtube", id: "9ZhLGP5dF2k", spotifyId: "3uHpPWsNDTpbbqedCRoaQU" },
     },
     related: ["acoustic"],
   },
@@ -629,7 +629,7 @@ export const TERMS: Term[] = [
       title: "The Times They Are a-Changin'",
       note:
         "Released in 1964, the song named the decade's mood before the decade had fully arrived.",
-      media: { kind: "youtube", id: "90WD_ats6eE" },
+      media: { kind: "youtube", id: "90WD_ats6eE", spotifyId: "52vA3CYKZqZVdQnzRrdZt6" },
     },
     related: ["counter-culture", "protest-song", "folk-revival"],
   },
@@ -645,7 +645,7 @@ export const TERMS: Term[] = [
       title: "Knockin' on Heaven's Door",
       note:
         "Written for Pat Garrett and Billy the Kid, in which Dylan also appears on screen as the character Alias.",
-      media: { kind: "youtube", id: "rm9coqlk8fY" },
+      media: { kind: "youtube", id: "rm9coqlk8fY", spotifyId: "5Qyq0oeQ0amjnpwne2usj0" },
     },
     related: ["film-music"],
   },
@@ -661,7 +661,7 @@ export const TERMS: Term[] = [
       title: "Bob Dylan (1962 debut album)",
       note:
         "The album that first put the name Bob Dylan on a record sleeve, replacing Robert Zimmerman for good.",
-      media: { kind: "youtube", id: "QgJ9oUX1pbA" },
+      media: { kind: "youtube", id: "QgJ9oUX1pbA", albumId: "5k63xxy9YcKM0H9GS3vP1K" },
     },
   },
   {
@@ -676,7 +676,7 @@ export const TERMS: Term[] = [
       title: "Tombstone Blues",
       note:
         "Its collision of Belle Starr, Jack the Ripper and Beethoven pushes the pop song into deliberately experimental territory.",
-      media: { kind: "youtube", id: "ag-Esuy44ks" },
+      media: { kind: "youtube", id: "ag-Esuy44ks", spotifyId: "5JqsRFZYDtIK5Rgeuzd2Jv" },
     },
     related: ["surrealism", "kerouac-influence"],
   },
@@ -692,7 +692,7 @@ export const TERMS: Term[] = [
       title: "Desolation Row",
       note:
         "The long free-associating catalogue of characters owes its rhythm and spirit to Beat poetry.",
-      media: { kind: "youtube", id: "hUvcWXTIjcU" },
+      media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
     },
     related: ["kerouac-influence", "surrealism"],
   },
@@ -708,7 +708,7 @@ export const TERMS: Term[] = [
       title: "Gotta Serve Somebody",
       note:
         "A rock record with an explicitly Christian message \u2014 the song that opened Dylan's gospel period.",
-      media: { kind: "youtube", id: "wC10VWDTzmU" },
+      media: { kind: "youtube", id: "wC10VWDTzmU", spotifyId: "760420tYNmNjFgi8bWvbop" },
     },
     related: ["gospel"],
   },
@@ -724,7 +724,7 @@ export const TERMS: Term[] = [
       title: "The Freewheelin' Bob Dylan",
       note:
         "Dylan's second Columbia album, and the one that established the label's faith in him as a writer.",
-      media: { kind: "youtube", id: "JncbFS5ek74" },
+      media: { kind: "youtube", id: "JncbFS5ek74", albumId: "0o1uFxZ1VTviqvNaYkTJek" },
     },
     related: ["john-hammond"],
   },
@@ -740,7 +740,7 @@ export const TERMS: Term[] = [
       title: "Ballad of a Thin Man",
       note:
         "Mr. Jones \u2014 baffled, respectable and out of his depth \u2014 became the counter-culture's shorthand for the establishment.",
-      media: { kind: "youtube", id: "we37yX3zpKA" },
+      media: { kind: "youtube", id: "we37yX3zpKA", spotifyId: "0f5N14nB8xi0p3o4BlVvbx" },
     },
     related: ["1960s", "protest-song"],
   },
@@ -756,7 +756,7 @@ export const TERMS: Term[] = [
       title: "Like a Rolling Stone",
       note:
         "Six minutes of full-band electric rock that broke every rule about what a hit single could be.",
-      media: { kind: "youtube", id: "IwOfCgkyEj0" },
+      media: { kind: "youtube", id: "IwOfCgkyEj0", spotifyId: "3uwzG1g" },
     },
     related: ["acoustic", "newport-1965", "folk-rock"],
   },
@@ -772,7 +772,7 @@ export const TERMS: Term[] = [
       title: "Mr. Tambourine Man (The Byrds)",
       note:
         "The Byrds took Dylan's acoustic song, added electric twelve-string and a backbeat, and folk-rock had its first hit.",
-      media: { kind: "youtube", id: "Swqw5a8I4b4" },
+      media: { kind: "youtube", id: "Swqw5a8I4b4", spotifyId: "11HmnsdTSpUh6ifD15tywv" },
     },
     related: ["electric", "folk-revival"],
   },
@@ -805,7 +805,7 @@ export const TERMS: Term[] = [
       title: "Talkin' New York",
       note:
         "Dylan's own account of arriving in the Village, written in the talking-blues style he learned in its clubs.",
-      media: { kind: "youtube", id: "rxIJnZQmTt4" },
+      media: { kind: "youtube", id: "rxIJnZQmTt4", spotifyId: "1X6dRpq3Wi6Jxthi8ZBBBz" },
     },
     related: ["folk-revival"],
   },
@@ -821,7 +821,7 @@ export const TERMS: Term[] = [
       title: "Girl from the North Country",
       note:
         "Fingerpicked acoustic guitar carries the entire song, the instrument acting as its only accompaniment.",
-      media: { kind: "youtube", id: "Je4Eg77YSSA" },
+      media: { kind: "youtube", id: "Je4Eg77YSSA", spotifyId: "0fQubK3b1VamHnEtwXhUX8" },
     },
     related: ["strumming", "finger-picking"],
   },
@@ -837,7 +837,7 @@ export const TERMS: Term[] = [
       title: "Tangled Up in Blue (live variations)",
       note:
         "Dylan has rewritten this song's lyrics, key and point of view repeatedly in performance over five decades.",
-      media: { kind: "youtube", id: "YwSZvHqf9qM" },
+      media: { kind: "youtube", id: "YwSZvHqf9qM", spotifyId: "5D0dv42CZd5xtlLVxDFXs3" },
     },
   },
   {
@@ -852,7 +852,7 @@ export const TERMS: Term[] = [
       title: "Nashville Skyline Rag",
       note:
         "A country rag played by Dylan's Nashville session band, the track announces the album's down-home sound without a single lyric.",
-      media: { kind: "youtube", id: "F4T3xs4-Jso" },
+      media: { kind: "youtube", id: "F4T3xs4-Jso", spotifyId: "716TKYoyVXFrXjz3rHwajp" },
     },
     related: ["melody", "tempo"],
   },
@@ -868,7 +868,7 @@ export const TERMS: Term[] = [
       title: "Diamonds & Rust (Joan Baez)",
       note:
         "Baez's song looks back on her relationship with Dylan \u2014 the collaboration running in both directions.",
-      media: { kind: "youtube", id: "1ST9TZBb9v8" },
+      media: { kind: "youtube", id: "1ST9TZBb9v8", spotifyId: "4O0sGJdqpHMaWz7KoVd7tb" },
     },
     related: ["folk-revival"],
   },
@@ -884,7 +884,7 @@ export const TERMS: Term[] = [
       title: "Song to Woody",
       note:
         "Recorded at the sessions Hammond produced for Dylan's debut, months after he signed him.",
-      media: { kind: "youtube", id: "lOWfCVQBixs" },
+      media: { kind: "youtube", id: "lOWfCVQBixs", spotifyId: "0dfdXhBg11XA16XgAEtFcN" },
     },
     related: ["columbia-records"],
   },
@@ -900,7 +900,7 @@ export const TERMS: Term[] = [
       title: "Gates of Eden",
       note:
         "Its biblical and mythic imagery reads as poetry on the page as much as lyric on the record.",
-      media: { kind: "youtube", id: "r9MXMHzlGIM" },
+      media: { kind: "youtube", id: "r9MXMHzlGIM", spotifyId: "3K10pmwoFZt5N6ESWvDQkv" },
     },
     related: ["nobel-prize", "lyric"],
   },
@@ -916,7 +916,7 @@ export const TERMS: Term[] = [
       title: "Sara",
       note:
         "One of Dylan's most openly melodic songs, the tune carrying the emotion as directly as the words.",
-      media: { kind: "youtube", id: "Ma7BK2MJNqo" },
+      media: { kind: "youtube", id: "Ma7BK2MJNqo", spotifyId: "0fj1UaYgiAoahQxhrbX0hW" },
     },
     related: ["harmony"],
   },
@@ -932,7 +932,7 @@ export const TERMS: Term[] = [
       title: "Subterranean Homesick Blues (video)",
       note:
         "Filmed in an alley behind the Savoy Hotel, Dylan drops cue cards of the lyrics \u2014 a template for the music video.",
-      media: { kind: "youtube", id: "MGxjIBEZvx0" },
+      media: { kind: "youtube", id: "MGxjIBEZvx0", spotifyId: "6k9DUKMJpWvu6eFG3O64Lg" },
     },
     related: ["rhythm"],
   },
@@ -948,7 +948,7 @@ export const TERMS: Term[] = [
       title: "Dear Landlord",
       note:
         "Dylan plays the piano part himself, the chords shaping the song's slow, contemplative feel.",
-      media: { kind: "youtube", id: "0hkVJ5FRdDs" },
+      media: { kind: "youtube", id: "0hkVJ5FRdDs", spotifyId: "4xhHhecO7i0jEySdGKQMWp" },
     },
     related: ["keyboard"],
   },
@@ -964,7 +964,7 @@ export const TERMS: Term[] = [
       title: "Time Out of Mind (prod. Daniel Lanois)",
       note:
         "Lanois's atmospheric production \u2014 reverb, murk, room sound \u2014 is as much a part of the record as the songs.",
-      media: { kind: "youtube", id: "Ex5h0PHHbNI" },
+      media: { kind: "youtube", id: "Ex5h0PHHbNI", albumId: "185DHT5SvszXRrezx3lOjt" },
     },
     related: ["daniel-lanois", "john-hammond", "columbia-records"],
     aliases: ["Daniel Lanois", "Oh Mercy", "Time Out of Mind"],
@@ -981,7 +981,7 @@ export const TERMS: Term[] = [
       title: "Highway 61 Revisited",
       note:
         "The title track drives on electric blues-rock, with a slide whistle punctuating the verses.",
-      media: { kind: "youtube", id: "8hr3Stnk8_k" },
+      media: { kind: "youtube", id: "8hr3Stnk8_k", spotifyId: "6os5B6xjuke9YfBKH3tu1e" },
     },
     related: ["electric", "folk-rock"],
   },
@@ -997,7 +997,7 @@ export const TERMS: Term[] = [
       title: "Blonde on Blonde",
       note:
         "Rock's first double album, sequenced across four vinyl sides \u2014 the format shaped how it was written and heard.",
-      media: { kind: "youtube", id: "A3qXRfHIeuY" },
+      media: { kind: "youtube", id: "A3qXRfHIeuY", albumId: "4NP1rhnsPdYpnyJP0p0k0L" },
     },
   },
   {
@@ -1012,7 +1012,7 @@ export const TERMS: Term[] = [
       title: "Lay Lady Lay",
       note:
         "The soft, unfamiliar croon here shows just how far Dylan could move his voice from its usual rasp.",
-      media: { kind: "youtube", id: "LhzEsb2tNbI" },
+      media: { kind: "youtube", id: "LhzEsb2tNbI", spotifyId: "1yRxcHJsRMmQOZ7tZtXwo9" },
     },
   },
   {
@@ -1027,7 +1027,7 @@ export const TERMS: Term[] = [
       title: "The Times They Are a-Changin'",
       note:
         "Its direct address to parents, senators and writers is what earned Dylan the title he spent years rejecting.",
-      media: { kind: "youtube", id: "90WD_ats6eE" },
+      media: { kind: "youtube", id: "90WD_ats6eE", spotifyId: "52vA3CYKZqZVdQnzRrdZt6" },
     },
     related: ["1960s", "counter-culture"],
   },
@@ -1043,7 +1043,7 @@ export const TERMS: Term[] = [
       title: "As I Went Out One Morning",
       note:
         "The minor tonality gives this brief, allegorical encounter a sense of menace the plain narrative never states outright.",
-      media: { kind: "youtube", id: "DYhOWt9sOP8" },
+      media: { kind: "youtube", id: "DYhOWt9sOP8", spotifyId: "2040FzW1ywVMnNJAMPoXZn" },
     },
     related: ["major-key", "mode", "harmony"],
   },
@@ -1059,7 +1059,7 @@ export const TERMS: Term[] = [
       title: "Honey, Just Allow Me One More Chance",
       note:
         "A bright major-key romp — the cheerful harmony sets up the song's grinning, pleading humour.",
-      media: { kind: "youtube", id: "l9uBYOWD_fo" },
+      media: { kind: "youtube", id: "l9uBYOWD_fo", spotifyId: "71XTdtW3bvmIrotG8yYVMS" },
     },
     related: ["minor-key", "mode", "harmony"],
   },
@@ -1075,7 +1075,7 @@ export const TERMS: Term[] = [
       title: "The Lonesome Death of Hattie Carroll",
       note:
         "Dylan uses a traditional ballad structure where the repeated refrain reinforces the song's moral message and emotional impact.",
-      media: { kind: "youtube", id: "FmbwU3J-2kk" },
+      media: { kind: "youtube", id: "FmbwU3J-2kk", spotifyId: "6j1fiAG1NFBqPDRfJY19Yv" },
     },
     related: ["verse", "bridge", "ballad"],
   },
@@ -1091,7 +1091,7 @@ export const TERMS: Term[] = [
       title: "All Along the Watchtower",
       note:
         "A rare example of Dylan using a compact, verse-only structure with no traditional chorus.",
-      media: { kind: "youtube", id: "bT7Hj-ea0VE" },
+      media: { kind: "youtube", id: "bT7Hj-ea0VE", spotifyId: "14kwHJxxL8BVmJMxKaP2E2" },
     },
     related: ["chorus-refrain", "bridge", "narrative"],
   },
@@ -1107,7 +1107,7 @@ export const TERMS: Term[] = [
       title: "Little Sadie / Man of Constant Sorrow",
       note:
         "Little Sadie leans on a Mixolydian melody and Man of Constant Sorrow a Dorian one — both modal tunes carried over from the older folk repertoire.",
-      media: { kind: "youtube", id: "GC_Q-OWbPeo" },
+      media: { kind: "youtube", id: "GC_Q-OWbPeo", spotifyId: "3SF5puV5eb6bgRSxBeMOk9" },
     },
     related: ["minor-key", "major-key", "traditional"],
   },
@@ -1123,7 +1123,7 @@ export const TERMS: Term[] = [
       title: "Masters of War",
       note:
         "Built around a repeating, droning guitar pattern inspired by the traditional melody of 'Nottamun Town,' creating a dark and timeless atmosphere.",
-      media: { kind: "youtube", id: "JEmI_FT4YHU" },
+      media: { kind: "youtube", id: "JEmI_FT4YHU", spotifyId: "5kZotoDYqPbLgcB35jkmRZ" },
     },
     related: ["mode", "traditional", "protest-song"],
   },
@@ -1139,7 +1139,7 @@ export const TERMS: Term[] = [
       title: "Lay Lady Lay",
       note:
         "The bridge introduces a new emotional perspective before returning to the main song idea.",
-      media: { kind: "youtube", id: "LhzEsb2tNbI" },
+      media: { kind: "youtube", id: "LhzEsb2tNbI", spotifyId: "1yRxcHJsRMmQOZ7tZtXwo9" },
     },
     related: ["verse", "chorus-refrain"],
   },
@@ -1155,7 +1155,7 @@ export const TERMS: Term[] = [
       title: "Gotta Serve Somebody",
       note:
         "The driving beat reflects Dylan's late-1970s gospel period and the influence of blues, rock, and soul rhythms.",
-      media: { kind: "youtube", id: "wC10VWDTzmU" },
+      media: { kind: "youtube", id: "wC10VWDTzmU", spotifyId: "760420tYNmNjFgi8bWvbop" },
     },
     related: ["rhythm", "tempo", "time-signature"],
   },
@@ -1171,7 +1171,7 @@ export const TERMS: Term[] = [
       title: "Lily, Rosemary and the Jack of Hearts / Forever Young",
       note:
         "Lily, Rosemary and the Jack of Hearts moves fast, its tempo carrying the narrative momentum, while the slow version of Forever Young settles into a reflective ballad tempo.",
-      media: { kind: "youtube", id: "agdoeRpTfHg" },
+      media: { kind: "youtube", id: "agdoeRpTfHg", spotifyId: "2Np0oPpnsECM4BQSVPZfVV" },
     },
     related: ["beat", "rhythm"],
   },
@@ -1187,7 +1187,7 @@ export const TERMS: Term[] = [
       title: "Hurricane",
       note:
         "Dylan uses complex internal rhymes, repeated sounds, and rhythmic phrasing to drive the song's storytelling and urgency.",
-      media: { kind: "youtube", id: "bpZvg_FjL3Q" },
+      media: { kind: "youtube", id: "bpZvg_FjL3Q", spotifyId: "1fYdZW9CJOwEjOjVHaxvQ5" },
     },
     related: ["lyric", "narrative", "rhythm"],
   },
@@ -1203,7 +1203,7 @@ export const TERMS: Term[] = [
       title: "Just Like a Woman",
       note:
         "A textbook layout \u2014 intro, verse, chorus, verse, chorus, bridge (the \u201cmiddle eight\u201d in British usage), verse, chorus, outro \u2014 with the bridge lifting the key line before the final return.",
-      media: { kind: "youtube", id: "dRLXZVojdhQ" },
+      media: { kind: "youtube", id: "dRLXZVojdhQ", spotifyId: "37Dl7jQMmt0gUnzTKqnjkN" },
     },
     related: ["verse", "chorus-refrain", "bridge", "melody"],
   },
@@ -1235,7 +1235,7 @@ export const TERMS: Term[] = [
       title: "If I Had a Hammer",
       note:
         "Seeger's singalong anthem shows the tradition Dylan entered \u2014 a simple, repeatable song built to be sung by a crowd for a cause.",
-      media: { kind: "youtube", id: "VO39e5Uznu4" },
+      media: { kind: "youtube", id: "VO39e5Uznu4", spotifyId: "0P4ICD4ck53aHPSzQasWtA" },
     },
     related: ["folk-revival", "protest-song", "newport-1965"],
   },
@@ -1267,7 +1267,7 @@ export const TERMS: Term[] = [
       title: "I Shall Be Released",
       note:
         "A Dylan song written during the Basement Tapes sessions and made famous by The Band \u2014 his writing, their weathered harmony and organ-led arrangement.",
-      media: { kind: "youtube", id: "MjtPBjEz-BA" },
+      media: { kind: "youtube", id: "MjtPBjEz-BA", spotifyId: "7fGYJT5dBuGFxER8iWS8nQ" },
     },
     related: ["electric", "folk-rock", "harmony"],
   },
@@ -1283,7 +1283,7 @@ export const TERMS: Term[] = [
       title: "I Want to Hold Your Hand",
       note:
         "The song that broke them in America and that Dylan heard on the radio in 1964 \u2014 pop craft with harmonic surprises, the sound he began writing toward.",
-      media: { kind: "youtube", id: "jenWdylTtzs" },
+      media: { kind: "youtube", id: "jenWdylTtzs", spotifyId: "4DRBaZ760gyk7LWnaJFqsJ" },
     },
     related: ["rock", "folk-rock", "electric"],
   },
@@ -1299,7 +1299,7 @@ export const TERMS: Term[] = [
       title: "In the Pines (Where Did You Sleep Last Night)",
       note:
         "A traditional song Lead Belly made his own \u2014 the same process of inhabiting and reshaping an old song that Dylan built a career on.",
-      media: { kind: "youtube", id: "2MkfTYPmLlA" },
+      media: { kind: "youtube", id: "2MkfTYPmLlA", spotifyId: "5rerimz0RW2Royhow3g0sR" },
     },
     related: ["traditional", "folklore", "blues"],
   },
@@ -1315,7 +1315,7 @@ export const TERMS: Term[] = [
       title: "Lost Highway",
       note:
         "Three verses of drifting and regret with almost no ornament \u2014 the compression and the road imagery Dylan carried into his own writing.",
-      media: { kind: "youtube", id: "lCgicPdsxxg" },
+      media: { kind: "youtube", id: "lCgicPdsxxg", spotifyId: "0jo2E9nTTflJzAadadRaek" },
     },
     related: ["lyric", "narrative", "traditional"],
   },
@@ -1331,7 +1331,7 @@ export const TERMS: Term[] = [
       title: "Cross Road Blues",
       note:
         "The crossroads legend in three minutes \u2014 slide guitar, a shifting beat, and images loaded far beyond their literal words.",
-      media: { kind: "youtube", id: "Kxi4XkIVWLQ" },
+      media: { kind: "youtube", id: "Kxi4XkIVWLQ", spotifyId: "1TrGdXSgiBm8W68D2K1COG" },
     },
     related: ["blues", "imagery", "folklore"],
   },
@@ -1347,7 +1347,7 @@ export const TERMS: Term[] = [
       title: "In the Jailhouse Now",
       note:
         "Blues form, comic storytelling and a yodel refrain in one song \u2014 the genre-crossing that Dylan treats as the native condition of American music.",
-      media: { kind: "youtube", id: "p3L2qf3q-ok" },
+      media: { kind: "youtube", id: "p3L2qf3q-ok", spotifyId: "5qhjl6GzrmwPYpJJFh2SRz" },
     },
     related: ["blues", "traditional", "folklore"],
   },
@@ -1441,7 +1441,7 @@ export const TERMS: Term[] = [
       title: "Just Like Tom Thumb's Blues (Nina Simone)",
       note:
         "Simone's late-career cover strips the original's wry travelogue to its bruised, after-hours core, turning Dylan's tale of lost weekends into a slow piano confession.",
-      media: { kind: "youtube", id: "6jWBiFMlGVQ" },
+      media: { kind: "youtube", id: "6jWBiFMlGVQ", spotifyId: "3p1uhpNDN4NsA4mhjfOuOy" },
     },
     related: ["protest-song", "cover", "blues"],
     aliases: ["Eunice Waymon", "High Priestess of Soul", "civil rights", "jazz"],
@@ -1458,7 +1458,7 @@ export const TERMS: Term[] = [
       title: "No More Auction Block",
       note:
         "Odetta's powerful solo recording of this anti-slavery work song became the template Dylan studied when he was learning how a single voice and acoustic guitar could carry a whole history of struggle.",
-      media: { kind: "youtube", id: "AHVWpcJsZBw" },
+      media: { kind: "youtube", id: "AHVWpcJsZBw", spotifyId: "654uytI1ZQaTrioZUKVGAs" },
     },
     related: ["folk-revival", "traditional", "blues"],
     aliases: ["Odetta Holmes", "Voice of the Civil Rights Movement"],
@@ -1475,7 +1475,7 @@ export const TERMS: Term[] = [
       title: "Up Above My Head",
       note:
         "Gospel call-and-response driven by her own electric lead lines \u2014 proof that plugging in was never a break with tradition.",
-      media: { kind: "youtube", id: "JeaBNAXfHfQ" },
+      media: { kind: "youtube", id: "JeaBNAXfHfQ", spotifyId: "5SdV6pe3sgH7b0DphOwGmI" },
     },
     related: ["gospel", "electric", "newport-1965"],
     aliases: ["Rosetta Nubin", "Godmother of Rock and Roll", "gospel guitar"],
@@ -1492,7 +1492,7 @@ export const TERMS: Term[] = [
       title: "Freight Train",
       note:
         "Written when she was a child, its rolling thumb-and-finger pattern is the textbook example of the picking style revival guitarists copied.",
-      media: { kind: "youtube", id: "R2DCWfBkMSI" },
+      media: { kind: "youtube", id: "R2DCWfBkMSI", spotifyId: "0dWGrAFwqAnL3MwagYFG74" },
     },
     related: ["finger-picking", "folk-revival", "guitar"],
     aliases: ["Libba Cotten", "Cotten picking", "Freight Train"],
@@ -1509,7 +1509,7 @@ export const TERMS: Term[] = [
       title: "Coyote",
       note:
         "Written and performed during the Rolling Thunder Revue, it sketches life on that tour in tumbling, novelistic verses.",
-      media: { kind: "youtube", id: "zeaO5UZ5OcI" },
+      media: { kind: "youtube", id: "zeaO5UZ5OcI", spotifyId: "5fdjxHzBILxMXRrbbOVupJ" },
     },
     related: ["singer-songwriter", "reinvention", "lyric"],
     aliases: ["Roberta Joan Anderson", "open tunings", "Blue"],
@@ -1526,7 +1526,7 @@ export const TERMS: Term[] = [
       title: "A Hard Rain's A-Gonna Fall (Nobel ceremony, 2016)",
       note:
         "Her faltering, restarted performance in Stockholm made the song's weight audible in a way a flawless reading could not.",
-      media: { kind: "youtube", id: "941PHEJHCwU" },
+      media: { kind: "youtube", id: "941PHEJHCwU", spotifyId: "7ny2ATvjtKszCpLpfsGnVQ" },
     },
     related: ["abstract-lyrics", "literature", "cover"],
     aliases: ["punk", "Horses", "Nobel Prize 2016", "Stockholm"],
@@ -1543,7 +1543,7 @@ export const TERMS: Term[] = [
       title: "Nobody Knows You When You're Down and Out",
       note:
         "A plain lesson in blues form and delivery \u2014 the meaning sits in how she bends and delays each line, not in the words alone.",
-      media: { kind: "youtube", id: "kxTyV_cBz7o" },
+      media: { kind: "youtube", id: "kxTyV_cBz7o", spotifyId: "1stlnGxZ1HakRx5QUiRIJw" },
     },
     related: ["blues", "vocal-style", "melody"],
     aliases: ["Empress of the Blues", "classic blues", "1920s"],
@@ -1560,7 +1560,7 @@ export const TERMS: Term[] = [
       title: "Strange Fruit",
       note:
         "A protest song delivered almost without raising the voice \u2014 restraint and phrasing carrying the whole weight of the subject.",
-      media: { kind: "youtube", id: "-DGY9HvChXk" },
+      media: { kind: "youtube", id: "-DGY9HvChXk", spotifyId: "6W5706MsehAWMAZLIg9Fu2" },
     },
     related: ["vocal-style", "protest-song", "melody"],
     aliases: ["Lady Day", "Eleanora Fagan", "jazz singing"],
@@ -1577,7 +1577,7 @@ export const TERMS: Term[] = [
       title: "One More Cup of Coffee",
       note:
         "Her harmony line trails Dylan's melody a step behind and above, giving the song its unsettled, modal atmosphere.",
-      media: { kind: "youtube", id: "95cufW4h-gA" },
+      media: { kind: "youtube", id: "95cufW4h-gA", spotifyId: "4WOruM7TiQSETsWYy8bDSX" },
     },
     related: ["harmony", "violin", "traditional"],
     aliases: ["Emylou Harris", "Desire 1976", "harmony singing", "country rock"],
@@ -1594,7 +1594,7 @@ export const TERMS: Term[] = [
       title: "Hurricane",
       note:
         "Her violin answers every vocal phrase, driving the narrative forward like a second storyteller.",
-      media: { kind: "youtube", id: "ujgqOgMIwfA" },
+      media: { kind: "youtube", id: "ujgqOgMIwfA", spotifyId: "1fYdZW9CJOwEjOjVHaxvQ5" },
     },
     related: ["violin", "reinvention", "improvisation"],
     aliases: ["violin", "fiddle", "Desire 1976", "Hurricane"],
@@ -1611,7 +1611,7 @@ export const TERMS: Term[] = [
       title: "Isis (Rolling Thunder Revue)",
       note:
         "The bass keeps a hard, insistent beat under Dylan's shouted narrative, letting the arrangement stay wild without falling apart.",
-      media: { kind: "youtube", id: "INilAY6aJTc" },
+      media: { kind: "youtube", id: "INilAY6aJTc", spotifyId: "4znWzULyBSErvvt6rVHlta" },
     },
     related: ["violin", "reinvention", "beat"],
     aliases: ["Robert Rothstein", "bass", "bandleader"],
@@ -1628,7 +1628,7 @@ export const TERMS: Term[] = [
       title: "All Along the Watchtower (Jimi Hendrix Experience)",
       note:
         "A sparse acoustic parable becomes a storm of guitar \u2014 the clearest proof that a cover can redefine the original.",
-      media: { kind: "youtube", id: "TLV4_xaYynY" },
+      media: { kind: "youtube", id: "TLV4_xaYynY", spotifyId: "7xdLNxZCtY68x5MAOBEmBq" },
     },
     related: ["cover", "electric", "guitar"],
     aliases: ["Watchtower", "Electric Ladyland", "feedback", "Experience"],
@@ -1645,7 +1645,7 @@ export const TERMS: Term[] = [
       title: "Redemption Song",
       note:
         "Voice and acoustic guitar alone, carrying a political and spiritual argument \u2014 the folk form arriving from a different tradition.",
-      media: { kind: "youtube", id: "yv5xonFSC4c" },
+      media: { kind: "youtube", id: "yv5xonFSC4c", spotifyId: "5z30BgFgHH5nqNRa8eRA3H" },
     },
     related: ["reggae", "protest-song", "rhythm"],
     aliases: ["The Wailers", "Jamaica", "Rastafari", "Kingston"],
@@ -1662,7 +1662,7 @@ export const TERMS: Term[] = [
       title: "Tomorrow Is a Long Time (Elvis Presley)",
       note:
         "Elvis sings Dylan's ballad straight and warm, showing how the song works purely as melody once the folk framing is removed.",
-      media: { kind: "youtube", id: "0VLpgttfEM0" },
+      media: { kind: "youtube", id: "0VLpgttfEM0", spotifyId: "1Cw8Z6GmBMkegweASFAgZW" },
     },
     related: ["rock", "cover", "gospel"],
     aliases: ["Elvis", "Presley", "Sun Records", "Memphis", "rock and roll"],
@@ -1679,7 +1679,7 @@ export const TERMS: Term[] = [
       title: "That'll Be the Day",
       note:
         "Two guitars, bass and drums playing a song its own singer wrote \u2014 the small, complete unit Dylan grew up hearing.",
-      media: { kind: "youtube", id: "M4TfFTmITLo" },
+      media: { kind: "youtube", id: "M4TfFTmITLo", spotifyId: "4UcHTV3TjlThmMlZgOG4Kr" },
     },
     related: ["singer-songwriter", "rock", "guitar"],
     aliases: ["Charles Hardin Holley", "The Crickets", "Duluth 1959", "Lubbock"],
@@ -1696,7 +1696,7 @@ export const TERMS: Term[] = [
       title: "Too Much Monkey Business",
       note:
         "A list-song of daily irritations delivered at speed \u2014 the rhythmic template Dylan borrowed for Subterranean Homesick Blues.",
-      media: { kind: "youtube", id: "gxMDKzOgVVo" },
+      media: { kind: "youtube", id: "gxMDKzOgVVo", spotifyId: "7cYcfTspJ2r3xEnilg9B5o" },
     },
     related: ["rock", "rhyme", "narrative"],
     aliases: ["Johnny B. Goode", "St. Louis", "duck walk", "Chess Records"],
@@ -1713,7 +1713,7 @@ export const TERMS: Term[] = [
       title: "Tutti Frutti",
       note:
         "Pure delivery over content \u2014 the voice, the piano and the beat carry everything, a lesson in performance as meaning.",
-      media: { kind: "youtube", id: "F13JNjpNW6c" },
+      media: { kind: "youtube", id: "F13JNjpNW6c", spotifyId: "2iXcvnD3d1gfLBum0cE5Eg" },
     },
     related: ["piano", "vocal-style", "rock"],
     aliases: ["Richard Penniman", "Hibbing yearbook", "Tutti Frutti", "Macon"],
@@ -1730,7 +1730,7 @@ export const TERMS: Term[] = [
       title: "Mr. Tambourine Man (The Byrds)",
       note:
         "One verse, a Rickenbacker twelve-string and tight harmony turn a long folk reverie into a radio single \u2014 folk rock in three minutes.",
-      media: { kind: "youtube", id: "Swqw5a8I4b4" },
+      media: { kind: "youtube", id: "Swqw5a8I4b4", spotifyId: "11HmnsdTSpUh6ifD15tywv" },
     },
     related: ["folk-rock", "cover", "harmony"],
     aliases: ["Roger McGuinn", "Jim McGuinn", "Rickenbacker", "twelve-string", "1965"],
@@ -1747,7 +1747,7 @@ export const TERMS: Term[] = [
       title: "Slow Train (Dylan & the Dead, 1987)",
       note:
         "The band stretches the song out and lets it breathe \u2014 the loose, improvised approach that reopened Dylan's own catalogue to him.",
-      media: { kind: "youtube", id: "ZfOHUCZkYjU" },
+      media: { kind: "youtube", id: "ZfOHUCZkYjU", spotifyId: "6kpqaDEznzrlLFhPDwjNNY" },
     },
     related: ["improvisation", "traditional", "reinvention"],
     aliases: ["Jerry Garcia", "Dylan & the Dead", "1987 tour", "jam band"],
@@ -1764,7 +1764,7 @@ export const TERMS: Term[] = [
       title: "Jokerman",
       note:
         "Knopfler's production leaves space around the vocal, letting a dense lyric land clearly \u2014 the producer's hand heard as restraint.",
-      media: { kind: "youtube", id: "1XSvsFgvWr0" },
+      media: { kind: "youtube", id: "1XSvsFgvWr0", spotifyId: "6cuHkcRUqtQhtJ4sWCkd1q" },
     },
     related: ["producer", "guitar", "electric"],
     aliases: ["Dire Straits", "Infidels", "Slow Train Coming", "Sultans of Swing"],
@@ -1781,7 +1781,7 @@ export const TERMS: Term[] = [
       title: "Man of Peace",
       note:
         "The drums and bass lock into a reggae-inflected groove that drives the song more than the guitars do.",
-      media: { kind: "youtube", id: "kLJpoAsZR98" },
+      media: { kind: "youtube", id: "kLJpoAsZR98", spotifyId: "4rTdJYQ98IB5EOvKxz1Dm3" },
     },
     related: ["reggae", "rhythm", "beat"],
     aliases: [
@@ -1804,7 +1804,7 @@ export const TERMS: Term[] = [
       title: "Time Out of Mind (prod. Daniel Lanois)",
       note:
         "Reverb, murk and distant room sound turn a set of blues-based songs into something haunted \u2014 production as authorship.",
-      media: { kind: "youtube", id: "Ex5h0PHHbNI" },
+      media: { kind: "youtube", id: "Ex5h0PHHbNI", albumId: "185DHT5SvszXRrezx3lOjt" },
     },
     related: ["producer", "reinvention", "blues"],
     aliases: ["Oh Mercy", "Time Out of Mind", "1997", "ambient production"],
