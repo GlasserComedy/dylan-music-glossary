@@ -361,7 +361,7 @@ export const TERMS: Term[] = [
       title: "Don't Think Twice, It's All Right",
       note:
         "Words, melody and performance all come from one person \u2014 a farewell song that only works in the writer's own voice.",
-      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "5IMtdHjJ1OtkxbGe4HEFkZ" },
+      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "2WOjLF83vqjit2Zh4B69V3" },
     },
     related: ["cover", "narrative", "lyric"],
   },
@@ -440,7 +440,7 @@ export const TERMS: Term[] = [
       title: "Don't Think Twice, It's All Right",
       note:
         "The rolling fingerpicked pattern runs unbroken beneath the vocal, giving the song its restless forward motion.",
-      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "5IMtdHjJ1OtkxbGe4HEFkZ" },
+      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "2WOjLF83vqjit2Zh4B69V3" },
     },
     related: ["flat-picking", "strumming"],
   },
