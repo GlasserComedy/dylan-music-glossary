@@ -19,7 +19,13 @@ export function MediaEmbed({ title, media }: Props) {
           Watch on YouTube <ExternalLink className="h-3 w-3" aria-hidden />
         </a>
         <a
-          href={`https://open.spotify.com/search/${encodeURIComponent(title)}`}
+          href={
+            media.albumId
+              ? `https://open.spotify.com/album/${media.albumId}`
+              : media.spotifyId
+                ? `https://open.spotify.com/track/${media.spotifyId}`
+                : `https://open.spotify.com/search/${encodeURIComponent(title)}`
+          }
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-1 text-accent hover:underline"
