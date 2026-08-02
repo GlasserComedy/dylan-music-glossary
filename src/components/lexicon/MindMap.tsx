@@ -123,11 +123,23 @@ function boundAt(ux: number, uy: number) {
   return d <= 0 ? 1 : d ** (-1 / BOUND_N);
 }
 
-/** Pixel radius of the portrait's keep-out zone. */
-function headRadius(w: number, h: number) {
-  const hw = clamp(w * 0.26, 150, 260) / 2;
-  const hh = clamp(h * 0.26, 150, 260) / 2;
-  return (hw + hh) / 2;
+/**
+ * Pixel keep-out zone around the portrait. The drawn silhouette is taller than
+ * it is wide, so a plain circle leaves too much air at the sides and crowds the
+ * top/bottom. Model it as an ellipse matching the artwork instead.
+ */
+function headEllipse(w: number, h: number) {
+  const box = Math.min(clamp(w * 0.26, 150, 260), clamp(h * 0.26, 150, 260));
+  return {
+    hrx: (box / 2) * 0.86, // hair silhouette is narrower than the square box
+    hry: (box / 2) * 1.0,
+  };
+}
+
+/** Distance from centre to the keep-out ellipse along a unit direction. */
+function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
+  const d = Math.hypot(ux / hrx, uy / hry) || 1e-6;
+  return 1 / d;
 }
 
 /**
@@ -170,7 +182,8 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
   const cy = h / 2;
   const rx = (w / 2) * RX_FRAC;
   const ry = (h / 2) * RY_FRAC;
-  const headR = headRadius(w, h) + 30;
+  const { hrx, hry } = headEllipse(w, h);
+  const headMargin = 34;
 
   const boxes = labels.map((l) => ({
     ...l,
@@ -224,7 +237,7 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
 
       // The label's own box must clear the head, not just its centre point.
       const reach = (b.w / 2) * Math.abs(ux) + (b.h / 2) * Math.abs(uy);
-      const minPx = headR + reach;
+      const minPx = headReachAt(ux, uy, hrx, hry) + headMargin + reach;
 
       let targetPx = Math.max(pd, minPx);
 
