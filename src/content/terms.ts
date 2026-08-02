@@ -11,7 +11,7 @@ export type Category =
   | "Reinvention";
 
 export type MediaRef =
-  | { kind: "youtube"; id: string; spotifyId?: string; albumId?: string }
+  | { kind: "youtube"; id?: string; spotifyId?: string; albumId?: string }
   | { kind: "spotify"; id: string }
   | { kind: "search"; query: string };
 
@@ -27,6 +27,12 @@ export type Term = {
     note: string;
     media: MediaRef;
   };
+  /** Additional song examples, shown as separate boxes alongside `example`. */
+  examples?: {
+    title: string;
+    note: string;
+    media: MediaRef;
+  }[];
   /** Archival images shown in the term detail panel. */
   documents?: { src: string; caption: string }[];
   related?: string[];
