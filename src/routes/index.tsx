@@ -85,6 +85,27 @@ function LexiconPage() {
     return scored.slice(0, 8).map((r) => r.term);
   }, [query]);
 
+  const songResults = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return [];
+    const groups = new Map<
+      string,
+      { title: string; score: number; terms: (typeof TERMS)[number][] }
+    >();
+    for (const t of TERMS) {
+      const song = t.example.title;
+      const lower = song.toLowerCase();
+      if (!lower.includes(q)) continue;
+      const score = lower.startsWith(q) ? 0 : 1;
+      const existing = groups.get(lower);
+      if (existing) existing.terms.push(t);
+      else groups.set(lower, { title: song, score, terms: [t] });
+    }
+    return [...groups.values()]
+      .sort((a, b) => a.score - b.score || a.title.localeCompare(b.title))
+      .slice(0, 6);
+  }, [query]);
+
 
   const openTerm = (slug: string) => {
     const term = TERMS.find((t) => t.slug === slug);
@@ -209,8 +230,43 @@ function LexiconPage() {
                     placeholder="Search terms…"
                     className="w-full border-b border-ink/20 bg-transparent pb-1 font-body text-sm outline-none placeholder:text-ink/30 focus:border-ink"
                   />
-                  {searchResults.length > 0 && (
-                    <ul className="mt-2 max-h-72 overflow-y-auto">
+                  {(searchResults.length > 0 || songResults.length > 0) && (
+                    <div className="mt-2 max-h-72 overflow-y-auto">
+                      {songResults.length > 0 && (
+                        <>
+                          <div className="mt-1 font-mono text-[10px] uppercase tracking-widest text-ink/30">
+                            Songs
+                          </div>
+                          <ul className="mb-2">
+                            {songResults.map((s) => (
+                              <li key={s.title} className="py-1">
+                                <div className="font-body text-sm text-ink">{s.title}</div>
+                                <div className="mt-0.5 flex flex-wrap gap-x-3 gap-y-1">
+                                  {s.terms.map((t) => (
+                                    <button
+                                      key={t.slug}
+                                      onClick={() => {
+                                        openTerm(t.slug);
+                                        setShowSearch(false);
+                                        setQuery("");
+                                      }}
+                                      className="font-mono text-[10px] uppercase tracking-widest text-ink/45 transition hover:text-accent"
+                                    >
+                                      → {t.title}
+                                    </button>
+                                  ))}
+                                </div>
+                              </li>
+                            ))}
+                          </ul>
+                        </>
+                      )}
+                      {searchResults.length > 0 && (
+                        <>
+                          <div className="font-mono text-[10px] uppercase tracking-widest text-ink/30">
+                            Terms
+                          </div>
+                          <ul>
                       {searchResults.map((t) => (
                         <li key={t.slug}>
                           <button
@@ -228,9 +284,14 @@ function LexiconPage() {
                           </button>
                         </li>
                       ))}
-                    </ul>
+                          </ul>
+                        </>
+                      )}
+                    </div>
                   )}
-                  {query.trim() && searchResults.length === 0 && (
+                  {query.trim() &&
+                    searchResults.length === 0 &&
+                    songResults.length === 0 && (
                     <p className="mt-2 font-body text-sm text-ink/40">No matches.</p>
                   )}
                 </div>
