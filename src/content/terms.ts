@@ -538,6 +538,23 @@ export const TERMS: Term[] = [
     related: ["protest-song", "topical-song"],
   },
   {
+    slug: "suze-rotolo",
+    title: "Suze Rotolo",
+    category: "Influence",
+    definition:
+      "Susan Rotolo (1943–2011) was an American artist, civil-rights activist, and writer best known for her relationship with Bob Dylan in the early 1960s. Raised in a left-wing Greenwich Village family, she was already attending protest meetings and art classes when she met Dylan. She appears beside him on the iconic cover of The Freewheelin' Bob Dylan, and her presence in his life introduced him to books, politics, and a circle of Village thinkers that shaped his early work.",
+    inDylan:
+      "Rotolo was far more than a footnote or a muse. She gave Dylan a reading list that stretched from Bertolt Brecht to the French symbolists, deepened his political awareness, and traveled with him to Italy in 1962-63, a separation that provoked several of his most tender and conflicted love songs. The strength of their bond, and the pain of its eventual dissolution, gave him a way to write about love as something complicated and adult rather than merely romantic. He later said she had a kind of truth in her, and critics have long seen her as a quiet but formative influence on the person he became as a writer.",
+    example: {
+      title: "Don't Think Twice, It's All Right",
+      note:
+        "Written during the period of their separation, the song turns a farewell into a wry, defensive monologue that captures the emotional complexity of their early relationship.",
+      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "2WOjLF83vqjit2Zh4B69V3" },
+    },
+    related: ["social-commentary", "protest-song", "greenwich-village"],
+    aliases: ["Susan Rotolo"],
+  },
+  {
     slug: "strumming",
     title: "Strumming",
     category: "Performance",
