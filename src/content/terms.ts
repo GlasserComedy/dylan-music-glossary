@@ -1699,10 +1699,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Smith took Dylan's example \u2014 poetry sung over a band \u2014 into punk, and in 2016 sang A Hard Rain's A-Gonna Fall at his Nobel ceremony.",
     example: {
-      title: "A Hard Rain's A-Gonna Fall (Nobel ceremony, 2016)",
+      title: "Because the Night",
       note:
-        "Her faltering, restarted performance in Stockholm made the song's weight audible in a way a flawless reading could not.",
-      media: { kind: "youtube", id: "941PHEJHCwU", spotifyId: "0lIoY4ZQsdn5QzhraM9o9u" },
+        "Co-written with Bruce Springsteen, this 1978 single is Smith's most enduring hit, proving that punk ferocity and poetic longing could live together in a love song.",
+      media: { kind: "youtube", id: "c_BcivBprM0", spotifyId: "2gElwxRBGN8q7D2md1TM6Y" },
     },
     related: ["abstract-lyrics", "literature", "cover"],
     aliases: ["punk", "Horses", "Nobel Prize 2016", "Stockholm"],
