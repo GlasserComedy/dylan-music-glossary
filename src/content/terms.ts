@@ -21,7 +21,7 @@ export type Term = {
   category: Category;
   definition: string;
   inDylan: string;
-  example: {
+  example?: {
     title: string;
     /** A short note on how this song illustrates the term. */
     note: string;
@@ -1472,12 +1472,6 @@ export const TERMS: Term[] = [
       "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room.",
     inDylan:
       "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert, at Carnegie Chapter Hall in November 1961.",
-    example: {
-      title: "Talkin' Folklore Center Blues",
-      note:
-        "Dylan wrote this talking blues about the shop itself, and Izzy Young printed it as sheet music \u2014 the Village scene documenting itself in song.",
-      media: { kind: "youtube", id: "rxIJnZQmTt4" },
-    },
     documents: [
       {
         src: folkloreCover.url,
@@ -1511,12 +1505,6 @@ export const TERMS: Term[] = [
       "Israel \u201cIzzy\u201d Young, folklorist and founder of the Folklore Center, who promoted concerts, kept notebooks on the scene, and later ran the Folklore Centrum in Stockholm.",
     inDylan:
       "Young interviewed Dylan in 1961 and produced his first New York concert, becoming one of the earliest people to write down who this singer said he was.",
-    example: {
-      title: "Talkin' Folklore Center Blues",
-      note:
-        "Dylan's song is effectively a portrait of Young's shop and of Young himself as the keeper of the songs passing through it.",
-      media: { kind: "youtube", id: "uoW5J-568Ys" },
-    },
     documents: [
       {
         src: folkloreCover.url,
