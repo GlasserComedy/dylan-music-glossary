@@ -910,7 +910,7 @@ export const TERMS: Term[] = [
     title: "Instrumental",
     category: "Music",
     definition:
-      "A piece of music without sung words, where melody, harmony, and rhythm are carried entirely by instruments.",
+      "A piece of music without sung words, where melody, harmony, and rhythm are carried entirely by instruments — the opposite of an a cappella performance, where the human voice alone provides the instrumentation.",
     inDylan:
       "Dylan rarely recorded instrumentals, but when he did they served as a deliberate statement of musical style and atmosphere.",
     example: {
