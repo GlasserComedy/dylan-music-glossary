@@ -1048,7 +1048,7 @@ export const TERMS: Term[] = [
     definition:
       "The person who shapes the sound of a recording.",
     inDylan:
-      "Dylan has worked with producers from John Hammond to Daniel Lanois, each leaving a mark on his albums.",
+      "Dylan has worked with producers from John Hammond to Daniel Lanois, each leaving a mark on his albums. He has also produced many of his own records under the alias Jack Frost, keeping the studio control close to the songs themselves.",
     example: {
       title: "Time Out of Mind (prod. Daniel Lanois)",
       note:
