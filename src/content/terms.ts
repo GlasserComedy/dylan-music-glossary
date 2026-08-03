@@ -354,14 +354,14 @@ export const TERMS: Term[] = [
     definition:
       "A song written to challenge injustice, war, or political power.",
     inDylan:
-      "Masters of War is one of the most unsparing protest songs ever recorded; Dylan called it a curse, not a plea.",
+      "Masters of War is one of the most unsparing protest songs ever recorded; Dylan called it a curse, not a plea. Yet he bristled at the label 'protest singer.' At a 1965 Los Angeles press conference, when asked if he sang protest songs, he replied, 'No. I sing all love songs' \u2014 collapsing the boundary between private feeling and public dissent.",
     example: {
       title: "Masters of War",
       note:
         "A direct address to arms manufacturers, unsparing and unrhetorical \u2014 protest with no attempt at persuasion.",
       media: { kind: "youtube", id: "JEmI_FT4YHU", spotifyId: "5kZotoDYqPbLgcB35jkmRZ" },
     },
-    related: ["folk-revival", "narrative"],
+    related: ["folk-revival", "narrative", "social-commentary"],
   },
   {
     slug: "rhythm",
