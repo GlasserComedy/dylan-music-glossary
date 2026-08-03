@@ -1505,12 +1505,6 @@ export const TERMS: Term[] = [
       "Israel \u201cIzzy\u201d Young, folklorist and founder of the Folklore Center, who promoted concerts, kept notebooks on the scene, and later ran the Folklore Centrum in Stockholm.",
     inDylan:
       "Young interviewed Dylan in 1961 and produced his first New York concert, becoming one of the earliest people to write down who this singer said he was.",
-    example: {
-      title: "Talkin' Folklore Center Blues",
-      note:
-        "Dylan's song is effectively a portrait of Young's shop and of Young himself as the keeper of the songs passing through it.",
-      media: { kind: "youtube", id: "uoW5J-568Ys" },
-    },
     documents: [
       {
         src: folkloreCover.url,
