@@ -1093,15 +1093,14 @@ export const TERMS: Term[] = [
     slug: "vocal-style",
     title: "Vocal Style",
     category: "Words",
-    definition:
-      "The unique sound and approach of a singer.",
+    definition: "The unique sound and approach of a singer.",
     inDylan:
       "Dylan's nasal, gritty vocal style became iconic, even as it divided listeners — and he has reshaped it many times, from Nashville Skyline's croon to the sandpaper rasp of his late records.",
     example: {
-      title: "Lay Lady Lay",
+      title: "To Be Alone with You",
       note:
-        "The soft, unfamiliar croon here shows just how far Dylan could move his voice from its usual rasp.",
-      media: { kind: "youtube", id: "LhzEsb2tNbI", spotifyId: "1yRxcHJsRMmQOZ7tZtXwo9" },
+        "The warm, close-country croon on this Nashville Skyline cut is a clear example of Dylan deliberately softening his voice to match a different emotional world.",
+      media: { kind: "youtube", id: "eos_70yqX8E", spotifyId: "7CuCP5OoLH77hJTibZQE4r" },
     },
   },
   {
