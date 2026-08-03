@@ -621,9 +621,9 @@ export const TERMS: Term[] = [
     title: "Violin",
     category: "Performance",
     definition:
-      "A bowed string instrument central to folk and classical music.",
+      "A bowed string instrument that evolved from medieval fiddles and reached its modern form in 16th-century Italy, above all in Cremona, where luthiers such as Andrea Amati and later Antonio Stradivari refined its curved body, four strings, and singing tone. The violin became the leading melodic instrument in European classical music and, as the fiddle, a cornerstone of folk, country, bluegrass, and Celtic traditions on both sides of the Atlantic.",
     inDylan:
-      "Dylan sometimes incorporated violin (fiddle) in his arrangements to add a rustic feel — Scarlet Rivera's playing on Desire is the classic example.",
+      "Dylan sometimes incorporated violin (fiddle) in his arrangements to add a rustic or dramatic feel. Scarlet Rivera's exotic, gypsy-tinged playing on Desire is the classic example, and the instrument's portability and vocal-like sustain have made it a natural partner for singers in folk and roots settings.",
     example: {
       title: "One More Cup of Coffee",
       note:
@@ -1102,6 +1102,23 @@ export const TERMS: Term[] = [
         "The warm, close-country croon on this Nashville Skyline cut is a clear example of Dylan deliberately softening his voice to match a different emotional world.",
       media: { kind: "youtube", id: "eos_70yqX8E", spotifyId: "7CuCP5OoLH77hJTibZQE4r" },
     },
+  },
+  {
+    slug: "umm-kulthum",
+    title: "Umm Kulthum",
+    category: "Influence",
+    definition:
+      "Umm Kulthum (also spelled Om Khalsoum) was the most celebrated singer in the Arab world, known as the 'Star of the East' for her powerful, emotionally intense performances of long, poetic songs. Her voice moved through long, ornamented phrases and dramatic shifts in dynamics, accompanied by large orchestras that followed her every gesture.",
+    inDylan:
+      "Dylan named Umm Kulthum his favorite singer after first hearing her in Jerusalem. He said that Middle Eastern singing was a source for his own vocal approach, and the influence is audible in the way he stretches and ornaments lines on songs such as One More Cup of Coffee, letting the voice wander and hang in the air like one of her slow, winding melodies.",
+    example: {
+      title: "Enta Omri",
+      note:
+        "This epic love song, composed by Mohamed Abdel Wahab, shows the sustained, ornamental phrasing that fascinated Dylan and that echoes in his most Eastern-tinged vocal performances.",
+      media: { kind: "youtube", id: "XPGHpBOt5sE", spotifyId: "0ivlkHUXmRfJWT3RwQuBcz" },
+    },
+    aliases: ["Om Khalsoum", "Umm Kalthoum", "Om Kalsoum", "Oum Kalthoum"],
+    related: ["vocal-style", "violin"],
   },
   {
     slug: "voice-of-a-generation",
