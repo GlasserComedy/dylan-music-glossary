@@ -182,8 +182,11 @@ function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
 
   return terms.map((term, i) => {
     const override = POSITION_OVERRIDES[term.slug];
-    // Area-uniform radius so the cloud density is flat, not ring-y.
-    const rNorm = override ? override.baseR : Math.sqrt((i + 0.5) / terms.length);
+    // Big-bang radius: packed tight near the head, thinning out toward the rim.
+    // Exponent > 0.5 (area-uniform) biases points inward.
+    const rNorm = override
+      ? override.baseR
+      : ((i + 0.5) / terms.length) ** 1.15;
     const r = HOLE + (1 - HOLE) * rNorm;
     const angle = override ? override.angle : i * goldenAngle;
     return {
