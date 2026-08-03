@@ -1575,16 +1575,16 @@ export const TERMS: Term[] = [
     title: "Nina Simone",
     category: "Influence",
     definition:
-      "Classically trained pianist and singer who fused jazz, blues, gospel and civil rights protest into a singular voice.",
+      "Classically trained pianist and singer who fused jazz, blues, gospel and civil rights protest into a singular, commanding voice. Known as the High Priestess of Soul, she brought conservatory discipline to a repertoire that stretched from Gershwin to the spirituals of the movement, and she treated every song as a statement of identity.",
     inDylan:
-      "Simone covered Dylan repeatedly \u2014 her readings of his songs stripped them back to raw moral weight and showed how far his writing could travel outside folk.",
+      "Simone covered Dylan repeatedly — her readings of his songs stripped them back to raw moral weight and showed how far his writing could travel outside folk. Dylan was deeply impressed by her; he admired the force of her piano playing, the authority of her delivery, and the way she could turn a song into a confrontation. In the mid-1960s, when both artists were reshaping their respective forms, they were often discussed as parallel voices — writers and performers who refused the categories others tried to place them in.",
     example: {
       title: "Just Like Tom Thumb's Blues (Nina Simone)",
       note:
         "Simone's late-career cover strips the original's wry travelogue to its bruised, after-hours core, turning Dylan's tale of lost weekends into a slow piano confession.",
       media: { kind: "youtube", id: "6jWBiFMlGVQ", spotifyId: "3p1uhpNDN4NsA4mhjfOuOy" },
     },
-    related: ["protest-song", "cover", "blues"],
+    related: ["protest-song", "cover", "blues", "civil-rights"],
     aliases: ["Eunice Waymon", "High Priestess of Soul", "civil rights", "jazz"],
   },
   {
