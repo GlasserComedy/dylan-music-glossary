@@ -171,6 +171,9 @@ function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
 const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number }> = {
   "reggae": { angle: 0.2, baseR: 0.58 },
   "washington-square-park": { angle: 0.0, baseR: 0.55 },
+  "form-structure": { angle: 3.7, baseR: 0.82 },
+  "columbia-records": { angle: -0.06, baseR: 0.82 },
+  "time-signature": { angle: 0.10, baseR: 0.82 },
 };
 
 function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
