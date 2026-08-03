@@ -3,8 +3,10 @@ import { useMemo, useRef, useState } from "react";
 import { Search, X } from "lucide-react";
 import { TERMS, CATEGORIES } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
+import { TermList } from "@/components/lexicon/TermList";
 import { TermDetail } from "@/components/lexicon/TermDetail";
 import { AlphabetStrip } from "@/components/lexicon/AlphabetStrip";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -35,6 +37,7 @@ export const Route = createFileRoute("/")({
 });
 
 function LexiconPage() {
+  const isMobile = useIsMobile();
   const [activeSlug, setActiveSlug] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [showSearch, setShowSearch] = useState(false);
@@ -139,17 +142,17 @@ function LexiconPage() {
     <div className="flex h-screen flex-col overflow-hidden bg-paper text-ink">
       {/* Header */}
       <header className="relative z-20 shrink-0">
-        <div className="mx-auto flex max-w-[1600px] items-start justify-between gap-4 px-6 py-5">
-          <div>
-            <h1 className="font-display text-xl uppercase leading-none tracking-[0.12em] md:text-2xl">
+        <div className="mx-auto grid max-w-[1600px] grid-cols-[minmax(0,1fr)_auto] items-start gap-4 px-4 py-4 md:flex md:justify-between md:px-6 md:py-5">
+          <div className="min-w-0">
+            <h1 className="font-display text-base uppercase leading-none tracking-[0.12em] sm:text-xl md:text-2xl">
               The Dylan Lexicon
             </h1>
-            <p className="mt-2 text-center font-mono text-xs uppercase tracking-[0.22em] text-ink/45">
+            <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 md:text-center md:text-xs md:tracking-[0.22em]">
               A glossary of musical terms
             </p>
           </div>
 
-          <div className="flex items-start gap-5">
+          <div className="flex shrink-0 items-start gap-3 md:gap-5">
             {/* Categories dropdown */}
             <div
               className="relative py-3 px-4 -my-3 -mx-4"
@@ -165,7 +168,7 @@ function LexiconPage() {
             >
               <button
                 type="button"
-                className={`inline-block py-2 px-3 font-mono text-xs uppercase tracking-[0.22em] transition ${
+                className={`inline-block py-2 px-1 font-mono text-[10px] uppercase tracking-[0.14em] transition md:px-3 md:text-xs md:tracking-[0.22em] ${
                   selectedCategory ? "text-ink" : "text-ink/50"
                 } hover:text-ink`}
                 onClick={() => setShowCategories((prev) => !prev)}
@@ -229,7 +232,7 @@ function LexiconPage() {
               </button>
 
               {showSearch && (
-                <div className="absolute right-0 top-9 w-72 border border-ink/15 bg-paper p-3 shadow-sm">
+                <div className="fixed left-4 right-4 top-20 z-30 border border-ink/15 bg-paper p-3 shadow-sm sm:absolute sm:left-auto sm:right-0 sm:top-9 sm:w-72">
                   <input
                     autoFocus
                     type="text"
@@ -309,7 +312,27 @@ function LexiconPage() {
         </div>
       </header>
 
-      {/* Mind map stage + detail panel */}
+      {/* Mobile: scrollable A–Z list. Desktop: mind map stage. */}
+      {isMobile ? (
+        <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
+          <TermList
+            terms={TERMS}
+            activeSlug={activeSlug}
+            selectedLetter={selectedLetter}
+            selectedCategory={selectedCategory}
+            onSelectTerm={openTerm}
+          />
+          {activeTerm && (
+            <div className="fixed inset-0 z-40 bg-paper">
+              <TermDetail
+                term={activeTerm}
+                onSelectTerm={openTerm}
+                onClose={() => setActiveSlug(null)}
+              />
+            </div>
+          )}
+        </main>
+      ) : (
       <main className="relative min-h-0 flex-1">
         <div
           onClick={() => {
@@ -347,9 +370,12 @@ function LexiconPage() {
           </div>
         )}
       </main>
+      )}
 
       {/* Alphabet */}
-      <div className="relative z-10 shrink-0 -translate-y-full">
+      <div
+        className={`relative z-10 shrink-0 ${isMobile ? "" : "-translate-y-full"}`}
+      >
         <AlphabetStrip
           terms={TERMS}
           activeLetter={activeLetter}
