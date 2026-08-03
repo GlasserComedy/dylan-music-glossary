@@ -235,7 +235,17 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
     return { padX: 12 + t * 38, padY: 5 + t * 20 };
   };
 
-  for (let iter = 0; iter < 360; iter++) {
+  // Pixel-space safe rectangle (accounts for hover enlargement) for each box.
+  const clampToStage = (b: { nx: number; ny: number; w: number; h: number }) => {
+    const halfW = EDGE_INSET + (b.w * MAX_LABEL_SCALE) / 2;
+    const halfH = EDGE_INSET + (b.h * MAX_LABEL_SCALE) / 2;
+    const px = clamp(cx + b.nx * rx, halfW, Math.max(halfW, w - halfW));
+    const py = clamp(cy + b.ny * ry, halfH, Math.max(halfH, h - halfH));
+    b.nx = (px - cx) / rx;
+    b.ny = (py - cy) / ry;
+  };
+
+  for (let iter = 0; iter < 900; iter++) {
     let moved = false;
 
     for (let i = 0; i < boxes.length; i++) {
@@ -269,7 +279,15 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
       }
     }
 
+    // Head clearance + oval bound are relaxed as the iterations progress so the
+    // final passes prioritise a strictly overlap-free layout.
+    const enforceShape = iter < 700;
+
     boxes.forEach((b) => {
+      if (!enforceShape) {
+        clampToStage(b);
+        return;
+      }
       // Work in pixels for the head clearance so the halo stays visually even.
       const px = b.nx * rx;
       const py = b.ny * ry;
@@ -292,15 +310,49 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
       const scale = targetPx / pd;
       b.nx = (px * scale) / rx;
       b.ny = (py * scale) / ry;
+      clampToStage(b);
     });
 
     if (!moved) break;
   }
 
+  // Final safety net: if anything still overlaps, nudge pairs apart with a
+  // minimal gap only (no shape constraints), staying inside the stage.
+  for (let iter = 0; iter < 400; iter++) {
+    let moved = false;
+    for (let i = 0; i < boxes.length; i++) {
+      for (let j = i + 1; j < boxes.length; j++) {
+        const a = boxes[i];
+        const b = boxes[j];
+        const dx = (b.nx - a.nx) * rx;
+        const dy = (b.ny - a.ny) * ry;
+        const halfW = (a.w + b.w) / 2 + 8;
+        const halfH = (a.h + b.h) / 2 + 4;
+        const overlapX = halfW - Math.abs(dx);
+        const overlapY = halfH - Math.abs(dy);
+        if (overlapX > 0 && overlapY > 0) {
+          moved = true;
+          if (overlapX / halfW < overlapY / halfH) {
+            const shift = (overlapX / 2 + 0.5) / rx;
+            const dir = dx >= 0 ? 1 : -1;
+            a.nx -= dir * shift;
+            b.nx += dir * shift;
+          } else {
+            const shift = (overlapY / 2 + 0.5) / ry;
+            const dir = dy >= 0 ? 1 : -1;
+            a.ny -= dir * shift;
+            b.ny += dir * shift;
+          }
+          clampToStage(a);
+          clampToStage(b);
+        }
+      }
+    }
+    if (!moved) break;
+  }
+
   return boxes.map((b) => ({
     ...b,
-    // The oval constrains label centres; this final clamp constrains the full
-    // measured label box as well, including its 1.2x hover enlargement.
     x: clamp(
       cx + b.nx * rx,
       EDGE_INSET + (b.w * MAX_LABEL_SCALE) / 2,
