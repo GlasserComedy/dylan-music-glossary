@@ -125,12 +125,12 @@ type Label = {
 };
 
 
-const RX_FRAC = 0.92;
-const RY_FRAC = 0.86;
-const HOLE = 0.28; // keep the center clear for the Dylan head
+const RX_FRAC = 0.96;
+const RY_FRAC = 0.92;
+const HOLE = 0.30; // keep the center clear for the Dylan head
 // Superellipse exponent for the outer boundary: higher values pull the corners
-// inward, leaving more room for the mid-left and mid-right labels.
-const BOUND_N = 4.2;
+// inward, keeping the oval crisp while using most of the stage.
+const BOUND_N = 4.5;
 
 function clamp(v: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, v));
@@ -162,10 +162,10 @@ function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
 }
 
 /**
- * Big-bang layout: terms are flung out from the centre on a golden-angle
- * spiral in *normalised* space, then mapped onto the stage. Working in
- * normalised space keeps the angular spread even instead of piling labels up
- * at the top and bottom.
+ * Airy oval layout: terms are placed on a golden-angle spiral in *normalised*
+ * space, then mapped onto the stage. The radius is slightly biased outward so
+ * the oval feels open, and the larger stage fractions let it breathe into the
+ * surrounding blank space.
  */
 
 const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number }> = {
@@ -182,11 +182,11 @@ function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
 
   return terms.map((term, i) => {
     const override = POSITION_OVERRIDES[term.slug];
-    // Big-bang radius: packed tight near the head, thinning out toward the rim.
-    // Exponent > 0.5 (area-uniform) biases points inward.
+    // Airy oval radius: bias slightly outward (exponent < 0.5) so the centre
+    // stays open and the rim carries more labels, using the page's blank space.
     const rNorm = override
       ? override.baseR
-      : ((i + 0.5) / terms.length) ** 1.15;
+      : ((i + 0.5) / terms.length) ** 0.55;
     const r = HOLE + (1 - HOLE) * rNorm;
     const angle = override ? override.angle : i * goldenAngle;
     return {
@@ -220,13 +220,14 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
     ny: (l.y - cy) / ry,
   }));
 
-  // Big-bang spacing: dense near the head, progressively airier outward.
+  // Airy oval spacing: generous padding everywhere, increasing toward the rim
+  // so the outer labels still have room to breathe.
   const maxR = Math.hypot(rx, ry);
   const padAt = (a: { nx: number; ny: number }, b: { nx: number; ny: number }) => {
     const ra = Math.hypot(a.nx * rx, a.ny * ry);
     const rb = Math.hypot(b.nx * rx, b.ny * ry);
     const t = clamp((ra + rb) / 2 / maxR, 0, 1);
-    return { padX: 8 + t * 30, padY: 3 + t * 14 };
+    return { padX: 12 + t * 38, padY: 5 + t * 20 };
   };
 
   for (let iter = 0; iter < 360; iter++) {
