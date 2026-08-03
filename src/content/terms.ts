@@ -805,10 +805,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan tapped into folklore through ballads and storytelling, carrying forward the oral tradition in a modern voice.",
     example: {
-      title: "Talkin' Folklore Center Blues",
+      title: "The Water Is Wide",
       note:
-        "Dylan's 1962 talking blues is an affectionate portrait of Izzy Young's Folklore Center on MacDougal Street \u2014 the Greenwich Village shop where the old songs were traded, sold and passed on.",
-      media: { kind: "youtube", id: "rxIJnZQmTt4" },
+        "A traditional British folk song Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice.",
+      media: { kind: "youtube", id: "ozKv_Nmgrkw", spotifyId: "6EmdWTaN4455ZPfZqoc0pT" },
     },
     related: ["traditional", "ballad", "greenwich-village", "talkin-blues"],
 
