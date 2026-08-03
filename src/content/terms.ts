@@ -958,16 +958,16 @@ export const TERMS: Term[] = [
     title: "Literature",
     category: "Influence",
     definition:
-      "Written works of lasting artistic value.",
+      "Written works of lasting artistic value, ranging from poetry and drama to fiction and scripture, distinguished by imaginative power, formal craft, and a voice that survives beyond its moment.",
     inDylan:
-      "Dylan's songwriting blurred the boundary between song and literature, culminating in his 2016 Nobel Prize in Literature.",
+      "Dylan came to songwriting as a reader first. He absorbed the Bible's thunder and prophecy, the Symbolists' dream logic, the Beats' open-road cadences, and the Modernists' habit of making the familiar strange. T. S. Eliot and Ezra Pound taught him that fragments could be arranged into new architectures; Dylan Thomas proved that a name could be carried like a torch. In turn, Dylan's songs began to read as literature themselves: printed in collections, studied in classrooms, and, in 2016, recognized with the Nobel Prize in Literature for having created new poetic expressions within the great American song tradition.",
     example: {
       title: "Gates of Eden",
       note:
-        "Its biblical and mythic imagery reads as poetry on the page as much as lyric on the record.",
+        "Its biblical and mythic imagery reads as poetry on the page as much as lyric on the record, a song that could sit beside Blake and the Book of Revelation.",
       media: { kind: "youtube", id: "r9MXMHzlGIM", spotifyId: "3K10pmwoFZt5N6ESWvDQkv" },
     },
-    related: ["nobel-prize", "lyric"],
+    related: ["nobel-prize", "lyric", "jack-kerouac", "metaphor", "imagery"],
   },
   {
     slug: "melody",
