@@ -1030,9 +1030,9 @@ export const TERMS: Term[] = [
     title: "Piano",
     category: "Performance",
     definition:
-      "A versatile keyboard instrument.",
+      "A keyboard instrument invented around 1700 by Bartolomeo Cristofori in Florence as a way to give the harpsichord dynamic control. Its hammers strike strings rather than plucking them, allowing everything from whispered pianissimos to thunderous fortissimos. Over the next three centuries the piano became the central instrument of Western classical music, parlour song, gospel, jazz, and rock and roll, adapting its voice to whatever room it entered.",
     inDylan:
-      "Dylan often turns to the piano when performing live, changing the texture of his songs with fuller harmonies.",
+      "Dylan often turns to the piano when performing live, changing the texture of his songs with fuller harmonies. He has long admired pianists whose playing carries a whole personality: Jerry Lee Lewis's volcanic gospel runs, Little Richard's ferocious stride, Fats Domino's rolling New Orleans ease, and Ray Charles's blues sermonizing. Their example taught him that the piano could drive a song as hard as any guitar.",
     example: {
       title: "Dear Landlord",
       note:
