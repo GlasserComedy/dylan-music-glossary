@@ -3,8 +3,10 @@ import { useMemo, useRef, useState } from "react";
 import { Search, X } from "lucide-react";
 import { TERMS, CATEGORIES } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
+import { TermList } from "@/components/lexicon/TermList";
 import { TermDetail } from "@/components/lexicon/TermDetail";
 import { AlphabetStrip } from "@/components/lexicon/AlphabetStrip";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -35,6 +37,7 @@ export const Route = createFileRoute("/")({
 });
 
 function LexiconPage() {
+  const isMobile = useIsMobile();
   const [activeSlug, setActiveSlug] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [showSearch, setShowSearch] = useState(false);
