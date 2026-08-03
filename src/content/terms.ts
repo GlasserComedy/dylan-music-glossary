@@ -991,7 +991,7 @@ export const TERMS: Term[] = [
         "Its biblical and mythic imagery reads as poetry on the page as much as lyric on the record, a song that could sit beside Blake and the Book of Revelation.",
       media: { kind: "youtube", id: "r9MXMHzlGIM", spotifyId: "3K10pmwoFZt5N6ESWvDQkv" },
     },
-    related: ["nobel-prize", "lyric", "jack-kerouac", "metaphor", "imagery"],
+    related: ["nobel-prize", "lyric", "jack-kerouac", "metaphor", "imagery", "bard", "robert-burns"],
   },
   {
     slug: "melody",
