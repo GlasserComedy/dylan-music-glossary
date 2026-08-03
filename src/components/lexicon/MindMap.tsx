@@ -125,12 +125,12 @@ type Label = {
 };
 
 
-const RX_FRAC = 0.92;
-const RY_FRAC = 0.86;
-const HOLE = 0.28; // keep the center clear for the Dylan head
+const RX_FRAC = 0.96;
+const RY_FRAC = 0.92;
+const HOLE = 0.30; // keep the center clear for the Dylan head
 // Superellipse exponent for the outer boundary: higher values pull the corners
-// inward, leaving more room for the mid-left and mid-right labels.
-const BOUND_N = 4.2;
+// inward, keeping the oval crisp while using most of the stage.
+const BOUND_N = 4.5;
 
 function clamp(v: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, v));
