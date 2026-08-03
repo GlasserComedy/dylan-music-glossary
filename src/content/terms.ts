@@ -1429,16 +1429,17 @@ export const TERMS: Term[] = [
     title: "The Beatles",
     category: "Influence",
     definition:
-      "The English group whose songwriting and studio work redefined popular music in the 1960s.",
+      "The English group whose songwriting and studio work redefined popular music in the 1960s, blending rock and roll, pop craft, and studio experimentation into a new art form.",
     inDylan:
-      "Dylan and The Beatles traded influence in both directions \u2014 he pushed their lyrics inward, they pushed him toward the band and the electric single.",
+      "Dylan and The Beatles traded influence in both directions after they first met in New York in 1964 — he pushed their lyrics toward introspection and wordplay, while they pushed him toward the band sound and the electric single. Dylan's bond with George Harrison was especially close; the two became genuine friends, collaborated on the Concert for Bangladesh in 1971, and later formed the Traveling Wilburys together, a side project that let them share songwriting under playful pseudonyms.",
     example: {
       title: "I Want to Hold Your Hand",
       note:
-        "The song that broke them in America and that Dylan heard on the radio in 1964 \u2014 pop craft with harmonic surprises, the sound he began writing toward.",
+        "The song that broke them in America and that Dylan heard on the radio in 1964 — pop craft with harmonic surprises, the sound he began writing toward.",
       media: { kind: "youtube", id: "jenWdylTtzs", spotifyId: "4DRBaZ760gyk7LWnaJFqsJ" },
     },
     related: ["rock", "folk-rock", "electric"],
+    aliases: ["George Harrison"],
   },
   {
     slug: "lead-belly",
