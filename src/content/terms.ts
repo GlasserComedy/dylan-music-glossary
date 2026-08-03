@@ -526,9 +526,9 @@ export const TERMS: Term[] = [
     title: "Social Commentary",
     category: "Influence",
     definition:
-      "Art that reflects on society's issues.",
+      "Art that observes, critiques, or dramatizes the conditions of society: inequality, war, power, race, class, and the ways ordinary people are caught inside systems larger than themselves. It does not have to preach; sometimes it simply bears witness, making the abstract personal and the personal public.",
     inDylan:
-      "Dylan's early songs spoke to civil rights and war, and his later works continued to explore injustice and humanity.",
+      "Dylan's social commentary shifted in tone and target across the decades. In the early 1960s he wrote directly about civil rights, anti-nuclear fear, and the mechanics of racism, singing at voter-registration drives and marches. By the mid-1960s his songs had become more imagistic and less explicit, but they were still social: Desolation Row and It's Alright, Ma (I'm Only Bleeding) are portraits of hypocrisy and moral compromise. In later years he returned to specific historical injustices — Hurricane Carter, the murder of Medgar Evers — while never allowing himself to be claimed as a spokesman. His influence was to show that a popular song could think about the world without being a sermon.",
     example: {
       title: "Only a Pawn in Their Game",
       note:
