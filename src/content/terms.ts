@@ -621,9 +621,9 @@ export const TERMS: Term[] = [
     title: "Violin",
     category: "Performance",
     definition:
-      "A bowed string instrument central to folk and classical music.",
+      "A bowed string instrument that evolved from medieval fiddles and reached its modern form in 16th-century Italy, above all in Cremona, where luthiers such as Andrea Amati and later Antonio Stradivari refined its curved body, four strings, and singing tone. The violin became the leading melodic instrument in European classical music and, as the fiddle, a cornerstone of folk, country, bluegrass, and Celtic traditions on both sides of the Atlantic.",
     inDylan:
-      "Dylan sometimes incorporated violin (fiddle) in his arrangements to add a rustic feel — Scarlet Rivera's playing on Desire is the classic example.",
+      "Dylan sometimes incorporated violin (fiddle) in his arrangements to add a rustic or dramatic feel. Scarlet Rivera's exotic, gypsy-tinged playing on Desire is the classic example, and the instrument's portability and vocal-like sustain have made it a natural partner for singers in folk and roots settings.",
     example: {
       title: "One More Cup of Coffee",
       note:
