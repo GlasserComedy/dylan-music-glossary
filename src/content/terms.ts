@@ -1315,12 +1315,12 @@ export const TERMS: Term[] = [
     definition:
       "A folk and blues singer, guitarist, and fixture of the Greenwich Village scene, often called the 'Mayor of MacDougal Street.' His encyclopedic knowledge of traditional blues and ragtime made him a mentor to younger musicians arriving in the early 1960s.",
     inDylan:
-      "Dylan met Van Ronk soon after reaching the Village and quickly fell under his influence. When Dylan recorded 'House of the Rising Sun' on his 1962 debut, he used the elaborate fingerpicked arrangement he had learned from Van Ronk's performances \u2014 a borrowing that annoyed his friend but introduced a generation to the song. Van Ronk remained a presence in the Village long after Dylan's fame eclipsed the small clubs they had both played.",
+      "Dylan met Van Ronk soon after reaching the Village and quickly fell under his influence. Van Ronk's version of 'He Was a Friend of Mine' was part of the same older blues and folk repertoire he carried around MacDougal Street, and Dylan's early recording of the song carries the stamp of those club-floor lessons. Van Ronk remained a presence in the Village long after Dylan's fame eclipsed the small clubs they had both played.",
     example: {
-      title: "House of the Rising Sun",
+      title: "He Was a Friend of Mine",
       note:
-        "Dylan's version owes its guitar arrangement to Van Ronk, whose long residence at the Village clubs made him a keeper of the old blues and ragtime songs.",
-      media: { kind: "youtube", id: "RP_caKDfoyU", spotifyId: "6UpBloUMfnW5TXK5V8g787" },
+        "A traditional song Van Ronk sang in the Village clubs; Dylan's early studio recording keeps the mournful, fingerpicked feel he absorbed from performers like Van Ronk.",
+      media: { kind: "youtube", id: "HB2EPoiWL7A", spotifyId: "31adUUhOn34ZXxrzuUhbuw" },
     },
     related: ["greenwich-village", "folk-revival", "blues", "traditional"],
     aliases: [
