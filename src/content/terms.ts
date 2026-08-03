@@ -590,9 +590,9 @@ export const TERMS: Term[] = [
     title: "Traditional",
     category: "Roots",
     definition:
-      "Music passed down over generations.",
+      "Music that is passed down through oral tradition rather than composed by a single known author. Traditional songs are living material: lyrics change, verses get added or dropped, and melodies adapt to the singer, the region, and the moment. They carry centuries of anonymous craft and serve as a shared language among musicians.",
     inDylan:
-      "Dylan performed many traditional folk songs, honoring the roots that inspired his originals.",
+      "Traditional song was the foundation Dylan stood on when he arrived in New York. He learned from Lomax field recordings, Harry Smith's Anthology of American Folk Music, and older performers in the Village, and he treated the songs as a craft to master rather than a museum to visit. Places like Washington Square Park and Greenwich Village were where young musicians gathered on Sundays and in back rooms to swap verses, compare versions, and sharpen their skills. Learning the old songs there was a rite of passage; it was how you proved you could inhabit the music. That immersion in traditional material was essential to the folk revival, and it gave Dylan the vocabulary that let his own songs sound like they had already existed for a hundred years. He recorded many traditional songs on his early albums, and the practice of borrowing, reshaping, and re-singing old material never really left him.",
     example: {
       title: "Froggie Went a-Courtin'",
       note:
