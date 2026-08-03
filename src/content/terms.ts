@@ -926,13 +926,13 @@ export const TERMS: Term[] = [
     title: "Joan Baez",
     category: "Influence",
     definition:
-      "A leading folk singer of the 1960s and Dylan's close collaborator.",
+      "A defining voice of the 1960s folk revival and one of the most influential folk singers of the modern era.",
     inDylan:
-      "Baez helped introduce Dylan to wider audiences by performing his songs on stage and record.",
+      "Joan Baez was already a celebrated figure when she began championing Dylan's songs, bringing his early work to larger concert halls and radio audiences before his own name could fill them. She invited him on stage at her shows, introduced him to her listeners, and their bond became one of the most enduring partnerships in American roots music \u2014 stretching from the 1960s folk circuit through later tours and recordings, and giving Dylan a bridge between the folk underground and the mainstream.",
     example: {
       title: "Diamonds & Rust (Joan Baez)",
       note:
-        "Baez's song looks back on her relationship with Dylan \u2014 the collaboration running in both directions.",
+        "Baez's signature reflection on their relationship, capturing both sides of a collaboration that shaped each artist's career.",
       media: { kind: "youtube", id: "1ST9TZBb9v8", spotifyId: "4O0sGJdqpHMaWz7KoVd7tb" },
     },
     related: ["folk-revival"],
