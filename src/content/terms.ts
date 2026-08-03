@@ -1622,10 +1622,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Harris sang harmony across most of Desire, and her voice shadowing Dylan's is a defining sound of that record.",
     example: {
-      title: "One More Cup of Coffee",
+      title: "Oh Sister",
       note:
         "Her harmony line trails Dylan's melody a step behind and above, giving the song its unsettled, modal atmosphere.",
-      media: { kind: "youtube", id: "95cufW4h-gA", spotifyId: "4WOruM7TiQSETsWYy8bDSX" },
+      media: { kind: "youtube", id: "Tc2NpNqDgPE", spotifyId: "4JtK4KieKw8mlPAIX4ODht" },
     },
     related: ["harmony", "violin", "traditional"],
     aliases: ["Emylou Harris", "Desire 1976", "harmony singing", "country rock"],
