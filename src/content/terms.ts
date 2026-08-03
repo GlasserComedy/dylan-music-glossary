@@ -68,7 +68,22 @@ export const TERMS: Term[] = [
     related: ["imagery", "surrealism", "lyric"],
   },
   {
-    slug: "acoustic",
+    slug: "a-cappella",
+    title: "A cappella",
+    category: "Performance",
+    definition:
+      "Vocal music performed without any instrumental accompaniment, using only the human voice for melody, harmony, and rhythm.",
+    inDylan:
+      "Dylan never released a fully a cappella recording, but his songs have been arranged by choirs and vocal groups that strip away instruments and let the lyrics and harmony carry everything.",
+    example: {
+      title: "Man of Constant Sorrow",
+      note:
+        "Home Free's all-vocal cover of the folk standard Dylan recorded on his 1962 debut replaces instruments with harmony and vocal percussion, turning the song into a contemporary a cappella performance.",
+      media: { kind: "youtube", id: "-ew_bfFvros", spotifyId: "2cCbLVs1UlYPmvRjj666Uu" },
+    },
+    related: ["instrumental", "harmony", "folk-revival"],
+  },
+  {
     title: "Acoustic",
     category: "Performance",
     definition:
