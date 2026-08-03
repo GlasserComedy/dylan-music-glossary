@@ -725,10 +725,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan shocked fans by embracing Christian rock on albums like Slow Train Coming (1979), proving his music would follow his own convictions rather than public expectation.",
     example: {
-      title: "Gotta Serve Somebody",
+      title: "Saved",
       note:
-        "A rock record with an explicitly Christian message \u2014 the song that opened Dylan's gospel period.",
-      media: { kind: "youtube", id: "wC10VWDTzmU", spotifyId: "760420tYNmNjFgi8bWvbop" },
+        "The title track of Dylan's second born-again album is a full-throated Christian rock declaration, built on gospel backing vocals and a clear testimonial message.",
+      media: { kind: "youtube", id: "VprJwT4JDWo", spotifyId: "2SvhnRCqjsRMU99Nl0if9H" },
     },
     related: ["gospel"],
   },
