@@ -1599,7 +1599,7 @@ export const TERMS: Term[] = [
     example: {
       title: "No More Auction Block",
       note:
-        "Odetta's powerful solo recording of this anti-slavery work song became the template Dylan studied when he was learning how a single voice and acoustic guitar could carry a whole history of struggle.",
+        "Odetta's powerful solo recording of this anti-slavery work song became the template Dylan studied when he was learning how a single voice and acoustic guitar could carry a whole history of struggle. Dylan almost certainly drew on 'No More Auction Block' for 'Blowin' in the Wind' — at least musically, if not thematically — taking the same three-line melodic lift and turning it into one of the most famous questions in popular music.",
       media: { kind: "youtube", id: "AHVWpcJsZBw", spotifyId: "654uytI1ZQaTrioZUKVGAs" },
     },
     related: ["folk-revival", "traditional", "blues"],
