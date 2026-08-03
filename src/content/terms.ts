@@ -84,6 +84,7 @@ export const TERMS: Term[] = [
     related: ["instrumental", "harmony", "folk-revival"],
   },
   {
+    slug: "acoustic",
     title: "Acoustic",
     category: "Performance",
     definition:
