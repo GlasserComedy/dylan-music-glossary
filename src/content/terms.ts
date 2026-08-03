@@ -435,12 +435,20 @@ export const TERMS: Term[] = [
       "American folk singer and songwriter (1912–1967) whose plain-spoken songs of working people, dust storms, and social justice became the template for the American folk revival. Born in Oklahoma, Guthrie travelled the country during the Great Depression, absorbing blues, hillbilly, cowboy songs, and union hymns, then reshaping them into hundreds of Dust Bowl ballads, children's songs, and political anthems. His guitar bore a sticker reading 'This Machine Kills Fascists,' and his most famous song, 'This Land Is Your Land,' was written as a defiant answer to 'God Bless America.' By the time a new generation discovered him in the 1950s, his influence was already embedded in every folk singer who tried to tell a true story in plain language.",
     inDylan:
       "Dylan idolised Guthrie before he arrived in New York. In January 1961 he travelled to Greystone Park Psychiatric Hospital in New Jersey, where Guthrie was hospitalised with Huntington's disease, and sang for him at his bedside. That encounter became the central myth of Dylan's early years: the young disciple receiving a blessing from the dying master. He wrote 'Song to Woody' on his debut album as a direct tribute, and Guthrie's restless, travelling, truth-telling persona became the model Dylan first imitated and then outgrew. Long after he moved beyond protest songs, the shadow of Guthrie — the drifter with a guitar, a notebook, and a moral compass — remained in Dylan's imagination.",
-    example: {
-      title: "This Land Is Your Land (Woody Guthrie)",
-      note:
-        "Guthrie's best-known song, written as a populist answer to 'God Bless America' and carried on his travelling guitar.",
-      media: { kind: "youtube", id: "Ol0rRdF5L1c", spotifyId: "5fs9WIMgBoUdlo2amHfIWT" },
-    },
+    examples: [
+      {
+        title: "This Land Is Your Land (Woody Guthrie)",
+        note:
+          "Guthrie's best-known song, written as a populist answer to 'God Bless America' and carried on his travelling guitar.",
+        media: { kind: "youtube", id: "Ol0rRdF5L1c", spotifyId: "5fs9WIMgBoUdlo2amHfIWT" },
+      },
+      {
+        title: "Song to Woody (Bob Dylan)",
+        note:
+          "Written for Guthrie and built on the melody of his own 1913 Massacre, it is a debt acknowledged in the song itself.",
+        media: { kind: "youtube", id: "lOWfCVQBixs", spotifyId: "0dfdXhBg11XA16XgAEtFcN" },
+      },
+    ],
     related: ["folk-revival", "talkin-blues"],
   },
   {
