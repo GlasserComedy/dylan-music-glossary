@@ -746,9 +746,9 @@ export const TERMS: Term[] = [
     title: "Bard",
     category: "Words",
     definition:
-      "A poet or singer who composes and recites verse, often accompanied by music. The title carries the weight of national tradition: William Shakespeare is the Bard of Avon, Robert Burns the Bard of Ayrshire, and in the folk world a bard is simply the person who remembers and reshapes the songs a community lives by.",
+      "A poet or singer who composes and recites verse, often accompanied by music. The title is ancient: it comes from the Gaelic bardos, the hereditary singer-historians of Ireland and Wales who committed genealogies, battles, and lamentations to memory. Over time it came to name any poet whose voice carries the weight of a national or spiritual tradition—William Shakespeare is the Bard of Avon, Robert Burns the Bard of Ayrshire, and in the folk world a bard is simply the person who remembers and reshapes the songs a community lives by.",
     inDylan:
-      "Dylan's work belongs to this lineage of song-poets. He has bowed to Shakespeare and Burns as towering figures, and his own songs function as modern bardic testimony: songs of love, wandering, judgment, and social witness that have been passed from voice to voice across generations.",
+      "Dylan's work belongs to this lineage of song-poets. He has bowed to Shakespeare and Burns as towering figures, and his own songs function as modern bardic testimony: songs of love, wandering, judgment, and social witness that have been passed from voice to voice across generations. The connection was made explicit at his 2016 Nobel Prize induction, when Horace Engdahl of the Swedish Academy placed him in the company of 'rhapsodes, bards, troubadours' and said the award honored a singer who had changed the idea of what poetry could be.",
     examples: [
       {
         title: "Desolation Row",
