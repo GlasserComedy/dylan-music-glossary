@@ -384,9 +384,9 @@ export const TERMS: Term[] = [
     title: "Singer-Songwriter",
     category: "Words",
     definition:
-      "An artist who writes, composes, and performs their own songs, conveying personal vision through voice and words.",
+      "An artist who writes, composes, and performs their own songs, so that the voice, the words, and the music all come from a single source. The term has existed as long as troubadours and folk singers, but in the 1960s it became a recognized category of popular music: a figure who was not merely interpreting professional songwriters but presenting an original, self-authored world.",
     inDylan:
-      "Dylan emerged in the early 1960s as a defining voice of the singer-songwriter tradition, blending poetic lyrics with memorable melodies.",
+      "Dylan is often called the first major singer-songwriter of the modern pop era, even though he was not the first person to write and sing his own material. Woody Guthrie, Pete Seeger, Lead Belly, Hank Williams, Chuck Berry, and blues singers had all done it before him; the Brill Building and Tin Pan Alley had also produced writers who sang. What changed was scale and expectation. Dylan's songs arrived at a moment when the mainstream music industry still separated the composer from the performer, and when his albums began selling as statements by a single author, they helped collapse that division. The sheer density of his writing, the sense that every line was freighted with a personal vision, made audiences hear the singer-songwriter as a serious literary artist, not just an entertainer. After him, it became normal to expect an album to be a personal statement from the person singing it, and artists like Joni Mitchell, Neil Young, Paul Simon, Carole King, and hundreds of others were able to enter a landscape that Dylan had made visible. He is cited as the first major figure of this movement because he did not just write songs; he redefined the contract between popular music and authorship.",
     example: {
       title: "Don't Think Twice, It's All Right",
       note:
