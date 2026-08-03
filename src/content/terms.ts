@@ -1483,9 +1483,10 @@ export const TERMS: Term[] = [
     example: {
       title: "A Red, Red Rose",
       note:
-        "Burns's song of love outlasting seas and stones is the very lyric Dylan singled out as his most important inspiration as a songwriter.",
-      media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "5NhqukW4NzQYPF8zP42M49" },
+        "Burns's song of love outlasting seas and stones is the very lyric Dylan singled out as his most important inspiration as a songwriter, heard here in Jean Redpath's definitive Scots reading.",
+      media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "1mnZJhThITmq9urDmCWlt7" },
     },
+    aliases: ["Jean Redpath", "Burns", "Scottish bard", "A Red Red Rose"],
     related: ["bard", "lyric", "literature", "folk-revival"],
   },
   {
