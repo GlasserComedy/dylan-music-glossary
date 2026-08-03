@@ -1253,7 +1253,7 @@ export const TERMS: Term[] = [
       title: "Kurtis Blow \u2014 Street Rock (with Bob Dylan)",
       note:
         "Dylan sings on Kurtis Blow's 1986 track, one of the earliest crossovers between a folk-rock songwriter and hip-hop \u2014 rhymed speech over a beat meeting sung verse.",
-      media: { kind: "youtube", id: "xfi7ME_Y5Vs" },
+      media: { kind: "youtube", id: "xfi7ME_Y5Vs", spotifyId: "1GO6BnAO8t6e35NX64QGN9" },
     },
     related: ["talkin-blues", "rhyme", "beat", "rhythm"],
   },
