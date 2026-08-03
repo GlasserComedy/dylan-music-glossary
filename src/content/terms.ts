@@ -628,16 +628,30 @@ export const TERMS: Term[] = [
     title: "1960s",
     category: "Reinvention",
     definition:
-      "A decade of cultural revolution where music and politics intertwined.",
+      "The decade that redefined popular music as a force for social change, personal confession, and artistic ambition. Between the civil-rights movement, the Vietnam War, and a youth culture searching for new values, the 1960s turned the songwriter into a public poet and the three-minute single into a manifesto.",
     inDylan:
-      "Dylan's songs became anthems of change, shaping how people thought about freedom, protest, and art.",
+      "Bob Dylan's 1960s arc traces the whole era. He arrived in Greenwich Village in 1961 as a Woody Guthrie disciple, wrote the anthems of the civil-rights and antiwar movements, then unplugged the folk circuit and plugged into rock with a ferocity that changed both genres. Across The Freewheelin' Bob Dylan, The Times They Are A-Changin', Bringing It All Back Home, Highway 61 Revisited, and Blonde on Blonde, he moved from protest broadsides to surrealist narratives, from solo acoustic songs to full electric bands, and from the voice of a movement to an artist who refused to be any one thing. By 1966, a year of legendary tours and combative concerts, the decade had made him the central figure in modern songwriting—and a motorcycle crash that summer abruptly ended the first phase of his career, sending him into retreat and, eventually, reinvention.",
     example: {
       title: "The Times They Are a-Changin'",
       note:
-        "Released in 1964, the song named the decade's mood before the decade had fully arrived.",
+        "Released in early 1964, the song became a generational credo before the decade had even fully arrived. Its deliberate, marching melody and open-armed warning made it feel like a newspaper headline set to music.",
       media: { kind: "youtube", id: "90WD_ats6eE", spotifyId: "52vA3CYKZqZVdQnzRrdZt6" },
     },
-    related: ["counter-culture", "protest-song", "folk-revival"],
+    examples: [
+      {
+        title: "Blowin' in the Wind",
+        note:
+          "The 1963 single that introduced Dylan as a protest songwriter. Its unanswered questions about peace, freedom, and justice became inseparable from the civil-rights movement.",
+        media: { kind: "youtube", id: "MMFj8uDubsE", spotifyId: "18GiV1BaXzPVYpp9rmOg0E" },
+      },
+      {
+        title: "Subterranean Homesick Blues",
+        note:
+          "A 1965 single that marked the shift from acoustic folk to electric rock. Its rapid-fire, allusive lyric and promotional film—an early music video—announced a new kind of popular art.",
+        media: { kind: "youtube", id: "MGxjIBEZvx0", spotifyId: "6k9DUKMJpWvu6eFG3O64Lg" },
+      },
+    ],
+    related: ["counter-culture", "protest-song", "folk-revival", "newport-1965", "electric"],
   },
   {
     slug: "acting",
