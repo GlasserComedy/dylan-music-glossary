@@ -131,6 +131,8 @@ const HOLE = 0.30; // keep the center clear for the Dylan head
 // Superellipse exponent for the outer boundary: higher values pull the corners
 // inward, keeping the oval crisp while using most of the stage.
 const BOUND_N = 4.5;
+const EDGE_INSET = 18;
+const MAX_LABEL_SCALE = 1.2;
 
 function clamp(v: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, v));
@@ -297,8 +299,18 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
 
   return boxes.map((b) => ({
     ...b,
-    x: cx + b.nx * rx,
-    y: cy + b.ny * ry,
+    // The oval constrains label centres; this final clamp constrains the full
+    // measured label box as well, including its 1.2x hover enlargement.
+    x: clamp(
+      cx + b.nx * rx,
+      EDGE_INSET + (b.w * MAX_LABEL_SCALE) / 2,
+      w - EDGE_INSET - (b.w * MAX_LABEL_SCALE) / 2,
+    ),
+    y: clamp(
+      cy + b.ny * ry,
+      EDGE_INSET + (b.h * MAX_LABEL_SCALE) / 2,
+      h - EDGE_INSET - (b.h * MAX_LABEL_SCALE) / 2,
+    ),
   }));
 }
 
