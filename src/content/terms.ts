@@ -436,10 +436,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan idolised Guthrie before he arrived in New York. In January 1961 he travelled to Greystone Park Psychiatric Hospital in New Jersey, where Guthrie was hospitalised with Huntington's disease, and sang for him at his bedside. That encounter became the central myth of Dylan's early years: the young disciple receiving a blessing from the dying master. He wrote 'Song to Woody' on his debut album as a direct tribute, and Guthrie's restless, travelling, truth-telling persona became the model Dylan first imitated and then outgrew. Long after he moved beyond protest songs, the shadow of Guthrie — the drifter with a guitar, a notebook, and a moral compass — remained in Dylan's imagination.",
     example: {
-      title: "Song to Woody",
+      title: "This Land Is Your Land (Woody Guthrie)",
       note:
-        "Written for Guthrie and built on the melody of his own 1913 Massacre, it is a debt acknowledged in the song itself.",
-      media: { kind: "youtube", id: "lOWfCVQBixs", spotifyId: "0dfdXhBg11XA16XgAEtFcN" },
+        "Guthrie's best-known song, written as a populist answer to 'God Bless America' and carried on his travelling guitar.",
+      media: { kind: "youtube", id: "Ol0rRdF5L1c", spotifyId: "5fs9WIMgBoUdlo2amHfIWT" },
     },
     related: ["folk-revival", "talkin-blues"],
   },
