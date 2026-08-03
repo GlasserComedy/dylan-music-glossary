@@ -182,8 +182,11 @@ function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
 
   return terms.map((term, i) => {
     const override = POSITION_OVERRIDES[term.slug];
-    // Area-uniform radius so the cloud density is flat, not ring-y.
-    const rNorm = override ? override.baseR : Math.sqrt((i + 0.5) / terms.length);
+    // Big-bang radius: packed tight near the head, thinning out toward the rim.
+    // Exponent > 0.5 (area-uniform) biases points inward.
+    const rNorm = override
+      ? override.baseR
+      : ((i + 0.5) / terms.length) ** 1.15;
     const r = HOLE + (1 - HOLE) * rNorm;
     const angle = override ? override.angle : i * goldenAngle;
     return {
@@ -209,7 +212,7 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
   const rx = (w / 2) * RX_FRAC;
   const ry = (h / 2) * RY_FRAC;
   const { hrx, hry } = headEllipse(w, h);
-  const headMargin = 44;
+  const headMargin = 30;
 
   const boxes = labels.map((l) => ({
     ...l,
@@ -217,8 +220,14 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
     ny: (l.y - cy) / ry,
   }));
 
-  const padX = 18;
-  const padY = 8;
+  // Big-bang spacing: dense near the head, progressively airier outward.
+  const maxR = Math.hypot(rx, ry);
+  const padAt = (a: { nx: number; ny: number }, b: { nx: number; ny: number }) => {
+    const ra = Math.hypot(a.nx * rx, a.ny * ry);
+    const rb = Math.hypot(b.nx * rx, b.ny * ry);
+    const t = clamp((ra + rb) / 2 / maxR, 0, 1);
+    return { padX: 8 + t * 30, padY: 3 + t * 14 };
+  };
 
   for (let iter = 0; iter < 360; iter++) {
     let moved = false;
@@ -228,6 +237,7 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
         const a = boxes[i];
         const b = boxes[j];
 
+        const { padX, padY } = padAt(a, b);
         const dx = (b.nx - a.nx) * rx;
         const dy = (b.ny - a.ny) * ry;
         const halfW = (a.w + b.w) / 2 + padX;
