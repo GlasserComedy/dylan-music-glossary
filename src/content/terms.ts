@@ -743,7 +743,7 @@ export const TERMS: Term[] = [
         title: "A Red, Red Rose",
         note:
           "Robert Burns's most famous love song is the lyric Dylan himself cited as the verse that had the biggest effect on his life.",
-        media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "5NhqukW4NzQYPF8zP42M49" },
+        media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "589xpSCKySfBHl9QSarZ1g" },
       },
     ],
     related: ["lyric", "literature", "robert-burns", "imagery"],
