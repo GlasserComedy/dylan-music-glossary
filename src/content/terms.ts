@@ -224,13 +224,13 @@ export const TERMS: Term[] = [
     title: "Imagery",
     category: "Words",
     definition:
-      "Descriptive language that appeals to the senses, creating vivid mental pictures within a song.",
+      "Descriptive language that appeals to the senses and conjures pictures in the mind. In Dylan's work it ranges from concrete, almost cinematic snapshots to dreamlike, symbolist visions, often compressing a whole world into a single line.",
     inDylan:
-      "Visions of Johanna is a cathedral of imagery: neon light, ghosts of electricity, jelly-faced women.",
+      "From the early 'foggy ruins of time' and 'sad forests' to the hallucinogenic visions of the mid-1960s and the parched, weathered landscapes of his later albums, Dylan built his songs out of pictures. His images are rarely decorative; they act as emotional arguments, turning a train whistle, a pebble, or a ghost of electricity into something the listener can almost see. 'A Hard Rain's A-Gonna Fall' piles up apocalyptic pictures, while 'Visions of Johanna' lets disconnected images float like projections in a dark room.",
     example: {
       title: "Visions of Johanna",
       note:
-        "Neon lights, ghosts of electricity and a night watchman's flashlight give the song a set of pictures far more precise than its story.",
+        "Neon lights, ghosts of electricity and a night watchman's flashlight give the song a set of pictures far more precise than its story, showing how Dylan can build a whole world from a few charged images.",
       media: { kind: "youtube", id: "AwuCF5lYqEE", spotifyId: "2rslQV48gNv3r9pPrQFPW1" },
     },
     related: ["abstract-lyrics", "metaphor", "surrealism"],
