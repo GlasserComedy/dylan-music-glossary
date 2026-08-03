@@ -1166,7 +1166,7 @@ export const TERMS: Term[] = [
     title: "Bridge",
     category: "Words",
     definition:
-      "A contrasting section of a song that provides musical or lyrical variety, often connecting two repeated sections.",
+      "A contrasting section of a song that provides musical or lyrical variety, often connecting two repeated sections. In the UK, the bridge is traditionally called the middle eight.",
     inDylan:
       "Dylan uses bridges sparingly, but when he does they usually shift the song's emotional angle before it returns to its main idea.",
     example: {
