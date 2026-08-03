@@ -1724,7 +1724,7 @@ export const TERMS: Term[] = [
     definition:
       "Guitarist who turned feedback, distortion and the whammy bar into an expressive language of their own.",
     inDylan:
-      "Hendrix's All Along the Watchtower so completely reimagined the song that Dylan has played it Hendrix's way ever since.",
+      "Dylan was already a hero to Hendrix before they met; Hendrix had worn out copies of Highway 61 Revisited and called Dylan the poet who turned his mind on. In 1968, the Jimi Hendrix Experience transformed the quiet parable of All Along the Watchtower into an electric storm, and Dylan was overwhelmed by what Hendrix found inside the song. He said Hendrix could 'find things inside a song and vigorously develop them,' improving it by the spaces he used. From the mid-1970s onward Dylan adopted Hendrix's arrangement as his own, and he has described his live versions as tributes to a friend whose interpretation eclipsed even the original.",
     example: {
       title: "All Along the Watchtower (Jimi Hendrix Experience)",
       note:
