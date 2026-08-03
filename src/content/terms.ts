@@ -879,13 +879,13 @@ export const TERMS: Term[] = [
     title: "Improvisation",
     category: "Performance",
     definition:
-      "Making music spontaneously.",
+      "Making music spontaneously, in real time, rather than from a fixed score. It is a universal practice across traditions: jazz soloists spin variations on a chord sequence, folk singers adapt lyrics and melodies in performance, Indian classical musicians explore a raga's mood through extemporized phrasing, and even Baroque composers such as Bach and Handel were celebrated improvisers at the keyboard. For many composers, improvisation is a workshop — a way to discover themes, test phrases, and generate the raw material that later becomes a finished piece.",
     inDylan:
-      "Dylan rarely performs a song the same way twice, often improvising lyrics, phrasing, or arrangements in concert.",
+      "Dylan's approach to improvisation was shaped by folk's loose, oral tradition and by the freedom of jazz phrasing. He rarely performs a song the same way twice, improvising lyrics, phrasing, arrangements, and even entire verses in concert. His live versions often rewrite point of view, key, and emotional tone, treating the recorded song as a sketch rather than a final statement.",
     example: {
       title: "Tangled Up in Blue (live variations)",
       note:
-        "Dylan has rewritten this song's lyrics, key and point of view repeatedly in performance over five decades.",
+        "Dylan has rewritten this song's lyrics, key and point of view repeatedly in performance over five decades, turning it into a living example of how improvisation can keep a song changing long after it was first recorded.",
       media: { kind: "youtube", id: "YwSZvHqf9qM", spotifyId: "5D0dv42CZd5xtlLVxDFXs3" },
     },
   },
