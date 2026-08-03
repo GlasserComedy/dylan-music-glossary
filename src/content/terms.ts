@@ -409,7 +409,7 @@ export const TERMS: Term[] = [
         "Historical and fictional figures wander through the same street scene, logic suspended in favour of dream imagery.",
       media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
     },
-    related: ["imagery", "abstract-lyrics", "kerouac-influence"],
+    related: ["imagery", "abstract-lyrics", "jack-kerouac"],
   },
   {
     slug: "talkin-blues",
@@ -722,7 +722,7 @@ export const TERMS: Term[] = [
         "Its collision of Belle Starr, Jack the Ripper and Beethoven pushes the pop song into deliberately experimental territory.",
       media: { kind: "youtube", id: "ag-Esuy44ks", spotifyId: "5JqsRFZYDtIK5Rgeuzd2Jv" },
     },
-    related: ["surrealism", "kerouac-influence"],
+    related: ["surrealism", "jack-kerouac"],
   },
   {
     slug: "beat-generation",
@@ -738,7 +738,7 @@ export const TERMS: Term[] = [
         "The long free-associating catalogue of characters owes its rhythm and spirit to Beat poetry.",
       media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
     },
-    related: ["kerouac-influence", "surrealism"],
+    related: ["jack-kerouac", "surrealism"],
   },
   {
     slug: "christian-rock",
@@ -1366,7 +1366,7 @@ export const TERMS: Term[] = [
         "Ginsberg's sprawling address to his own country \u2014 accusatory, funny, and cataloguing \u2014 is the poetic register Dylan reaches for in songs like It's Alright, Ma.",
       media: { kind: "youtube", id: "o9_aJqtnmPo" },
     },
-    related: ["beat-generation", "kerouac-influence", "literature"],
+    related: ["beat-generation", "jack-kerouac", "literature"],
   },
   {
     slug: "the-band",
