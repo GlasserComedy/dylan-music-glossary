@@ -162,10 +162,10 @@ function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
 }
 
 /**
- * Big-bang layout: terms are flung out from the centre on a golden-angle
- * spiral in *normalised* space, then mapped onto the stage. Working in
- * normalised space keeps the angular spread even instead of piling labels up
- * at the top and bottom.
+ * Airy oval layout: terms are placed on a golden-angle spiral in *normalised*
+ * space, then mapped onto the stage. The radius is slightly biased outward so
+ * the oval feels open, and the larger stage fractions let it breathe into the
+ * surrounding blank space.
  */
 
 const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number }> = {
@@ -182,11 +182,11 @@ function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
 
   return terms.map((term, i) => {
     const override = POSITION_OVERRIDES[term.slug];
-    // Big-bang radius: packed tight near the head, thinning out toward the rim.
-    // Exponent > 0.5 (area-uniform) biases points inward.
+    // Airy oval radius: bias slightly outward (exponent < 0.5) so the centre
+    // stays open and the rim carries more labels, using the page's blank space.
     const rNorm = override
       ? override.baseR
-      : ((i + 0.5) / terms.length) ** 1.15;
+      : ((i + 0.5) / terms.length) ** 0.55;
     const r = HOLE + (1 - HOLE) * rNorm;
     const angle = override ? override.angle : i * goldenAngle;
     return {
