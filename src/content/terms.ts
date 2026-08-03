@@ -1345,9 +1345,9 @@ export const TERMS: Term[] = [
     title: "Pete Seeger",
     category: "Roots",
     definition:
-      "American folk singer and activist who helped drive the folk revival and the link between song and social movements.",
+      "American folk singer, songwriter, and activist (1919–2014) who did as much as anyone to keep the folk tradition alive as a living, political force. Raised in a musical family, Seeger was a founding member of the Almanac Singers and the Weavers, helping bring folk song into the mainstream in the 1940s and 1950s. After the Weavers were blacklisted during the McCarthy era, he carved out a second career as a solo performer, union organiser, and teacher, travelling with a long-neck banjo and a belief that a good song could make people want to change the world. He later founded the Clearwater project to clean up the Hudson River, proving that environmental activism and folk music could be part of the same life.",
     inDylan:
-      "Seeger championed Dylan early, put him in front of festival crowds, and famously reacted against the volume of the electric set at Newport in 1965.",
+      "Seeger was one of Dylan's earliest and most influential champions. He introduced the young singer to the Newport Folk Festival, put him in front of large audiences, and treated him as a natural heir to the folk tradition. Their relationship was complicated by Dylan's 1965 electric turn at Newport, when legend says Seeger threatened to cut the cables with a hatchet; whatever the exact details, the moment marked a public break between the old guard and the new. Yet the connection endured. Seeger remained a lifelong figure in Dylan's memory of apprenticeship, the link between Greenwich Village, the labour movement, and the idea that a song could carry a conscience.",
     example: {
       title: "If I Had a Hammer",
       note:
