@@ -252,11 +252,11 @@ export const TERMS: Term[] = [
     related: ["abstract-lyrics", "metaphor", "surrealism"],
   },
   {
-    slug: "kerouac-influence",
-    title: "Kerouac Influence",
+    slug: "jack-kerouac",
+    title: "Jack Kerouac",
     category: "Influence",
     definition:
-      "The stylistic imprint of Beat writer Jack Kerouac — spontaneous prose, road mythology, jazz-inflected phrasing.",
+      "Novelist and poet at the center of the Beat Generation, celebrated for spontaneous prose, road mythology, and jazz-inflected phrasing.",
     inDylan:
       "Dylan carried On the Road with him as a young man; the free-associative rush of Chimes of Freedom owes something to Kerouac's line.",
     example: {
