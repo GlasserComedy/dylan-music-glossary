@@ -855,9 +855,9 @@ export const TERMS: Term[] = [
     title: "Guitar",
     category: "Performance",
     definition:
-      "A stringed instrument central to folk, rock, and blues.",
+      "A stringed instrument that grew out of centuries of European and Mediterranean plucked instruments before the Spanish guitarra gave it its familiar shape. Once it reached North America, makers redesigned it for a louder, brasher country: steel strings replaced gut, and companies like C.F. Martin built bigger-bodied guitars — culminating in the Dreadnought — so the instrument could cut through square dances, radio bands, and eventually electrified blues and rock.",
     inDylan:
-      "Dylan's guitar — whether acoustic or electric — was his constant companion in shaping his sound.",
+      "Dylan's guitar, whether acoustic or electric, was the constant companion of his voice. He came of age just as the steel-string folk boom had made the guitar a portable public-address system, and he pushed it further when he plugged in at Newport in 1965, turning the same instrument into a roaring rock voice.",
     example: {
       title: "Girl from the North Country",
       note:
