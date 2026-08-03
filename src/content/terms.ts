@@ -304,14 +304,14 @@ export const TERMS: Term[] = [
     title: "Narrative",
     category: "Words",
     definition:
-      "A song that tells a story with characters, setting, and unfolding events.",
+      "A song that tells a story with characters, setting, and unfolding events, often moving like a short film or spoken tale set to music.",
     inDylan:
-      "Hurricane recounts the wrongful murder conviction of boxer Rubin Carter in cinematic detail — a journalistic ballad.",
+      "North Country Blues unfolds the slow collapse of an iron-range mining town through the voice of a woman watching her family and community come apart. Like a miniature novel, it gives us a place, a timeline, and a witness who carries the weight of the story.",
     example: {
-      title: "Hurricane",
+      title: "North Country Blues",
       note:
-        "The song lays out a true story with named characters, scenes and a chronology, like reportage in verse.",
-      media: { kind: "youtube", id: "bpZvg_FjL3Q", spotifyId: "1fYdZW9CJOwEjOjVHaxvQ5" },
+        "Told from a single woman's perspective, the song traces a town's decline across seasons and years: the mines closing, the men leaving, the stores standing empty. It is reportage by way of lived memory.",
+      media: { kind: "youtube", id: "r5GjjUppig8", spotifyId: "3cY8cOjaN8Lwi08g9Fpr6D" },
     },
     related: ["ballad", "protest-song"],
   },
