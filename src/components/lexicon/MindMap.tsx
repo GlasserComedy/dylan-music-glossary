@@ -220,13 +220,14 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
     ny: (l.y - cy) / ry,
   }));
 
-  // Big-bang spacing: dense near the head, progressively airier outward.
+  // Airy oval spacing: generous padding everywhere, increasing toward the rim
+  // so the outer labels still have room to breathe.
   const maxR = Math.hypot(rx, ry);
   const padAt = (a: { nx: number; ny: number }, b: { nx: number; ny: number }) => {
     const ra = Math.hypot(a.nx * rx, a.ny * ry);
     const rb = Math.hypot(b.nx * rx, b.ny * ry);
     const t = clamp((ra + rb) / 2 / maxR, 0, 1);
-    return { padX: 8 + t * 30, padY: 3 + t * 14 };
+    return { padX: 12 + t * 38, padY: 5 + t * 20 };
   };
 
   for (let iter = 0; iter < 360; iter++) {
