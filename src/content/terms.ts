@@ -771,7 +771,7 @@ export const TERMS: Term[] = [
     definition:
       "Music played with amplification and power.",
     inDylan:
-      "Dylan's shift to electric rock in the mid-1960s not only transformed his sound but changed the course of popular music forever.",
+      "Dylan's shift to electric rock in the mid-1960s not only transformed his sound but changed the course of popular music forever. Much has been said and written about this period, with whole books devoted to it, and it has been dramatized on screen — including in the 2024 biopic A Complete Unknown starring Timothée Chalamet.",
     example: {
       title: "Like a Rolling Stone",
       note:
