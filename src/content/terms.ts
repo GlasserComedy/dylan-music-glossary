@@ -184,15 +184,23 @@ export const TERMS: Term[] = [
     title: "Harmonica",
     category: "Performance",
     definition:
-      "A free-reed wind instrument played by exhaling and inhaling through channels; a fixture of blues and folk.",
+      "A free-reed wind instrument played by exhaling and inhaling through its channels; small, cheap, and loud enough to ride over a guitar, it became a fixture of both blues and folk.",
     inDylan:
-      "Worn on a neck rack over his guitar, Dylan's harmonica became a visual signature and a raw counter-voice to his singing.",
+      "Dylan's first released recordings were not as a singer, but as a harmonica sideman: he played on Harry Belafonte's 'The Midnight Special' in 1961 and on Carolyn Hester's 1962 Columbia album, and later added harp to sessions with Big Joe Williams. He wore the instrument on a neck rack over his guitar, turning it into a visual signature and a raw, keening counter-voice to his singing.",
     example: {
-      title: "Blowin' in the Wind",
+      title: "Freight Train Blues",
       note:
-        "The harmonica breaks between verses answer the vocal line, filling the silences with a plain, keening tone.",
-      media: { kind: "youtube", id: "MMFj8uDubsE", spotifyId: "18GiV1BaXzPVYpp9rmOg0E" },
+        "From his 1962 debut album, this is folk harmonica in a rack: short, chugging fills that echo the rhythm of a train beneath a solo voice and guitar.",
+      media: { kind: "youtube", spotifyId: "1v4EF7zZLvC8XkcEncOTue" },
     },
+    examples: [
+      {
+        title: "Pledging My Time",
+        note:
+          "On Blonde on Blonde the harmonica snarls through a full electric band, showing how the little instrument could hold its own in a roaring blues setting.",
+        media: { kind: "youtube", id: "ODdJnWKE4ZE", spotifyId: "2qTvEdNY21mL9whUJot9Oc" },
+      },
+    ],
     related: ["folk-revival"],
   },
   {
