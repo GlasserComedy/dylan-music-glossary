@@ -1603,9 +1603,9 @@ export const TERMS: Term[] = [
     title: "Joni Mitchell",
     category: "Words",
     definition:
-      "Songwriter, painter and guitarist known for open tunings and confessional writing of unusual harmonic and emotional range.",
+      "Canadian songwriter, painter and guitarist celebrated for open tunings, painterly harmony and candid, emotionally detailed writing that stretched what a pop song could confess.",
     inDylan:
-      "A peer rather than a follower \u2014 she toured with Dylan on Rolling Thunder and pushed songwriting further into personal detail than he ever did.",
+      "A peer rather than a follower \u2014 she toured with Dylan during the Rolling Thunder Revue, and while Dylan had already broadened songwriting into social, mythic and interior territory, Mitchell pushed even further into the openly confessional, mapping private feeling with a specificity that made the personal landscape feel as vast as his symbolic one.",
     example: {
       title: "Coyote",
       note:
