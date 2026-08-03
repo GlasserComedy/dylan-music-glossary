@@ -432,9 +432,9 @@ export const TERMS: Term[] = [
     title: "Woody Guthrie",
     category: "Roots",
     definition:
-      "American folk singer (1912–1967) whose plain-spoken songs of working people shaped a generation of folk writers.",
+      "American folk singer and songwriter (1912–1967) whose plain-spoken songs of working people, dust storms, and social justice became the template for the American folk revival. Born in Oklahoma, Guthrie travelled the country during the Great Depression, absorbing blues, hillbilly, cowboy songs, and union hymns, then reshaping them into hundreds of Dust Bowl ballads, children's songs, and political anthems. His guitar bore a sticker reading 'This Machine Kills Fascists,' and his most famous song, 'This Land Is Your Land,' was written as a defiant answer to 'God Bless America.' By the time a new generation discovered him in the 1950s, his influence was already embedded in every folk singer who tried to tell a true story in plain language.",
     inDylan:
-      "A young Dylan hitchhiked to visit Guthrie in a New Jersey hospital and wrote Song to Woody as a tribute on his first album.",
+      "Dylan idolised Guthrie before he arrived in New York. In January 1961 he travelled to Greystone Park Psychiatric Hospital in New Jersey, where Guthrie was hospitalised with Huntington's disease, and sang for him at his bedside. That encounter became the central myth of Dylan's early years: the young disciple receiving a blessing from the dying master. He wrote 'Song to Woody' on his debut album as a direct tribute, and Guthrie's restless, travelling, truth-telling persona became the model Dylan first imitated and then outgrew. Long after he moved beyond protest songs, the shadow of Guthrie — the drifter with a guitar, a notebook, and a moral compass — remained in Dylan's imagination.",
     example: {
       title: "Song to Woody",
       note:
@@ -1345,9 +1345,9 @@ export const TERMS: Term[] = [
     title: "Pete Seeger",
     category: "Roots",
     definition:
-      "American folk singer and activist who helped drive the folk revival and the link between song and social movements.",
+      "American folk singer, songwriter, and activist (1919–2014) who did as much as anyone to keep the folk tradition alive as a living, political force. Raised in a musical family, Seeger was a founding member of the Almanac Singers and the Weavers, helping bring folk song into the mainstream in the 1940s and 1950s. After the Weavers were blacklisted during the McCarthy era, he carved out a second career as a solo performer, union organiser, and teacher, travelling with a long-neck banjo and a belief that a good song could make people want to change the world. He later founded the Clearwater project to clean up the Hudson River, proving that environmental activism and folk music could be part of the same life.",
     inDylan:
-      "Seeger championed Dylan early, put him in front of festival crowds, and famously reacted against the volume of the electric set at Newport in 1965.",
+      "Seeger was one of Dylan's earliest and most influential champions. He introduced the young singer to the Newport Folk Festival, put him in front of large audiences, and treated him as a natural heir to the folk tradition. Their relationship was complicated by Dylan's 1965 electric turn at Newport, when legend says Seeger threatened to cut the cables with a hatchet; whatever the exact details, the moment marked a public break between the old guard and the new. Yet the connection endured. Seeger remained a lifelong figure in Dylan's memory of apprenticeship, the link between Greenwich Village, the labour movement, and the idea that a song could carry a conscience.",
     example: {
       title: "If I Had a Hammer",
       note:
