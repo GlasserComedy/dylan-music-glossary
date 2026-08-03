@@ -21,7 +21,7 @@ export type Term = {
   category: Category;
   definition: string;
   inDylan: string;
-  example: {
+  example?: {
     title: string;
     /** A short note on how this song illustrates the term. */
     note: string;
