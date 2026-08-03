@@ -99,7 +99,9 @@ function LexiconPage() {
     for (const t of TERMS) {
       const songs = t.examples?.length
         ? t.examples.map((ex) => ex.title)
-        : [t.example.title];
+        : t.example
+          ? [t.example.title]
+          : [];
       for (const song of songs) {
         const lower = song.toLowerCase();
         if (!lower.includes(q)) continue;
