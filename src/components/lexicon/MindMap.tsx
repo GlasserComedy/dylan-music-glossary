@@ -202,7 +202,7 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
   const rx = (w / 2) * RX_FRAC;
   const ry = (h / 2) * RY_FRAC;
   const { hrx, hry } = headEllipse(w, h);
-  const headMargin = 34;
+  const headMargin = 44;
 
   const boxes = labels.map((l) => ({
     ...l,
@@ -210,10 +210,10 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
     ny: (l.y - cy) / ry,
   }));
 
-  const padX = 10;
-  const padY = 4;
+  const padX = 18;
+  const padY = 8;
 
-  for (let iter = 0; iter < 240; iter++) {
+  for (let iter = 0; iter < 360; iter++) {
     let moved = false;
 
     for (let i = 0; i < boxes.length; i++) {
