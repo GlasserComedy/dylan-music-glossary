@@ -1472,12 +1472,6 @@ export const TERMS: Term[] = [
       "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room.",
     inDylan:
       "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert, at Carnegie Chapter Hall in November 1961.",
-    example: {
-      title: "Talkin' Folklore Center Blues",
-      note:
-        "Dylan wrote this talking blues about the shop itself, and Izzy Young printed it as sheet music \u2014 the Village scene documenting itself in song.",
-      media: { kind: "youtube", id: "rxIJnZQmTt4" },
-    },
     documents: [
       {
         src: folkloreCover.url,
