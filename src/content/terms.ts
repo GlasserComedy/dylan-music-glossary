@@ -653,16 +653,16 @@ export const TERMS: Term[] = [
     title: "Reinvention",
     category: "Reinvention",
     definition:
-      "The act of reshaping oneself.",
+      "The continual reshaping of an artist's sound, image, and subject matter rather than remaining fixed to a single style. In a long career, reinvention can mean a new genre, a new persona, a new voice, or a radical re-reading of one's own past work.",
     inDylan:
-      "Dylan reinvented his sound and image constantly — from folk troubadour to electric rocker to country crooner and beyond.",
+      "Dylan has spent more than six decades refusing to stay still. He moved from Woody Guthrie disciple to protest prophet, from electric rocker to country crooner, from born-again Christian to gospel-soaked journeyman, and on into the restless, ever-changing sound of his later years. 'He not busy being born is busy dying,' he wrote in 1964, a line that became a credo for his whole career. The Swedish Academy recognised the same impulse when it awarded him the Nobel Prize in Literature in 2016: Permanent Secretary Sara Danius praised him as 'a wonderful, original sampler' who had been 'reinventing himself constantly and creating a new identity' for over half a century.",
     example: {
       title: "Tonight I'll Be Staying Here With You",
       note:
         "The Nashville Skyline croon here is barely recognisable as the same singer who made Highway 61 four years earlier.",
       media: { kind: "youtube", id: "9ZhLGP5dF2k", spotifyId: "3uHpPWsNDTpbbqedCRoaQU" },
     },
-    related: ["acoustic"],
+    related: ["acoustic", "electric", "country", "gospel", "newport-1965"],
   },
   {
     slug: "1960s",
