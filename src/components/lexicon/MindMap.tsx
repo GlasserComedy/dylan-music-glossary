@@ -295,7 +295,7 @@ export function MindMap({
   const itemRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
 
   const shuffledTerms = useMemo(
-    () => oreoOrder(seededShuffle(terms, "dylan-lexicon-v1")),
+    () => layeredOreoOrder(seededShuffle(terms, "dylan-lexicon-v1")),
     [terms],
   );
 
