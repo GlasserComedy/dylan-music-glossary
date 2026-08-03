@@ -526,9 +526,9 @@ export const TERMS: Term[] = [
     title: "Social Commentary",
     category: "Influence",
     definition:
-      "Art that reflects on society's issues.",
+      "Art that observes, critiques, or dramatizes the conditions of society: inequality, war, power, race, class, and the ways ordinary people are caught inside systems larger than themselves. It does not have to preach; sometimes it simply bears witness, making the abstract personal and the personal public.",
     inDylan:
-      "Dylan's early songs spoke to civil rights and war, and his later works continued to explore injustice and humanity.",
+      "Dylan's social commentary shifted in tone and target across the decades. In the early 1960s he wrote directly about civil rights, anti-nuclear fear, and the mechanics of racism, singing at voter-registration drives and marches. By the mid-1960s his songs had become more imagistic and less explicit, but they were still social: Desolation Row and It's Alright, Ma (I'm Only Bleeding) are portraits of hypocrisy and moral compromise. In later years he returned to specific historical injustices — Hurricane Carter, the murder of Medgar Evers — while never allowing himself to be claimed as a spokesman. His influence was to show that a popular song could think about the world without being a sermon.",
     example: {
       title: "Only a Pawn in Their Game",
       note:
@@ -536,6 +536,23 @@ export const TERMS: Term[] = [
       media: { kind: "youtube", id: "8X0UmfBwA_U", spotifyId: "6lib77q4koq52srysevRfT" },
     },
     related: ["protest-song", "topical-song"],
+  },
+  {
+    slug: "suze-rotolo",
+    title: "Suze Rotolo",
+    category: "Influence",
+    definition:
+      "Susan Rotolo (1943–2011) was an American artist, civil-rights activist, and writer best known for her relationship with Bob Dylan in the early 1960s. Raised in a left-wing Greenwich Village family, she was already attending protest meetings and art classes when she met Dylan. She appears beside him on the iconic cover of The Freewheelin' Bob Dylan, and her presence in his life introduced him to books, politics, and a circle of Village thinkers that shaped his early work.",
+    inDylan:
+      "Rotolo was far more than a footnote or a muse. She gave Dylan a reading list that stretched from Bertolt Brecht to the French symbolists, deepened his political awareness, and traveled with him to Italy in 1962-63, a separation that provoked several of his most tender and conflicted love songs. The strength of their bond, and the pain of its eventual dissolution, gave him a way to write about love as something complicated and adult rather than merely romantic. He later said she had a kind of truth in her, and critics have long seen her as a quiet but formative influence on the person he became as a writer.",
+    example: {
+      title: "Don't Think Twice, It's All Right",
+      note:
+        "Written during the period of their separation, the song turns a farewell into a wry, defensive monologue that captures the emotional complexity of their early relationship.",
+      media: { kind: "youtube", id: "1iHhWh9FtsQ", spotifyId: "2WOjLF83vqjit2Zh4B69V3" },
+    },
+    related: ["social-commentary", "protest-song", "greenwich-village"],
+    aliases: ["Susan Rotolo"],
   },
   {
     slug: "strumming",
