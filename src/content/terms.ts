@@ -757,10 +757,10 @@ export const TERMS: Term[] = [
         media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
       },
       {
-        title: "A Red, Red Rose",
+        title: "Auld Lang Syne",
         note:
-          "Robert Burns's most famous love song is the lyric Dylan himself cited as the verse that had the biggest effect on his life.",
-        media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "589xpSCKySfBHl9QSarZ1g" },
+          "Burns's most famous song of friendship and remembrance, heard here in Jean Redpath's warm Scots reading from her celebrated Burns songbook project.",
+        media: { kind: "youtube", id: "yRk_vbg9sWA", spotifyId: "20znEvnRjcngRqm0lnJVhg" },
       },
     ],
     related: ["lyric", "literature", "robert-burns", "imagery"],
@@ -1517,8 +1517,8 @@ export const TERMS: Term[] = [
     example: {
       title: "A Red, Red Rose",
       note:
-        "Burns's song of love outlasting seas and stones is the very lyric Dylan singled out as his most important inspiration as a songwriter, heard here in Jean Redpath's definitive Scots reading.",
-      media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "1mnZJhThITmq9urDmCWlt7" },
+        "Burns's song of love outlasting seas and stones is the very lyric Dylan singled out as his most important inspiration as a songwriter, heard here in Eva Cassidy's tender reading.",
+      media: { kind: "youtube", id: "5e0D_B0tdc0", spotifyId: "589xpSCKySfBHl9QSarZ1g" },
     },
     aliases: ["Jean Redpath", "Burns", "Scottish bard", "A Red Red Rose"],
     related: ["bard", "lyric", "literature", "folk-revival"],
