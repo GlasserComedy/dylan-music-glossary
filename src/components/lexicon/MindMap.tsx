@@ -125,12 +125,12 @@ type Label = {
 };
 
 
-const RX_FRAC = 0.98;
-const RY_FRAC = 0.9;
-const HOLE = 0.26; // keep the center clear for the Dylan head
-// Superellipse exponent for the outer boundary: >2 lets the cloud reach
-// sparsely into the corners instead of stopping at a plain ellipse.
-const BOUND_N = 3.2;
+const RX_FRAC = 0.92;
+const RY_FRAC = 0.86;
+const HOLE = 0.28; // keep the center clear for the Dylan head
+// Superellipse exponent for the outer boundary: higher values pull the corners
+// inward, leaving more room for the mid-left and mid-right labels.
+const BOUND_N = 4.2;
 
 function clamp(v: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, v));
