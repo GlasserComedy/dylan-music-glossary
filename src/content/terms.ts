@@ -126,7 +126,7 @@ export const TERMS: Term[] = [
     example: {
       title: "Knockin' on Heaven's Door",
       note:
-        "Its endlessly repeating four-chord cycle is simple and effective, helping make the song itself one of the most covered in popular music."
+        "Its endlessly repeating four-chord cycle is simple and effective, helping make the song itself one of the most covered in popular music.",
       media: { kind: "youtube", id: "rm9coqlk8fY", spotifyId: "5Qyq0oeQ0amjnpwne2usj0" },
     },
     related: ["harmony", "rhythm"],
