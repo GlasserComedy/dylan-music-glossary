@@ -167,6 +167,12 @@ function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
  * normalised space keeps the angular spread even instead of piling labels up
  * at the top and bottom.
  */
+
+const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number }> = {
+  "reggae": { angle: 0.2, baseR: 0.58 },
+  "washington-square-park": { angle: 0.0, baseR: 0.55 },
+};
+
 function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
   const cx = w / 2;
   const cy = h / 2;
@@ -175,10 +181,11 @@ function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
   const goldenAngle = Math.PI * (3 - Math.sqrt(5));
 
   return terms.map((term, i) => {
+    const override = POSITION_OVERRIDES[term.slug];
     // Area-uniform radius so the cloud density is flat, not ring-y.
-    const rNorm = Math.sqrt((i + 0.5) / terms.length);
+    const rNorm = override ? override.baseR : Math.sqrt((i + 0.5) / terms.length);
     const r = HOLE + (1 - HOLE) * rNorm;
-    const angle = i * goldenAngle;
+    const angle = override ? override.angle : i * goldenAngle;
     return {
       term,
       angle,
