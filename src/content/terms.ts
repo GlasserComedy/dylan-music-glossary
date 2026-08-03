@@ -272,16 +272,16 @@ export const TERMS: Term[] = [
     title: "Lyric",
     category: "Words",
     definition:
-      "The words of a song, distinct from its music. Lyrics can be narrative, poetic, direct, or oblique.",
+      "The words of a song, distinct from melody and harmony. The term reaches back to ancient Greece, where a lyric was a poem sung to the lyre, and it has come to mean any short, song-like verse that compresses feeling into a few charged lines. In popular music, the lyric is the carrier of story, image, argument, and mood.",
     inDylan:
-      "From Like a Rolling Stone to Blood on the Tracks, Dylan reset what a popular song's words were allowed to do.",
+      "From the earliest folk songs to the late-period meditations, Dylan treated the lyric as a form capable of anything: reportage, confession, prophecy, joke, and dream. He absorbed the Romantic lyric of Robert Burns, the modernist density of Eliot and Pound, the blues' stoic shorthand, and the talking blues' stand-up monologue, then folded them into a voice that reset what a popular song's words were allowed to do.",
     example: {
       title: "Shelter from the Storm",
       note:
         "The words carry the whole song \u2014 a plainspoken narrative of refuge and betrayal whose power lies almost entirely in the writing.",
       media: { kind: "youtube", id: "-gsDBuHwqbM", spotifyId: "0e7x8s2ke6KxkWwrL4HJMB" },
     },
-    related: ["abstract-lyrics", "imagery", "narrative"],
+    related: ["abstract-lyrics", "imagery", "narrative", "bard", "literature"],
   },
   {
     slug: "metaphor",
