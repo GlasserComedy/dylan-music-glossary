@@ -1315,12 +1315,12 @@ export const TERMS: Term[] = [
     definition:
       "A folk and blues singer, guitarist, and fixture of the Greenwich Village scene, often called the 'Mayor of MacDougal Street.' His encyclopedic knowledge of traditional blues and ragtime made him a mentor to younger musicians arriving in the early 1960s.",
     inDylan:
-      "Dylan met Van Ronk soon after reaching the Village and quickly fell under his influence. Van Ronk's version of 'He Was a Friend of Mine' was part of the same older blues and folk repertoire he carried around MacDougal Street, and Dylan's early recording of the song carries the stamp of those club-floor lessons. Van Ronk remained a presence in the Village long after Dylan's fame eclipsed the small clubs they had both played.",
+      "Dylan met Van Ronk soon after reaching the Village and quickly fell under his influence. Van Ronk's own recording of 'He Was a Friend of Mine' captures the thick, bluesy guitar style and rough-weathered voice that made him a hero on MacDougal Street, and Dylan's early version of the song carries the stamp of those club-floor lessons. Van Ronk remained a presence in the Village long after Dylan's fame eclipsed the small clubs they had both played.",
     example: {
       title: "He Was a Friend of Mine",
       note:
-        "A traditional song Van Ronk sang in the Village clubs; Dylan's early studio recording keeps the mournful, fingerpicked feel he absorbed from performers like Van Ronk.",
-      media: { kind: "youtube", id: "HB2EPoiWL7A", spotifyId: "31adUUhOn34ZXxrzuUhbuw" },
+        "Van Ronk's own recording, with its heavy fingerpicking and gruff vocal, shows why he was the keeper of the old songs on MacDougal Street.",
+      media: { kind: "youtube", id: "754sRFIHIrA", spotifyId: "38bVZHfIbyZcbt9C465E3e" },
     },
     related: ["greenwich-village", "folk-revival", "blues", "traditional"],
     aliases: [
