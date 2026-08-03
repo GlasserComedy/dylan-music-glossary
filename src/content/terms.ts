@@ -1104,6 +1104,23 @@ export const TERMS: Term[] = [
     },
   },
   {
+    slug: "umm-kulthum",
+    title: "Umm Kulthum",
+    category: "Influence",
+    definition:
+      "Umm Kulthum (also spelled Om Khalsoum) was the most celebrated singer in the Arab world, known as the 'Star of the East' for her powerful, emotionally intense performances of long, poetic songs. Her voice moved through long, ornamented phrases and dramatic shifts in dynamics, accompanied by large orchestras that followed her every gesture.",
+    inDylan:
+      "Dylan named Umm Kulthum his favorite singer after first hearing her in Jerusalem. He said that Middle Eastern singing was a source for his own vocal approach, and the influence is audible in the way he stretches and ornaments lines on songs such as One More Cup of Coffee, letting the voice wander and hang in the air like one of her slow, winding melodies.",
+    example: {
+      title: "Enta Omri",
+      note:
+        "This epic love song, composed by Mohamed Abdel Wahab, shows the sustained, ornamental phrasing that fascinated Dylan and that echoes in his most Eastern-tinged vocal performances.",
+      media: { kind: "youtube", id: "XPGHpBOt5sE", spotifyId: "0ivlkHUXmRfJWT3RwQuBcz" },
+    },
+    aliases: ["Om Khalsoum", "Umm Kalthoum", "Om Kalsoum", "Oum Kalthoum"],
+    related: ["vocal-style", "violin"],
+  },
+  {
     slug: "voice-of-a-generation",
     title: "Voice of a Generation",
     category: "Reinvention",
