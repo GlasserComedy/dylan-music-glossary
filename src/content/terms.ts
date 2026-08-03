@@ -1080,16 +1080,16 @@ export const TERMS: Term[] = [
     title: "Rock",
     category: "Roots",
     definition:
-      "A genre driven by electric instruments and strong rhythm.",
+      "A broad popular-music form rooted in rhythm and blues, country, gospel, and Tin Pan Alley, powered by electric guitars, bass, drums, and a driving backbeat. From its 1950s birth through endless offshoots — rockabilly, surf, psychedelic, hard rock, punk, and beyond — rock has remained a vessel for rebellion, romance, and social commentary, loud enough to fill a stadium and intimate enough to carry a single voice.",
     inDylan:
-      "Dylan fused rock with poetic lyrics, proving the genre could be more than entertainment.",
+      "Dylan carried the ambition of folk and modernist poetry straight into rock, showing that a three-minute single could be as dense and unsettling as a novel. His leap to electric instrumentation at the 1965 Newport Folk Festival and on albums like Bringing It All Back Home, Highway 61 Revisited, and Blonde on Blonde reframed the genre: rock no longer had to be simple teenage entertainment, and lyrics could be surreal, personal, and literary. Backed by the Hawks (later The Band), his 1966 world tour pushed the music into bruising, improvisatory territory that foreshadowed much of the rock that followed.",
     example: {
       title: "Highway 61 Revisited",
       note:
-        "The title track drives on electric blues-rock, with a slide whistle punctuating the verses.",
+        "The title track is a rattling electric blues-rock joyride, punctuated by a police siren slide whistle and a lyric that turns a road-trip into a carnival of American archetypes.",
       media: { kind: "youtube", id: "8hr3Stnk8_k", spotifyId: "6os5B6xjuke9YfBKH3tu1e" },
     },
-    related: ["electric", "folk-rock"],
+    related: ["electric", "folk-rock", "blues", "newport-1965", "the-band"],
   },
   {
     slug: "vinyl",
