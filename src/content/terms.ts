@@ -1413,9 +1413,9 @@ export const TERMS: Term[] = [
     title: "The Band",
     category: "Influence",
     definition:
-      "The group that backed Dylan on his first electric tours and became a defining act of American roots rock.",
+      "A Canadian-American roots-rock group, originally the backing band for rockabilly singer Ronnie Hawkins, who became the definitive ensemble behind Dylan's electric reinvention and went on to shape American rock as a self-contained unit. Their sound was a deliberate rejection of late-1960s psychedelic excess: slowed tempos, wood-and-rust textures, organ, piano, mandolin, and interlocking vocals that sounded like a front-porch conversation. In their early years with Hawkins they were known as the Hawks, and after they broke away they toured briefly as Levon and the Hawks before settling on the simple, self-effacing name The Band.",
     inDylan:
-      "They weathered the boos of the 1966 tour with him, made the Basement Tapes together, and returned for the 1974 comeback tour.",
+      "They weathered the boos of the 1966 world tour with him, anchored the informal Basement Tapes recordings in Woodstock in 1967, and rejoined him for the triumphant 1974 comeback tour. Rick Danko's bass and Levon Helm's drums gave the songs a rolling, conversational feel; Richard Manuel's and Helm's harmonies wrapped Dylan's voice in a rough, gospel warmth; Garth Hudson's Lowrey organ and Robbie Robertson's guitar supplied color without clutter. When Dylan retreated from the spotlight after his 1966 motorcycle accident, The Band's music from the Big Pink house in West Saugerties became the soundtrack of his seclusion, and their first two albums, Music from Big Pink and The Band, are inseparable from the sound world Dylan helped create. Their later appearances together — the 1974 tour, the Last Waltz concert film — confirmed that the partnership was one of the deepest in rock history.",
     example: {
       title: "I Shall Be Released",
       note:
