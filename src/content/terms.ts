@@ -1668,7 +1668,7 @@ export const TERMS: Term[] = [
       title: "A Hard Rain's A-Gonna Fall (Nobel ceremony, 2016)",
       note:
         "Her faltering, restarted performance in Stockholm made the song's weight audible in a way a flawless reading could not.",
-      media: { kind: "youtube", id: "941PHEJHCwU", spotifyId: "7ny2ATvjtKszCpLpfsGnVQ" },
+      media: { kind: "youtube", id: "941PHEJHCwU", spotifyId: "0lIoY4ZQsdn5QzhraM9o9u" },
     },
     related: ["abstract-lyrics", "literature", "cover"],
     aliases: ["punk", "Horses", "Nobel Prize 2016", "Stockholm"],
