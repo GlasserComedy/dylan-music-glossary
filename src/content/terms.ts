@@ -272,16 +272,16 @@ export const TERMS: Term[] = [
     title: "Lyric",
     category: "Words",
     definition:
-      "The words of a song, distinct from its music. Lyrics can be narrative, poetic, direct, or oblique.",
+      "The words of a song, distinct from melody and harmony. The term reaches back to ancient Greece, where a lyric was a poem sung to the lyre, and it has come to mean any short, song-like verse that compresses feeling into a few charged lines. In popular music, the lyric is the carrier of story, image, argument, and mood.",
     inDylan:
-      "From Like a Rolling Stone to Blood on the Tracks, Dylan reset what a popular song's words were allowed to do.",
+      "From the earliest folk songs to the late-period meditations, Dylan treated the lyric as a form capable of anything: reportage, confession, prophecy, joke, and dream. He absorbed the Romantic lyric of Robert Burns, the modernist density of Eliot and Pound, the blues' stoic shorthand, and the talking blues' stand-up monologue, then folded them into a voice that reset what a popular song's words were allowed to do.",
     example: {
       title: "Shelter from the Storm",
       note:
         "The words carry the whole song \u2014 a plainspoken narrative of refuge and betrayal whose power lies almost entirely in the writing.",
       media: { kind: "youtube", id: "-gsDBuHwqbM", spotifyId: "0e7x8s2ke6KxkWwrL4HJMB" },
     },
-    related: ["abstract-lyrics", "imagery", "narrative"],
+    related: ["abstract-lyrics", "imagery", "narrative", "bard", "literature"],
   },
   {
     slug: "metaphor",
@@ -725,6 +725,30 @@ export const TERMS: Term[] = [
     related: ["surrealism", "jack-kerouac"],
   },
   {
+    slug: "bard",
+    title: "Bard",
+    category: "Words",
+    definition:
+      "A poet or singer who composes and recites verse, often accompanied by music. The title carries the weight of national tradition: William Shakespeare is the Bard of Avon, Robert Burns the Bard of Ayrshire, and in the folk world a bard is simply the person who remembers and reshapes the songs a community lives by.",
+    inDylan:
+      "Dylan's work belongs to this lineage of song-poets. He has bowed to Shakespeare and Burns as towering figures, and his own songs function as modern bardic testimony: songs of love, wandering, judgment, and social witness that have been passed from voice to voice across generations.",
+    examples: [
+      {
+        title: "Desolation Row",
+        note:
+          "Romeo, Ophelia, and a whole gallery of Shakespearean shadows drift through this long, dreamlike song, placing Dylan inside the bardic tradition of dramatic verse.",
+        media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
+      },
+      {
+        title: "A Red, Red Rose",
+        note:
+          "Robert Burns's most famous love song is the lyric Dylan himself cited as the verse that had the biggest effect on his life.",
+        media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "5NhqukW4NzQYPF8zP42M49" },
+      },
+    ],
+    related: ["lyric", "literature", "robert-burns", "imagery"],
+  },
+  {
     slug: "beat-generation",
     title: "Beat Generation",
     category: "Influence",
@@ -967,7 +991,7 @@ export const TERMS: Term[] = [
         "Its biblical and mythic imagery reads as poetry on the page as much as lyric on the record, a song that could sit beside Blake and the Book of Revelation.",
       media: { kind: "youtube", id: "r9MXMHzlGIM", spotifyId: "3K10pmwoFZt5N6ESWvDQkv" },
     },
-    related: ["nobel-prize", "lyric", "jack-kerouac", "metaphor", "imagery"],
+    related: ["nobel-prize", "lyric", "jack-kerouac", "metaphor", "imagery", "bard", "robert-burns"],
   },
   {
     slug: "melody",
@@ -1447,6 +1471,22 @@ export const TERMS: Term[] = [
       media: { kind: "youtube", id: "Kxi4XkIVWLQ", spotifyId: "1TrGdXSgiBm8W68D2K1COG" },
     },
     related: ["blues", "imagery", "folklore"],
+  },
+  {
+    slug: "robert-burns",
+    title: "Robert Burns",
+    category: "Influence",
+    definition:
+      "The eighteenth-century Scottish poet and songwriter regarded as Scotland's national bard. Burns collected, revised, and immortalized folk songs in both Scots and English, turning everyday speech into some of the most durable love, drinking, and social-justice verses in the language.",
+    inDylan:
+      "In 2008 Dylan named Burns his greatest inspiration, citing the 1794 love song A Red, Red Rose as the lyric or verse that had the biggest effect on his life. The choice placed a Scottish folk poet at the root of a distinctly American songwriting voice.",
+    example: {
+      title: "A Red, Red Rose",
+      note:
+        "Burns's song of love outlasting seas and stones is the very lyric Dylan singled out as his most important inspiration as a songwriter.",
+      media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "5NhqukW4NzQYPF8zP42M49" },
+    },
+    related: ["bard", "lyric", "literature", "folk-revival"],
   },
   {
     slug: "jimmie-rodgers",
