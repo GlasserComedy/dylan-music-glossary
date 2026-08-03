@@ -725,6 +725,30 @@ export const TERMS: Term[] = [
     related: ["surrealism", "jack-kerouac"],
   },
   {
+    slug: "bard",
+    title: "Bard",
+    category: "Words",
+    definition:
+      "A poet or singer who composes and recites verse, often accompanied by music. The title carries the weight of national tradition: William Shakespeare is the Bard of Avon, Robert Burns the Bard of Ayrshire, and in the folk world a bard is simply the person who remembers and reshapes the songs a community lives by.",
+    inDylan:
+      "Dylan's work belongs to this lineage of song-poets. He has bowed to Shakespeare and Burns as towering figures, and his own songs function as modern bardic testimony: songs of love, wandering, judgment, and social witness that have been passed from voice to voice across generations.",
+    examples: [
+      {
+        title: "Desolation Row",
+        note:
+          "Romeo, Ophelia, and a whole gallery of Shakespearean shadows drift through this long, dreamlike song, placing Dylan inside the bardic tradition of dramatic verse.",
+        media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
+      },
+      {
+        title: "A Red, Red Rose",
+        note:
+          "Robert Burns's most famous love song is the lyric Dylan himself cited as the verse that had the biggest effect on his life.",
+        media: { kind: "youtube", id: "iMPR9g9IVzU", spotifyId: "5NhqukW4NzQYPF8zP42M49" },
+      },
+    ],
+    related: ["lyric", "literature", "robert-burns", "imagery"],
+  },
+  {
     slug: "beat-generation",
     title: "Beat Generation",
     category: "Influence",
