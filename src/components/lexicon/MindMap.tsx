@@ -84,15 +84,34 @@ const PEOPLE_SLUGS = new Set([
 ]);
 
 /**
- * Oreo ordering: non-people fill the inner core and the outer crust, while the
- * people sit in the creamy middle band.
+ * Interleaved oreo ordering: non-people are split into inner and outer
+ * layers, and people sit in the middle band, but we interleave the layers
+ * so each angular sector gets a mix of lengths and avoids left/right clustering.
  */
-function oreoOrder(terms: Term[]): Term[] {
+function layeredOreoOrder(terms: Term[]): Term[] {
   const people = terms.filter((t) => PEOPLE_SLUGS.has(t.slug));
   const others = terms.filter((t) => !PEOPLE_SLUGS.has(t.slug));
   const inner = others.slice(0, Math.round(others.length * 0.45));
   const outer = others.slice(Math.round(others.length * 0.45));
-  return [...inner, ...people, ...outer];
+
+  // Shuffle each layer separately so each ring is organic, but interleave them
+  // to keep the angular spread even (not a block of people all in one sector).
+  const shuffledInner = seededShuffle(inner, "dylan-lexicon-inner");
+  const shuffledPeople = seededShuffle(people, "dylan-lexicon-people");
+  const shuffledOuter = seededShuffle(outer, "dylan-lexicon-outer");
+
+  const result: Term[] = [];
+  const maxLen = Math.max(
+    shuffledInner.length,
+    shuffledPeople.length,
+    shuffledOuter.length,
+  );
+  for (let i = 0; i < maxLen; i++) {
+    if (shuffledInner[i]) result.push(shuffledInner[i]);
+    if (shuffledPeople[i]) result.push(shuffledPeople[i]);
+    if (shuffledOuter[i]) result.push(shuffledOuter[i]);
+  }
+  return result;
 }
 
 type Label = {
@@ -106,12 +125,12 @@ type Label = {
 };
 
 
-const RX_FRAC = 0.98;
-const RY_FRAC = 0.9;
-const HOLE = 0.26; // keep the center clear for the Dylan head
-// Superellipse exponent for the outer boundary: >2 lets the cloud reach
-// sparsely into the corners instead of stopping at a plain ellipse.
-const BOUND_N = 3.2;
+const RX_FRAC = 0.92;
+const RY_FRAC = 0.86;
+const HOLE = 0.28; // keep the center clear for the Dylan head
+// Superellipse exponent for the outer boundary: higher values pull the corners
+// inward, leaving more room for the mid-left and mid-right labels.
+const BOUND_N = 4.2;
 
 function clamp(v: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, v));
@@ -183,7 +202,7 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
   const rx = (w / 2) * RX_FRAC;
   const ry = (h / 2) * RY_FRAC;
   const { hrx, hry } = headEllipse(w, h);
-  const headMargin = 34;
+  const headMargin = 44;
 
   const boxes = labels.map((l) => ({
     ...l,
@@ -191,10 +210,10 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
     ny: (l.y - cy) / ry,
   }));
 
-  const padX = 10;
-  const padY = 4;
+  const padX = 18;
+  const padY = 8;
 
-  for (let iter = 0; iter < 240; iter++) {
+  for (let iter = 0; iter < 360; iter++) {
     let moved = false;
 
     for (let i = 0; i < boxes.length; i++) {
@@ -276,7 +295,7 @@ export function MindMap({
   const itemRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
 
   const shuffledTerms = useMemo(
-    () => oreoOrder(seededShuffle(terms, "dylan-lexicon-v1")),
+    () => layeredOreoOrder(seededShuffle(terms, "dylan-lexicon-v1")),
     [terms],
   );
 
