@@ -818,16 +818,37 @@ export const TERMS: Term[] = [
     title: "Greenwich Village",
     category: "Influence",
     definition:
-      "The New York City neighborhood that was the hub of the 1960s folk scene.",
+      "A Lower Manhattan neighborhood whose low brick townhouses, hidden courtyards, and crooked streets have drawn artists, writers, and radicals since the nineteenth century. Long before the 1960s, its small-scale architecture and cheap rents made it a refuge for painters, poets, and performers who wanted to live outside the city's commercial grid.",
     inDylan:
-      "Dylan cut his teeth in Village clubs like Café Wha? and The Gaslight Café, where he honed his style.",
+      "Dylan arrived in Greenwich Village in January 1961 and found a scene that had been decades in the making. He cut his teeth in clubs like Café Wha?, The Gaslight Café, and Gerde's Folk City, learning from the singers who had already made MacDougal and Bleecker streets a working laboratory for folk, blues, and jazz. The Village's history as an artists' quarter gave the young songwriter a ready-made world of cafés, crash pads, and audiences, and its belief that a song could be both art and argument shaped his ambition long before he became famous.",
     example: {
       title: "Talkin' New York",
       note:
         "Dylan's own account of arriving in the Village, written in the talking-blues style he learned in its clubs.",
       media: { kind: "youtube", id: "rxIJnZQmTt4", spotifyId: "1X6dRpq3Wi6Jxthi8ZBBBz" },
     },
-    related: ["folk-revival"],
+    related: ["folk-revival", "washington-square-park", "dave-van-ronk"],
+  },
+  {
+    slug: "washington-square-park",
+    title: "Washington Square Park",
+    category: "Influence",
+    definition:
+      "A public park at the heart of Greenwich Village, famous for its marble arch and its long tradition as an unofficial outdoor stage for folk musicians, protest singers, and street performers.",
+    inDylan:
+      "On Sunday afternoons, when the weather was warm, musicians gathered around the fountain and played for passersby, giving newcomers like Dylan a free place to test songs and find a community. In April 1961 the city tried to restrict singing in the park, sparking the 'Folk Riot' that saw musicians and supporters defend the park as a shared cultural space. For Dylan, Washington Square Park was the front porch of the Village scene: a place to hear a new chord, meet a rival, or learn a song that would travel far beyond Manhattan.",
+    example: {
+      title: "Blowin' in the Wind",
+      note:
+        "The questions Dylan wrote in the Village in 1962 moved from the park's benches to the national stage, becoming an anthem of the folk revival.",
+      media: { kind: "youtube", id: "MMFj8uDubsE", spotifyId: "18GiV1BaXzPVYpp9rmOg0E" },
+    },
+    related: ["greenwich-village", "folk-revival", "dave-van-ronk"],
+    aliases: [
+      "Washington Square",
+      "Folk Riot",
+      "1961",
+    ],
   },
   {
     slug: "guitar",
@@ -1286,6 +1307,26 @@ export const TERMS: Term[] = [
       media: { kind: "youtube", id: "VO39e5Uznu4", spotifyId: "0P4ICD4ck53aHPSzQasWtA" },
     },
     related: ["folk-revival", "protest-song", "newport-1965"],
+  },
+  {
+    slug: "dave-van-ronk",
+    title: "Dave Van Ronk",
+    category: "Influence",
+    definition:
+      "A folk and blues singer, guitarist, and fixture of the Greenwich Village scene, often called the 'Mayor of MacDougal Street.' His encyclopedic knowledge of traditional blues and ragtime made him a mentor to younger musicians arriving in the early 1960s.",
+    inDylan:
+      "Dylan met Van Ronk soon after reaching the Village and quickly fell under his influence. When Dylan recorded 'House of the Rising Sun' on his 1962 debut, he used the elaborate fingerpicked arrangement he had learned from Van Ronk's performances \u2014 a borrowing that annoyed his friend but introduced a generation to the song. Van Ronk remained a presence in the Village long after Dylan's fame eclipsed the small clubs they had both played.",
+    example: {
+      title: "House of the Rising Sun",
+      note:
+        "Dylan's version owes its guitar arrangement to Van Ronk, whose long residence at the Village clubs made him a keeper of the old blues and ragtime songs.",
+      media: { kind: "youtube", id: "RP_caKDfoyU", spotifyId: "6UpBloUMfnW5TXK5V8g787" },
+    },
+    related: ["greenwich-village", "folk-revival", "blues", "traditional"],
+    aliases: [
+      "Mayor of MacDougal Street",
+      "MacDougal Street",
+    ],
   },
   {
     slug: "allen-ginsberg",
