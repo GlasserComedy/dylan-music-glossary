@@ -312,7 +312,27 @@ function LexiconPage() {
         </div>
       </header>
 
-      {/* Mind map stage + detail panel */}
+      {/* Mobile: scrollable A–Z list. Desktop: mind map stage. */}
+      {isMobile ? (
+        <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
+          <TermList
+            terms={TERMS}
+            activeSlug={activeSlug}
+            selectedLetter={selectedLetter}
+            selectedCategory={selectedCategory}
+            onSelectTerm={openTerm}
+          />
+          {activeTerm && (
+            <div className="fixed inset-0 z-40 bg-paper">
+              <TermDetail
+                term={activeTerm}
+                onSelectTerm={openTerm}
+                onClose={() => setActiveSlug(null)}
+              />
+            </div>
+          )}
+        </main>
+      ) : (
       <main className="relative min-h-0 flex-1">
         <div
           onClick={() => {
@@ -350,9 +370,12 @@ function LexiconPage() {
           </div>
         )}
       </main>
+      )}
 
       {/* Alphabet */}
-      <div className="relative z-10 shrink-0 -translate-y-full">
+      <div
+        className={`relative z-10 shrink-0 ${isMobile ? "" : "-translate-y-full"}`}
+      >
         <AlphabetStrip
           terms={TERMS}
           activeLetter={activeLetter}
