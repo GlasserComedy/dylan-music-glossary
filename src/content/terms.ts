@@ -76,10 +76,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan never released a fully a cappella recording, but his songs have been arranged by choirs and vocal groups that strip away instruments and let the lyrics and harmony carry everything.",
     example: {
-      title: "Man of Constant Sorrow",
+      title: "Down To The River To Pray",
       note:
-        "Home Free's all-vocal cover of the folk standard Dylan recorded on his 1962 debut replaces instruments with harmony and vocal percussion, turning the song into a contemporary a cappella performance.",
-      media: { kind: "youtube", id: "-ew_bfFvros", spotifyId: "2cCbLVs1UlYPmvRjj666Uu" },
+        "Alison Krauss's recording from the O Brother, Where Art Thou? soundtrack presents the spiritual as a spare, unaccompanied vocal, letting the melody and harmony unfold through voices alone.",
+      media: { kind: "youtube", id: "4SZv7JJqcNY", spotifyId: "79x6uDDP9EAT5c35zOZhXv" },
     },
     related: ["instrumental", "harmony", "folk-revival"],
   },
