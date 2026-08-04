@@ -948,10 +948,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan's approach to improvisation was shaped by folk's loose, oral tradition and by the freedom of jazz phrasing. He rarely performs a song the same way twice, improvising lyrics, phrasing, arrangements, and even entire verses in concert. His live versions often rewrite point of view, key, and emotional tone, treating the recorded song as a sketch rather than a final statement.",
     example: {
-      title: "Tangled Up in Blue (live variations)",
+      title: "Shelter from the Storm (Live at Hughes Stadium, 1976)",
       note:
-        "Dylan has rewritten this song's lyrics, key and point of view repeatedly in performance over five decades, turning it into a living example of how improvisation can keep a song changing long after it was first recorded.",
-      media: { kind: "youtube", id: "YwSZvHqf9qM", spotifyId: "5D0dv42CZd5xtlLVxDFXs3" },
+        "A Rolling Thunder Revue performance in which Dylan stretches the song with slide-guitar improvisations during the instrumental interludes between verses, turning a familiar studio recording into a spontaneous, reinvented live reading.",
+      media: { kind: "youtube", id: "R53v2kxqkV4", spotifyId: "1epVIWOekLaPhio5WRCcsp" },
     },
   },
   {
