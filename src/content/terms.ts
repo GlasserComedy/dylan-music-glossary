@@ -1367,7 +1367,7 @@ export const TERMS: Term[] = [
   },
   {
     slug: "rap",
-    title: "Rap",
+    title: "Rap/Hip Hop",
     category: "Roots",
     definition:
       "Rhythmic, rhymed speech delivered over a beat \u2014 a spoken vocal tradition that became the backbone of hip-hop.",
