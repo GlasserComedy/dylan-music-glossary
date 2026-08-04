@@ -1429,7 +1429,7 @@ export const TERMS: Term[] = [
       title: "America",
       note:
         "Ginsberg's sprawling address to his own country \u2014 accusatory, funny, and cataloguing \u2014 is the poetic register Dylan reaches for in songs like It's Alright, Ma.",
-      media: { kind: "youtube", id: "o9_aJqtnmPo" },
+      media: { kind: "youtube", id: "o9_aJqtnmPo", spotifyId: "6XVVPboSP8bsaNHRditnk9" },
     },
     related: ["beat-generation", "jack-kerouac", "literature"],
   },
