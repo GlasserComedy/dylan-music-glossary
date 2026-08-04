@@ -276,10 +276,10 @@ export const TERMS: Term[] = [
     inDylan:
       "From the earliest folk songs to the late-period meditations, Dylan treated the lyric as a form capable of anything: reportage, confession, prophecy, joke, and dream. He absorbed the Romantic lyric of Robert Burns, the modernist density of Eliot and Pound, the blues' stoic shorthand, and the talking blues' stand-up monologue, then folded them into a voice that reset what a popular song's words were allowed to do.",
     example: {
-      title: "Shelter from the Storm",
+      title: "Changing of the Guards",
       note:
-        "The words carry the whole song \u2014 a plainspoken narrative of refuge and betrayal whose power lies almost entirely in the writing.",
-      media: { kind: "youtube", id: "-gsDBuHwqbM", spotifyId: "0e7x8s2ke6KxkWwrL4HJMB" },
+        "Eight verses of tarot cards, mercenaries and moonlight that never resolve into plain sense \u2014 the lyric working as pure image and incantation rather than story.",
+      media: { kind: "youtube", id: "qZhMvLuoMaM", spotifyId: "2vVpjZxlSiqR5wr2YeZPB2" },
     },
     related: ["abstract-lyrics", "imagery", "narrative", "bard", "literature"],
   },
@@ -1137,10 +1137,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan named Umm Kulthum his favorite singer after first hearing her in Jerusalem. He said that Middle Eastern singing was a source for his own vocal approach, and the influence is audible in the way he stretches and ornaments lines on songs such as One More Cup of Coffee, letting the voice wander and hang in the air like one of her slow, winding melodies.",
     example: {
-      title: "Enta Omri",
+      title: "Alf Leila We Leila (A Thousand and One Nights)",
       note:
-        "This epic love song, composed by Mohamed Abdel Wahab, shows the sustained, ornamental phrasing that fascinated Dylan and that echoes in his most Eastern-tinged vocal performances.",
-      media: { kind: "youtube", id: "XPGHpBOt5sE", spotifyId: "0ivlkHUXmRfJWT3RwQuBcz" },
+        "An hour-long meditation on a single night of love, where one line can be turned over for minutes at a time \u2014 the sustained, ornamental phrasing that fascinated Dylan and echoes in his most Eastern-tinged vocals.",
+      media: { kind: "youtube", id: "3xzySqYNKkA", spotifyId: "7kOtvS6igRttHxNnJDyaQD" },
     },
     aliases: ["Om Khalsoum", "Umm Kalthoum", "Om Kalsoum", "Oum Kalthoum"],
     related: ["vocal-style", "violin"],
@@ -1442,10 +1442,10 @@ export const TERMS: Term[] = [
     inDylan:
       "They weathered the boos of the 1966 world tour with him, anchored the informal Basement Tapes recordings in Woodstock in 1967, and rejoined him for the triumphant 1974 comeback tour. Rick Danko's bass and Levon Helm's drums gave the songs a rolling, conversational feel; Richard Manuel's and Helm's harmonies wrapped Dylan's voice in a rough, gospel warmth; Garth Hudson's Lowrey organ and Robbie Robertson's guitar supplied color without clutter. When Dylan retreated from the spotlight after his 1966 motorcycle accident, The Band's music from the Big Pink house in West Saugerties became the soundtrack of his seclusion, and their first two albums, Music from Big Pink and The Band, are inseparable from the sound world Dylan helped create. Their later appearances together — the 1974 tour, the Last Waltz concert film — confirmed that the partnership was one of the deepest in rock history.",
     example: {
-      title: "I Shall Be Released",
+      title: "The Night They Drove Old Dixie Down",
       note:
-        "A Dylan song written during the Basement Tapes sessions and made famous by The Band \u2014 his writing, their weathered harmony and organ-led arrangement.",
-      media: { kind: "youtube", id: "MjtPBjEz-BA", spotifyId: "7fGYJT5dBuGFxER8iWS8nQ" },
+        "Robbie Robertson's Civil War ballad sung from the losing side, carried by Levon Helm's Arkansas drawl \u2014 the clearest statement of the weathered, communal American sound The Band built alongside Dylan.",
+      media: { kind: "youtube", id: "6dDbnwQlCek", spotifyId: "2nvcTDmZkRWKNMAL29sLHo" },
     },
     related: ["electric", "folk-rock", "harmony"],
   },
