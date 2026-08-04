@@ -336,9 +336,9 @@ export const TERMS: Term[] = [
     title: "Nobel Prize",
     category: "Influence",
     definition:
-      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.'",
+      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.' He was the first songwriter ever to receive it, and the announcement by Permanent Secretary Sara Danius on 13 October 2016 was met with a long, startled silence in the Stockholm press room before the questions began.",
     inDylan:
-      "The award reframed the popular song as literature and set off wide debate about the boundaries of the form.",
+      "The award reframed the popular song as literature and set off a wide argument about the boundaries of the form \u2014 novelists objecting that a songwriter had taken a slot from literature, critics answering that Homer and Sappho were also meant to be heard rather than read, a comparison Danius made explicitly. Dylan said nothing for two weeks, did not attend the December ceremony, and sent Patti Smith to sing A Hard Rain's a-Gonna Fall in his place; she stopped mid-song, apologised, and began the verse again, a moment that became as remembered as the prize itself. He accepted with a short written speech read on his behalf, admitting he had never once asked himself whether his songs were literature, and delivered the required Nobel lecture only in June 2017, days before the deadline \u2014 a recorded talk in which he traced his writing back to Moby-Dick, All Quiet on the Western Front and the Odyssey, and closed by saying that songs, like plays, are meant to be performed, not read.",
     example: {
       title: "Mr. Tambourine Man",
       note:
@@ -503,9 +503,9 @@ export const TERMS: Term[] = [
     title: "Keyboard",
     category: "Performance",
     definition:
-      "A family of instruments including piano and organ.",
+      "A family of instruments played from a set of keys \u2014 piano, upright and grand, church and electric organ, harmonium, electric piano and synthesizer. In a band arrangement the keyboard does work no other instrument can: it can lay down chords, carry a bass line, sustain a pad underneath the vocal, or answer the singer with a countermelody, all from one seat.",
     inDylan:
-      "Dylan used keyboards both live and in the studio, expanding his sound beyond guitar-based arrangements.",
+      "Keyboards run through Dylan's records from the beginning and eventually became his own instrument on stage. Al Kooper's improvised Hammond organ on Like a Rolling Stone \u2014 played by a guitarist who had never touched the instrument professionally, and pushed up in the mix at Dylan's insistence \u2014 defined the sound of the 1965 electric records. Garth Hudson's organ gave the Basement Tapes and the 1974 tour their churchy undertow; Paul Griffin's piano drives Ballad of a Thin Man. Dylan himself played piano on Highway 61 sessions, on New Morning, and across the gospel albums, and from roughly 2003 onward he abandoned the guitar in concert almost entirely, fronting the band from an upright piano or an electric keyboard \u2014 a shift that changed his phrasing, letting him punch chords between vocal lines rather than strum through them.",
     example: {
       title: "Blind Willie McTell",
       note:
@@ -1150,9 +1150,9 @@ export const TERMS: Term[] = [
     title: "Voice of a Generation",
     category: "Reinvention",
     definition:
-      "A label given to Dylan in the 1960s for capturing the era's spirit.",
+      "The label pinned on Dylan from about 1963 onward, casting him as the spokesman who put the hopes and grievances of American youth into words. It came from the topical songs \u2014 Blowin' in the Wind, The Times They Are a-Changin', Only a Pawn in Their Game \u2014 and from the civil rights and anti-war movements that adopted them, and it hardened into an expectation that he keep supplying the movement with anthems.",
     inDylan:
-      "Dylan resisted the title, insisting he was just writing songs — but it stuck.",
+      "Dylan rejected the title almost from the moment it was given and spent the rest of the decade escaping it. Accepting the Tom Paine Award in December 1963 he told the assembled liberals that he saw something of himself in Lee Harvey Oswald and that he no longer wanted anything to do with politics or little categories, scandalising the room. To Nat Hentoff in 1964 he said flatly, \u201cI don't want to write for people anymore \u2014 you know, be a spokesman,\u201d adding, \u201cFrom now on, I want to write from inside me.\u201d In the 1965 press conferences he deflected the question with jokes, and decades later, in the No Direction Home interviews, he was blunt about the burden: \u201cI was more a Marlon Brando or a James Dean type than a spokesman for anybody.\u201d Another Side of Bob Dylan, released in mid-1964, was the first formal break, and the electric turn at Newport in 1965 finished the job \u2014 though the label followed him for sixty years anyway.",
     example: {
       title: "The Times They Are a-Changin'",
       note:
