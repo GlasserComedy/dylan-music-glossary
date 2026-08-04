@@ -762,7 +762,7 @@ export const TERMS: Term[] = [
         title: "Desolation Row",
         note:
           "Romeo, Ophelia, and a whole gallery of Shakespearean shadows drift through this long, dreamlike song, placing Dylan inside the bardic tradition of dramatic verse.",
-        media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
+        media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "0wfBooQ6QtDm63UIyIcDIj" },
       },
       {
         title: "Auld Lang Syne",
