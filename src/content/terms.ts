@@ -849,7 +849,7 @@ export const TERMS: Term[] = [
       title: "Like a Rolling Stone",
       note:
         "Six minutes of full-band electric rock that broke every rule about what a hit single could be.",
-      media: { kind: "youtube", id: "IwOfCgkyEj0", spotifyId: "3uwzG1g" },
+      media: { kind: "youtube", id: "IwOfCgkyEj0", spotifyId: "3AhXZa8sUQht0UEdBJgpGc" },
     },
     related: ["acoustic", "newport-1965", "folk-rock"],
   },
