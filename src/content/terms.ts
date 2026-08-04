@@ -785,7 +785,7 @@ export const TERMS: Term[] = [
       title: "Desolation Row",
       note:
         "The long free-associating catalogue of characters owes its rhythm and spirit to Beat poetry.",
-      media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "4n1ZGm3TxYmoYe1YR8cMus" },
+      media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "0V1771LhL3tG36pb55EZAH" },
     },
     related: ["jack-kerouac", "surrealism"],
   },
