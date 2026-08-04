@@ -932,10 +932,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan's guitar, whether acoustic or electric, was the constant companion of his voice. He came of age just as the steel-string folk boom had made the guitar a portable public-address system, and he pushed it further when he plugged in at Newport in 1965, turning the same instrument into a roaring rock voice.",
     example: {
-      title: "Girl from the North Country",
+      title: "Girl from the North Country (with Johnny Cash)",
       note:
-        "Fingerpicked acoustic guitar carries the entire song, the instrument acting as its only accompaniment.",
-      media: { kind: "youtube", id: "Je4Eg77YSSA", spotifyId: "0fQubK3b1VamHnEtwXhUX8" },
+        "The Nashville Skyline duet with Johnny Cash places two acoustic guitars in gentle conversation, each voice and strum distinct.",
+      media: { kind: "youtube", id: "Je4Eg77YSSA", spotifyId: "739sLmfUkVFoyPtb0C3263" },
     },
     related: ["strumming", "finger-picking"],
   },
