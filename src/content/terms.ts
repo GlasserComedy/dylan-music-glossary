@@ -1471,9 +1471,9 @@ export const TERMS: Term[] = [
     title: "Lead Belly",
     category: "Roots",
     definition:
-      "Huddie Ledbetter, the twelve-string guitarist and songster whose recordings carried a vast body of American folk and blues song.",
+      "Huddie William Ledbetter (c. 1888\u20131949), the Louisiana-born twelve-string guitarist and songster whose booming voice and driving bass runs carried an enormous body of American song \u2014 field hollers, prison work songs, blues, ballads, dance tunes, children's rhymes and topical numbers. He served time in Texas and Louisiana prisons, where the folklorists John and Alan Lomax recorded him in the 1930s and then brought him north, where he became a fixture of the New York left-wing folk scene alongside Woody Guthrie and Pete Seeger. Songs he preserved or wrote \u2014 Goodnight Irene, Midnight Special, Rock Island Line, Cotton Fields, Where Did You Sleep Last Night \u2014 passed into the common stock of popular music and were later carried on by the Weavers, Lonnie Donegan, Creedence Clearwater Revival and Nirvana.",
     inDylan:
-      "Hearing Lead Belly was one of the turns that sent the young Dylan from rock and roll toward folk music.",
+      "Hearing a Lead Belly record in Hibbing was one of the hinge moments that turned the teenage Dylan from Little Richard and rock and roll toward folk music; in Chronicles he describes the discovery as a door opening onto a whole hidden country of song. What he took from Lead Belly was not a single style but a model of the songster \u2014 a performer who owns every corner of the repertoire, who can move from a prison holler to a lullaby in one set, and who claims traditional material so completely that authorship stops mattering. That approach runs from Dylan's first album straight through the traditional covers of Good as I Been to You and the Never Ending Tour. In his 2017 Nobel lecture he again named Lead Belly among the voices that taught him what a song could hold.",
     example: {
       title: "In the Pines (Where Did You Sleep Last Night)",
       note:
@@ -1503,9 +1503,9 @@ export const TERMS: Term[] = [
     title: "Robert Johnson",
     category: "Roots",
     definition:
-      "Delta blues guitarist and singer whose small body of 1930s recordings became the myth-laden foundation of the blues.",
+      "Delta blues guitarist and singer (1911\u20131938) whose twenty-nine recorded songs, cut in two brief sessions in San Antonio and Dallas in 1936 and 1937, became the myth-laden foundation of the blues. His guitar seems to hold a bass line, a rhythm part and a slide melody at once; his voice slips between a moan and a cry. He died at twenty-seven in Mississippi under murky circumstances, leaving two photographs and the legend that he sold his soul at a crossroads for his gift \u2014 a story his own songs, full of hellhounds and stones in the passway, did nothing to discourage. The 1961 Columbia reissue King of the Delta Blues Singers made him an obsession for a generation of musicians on both sides of the Atlantic.",
     inDylan:
-      "Dylan first heard Johnson's reissued recordings in 1961 and described the verses as opening a door in his own writing.",
+      "Dylan heard an advance pressing of King of the Delta Blues Singers in John Hammond's office in 1961, the same year he signed to Columbia. In Chronicles he recalls being stopped cold by the verses \u2014 lines that were compact, jarring and free of any obvious connective logic \u2014 and says he began writing them out on paper to see how they were built, deciding that Johnson's images were 'the deepest feelings of a man' rendered as pure surrealism. That study fed directly into the leap from the topical songwriting of 1963 to the compressed, hallucinatory verses of Bringing It All Back Home and Highway 61 Revisited, and the debt surfaces explicitly in Love in Vain quotations, in the crossroads imagery scattered through his catalogue, and in the blues forms he returned to on Time Out of Mind and Modern Times.",
     example: {
       title: "Cross Road Blues",
       note:
