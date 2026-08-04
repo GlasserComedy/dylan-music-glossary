@@ -276,10 +276,10 @@ export const TERMS: Term[] = [
     inDylan:
       "From the earliest folk songs to the late-period meditations, Dylan treated the lyric as a form capable of anything: reportage, confession, prophecy, joke, and dream. He absorbed the Romantic lyric of Robert Burns, the modernist density of Eliot and Pound, the blues' stoic shorthand, and the talking blues' stand-up monologue, then folded them into a voice that reset what a popular song's words were allowed to do.",
     example: {
-      title: "Shelter from the Storm",
+      title: "Changing of the Guards",
       note:
-        "The words carry the whole song \u2014 a plainspoken narrative of refuge and betrayal whose power lies almost entirely in the writing.",
-      media: { kind: "youtube", id: "-gsDBuHwqbM", spotifyId: "0e7x8s2ke6KxkWwrL4HJMB" },
+        "Eight verses of tarot cards, mercenaries and moonlight that never resolve into plain sense \u2014 the lyric working as pure image and incantation rather than story.",
+      media: { kind: "youtube", id: "qZhMvLuoMaM", spotifyId: "2vVpjZxlSiqR5wr2YeZPB2" },
     },
     related: ["abstract-lyrics", "imagery", "narrative", "bard", "literature"],
   },
@@ -336,9 +336,9 @@ export const TERMS: Term[] = [
     title: "Nobel Prize",
     category: "Influence",
     definition:
-      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.'",
+      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.' He was the first songwriter ever to receive it, and the announcement by Permanent Secretary Sara Danius on 13 October 2016 was met with a long, startled silence in the Stockholm press room before the questions began.",
     inDylan:
-      "The award reframed the popular song as literature and set off wide debate about the boundaries of the form.",
+      "The award reframed the popular song as literature and set off a wide argument about the boundaries of the form \u2014 novelists objecting that a songwriter had taken a slot from literature, critics answering that Homer and Sappho were also meant to be heard rather than read, a comparison Danius made explicitly. Dylan said nothing for two weeks, did not attend the December ceremony, and sent Patti Smith to sing A Hard Rain's a-Gonna Fall in his place; she stopped mid-song, apologised, and began the verse again, a moment that became as remembered as the prize itself. He accepted with a short written speech read on his behalf, admitting he had never once asked himself whether his songs were literature, and delivered the required Nobel lecture only in June 2017, days before the deadline \u2014 a recorded talk in which he traced his writing back to Moby-Dick, All Quiet on the Western Front and the Odyssey, and closed by saying that songs, like plays, are meant to be performed, not read.",
     example: {
       title: "Mr. Tambourine Man",
       note:
@@ -503,9 +503,9 @@ export const TERMS: Term[] = [
     title: "Keyboard",
     category: "Performance",
     definition:
-      "A family of instruments including piano and organ.",
+      "A family of instruments played from a set of keys \u2014 piano, upright and grand, church and electric organ, harmonium, electric piano and synthesizer. In a band arrangement the keyboard does work no other instrument can: it can lay down chords, carry a bass line, sustain a pad underneath the vocal, or answer the singer with a countermelody, all from one seat.",
     inDylan:
-      "Dylan used keyboards both live and in the studio, expanding his sound beyond guitar-based arrangements.",
+      "Keyboards run through Dylan's records from the beginning and eventually became his own instrument on stage. Al Kooper's improvised Hammond organ on Like a Rolling Stone \u2014 played by a guitarist who had never touched the instrument professionally, and pushed up in the mix at Dylan's insistence \u2014 defined the sound of the 1965 electric records. Garth Hudson's organ gave the Basement Tapes and the 1974 tour their churchy undertow; Paul Griffin's piano drives Ballad of a Thin Man. Dylan himself played piano on Highway 61 sessions, on New Morning, and across the gospel albums, and from roughly 2003 onward he abandoned the guitar in concert almost entirely, fronting the band from an upright piano or an electric keyboard \u2014 a shift that changed his phrasing, letting him punch chords between vocal lines rather than strum through them.",
     example: {
       title: "Blind Willie McTell",
       note:
@@ -1137,10 +1137,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan named Umm Kulthum his favorite singer after first hearing her in Jerusalem. He said that Middle Eastern singing was a source for his own vocal approach, and the influence is audible in the way he stretches and ornaments lines on songs such as One More Cup of Coffee, letting the voice wander and hang in the air like one of her slow, winding melodies.",
     example: {
-      title: "Enta Omri",
+      title: "Alf Leila We Leila (A Thousand and One Nights)",
       note:
-        "This epic love song, composed by Mohamed Abdel Wahab, shows the sustained, ornamental phrasing that fascinated Dylan and that echoes in his most Eastern-tinged vocal performances.",
-      media: { kind: "youtube", id: "XPGHpBOt5sE", spotifyId: "0ivlkHUXmRfJWT3RwQuBcz" },
+        "An hour-long meditation on a single night of love, where one line can be turned over for minutes at a time \u2014 the sustained, ornamental phrasing that fascinated Dylan and echoes in his most Eastern-tinged vocals.",
+      media: { kind: "youtube", id: "3xzySqYNKkA", spotifyId: "7kOtvS6igRttHxNnJDyaQD" },
     },
     aliases: ["Om Khalsoum", "Umm Kalthoum", "Om Kalsoum", "Oum Kalthoum"],
     related: ["vocal-style", "violin"],
@@ -1150,9 +1150,9 @@ export const TERMS: Term[] = [
     title: "Voice of a Generation",
     category: "Reinvention",
     definition:
-      "A label given to Dylan in the 1960s for capturing the era's spirit.",
+      "The label pinned on Dylan from about 1963 onward, casting him as the spokesman who put the hopes and grievances of American youth into words. It came from the topical songs \u2014 Blowin' in the Wind, The Times They Are a-Changin', Only a Pawn in Their Game \u2014 and from the civil rights and anti-war movements that adopted them, and it hardened into an expectation that he keep supplying the movement with anthems.",
     inDylan:
-      "Dylan resisted the title, insisting he was just writing songs — but it stuck.",
+      "Dylan rejected the title almost from the moment it was given and spent the rest of the decade escaping it. Accepting the Tom Paine Award in December 1963 he told the assembled liberals that he saw something of himself in Lee Harvey Oswald and that he no longer wanted anything to do with politics or little categories, scandalising the room. To Nat Hentoff in 1964 he said flatly, \u201cI don't want to write for people anymore \u2014 you know, be a spokesman,\u201d adding, \u201cFrom now on, I want to write from inside me.\u201d In the 1965 press conferences he deflected the question with jokes, and decades later, in the No Direction Home interviews, he was blunt about the burden: \u201cI was more a Marlon Brando or a James Dean type than a spokesman for anybody.\u201d Another Side of Bob Dylan, released in mid-1964, was the first formal break, and the electric turn at Newport in 1965 finished the job \u2014 though the label followed him for sixty years anyway.",
     example: {
       title: "The Times They Are a-Changin'",
       note:
@@ -1442,10 +1442,10 @@ export const TERMS: Term[] = [
     inDylan:
       "They weathered the boos of the 1966 world tour with him, anchored the informal Basement Tapes recordings in Woodstock in 1967, and rejoined him for the triumphant 1974 comeback tour. Rick Danko's bass and Levon Helm's drums gave the songs a rolling, conversational feel; Richard Manuel's and Helm's harmonies wrapped Dylan's voice in a rough, gospel warmth; Garth Hudson's Lowrey organ and Robbie Robertson's guitar supplied color without clutter. When Dylan retreated from the spotlight after his 1966 motorcycle accident, The Band's music from the Big Pink house in West Saugerties became the soundtrack of his seclusion, and their first two albums, Music from Big Pink and The Band, are inseparable from the sound world Dylan helped create. Their later appearances together — the 1974 tour, the Last Waltz concert film — confirmed that the partnership was one of the deepest in rock history.",
     example: {
-      title: "I Shall Be Released",
+      title: "The Night They Drove Old Dixie Down",
       note:
-        "A Dylan song written during the Basement Tapes sessions and made famous by The Band \u2014 his writing, their weathered harmony and organ-led arrangement.",
-      media: { kind: "youtube", id: "MjtPBjEz-BA", spotifyId: "7fGYJT5dBuGFxER8iWS8nQ" },
+        "Robbie Robertson's Civil War ballad sung from the losing side, carried by Levon Helm's Arkansas drawl \u2014 the clearest statement of the weathered, communal American sound The Band built alongside Dylan.",
+      media: { kind: "youtube", id: "6dDbnwQlCek", spotifyId: "2nvcTDmZkRWKNMAL29sLHo" },
     },
     related: ["electric", "folk-rock", "harmony"],
   },
@@ -1471,9 +1471,9 @@ export const TERMS: Term[] = [
     title: "Lead Belly",
     category: "Roots",
     definition:
-      "Huddie Ledbetter, the twelve-string guitarist and songster whose recordings carried a vast body of American folk and blues song.",
+      "Huddie William Ledbetter (c. 1888\u20131949), the Louisiana-born twelve-string guitarist and songster whose booming voice and driving bass runs carried an enormous body of American song \u2014 field hollers, prison work songs, blues, ballads, dance tunes, children's rhymes and topical numbers. He served time in Texas and Louisiana prisons, where the folklorists John and Alan Lomax recorded him in the 1930s and then brought him north, where he became a fixture of the New York left-wing folk scene alongside Woody Guthrie and Pete Seeger. Songs he preserved or wrote \u2014 Goodnight Irene, Midnight Special, Rock Island Line, Cotton Fields, Where Did You Sleep Last Night \u2014 passed into the common stock of popular music and were later carried on by the Weavers, Lonnie Donegan, Creedence Clearwater Revival and Nirvana.",
     inDylan:
-      "Hearing Lead Belly was one of the turns that sent the young Dylan from rock and roll toward folk music.",
+      "Hearing a Lead Belly record in Hibbing was one of the hinge moments that turned the teenage Dylan from Little Richard and rock and roll toward folk music; in Chronicles he describes the discovery as a door opening onto a whole hidden country of song. What he took from Lead Belly was not a single style but a model of the songster \u2014 a performer who owns every corner of the repertoire, who can move from a prison holler to a lullaby in one set, and who claims traditional material so completely that authorship stops mattering. That approach runs from Dylan's first album straight through the traditional covers of Good as I Been to You and the Never Ending Tour. In his 2017 Nobel lecture he again named Lead Belly among the voices that taught him what a song could hold.",
     example: {
       title: "In the Pines (Where Did You Sleep Last Night)",
       note:
@@ -1503,9 +1503,9 @@ export const TERMS: Term[] = [
     title: "Robert Johnson",
     category: "Roots",
     definition:
-      "Delta blues guitarist and singer whose small body of 1930s recordings became the myth-laden foundation of the blues.",
+      "Delta blues guitarist and singer (1911\u20131938) whose twenty-nine recorded songs, cut in two brief sessions in San Antonio and Dallas in 1936 and 1937, became the myth-laden foundation of the blues. His guitar seems to hold a bass line, a rhythm part and a slide melody at once; his voice slips between a moan and a cry. He died at twenty-seven in Mississippi under murky circumstances, leaving two photographs and the legend that he sold his soul at a crossroads for his gift \u2014 a story his own songs, full of hellhounds and stones in the passway, did nothing to discourage. The 1961 Columbia reissue King of the Delta Blues Singers made him an obsession for a generation of musicians on both sides of the Atlantic.",
     inDylan:
-      "Dylan first heard Johnson's reissued recordings in 1961 and described the verses as opening a door in his own writing.",
+      "Dylan heard an advance pressing of King of the Delta Blues Singers in John Hammond's office in 1961, the same year he signed to Columbia. In Chronicles he recalls being stopped cold by the verses \u2014 lines that were compact, jarring and free of any obvious connective logic \u2014 and says he began writing them out on paper to see how they were built, deciding that Johnson's images were 'the deepest feelings of a man' rendered as pure surrealism. That study fed directly into the leap from the topical songwriting of 1963 to the compressed, hallucinatory verses of Bringing It All Back Home and Highway 61 Revisited, and the debt surfaces explicitly in Love in Vain quotations, in the crossroads imagery scattered through his catalogue, and in the blues forms he returned to on Time Out of Mind and Modern Times.",
     example: {
       title: "Cross Road Blues",
       note:
