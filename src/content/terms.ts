@@ -188,10 +188,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan's late-70s conversion produced Slow Train Coming and Saved, records steeped in gospel choirs and testifying vocals.",
     example: {
-      title: "Gotta Serve Somebody",
+      title: "What Can I Do for You?",
       note:
-        "Recorded during Dylan's born-again period, it carries the call-and-response drive and moral urgency of the Black gospel tradition.",
-      media: { kind: "youtube", id: "wC10VWDTzmU", spotifyId: "760420tYNmNjFgi8bWvbop" },
+        "From the Saved album, this piano-led prayer moves like a church testimony, with a soaring female chorus and a lyric that asks direct questions of the divine.",
+      media: { kind: "youtube", id: "rtnv5cVViRw", spotifyId: "6AYppP8X3YtNPAlwFuFyGA" },
     },
     related: ["blues"],
   },
