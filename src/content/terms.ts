@@ -759,10 +759,10 @@ export const TERMS: Term[] = [
       "Dylan's work belongs to this lineage of song-poets. He has bowed to Shakespeare and Burns as towering figures, and his own songs function as modern bardic testimony: songs of love, wandering, judgment, and social witness that have been passed from voice to voice across generations. The connection was made explicit at his 2016 Nobel Prize induction, when Horace Engdahl of the Swedish Academy placed him in the company of 'rhapsodes, bards, troubadours' and said the award honored a singer who had changed the idea of what poetry could be.",
     examples: [
       {
-        title: "Desolation Row",
+        title: "John Wesley Harding",
         note:
-          "Romeo, Ophelia, and a whole gallery of Shakespearean shadows drift through this long, dreamlike song, placing Dylan inside the bardic tradition of dramatic verse.",
-        media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "0wfBooQ6QtDm63UIyIcDIj" },
+          "A ballad in the oldest sense: a compressed tale of an outlaw and his world, delivered as if it had been carried by word of mouth from one singer to the next.",
+        media: { kind: "youtube", id: "22THbJc39ss", spotifyId: "0wfBooQ6QtDm63UIyIcDIj" },
       },
       {
         title: "Auld Lang Syne",
