@@ -176,6 +176,7 @@ const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number }> = {
   "form-structure": { angle: 3.7, baseR: 0.82 },
   "columbia-records": { angle: -0.06, baseR: 0.82 },
   "time-signature": { angle: 0.10, baseR: 0.82 },
+  "daniel-lanois": { angle: 9.6, baseR: 0.52 },
 };
 
 function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
