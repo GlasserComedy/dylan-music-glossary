@@ -932,10 +932,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan's guitar, whether acoustic or electric, was the constant companion of his voice. He came of age just as the steel-string folk boom had made the guitar a portable public-address system, and he pushed it further when he plugged in at Newport in 1965, turning the same instrument into a roaring rock voice.",
     example: {
-      title: "Girl from the North Country (with Johnny Cash)",
+      title: "Girl from the North Country",
       note:
-        "The Nashville Skyline duet with Johnny Cash places two acoustic guitars in gentle conversation, each voice and strum distinct.",
-      media: { kind: "youtube", id: "Je4Eg77YSSA", spotifyId: "739sLmfUkVFoyPtb0C3263" },
+        "From The Freewheelin' Bob Dylan, this solo acoustic performance is built around a steady fingerpicked figure and open-tuned resonance that leaves room for the vocal to tell the story.",
+      media: { kind: "youtube", id: "JncbFS5ek74", spotifyId: "739sLmfUkVFoyPtb0C3263" },
     },
     related: ["strumming", "finger-picking"],
   },
@@ -1816,6 +1816,23 @@ export const TERMS: Term[] = [
     },
     related: ["cover", "electric", "guitar"],
     aliases: ["Watchtower", "Electric Ladyland", "feedback", "Experience"],
+  },
+  {
+    slug: "johnny-cash",
+    title: "Johnny Cash",
+    category: "Influence",
+    definition:
+      "American singer, songwriter, and guitarist whose spare, bass-driven storytelling and deep, plainspoken voice made him a cornerstone of country, rockabilly, and American roots music. Known as the Man in Black, his songs mixed gospel, folk, prison ballads, and social commentary into a singular, unvarnished sound.",
+    inDylan:
+      "Dylan and Cash first met at the 1964 Newport Folk Festival and developed a mutual admiration. In 1969, Dylan recorded much of Nashville Skyline in Nashville, where Cash joined him for a warm, conversational duet on Girl from the North Country. Cash's steady authority and Dylan's mythic lyricism made them unlikely kindred spirits, and their friendship bridged folk, country, and rock audiences.",
+    example: {
+      title: "Girl from the North Country (with Bob Dylan)",
+      note:
+        "The opening track of Nashville Skyline pairs Cash's deep, reassuring voice with Dylan's softer country croon, two acoustic guitars framing a folk standard in a new, intimate light.",
+      media: { kind: "youtube", id: "Je4Eg77YSSA", spotifyId: "4K1imZQQ0yKtJ40vGmUajS" },
+    },
+    related: ["guitar", "folk-revival", "rock"],
+    aliases: ["Man in Black", "Nashville Skyline", "country", "Tennessee"],
   },
   {
     slug: "bob-marley",
