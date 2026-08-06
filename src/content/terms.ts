@@ -1818,6 +1818,23 @@ export const TERMS: Term[] = [
     aliases: ["Watchtower", "Electric Ladyland", "feedback", "Experience"],
   },
   {
+    slug: "johnny-cash",
+    title: "Johnny Cash",
+    category: "Influence",
+    definition:
+      "American singer, songwriter, and guitarist whose spare, bass-driven storytelling and deep, plainspoken voice made him a cornerstone of country, rockabilly, and American roots music. Known as the Man in Black, his songs mixed gospel, folk, prison ballads, and social commentary into a singular, unvarnished sound.",
+    inDylan:
+      "Dylan and Cash first met at the 1964 Newport Folk Festival and developed a mutual admiration. In 1969, Dylan recorded much of Nashville Skyline in Nashville, where Cash joined him for a warm, conversational duet on Girl from the North Country. Cash's steady authority and Dylan's mythic lyricism made them unlikely kindred spirits, and their friendship bridged folk, country, and rock audiences.",
+    example: {
+      title: "Girl from the North Country (with Bob Dylan)",
+      note:
+        "The opening track of Nashville Skyline pairs Cash's deep, reassuring voice with Dylan's softer country croon, two acoustic guitars framing a folk standard in a new, intimate light.",
+      media: { kind: "youtube", id: "Je4Eg77YSSA", spotifyId: "4K1imZQQ0yKtJ40vGmUajS" },
+    },
+    related: ["guitar", "folk-revival", "rock"],
+    aliases: ["Man in Black", "Nashville Skyline", "country", "Tennessee"],
+  },
+  {
     slug: "bob-marley",
     title: "Bob Marley",
     category: "Roots",
