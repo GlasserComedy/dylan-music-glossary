@@ -1400,7 +1400,7 @@ export const TERMS: Term[] = [
         label: "Listen on Apple Podcasts",
       },
     },
-    related: ["blues", "country", "columbia-records", "folk-revival"],
+    related: ["blues", "folk-revival", "columbia-records", "reinvention"],
     aliases: [
       "Theme Time Radio Hour",
       "XM Satellite Radio",
