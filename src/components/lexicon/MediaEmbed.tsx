@@ -62,6 +62,28 @@ export function MediaEmbed({ title, media }: Props) {
     );
   }
 
+  if (media.kind === "link") {
+    return (
+      <div className="border border-ink/15 px-4 py-3">
+        <div className="mb-2 inline-flex items-center gap-2 font-body text-sm text-ink">
+          <Play className="h-3.5 w-3.5 text-accent" aria-hidden />
+          {title}
+        </div>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[10px] uppercase tracking-wider">
+          <a
+            href={media.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            referrerPolicy="no-referrer"
+            className="inline-flex items-center gap-1 text-accent hover:underline"
+          >
+            {media.label} <ExternalLink className="h-3 w-3" aria-hidden />
+          </a>
+        </div>
+      </div>
+    );
+  }
+
   // Search fallback — open Spotify + YouTube searches in a new tab.
   const q = encodeURIComponent(media.query);
   const spotify = `https://open.spotify.com/search/${q}`;
