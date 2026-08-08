@@ -1383,8 +1383,35 @@ export const TERMS: Term[] = [
     related: ["talkin-blues", "rhyme", "beat", "rhythm"],
   },
   {
+    slug: "radio",
+    title: "Radio",
+    category: "Influence",
+    definition:
+      "Broadcast sound sent over the air \u2014 the medium that turned music from a local, live event into something shared across a whole country. Commercial broadcasting began in the early 1920s, and by the 1930s and 1940s network shows, barn dances like the Grand Ole Opry, and border stations blasting from Mexico were carrying blues, country, gospel and pop into farmhouses and city apartments alike. In the 1950s the transistor radio put that signal in a teenager's pocket, and disc jockeys \u2014 playing records across the colour line \u2014 became tastemakers who could break a song nationally in a week. Radio mixed genres that segregation and geography had kept apart, and it is the reason a boy in northern Minnesota could grow up hearing Delta blues, Appalachian ballads and Chicago R&B in the same evening.",
+      inDylan:
+      "Radio was Dylan's first conservatory. Growing up in Hibbing, Minnesota, far from any music scene, he listened late at night to distant stations \u2014 Gatemouth Page out of Shreveport, blues and hillbilly programmes fading in and out across the Iron Range \u2014 and absorbed a whole American songbook from the airwaves. That accidental education explains the range in his own writing: country, blues, gospel, rockabilly and Tin Pan Alley sitting side by side. He later returned the favour as a broadcaster himself. From 2006 to 2009 he hosted Theme Time Radio Hour on XM Satellite Radio, 100-plus episodes built around a single theme \u2014 Weather, Whiskey, Coffee, Dogs, Mothers \u2014 in which he played 78s, obscure R&B sides, Bing Crosby and punk records back to back, reading poetry and telling deadpan jokes between songs. The show revealed him as an obsessive listener and archivist, and functioned as a public syllabus for the tradition his own work grew out of.",
+    example: {
+      title: "Theme Time Radio Hour \u2014 The Whiskey Episode",
+      note:
+        "Dylan as DJ: an hour of records chosen around one word, with his own commentary threaded between them \u2014 the radio education of his childhood handed back to the listener.",
+      media: {
+        kind: "link",
+        url: "https://podcasts.apple.com/us/podcast/the-whiskey-episode-with-your-host-bob-dylan/id1532116920?i=1000492456231",
+        label: "Listen on Apple Podcasts",
+      },
+    },
+    related: ["blues", "country", "columbia-records", "folk-revival"],
+    aliases: [
+      "Theme Time Radio Hour",
+      "XM Satellite Radio",
+      "DJ",
+      "broadcast",
+      "Hibbing",
+      "airwaves",
+    ],
+  },
+  {
     slug: "pete-seeger",
-*** PLACEHOLDER
     title: "Pete Seeger",
     category: "Roots",
     definition:
