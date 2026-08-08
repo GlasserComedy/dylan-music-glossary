@@ -13,6 +13,7 @@ export type Category =
 export type MediaRef =
   | { kind: "youtube"; id?: string; spotifyId?: string; albumId?: string }
   | { kind: "spotify"; id: string }
+  | { kind: "link"; url: string; label: string }
   | { kind: "search"; query: string };
 
 export type Term = {
