@@ -134,6 +134,7 @@ export const TERMS: Term[] = [
   },
   {
     slug: "chord-progression",
+    // placeholder
     title: "Chord Progression",
     category: "Music",
     definition:
