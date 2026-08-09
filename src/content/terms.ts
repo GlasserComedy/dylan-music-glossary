@@ -1144,7 +1144,7 @@ export const TERMS: Term[] = [
       media: { kind: "youtube", spotifyId: "49pZlXa9pZ6N0j6O4xduoC" },
     },
     aliases: ["timing", "delivery", "behind the beat", "hard to cover"],
-    related: ["vocal-style", "voice", "cover-version", "rhythm", "lyric"],
+    related: ["vocal-style", "rhythm", "lyric"],
   },
   {
     slug: "umm-kulthum",
