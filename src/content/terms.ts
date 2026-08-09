@@ -133,6 +133,22 @@ export const TERMS: Term[] = [
     related: ["chord-progression", "woody-guthrie"],
   },
   {
+    slug: "bootleg",
+    title: "Bootleg",
+    category: "Reinvention",
+    definition:
+      "An unofficial recording — a studio outtake, rehearsal tape, or audience recording of a concert — circulated outside the artist's record label. Bootlegs surfaced in rock culture at the end of the 1960s, traded first on vinyl and cassette and later online, and they turned discarded takes and one-off performances into a parallel discography that fans studied as closely as the official albums.",
+    inDylan:
+      "The bootleg era effectively began with Dylan: Great White Wonder, the 1969 double album of Basement Tapes and early outtakes, is usually named the first rock bootleg, and the underground trade in his tapes never stopped. Because he records fast, changes arrangements nightly, and leaves extraordinary songs off albums, the unofficial recordings often rival the released ones. Columbia eventually answered the collectors on their own terms with The Bootleg Series, beginning in 1991 — an authorized flood of outtakes, live tapes, and alternate takes that recast whole periods of his work.",
+    example: {
+      title: "Blind Willie McTell (Studio Outtake, 1983)",
+      note:
+        "Cut from Infidels and left in the vault, it circulated on bootlegs for years before The Bootleg Series Vol. 1–3 released it — now widely counted among his greatest songs.",
+      media: { kind: "youtube", id: "_AIRdU6CPf0", spotifyId: "1pJdqFpw52UQpItDRMoca3" },
+    },
+    related: ["reinvention", "cover", "blues"],
+  },
+  {
     slug: "chord-progression",
     title: "Chord Progression",
     category: "Music",
