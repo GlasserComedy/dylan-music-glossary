@@ -1130,6 +1130,23 @@ export const TERMS: Term[] = [
     },
   },
   {
+    slug: "phrasing",
+    title: "Phrasing",
+    category: "Performance",
+    definition:
+      "How a singer shapes a line in time \u2014 where the words fall against the beat, which syllables are stretched, clipped, swallowed or bent, and where the breath lands. Phrasing is separate from melody: two singers can sing identical notes and words and produce entirely different songs.",
+    inDylan:
+      "Phrasing is arguably Dylan's greatest instrument. He sings behind and ahead of the beat almost at will, crams extra syllables into a bar and then leaves a whole measure empty, snaps a line off early, or hangs a single word out past the chord change. Rhymes arrive slightly askew; conversational asides are delivered as if he has just thought of them. This is why he is notoriously difficult to cover \u2014 the notes on the page are simple, but the meaning lives in the timing, the sneer, the drawl and the sudden acceleration. Covers that sing the melody straight often sound oddly empty, and singers who imitate the phrasing sound like impersonators. Dylan himself rephrases constantly in performance, which is why the same song can be unrecognisable from one tour to the next.",
+    example: {
+      title: "I Am a Lonesome Hobo",
+      note:
+        "A plain three-chord frame that Dylan bends purely with delivery \u2014 lines pushed late, syllables crowded together and then stretched out, the last word of each verse hung in the air. Nothing in the melody explains the effect; it is all phrasing.",
+      media: { kind: "youtube", spotifyId: "49pZlXa9pZ6N0j6O4xduoC" },
+    },
+    aliases: ["timing", "delivery", "behind the beat", "hard to cover"],
+    related: ["vocal-style", "rhythm", "lyric"],
+  },
+  {
     slug: "umm-kulthum",
     title: "Umm Kulthum",
     category: "Influence",
