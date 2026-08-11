@@ -1163,6 +1163,38 @@ export const TERMS: Term[] = [
     related: ["vocal-style", "rhythm", "lyric"],
   },
   {
+    slug: "dynamics",
+    title: "Dynamics",
+    category: "Performance",
+    definition:
+      "The range of loud and soft in music, and how a performer moves between them. Dynamics can be written into an arrangement \u2014 a hushed verse opening into a full-band chorus \u2014 or created live by a single voice leaning in and pulling back. They shape emphasis, tension and release far more than volume alone suggests: a whisper after a shout can hit harder than the shout.",
+    inDylan:
+      "Dylan's dynamics are mostly performance dynamics rather than studio ones. Alone with a guitar he works a narrow band and widens it by attack \u2014 strumming harder and pushing the voice up on a refrain, then dropping to something close to speech on the next line. With a band, the contrasts get architectural: the 1975 Rolling Thunder and 1966 electric tours set roaring full-band choruses against verses that pull back to almost nothing. He also rebuilds the dynamic shape of a song from tour to tour, so a quiet ballad can return years later as a loud, hard-driven rocker.",
+    examples: [
+      {
+        title: "A Hard Rain's A-Gonna Fall (Live at Carnegie Hall, 1963)",
+        note:
+          "Dynamic variation inside one song: the verses are close and conversational, then each 'and it's a hard rain' refrain arrives markedly louder, the strumming heavier and the voice pushed \u2014 solo, with no band to help.",
+        media: { kind: "youtube", spotifyId: "2jO4NEFgGmWrtri7Bn3whm" },
+      },
+      {
+        title: "Tomorrow Is a Long Time (Live at Town Hall, 1963)",
+        note:
+          "The quiet end of the range \u2014 a soft, almost private performance held at low volume throughout, where the emotion comes from restraint rather than force.",
+        media: { kind: "youtube", spotifyId: "4UboNnwIIXme8aWSW6f6TF" },
+      },
+      {
+        title:
+          "Tonight I'll Be Staying Here with You (Live at Montreal Forum, 1975)",
+        note:
+          "The loud end \u2014 a Rolling Thunder Revue performance played full tilt, the whole band at once and the vocal shouted over the top of it.",
+        media: { kind: "youtube", spotifyId: "1cigWAI69aQliu1CE15jZd" },
+      },
+    ],
+    aliases: ["loud and soft", "volume", "crescendo", "light and shade"],
+    related: ["phrasing", "vocal-style", "rhythm"],
+  },
+  {
     slug: "umm-kulthum",
     title: "Umm Kulthum",
     category: "Influence",
