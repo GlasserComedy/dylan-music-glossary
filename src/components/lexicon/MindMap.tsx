@@ -170,9 +170,9 @@ function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
  * surrounding blank space.
  */
 
-const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number }> = {
+const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number; fixed?: boolean }> = {
   "reggae": { angle: 0.2, baseR: 0.58 },
-  "washington-square-park": { angle: 0.0, baseR: 0.55 },
+  "washington-square-park": { angle: 0.44, baseR: 0.27, fixed: true },
   "form-structure": { angle: 3.7, baseR: 0.82 },
   "columbia-records": { angle: -0.06, baseR: 0.82 },
   "time-signature": { angle: 0.10, baseR: 0.82 },
@@ -216,13 +216,19 @@ function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
  * label a constant pixel distance clear of the portrait, and hold them inside
  * a superellipse so the corners get used sparsely.
  */
-function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
+function resolveCollisions(
+  labels: Label[],
+  w: number,
+  h: number,
+  fixedSlugs?: ReadonlySet<string>,
+): Label[] {
   const cx = w / 2;
   const cy = h / 2;
   const rx = (w / 2) * RX_FRAC;
   const ry = (h / 2) * RY_FRAC;
   const { hrx, hry } = headEllipse(w, h);
   const headMargin = 30;
+  const isFixed = (slug: string) => fixedSlugs?.has(slug) ?? false;
 
   const boxes = labels.map((l) => ({
     ...l,
@@ -257,6 +263,9 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
       for (let j = i + 1; j < boxes.length; j++) {
         const a = boxes[i];
         const b = boxes[j];
+        const aFixed = isFixed(a.term.slug);
+        const bFixed = isFixed(b.term.slug);
+        if (aFixed && bFixed) continue;
 
         const { padX, padY } = padAt(a, b);
         const dx = (b.nx - a.nx) * rx;
@@ -272,13 +281,13 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
           if (overlapX / halfW < overlapY / halfH) {
             const shift = (overlapX / 2 + 1) / rx;
             const dir = dx >= 0 ? 1 : -1;
-            a.nx -= dir * shift;
-            b.nx += dir * shift;
+            if (!aFixed) a.nx -= dir * shift;
+            if (!bFixed) b.nx += dir * shift;
           } else {
             const shift = (overlapY / 2 + 1) / ry;
             const dir = dy >= 0 ? 1 : -1;
-            a.ny -= dir * shift;
-            b.ny += dir * shift;
+            if (!aFixed) a.ny -= dir * shift;
+            if (!bFixed) b.ny += dir * shift;
           }
         }
       }
@@ -289,6 +298,12 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
     const enforceShape = iter < 700;
 
     boxes.forEach((b) => {
+      if (isFixed(b.term.slug)) {
+        // Fixed labels keep their override position; we only clamp them to the
+        // stage in case the viewport becomes extremely small.
+        clampToStage(b);
+        return;
+      }
       if (!enforceShape) {
         clampToStage(b);
         return;
@@ -329,6 +344,10 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
       for (let j = i + 1; j < boxes.length; j++) {
         const a = boxes[i];
         const b = boxes[j];
+        const aFixed = isFixed(a.term.slug);
+        const bFixed = isFixed(b.term.slug);
+        if (aFixed && bFixed) continue;
+
         const dx = (b.nx - a.nx) * rx;
         const dy = (b.ny - a.ny) * ry;
         const halfW = (a.w + b.w) / 2 + 8;
@@ -340,16 +359,16 @@ function resolveCollisions(labels: Label[], w: number, h: number): Label[] {
           if (overlapX / halfW < overlapY / halfH) {
             const shift = (overlapX / 2 + 0.5) / rx;
             const dir = dx >= 0 ? 1 : -1;
-            a.nx -= dir * shift;
-            b.nx += dir * shift;
+            if (!aFixed) a.nx -= dir * shift;
+            if (!bFixed) b.nx += dir * shift;
           } else {
             const shift = (overlapY / 2 + 0.5) / ry;
             const dir = dy >= 0 ? 1 : -1;
-            a.ny -= dir * shift;
-            b.ny += dir * shift;
+            if (!aFixed) a.ny -= dir * shift;
+            if (!bFixed) b.ny += dir * shift;
           }
-          clampToStage(a);
-          clampToStage(b);
+          if (!aFixed) clampToStage(a);
+          if (!bFixed) clampToStage(b);
         }
       }
     }
@@ -408,7 +427,13 @@ export function MindMap({
       }
     });
 
-    const resolved = resolveCollisions(initial, size.w, size.h);
+    const fixedSlugs = new Set<string>(
+      Object.entries(POSITION_OVERRIDES)
+        .filter(([, cfg]) => cfg.fixed)
+        .map(([slug]) => slug),
+    );
+
+    const resolved = resolveCollisions(initial, size.w, size.h, fixedSlugs);
     const next = new Map<string, Label>();
     resolved.forEach((b) => {
       next.set(b.term.slug, {
