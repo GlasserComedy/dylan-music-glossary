@@ -165,6 +165,22 @@ export const TERMS: Term[] = [
     related: ["harmony", "rhythm"],
   },
   {
+    slug: "country",
+    title: "Country",
+    category: "Roots",
+    definition:
+      "A popular music genre rooted in the folk songs, ballads, and dance tunes of the rural American South, shaped by blues, gospel, fiddle music, cowboy songs, and Tin Pan Alley. It is built on plain, direct storytelling, clear vocal delivery, and straightforward song forms, often carried by acoustic guitars, fiddles, steel guitars, and close harmonies.",
+    inDylan:
+      "Dylan's turn to country was not a costume but a deliberate reset. After the electric hurricanes of 1965-66, he recorded John Wesley Harding in Nashville with the city's finest session players, then followed it with Nashville Skyline, whose warmer, softer croon announced a full embrace of country craft. That album and its country-radio success proved that the same writer who had produced surreal mid-60s masterpieces could speak plainly, simply, and emotionally. Country instincts stayed with him across the decades, from the relaxed swing of New Morning to the roadhouse feel of Street-Legal and the polished California sessions of the 1980s.",
+    example: {
+      title: "I Threw It All Away",
+      note:
+        "A concise Nashville Skyline weeper — a plain-spoken confession of regret wrapped in a clean melody and a warm country vocal, closer to Hank Williams than to the apocalyptic Dylan of the previous years.",
+      media: { kind: "youtube", id: "", spotifyId: "2UdwaJRkPUYj6XZescIAK4" },
+    },
+    related: ["folk-revival", "johnny-cash", "vocal-style", "guitar"],
+  },
+  {
     slug: "cover",
     title: "Cover",
     category: "Reinvention",
