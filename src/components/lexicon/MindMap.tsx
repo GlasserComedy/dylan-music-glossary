@@ -182,7 +182,7 @@ const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number; fixed?:
   "bessie-smith": { angle: 5.0, baseR: 0.72 },
   "johnny-cash": { angle: 2.5, baseR: 0.72 },
   "bob-marley": { angle: 2.78, baseR: 0.98, fixed: true },
-  "hank-williams": { angle: -1.0, baseR: 0.78, fixed: true },
+  "hank-williams": { angle: -0.82, baseR: 0.804, fixed: true },
 };
 
 function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
