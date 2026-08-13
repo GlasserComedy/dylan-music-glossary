@@ -172,7 +172,7 @@ function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
 
 const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number; fixed?: boolean }> = {
   "reggae": { angle: 0.2, baseR: 0.58 },
-  "washington-square-park": { angle: 2.9, baseR: 0.85, fixed: true },
+  "washington-square-park": { angle: -0.9, baseR: 0.64, fixed: true },
   "form-structure": { angle: 3.7, baseR: 0.82 },
   "columbia-records": { angle: -0.06, baseR: 0.82 },
   "time-signature": { angle: 0.10, baseR: 0.82 },
@@ -182,7 +182,7 @@ const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number; fixed?:
   "bessie-smith": { angle: 5.0, baseR: 0.72 },
   "johnny-cash": { angle: 2.5, baseR: 0.72 },
   "bob-marley": { angle: 2.78, baseR: 0.98, fixed: true },
-  "hank-williams": { angle: 3.29, baseR: 0.78, fixed: true },
+  "hank-williams": { angle: -1.0, baseR: 0.78, fixed: true },
 };
 
 function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
