@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useRef, useState } from "react";
-import { Search, X } from "lucide-react";
+import { Coffee, Search, X } from "lucide-react";
 import { TERMS, CATEGORIES } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
 import { TermList } from "@/components/lexicon/TermList";
@@ -219,6 +219,19 @@ function LexiconPage() {
                 </div>
               )}
             </div>
+
+            {/* Buy Me a Coffee */}
+            <a
+              href="https://buymeacoffee.com/dylanlexicon"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="One more cup of coffee"
+              aria-label="One more cup of coffee — support The Dylan Lexicon on Buy Me a Coffee"
+              className="group inline-flex shrink-0 items-center gap-1.5 bg-accent px-2.5 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-ink transition hover:bg-accent/85 sm:gap-2 sm:px-3 md:px-3 md:text-xs md:tracking-[0.22em]"
+            >
+              <Coffee className="h-4 w-4" />
+              <span className="hidden sm:inline">One more cup of coffee</span>
+            </a>
 
             {/* Search */}
             <div className="relative">
