@@ -227,7 +227,7 @@ function LexiconPage() {
               rel="noopener noreferrer"
               title="One more cup of coffee"
               aria-label="One more cup of coffee — support The Dylan Lexicon on Buy Me a Coffee"
-              className="group inline-flex shrink-0 items-center gap-1.5 bg-accent px-2.5 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-ink transition hover:bg-accent/85 sm:gap-2 sm:px-3 md:px-3 md:text-xs md:tracking-[0.22em]"
+              className="group inline-flex shrink-0 items-center gap-1.5 border-b border-ink/20 px-1 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-ink/60 transition hover:border-ink/60 hover:text-ink sm:gap-2 md:text-xs md:tracking-[0.22em]"
             >
               <Coffee className="h-4 w-4" />
               <span className="hidden sm:inline">One more cup of coffee</span>
