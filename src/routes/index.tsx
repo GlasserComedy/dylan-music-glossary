@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useRef, useState } from "react";
-import { Coffee, Search, X } from "lucide-react";
+import { Coffee, Mail, Search, X } from "lucide-react";
 import { TERMS, CATEGORIES } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
 import { TermList } from "@/components/lexicon/TermList";
@@ -231,6 +231,17 @@ function LexiconPage() {
             >
               <Coffee className="h-3.5 w-3.5 md:h-4 md:w-4" />
               <span className="hidden sm:inline">One more cup of coffee</span>
+            </a>
+
+            {/* Contact */}
+            <a
+              href="mailto:glasser.nathaniel@gmail.com"
+              title="Contact us"
+              aria-label="Contact us via email"
+              className="group inline-flex shrink-0 items-center gap-1 border-b border-ink/20 px-1 py-2 font-mono text-[9px] uppercase tracking-[0.12em] text-ink/60 transition hover:border-ink/60 hover:text-ink sm:gap-1.5 md:text-[10px] md:tracking-[0.22em]"
+            >
+              <Mail className="h-3.5 w-3.5 md:h-4 md:w-4" />
+              <span className="hidden sm:inline">Contact</span>
             </a>
 
             {/* Search */}
