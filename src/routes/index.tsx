@@ -181,7 +181,7 @@ function LexiconPage() {
 
               {showCategories && (
                 <div
-                  className="absolute left-1/2 top-9 -translate-x-1/2 w-auto min-w-max border border-ink/15 bg-paper p-2 shadow-sm"
+                  className="absolute left-1/2 top-9 -translate-x-1/2 w-auto min-w-max border border-ink/15 bg-paper p-2 pt-4 shadow-sm"
                   onMouseEnter={() => {
                     clearCategoryTimer();
                     setShowCategories(true);
@@ -192,6 +192,8 @@ function LexiconPage() {
                     }, 150);
                   }}
                 >
+                  {/* Invisible hover bridge so the dropdown doesn't close when the cursor enters from below */}
+                  <div className="absolute -top-4 left-1/2 h-4 w-24 -translate-x-1/2" />
                   <ul className="space-y-1">
                     {CATEGORIES.map((category) => (
                       <li key={category}>
