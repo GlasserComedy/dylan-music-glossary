@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Coffee, Mail, Search, X } from "lucide-react";
 import { TERMS, CATEGORIES } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
