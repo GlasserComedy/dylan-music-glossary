@@ -1,6 +1,6 @@
-import folkloreCover from "@/assets/Talking_folklore_center_cover.jpg.asset.json";
-import folkloreSheet from "@/assets/talking-folklore-center-2.jpg.asset.json";
-import folkloreSeries from "@/assets/talking-folklore-center-3.jpg.asset.json";
+import folkloreCover from "@/assets/Talking_folklore_center_cover.jpg";
+import folkloreSheet from "@/assets/talking-folklore-center-2.jpg";
+import folkloreSeries from "@/assets/talking-folklore-center-3.jpg";
 
 export type Category =
   | "Music"
@@ -1667,17 +1667,17 @@ export const TERMS: Term[] = [
       "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert, at Carnegie Chapter Hall in November 1961.",
     documents: [
       {
-        src: folkloreCover.url,
+        src: folkloreCover,
         caption:
           "Cover of the Folklore Center's 1962 sheet-music edition of \u201cTalking Folklore Center\u201d by Bob Dylan, priced at 25 cents.",
       },
       {
-        src: folkloreSheet.url,
+        src: folkloreSheet,
         caption:
           "Inside spread: the notated melody and the full lyric, naming MacDougal Street, the Folklore Center and Izzy Young.",
       },
       {
-        src: folkloreSeries.url,
+        src: folkloreSeries,
         caption: "Title page \u2014 Folklore Center Series, No. 1.",
       },
     ],
@@ -1700,17 +1700,17 @@ export const TERMS: Term[] = [
       "Young interviewed Dylan in 1961 and produced his first New York concert, becoming one of the earliest people to write down who this singer said he was.",
     documents: [
       {
-        src: folkloreCover.url,
+        src: folkloreCover,
         caption:
           "Cover of the Folklore Center's 1962 sheet-music edition of \u201cTalking Folklore Center\u201d by Bob Dylan, priced at 25 cents.",
       },
       {
-        src: folkloreSheet.url,
+        src: folkloreSheet,
         caption:
           "Inside spread: the notated melody and the full lyric, naming MacDougal Street, the Folklore Center and Izzy Young.",
       },
       {
-        src: folkloreSeries.url,
+        src: folkloreSeries,
         caption: "Title page \u2014 Folklore Center Series, No. 1.",
       },
     ],

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import dylanFront from "@/assets/dylan-front.png.asset.json";
-import dylanSide from "@/assets/dylan-side.png.asset.json";
+import dylanFront from "@/assets/dylan-front.png";
+import dylanSide from "@/assets/dylan-side.png";
 
 const clamp = (n: number, min: number, max: number) => Math.min(max, Math.max(min, n));
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
@@ -96,7 +96,7 @@ export function Head3D({ className = "" }: { className?: string }) {
         />
 
         <img
-          src={dylanFront.url}
+          src={dylanFront}
           alt="Portrait of Bob Dylan, facing forward"
           width={1024}
           height={1024}
@@ -108,7 +108,7 @@ export function Head3D({ className = "" }: { className?: string }) {
           }}
         />
         <img
-          src={dylanSide.url}
+          src={dylanSide}
           alt=""
           width={1024}
           height={1024}
