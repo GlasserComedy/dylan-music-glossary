@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Coffee, Mail, Search, X } from "lucide-react";
 import { TERMS, CATEGORIES } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
@@ -52,7 +52,27 @@ function LexiconPage() {
       categoryLeaveTimer.current = null;
     }
   };
-  
+  // Clicking anywhere on empty page background (desktop) resets the view:
+  // closes the detail panel and re-centres the portrait.
+  useEffect(() => {
+    if (isMobile) return;
+    const onDocClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (!target) return;
+      if (
+        target.closest(
+          'button, a, input, textarea, select, header, aside, [role="dialog"]',
+        )
+      ) {
+        return;
+      }
+      setActiveSlug(null);
+      setSelectedLetter(null);
+      setSelectedCategory(null);
+    };
+    document.addEventListener("click", onDocClick);
+    return () => document.removeEventListener("click", onDocClick);
+  }, [isMobile]);
 
 
   const activeTerm = useMemo(
