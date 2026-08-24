@@ -366,6 +366,7 @@ function LexiconPage() {
           onClick={() => {
             setSelectedLetter(null);
             setSelectedCategory(null);
+            setActiveSlug(null);
           }}
           className="h-full px-4 pb-16"
         >
