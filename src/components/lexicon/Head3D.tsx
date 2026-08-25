@@ -48,13 +48,22 @@ export function Head3D({ className = "" }: { className?: string }) {
     };
     raf = requestAnimationFrame(tick);
 
+    // Background clicks re-centre the head: forget the pointer until it moves
+    // a meaningful distance again so the portrait eases back to facing forward.
+    const onReset = () => {
+      pointer.has = false;
+      target.current = { x: 0, y: 0 };
+    };
+
     window.addEventListener("pointermove", onMove, { passive: true });
     window.addEventListener("scroll", measure, { passive: true });
     window.addEventListener("resize", measure);
+    window.addEventListener("lexicon:reset-head", onReset);
     return () => {
       window.removeEventListener("pointermove", onMove);
       window.removeEventListener("scroll", measure);
       window.removeEventListener("resize", measure);
+      window.removeEventListener("lexicon:reset-head", onReset);
       cancelAnimationFrame(raf);
     };
   }, []);
