@@ -388,6 +388,7 @@ function LexiconPage() {
             setSelectedLetter(null);
             setSelectedCategory(null);
             setActiveSlug(null);
+            window.dispatchEvent(new Event("lexicon:reset-head"));
           }}
           className="h-full px-4 pb-16"
         >
