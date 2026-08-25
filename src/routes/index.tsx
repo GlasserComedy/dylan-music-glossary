@@ -69,6 +69,7 @@ function LexiconPage() {
       setActiveSlug(null);
       setSelectedLetter(null);
       setSelectedCategory(null);
+      window.dispatchEvent(new Event("lexicon:reset-head"));
     };
     document.addEventListener("click", onDocClick);
     return () => document.removeEventListener("click", onDocClick);
