@@ -365,26 +365,41 @@ function LexiconPage() {
         </div>
       </header>
 
-      {/* Mobile: scrollable A–Z list. Desktop: mind map stage. */}
+      {/* Mobile: landing page or scrollable A–Z list. Desktop: mind map stage. */}
       {isMobile ? (
-        <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
-          <TermList
-            terms={TERMS}
-            activeSlug={activeSlug}
-            selectedLetter={selectedLetter}
-            selectedCategory={selectedCategory}
-            onSelectTerm={openTerm}
-          />
-          {activeTerm && (
-            <div className="fixed inset-0 z-40 bg-paper">
-              <TermDetail
-                term={activeTerm}
-                onSelectTerm={openTerm}
-                onClose={() => setActiveSlug(null)}
-              />
+        mobileEntered ? (
+          <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
+            <TermList
+              terms={TERMS}
+              activeSlug={activeSlug}
+              selectedLetter={selectedLetter}
+              selectedCategory={selectedCategory}
+              onSelectTerm={openTerm}
+            />
+            {activeTerm && (
+              <div className="fixed inset-0 z-40 bg-paper">
+                <TermDetail
+                  term={activeTerm}
+                  onSelectTerm={openTerm}
+                  onClose={() => setActiveSlug(null)}
+                />
+              </div>
+            )}
+          </main>
+        ) : (
+          <main className="relative flex min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6">
+            <div className="h-[55vh] w-[55vh] max-h-[360px] max-w-[360px]">
+              <Head3D className="h-full w-full" />
             </div>
-          )}
-        </main>
+            <button
+              type="button"
+              onClick={() => setMobileEntered(true)}
+              className="mt-8 border-b border-ink/30 px-3 py-2 font-mono text-xs uppercase tracking-[0.18em] text-ink/70 transition hover:border-ink hover:text-ink"
+            >
+              Click to continue to the Dylan Lexicon
+            </button>
+          </main>
+        )
       ) : (
       <main className="relative min-h-0 flex-1">
         <div
@@ -428,15 +443,17 @@ function LexiconPage() {
       )}
 
       {/* Alphabet */}
-      <div
-        className={`relative z-10 shrink-0 ${isMobile ? "" : "-translate-y-full"}`}
-      >
-        <AlphabetStrip
-          terms={TERMS}
-          activeLetter={activeLetter}
-          onSelectLetter={handleSelectLetter}
-        />
-      </div>
+      {(!isMobile || mobileEntered) && (
+        <div
+          className={`relative z-10 shrink-0 ${isMobile ? "" : "-translate-y-full"}`}
+        >
+          <AlphabetStrip
+            terms={TERMS}
+            activeLetter={activeLetter}
+            onSelectLetter={handleSelectLetter}
+          />
+        </div>
+      )}
     </div>
   );
 }
