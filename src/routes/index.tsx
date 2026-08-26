@@ -7,6 +7,7 @@ import { TermList } from "@/components/lexicon/TermList";
 import { TermDetail } from "@/components/lexicon/TermDetail";
 import { AlphabetStrip } from "@/components/lexicon/AlphabetStrip";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { Head3D } from "@/components/lexicon/Head3D";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -44,6 +45,7 @@ function LexiconPage() {
   const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [showCategories, setShowCategories] = useState(false);
+  const [mobileEntered, setMobileEntered] = useState(false);
   const categoryLeaveTimer = useRef<number | null>(null);
 
   const clearCategoryTimer = () => {
@@ -170,9 +172,11 @@ function LexiconPage() {
             <h1 className="font-display text-base uppercase leading-none tracking-[0.12em] sm:text-xl md:text-2xl">
               The Dylan Lexicon
             </h1>
-            <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 md:text-center md:text-xs md:tracking-[0.22em]">
-              A glossary of musical terms
-            </p>
+            {!isMobile && (
+              <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 md:text-center md:text-xs md:tracking-[0.22em]">
+                A glossary of musical terms
+              </p>
+            )}
           </div>
 
           <div className="flex shrink-0 items-start gap-3 md:gap-5">
