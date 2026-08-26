@@ -166,7 +166,7 @@ function LexiconPage() {
   return (
     <div className="flex h-screen flex-col overflow-hidden bg-paper text-ink">
       {/* Header */}
-      <header className="relative z-20 shrink-0">
+      <header className={`relative z-20 shrink-0 ${mobileEntered ? "" : "hidden md:block"}`}>
         <div className="mx-auto grid max-w-[1600px] grid-cols-[minmax(0,1fr)_auto] items-start gap-4 px-4 py-4 md:flex md:justify-between md:px-6 md:py-5">
           <div className="min-w-0">
             <h1 className="font-display text-base uppercase leading-none tracking-[0.12em] sm:text-xl md:text-2xl">
