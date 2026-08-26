@@ -363,43 +363,46 @@ function LexiconPage() {
         </div>
       </header>
 
-      {/* Mobile: landing page or scrollable A–Z list. Desktop: mind map stage. */}
-      {isMobile ? (
-        mobileEntered ? (
-          <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
-            <TermList
-              terms={TERMS}
-              activeSlug={activeSlug}
-              selectedLetter={selectedLetter}
-              selectedCategory={selectedCategory}
+      {/* Mobile landing page */}
+      <main
+        className={`relative flex min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6 md:hidden ${mobileEntered ? "hidden" : "flex"}`}
+      >
+        <div className="h-[55vh] w-[55vh] max-h-[360px] max-w-[360px]">
+          <Head3D className="h-full w-full" />
+        </div>
+        <button
+          type="button"
+          onClick={() => setMobileEntered(true)}
+          className="mt-8 border-b border-ink/30 px-3 py-2 font-mono text-xs uppercase tracking-[0.18em] text-ink/70 transition hover:border-ink hover:text-ink"
+        >
+          Click to continue to the Dylan Lexicon
+        </button>
+      </main>
+
+      {/* Mobile: scrollable A–Z list */}
+      <main
+        className={`min-h-0 flex-1 overflow-y-auto overscroll-contain md:hidden ${mobileEntered ? "flex" : "hidden"}`}
+      >
+        <TermList
+          terms={TERMS}
+          activeSlug={activeSlug}
+          selectedLetter={selectedLetter}
+          selectedCategory={selectedCategory}
+          onSelectTerm={openTerm}
+        />
+        {activeTerm && (
+          <div className="fixed inset-0 z-40 bg-paper">
+            <TermDetail
+              term={activeTerm}
               onSelectTerm={openTerm}
+              onClose={() => setActiveSlug(null)}
             />
-            {activeTerm && (
-              <div className="fixed inset-0 z-40 bg-paper">
-                <TermDetail
-                  term={activeTerm}
-                  onSelectTerm={openTerm}
-                  onClose={() => setActiveSlug(null)}
-                />
-              </div>
-            )}
-          </main>
-        ) : (
-          <main className="relative flex min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6">
-            <div className="h-[55vh] w-[55vh] max-h-[360px] max-w-[360px]">
-              <Head3D className="h-full w-full" />
-            </div>
-            <button
-              type="button"
-              onClick={() => setMobileEntered(true)}
-              className="mt-8 border-b border-ink/30 px-3 py-2 font-mono text-xs uppercase tracking-[0.18em] text-ink/70 transition hover:border-ink hover:text-ink"
-            >
-              Click to continue to the Dylan Lexicon
-            </button>
-          </main>
-        )
-      ) : (
-      <main className="relative min-h-0 flex-1">
+          </div>
+        )}
+      </main>
+
+      {/* Desktop: mind map stage */}
+      <main className="relative hidden min-h-0 flex-1 md:block">
         <div
           onClick={() => {
             setSelectedLetter(null);
@@ -427,7 +430,6 @@ function LexiconPage() {
           </div>
         </div>
 
-
         {activeTerm && (
           <div className="absolute right-0 top-0 bottom-14 z-10 w-full max-w-[400px]">
             <TermDetail
@@ -438,7 +440,6 @@ function LexiconPage() {
           </div>
         )}
       </main>
-      )}
 
       {/* Alphabet */}
       <div
