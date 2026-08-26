@@ -441,17 +441,15 @@ function LexiconPage() {
       )}
 
       {/* Alphabet */}
-      {(!isMobile || mobileEntered) && (
-        <div
-          className={`relative z-10 shrink-0 ${isMobile ? "" : "-translate-y-full"}`}
-        >
-          <AlphabetStrip
-            terms={TERMS}
-            activeLetter={activeLetter}
-            onSelectLetter={handleSelectLetter}
-          />
-        </div>
-      )}
+      <div
+        className={`relative z-10 shrink-0 ${mobileEntered ? "block" : "hidden"} md:block md:-translate-y-full`}
+      >
+        <AlphabetStrip
+          terms={TERMS}
+          activeLetter={activeLetter}
+          onSelectLetter={handleSelectLetter}
+        />
+      </div>
     </div>
   );
 }
