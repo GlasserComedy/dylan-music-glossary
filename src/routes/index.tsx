@@ -172,11 +172,9 @@ function LexiconPage() {
             <h1 className="font-display text-base uppercase leading-none tracking-[0.12em] sm:text-xl md:text-2xl">
               The Dylan Lexicon
             </h1>
-            {!isMobile && (
-              <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 md:text-center md:text-xs md:tracking-[0.22em]">
-                A glossary of musical terms
-              </p>
-            )}
+            <p className="mt-2 hidden font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 md:block md:text-center md:text-xs md:tracking-[0.22em]">
+              A glossary of musical terms
+            </p>
           </div>
 
           <div className="flex shrink-0 items-start gap-3 md:gap-5">
