@@ -32,6 +32,10 @@ export function Head3D({ className = "" }: { className?: string }) {
     };
 
     const onMove = (e: PointerEvent) => {
+      // Only follow the cursor while it is over a term label — hovering the
+      // blank background must not make the head move.
+      const el = e.target as HTMLElement | null;
+      if (!el || !el.closest("[data-term-label]")) return;
       pointer.x = e.clientX;
       pointer.y = e.clientY;
       pointer.has = true;

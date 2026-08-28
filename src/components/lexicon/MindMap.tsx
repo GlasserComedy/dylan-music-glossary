@@ -459,6 +459,7 @@ export function MindMap({
           return (
             <button
               key={term.slug}
+              data-term-label
               ref={(el) => {
                 if (el) itemRefs.current.set(term.slug, el);
               }}
