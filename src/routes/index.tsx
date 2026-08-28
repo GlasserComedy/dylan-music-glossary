@@ -373,9 +373,11 @@ function LexiconPage() {
         <button
           type="button"
           onClick={() => setMobileEntered(true)}
-          className="mt-8 border-b border-ink/30 px-3 py-2 font-mono text-xs uppercase tracking-[0.18em] text-ink/70 transition hover:border-ink hover:text-ink"
+          className="mt-8 border-b border-ink/30 px-3 py-2 text-center font-mono text-xs uppercase leading-relaxed tracking-[0.18em] text-ink/70 transition hover:border-ink hover:text-ink"
         >
-          Click to continue to the Dylan Lexicon
+          Click to continue to
+          <br />
+          the Dylan Lexicon
         </button>
       </main>
 
