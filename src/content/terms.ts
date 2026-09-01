@@ -353,7 +353,7 @@ export const TERMS: Term[] = [
     title: "Newport 1965",
     category: "Reinvention",
     definition:
-      "The 1965 Newport Folk Festival set at which Dylan first played electric, dividing the folk audience. The Newport Folk Festival itself was founded in 1959 by jazz impresario George Wein, singer Theodore Bikel, and a circle of folk advocates as a counterpart to the already established Newport Jazz Festival. It quickly became the annual summit of the American folk revival, a place where Lead Belly's heirs, Woody Guthrie's disciples, and a new generation of songwriters shared stages and workshops on the lawns of Newport, Rhode Island.",
+      "The 1965 Newport Folk Festival set at which Dylan gave his first professional live performance with electric instruments, dividing the folk audience. The Newport Folk Festival itself was founded in 1959 by jazz impresario George Wein, singer Theodore Bikel, and a circle of folk advocates as a counterpart to the already established Newport Jazz Festival. It quickly became the annual summit of the American folk revival, a place where Lead Belly's heirs, Woody Guthrie's disciples, and a new generation of songwriters shared stages and workshops on the lawns of Newport, Rhode Island.",
     inDylan:
       "Dylan was already a Newport regular: he had been introduced to the festival by Pete Seeger, who saw him as the movement's most important new voice. By 1963 he was being hailed as a king of folk at Newport, and by 1964 he was moving away from protest songs toward more personal, surreal writing. The 1965 festival was therefore both the climax of his folk apprenticeship and the moment he declared his independence from it. Backed by members of the Paul Butterfield Blues Band — Mike Bloomfield on guitar, Al Kooper on organ, and others — Dylan opened his short Sunday-night set with Maggie's Farm. The electric instruments, the volume, and the restless crowd reaction have been debated, mythologized, and reinterpreted ever since. Legend has it that Pete Seeger threatened to axe the cables with a hatchet because he could not hear the words over the noise; whatever the exact truth, the moment symbolized the fracturing of the folk-revival consensus and the arrival of rock as a serious adult language. The set's long afterlife has made it one of the most consequential weekends in modern music.",
     example: {
@@ -369,7 +369,7 @@ export const TERMS: Term[] = [
     title: "Nobel Prize",
     category: "Influence",
     definition:
-      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.' He was the first songwriter ever to receive it, and the announcement by Permanent Secretary Sara Danius on 13 October 2016 was met with a long, startled silence in the Stockholm press room before the questions began.",
+      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.' He was the first laureate chiefly known as a popular songwriter, and the announcement by Permanent Secretary Sara Danius on 13 October 2016 was met with a long, startled silence in the Stockholm press room before the questions began.",
     inDylan:
       "The award reframed the popular song as literature and set off a wide argument about the boundaries of the form \u2014 novelists objecting that a songwriter had taken a slot from literature, critics answering that Homer and Sappho were also meant to be heard rather than read, a comparison Danius made explicitly. Dylan said nothing for two weeks, did not attend the December ceremony, and sent Patti Smith to sing A Hard Rain's a-Gonna Fall in his place; she stopped mid-song, apologised, and began the verse again, a moment that became as remembered as the prize itself. He accepted with a short written speech read on his behalf, admitting he had never once asked himself whether his songs were literature, and delivered the required Nobel lecture only in June 2017, days before the deadline \u2014 a recorded talk in which he traced his writing back to Moby-Dick, All Quiet on the Western Front and the Odyssey, and closed by saying that songs, like plays, are meant to be performed, not read.",
     example: {
@@ -569,7 +569,7 @@ export const TERMS: Term[] = [
     definition:
       "Art that observes, critiques, or dramatizes the conditions of society: inequality, war, power, race, class, and the ways ordinary people are caught inside systems larger than themselves. It does not have to preach; sometimes it simply bears witness, making the abstract personal and the personal public.",
     inDylan:
-      "Dylan's social commentary shifted in tone and target across the decades. In the early 1960s he wrote directly about civil rights, anti-nuclear fear, and the mechanics of racism, singing at voter-registration drives and marches. By the mid-1960s his songs had become more imagistic and less explicit, but they were still social: Desolation Row and It's Alright, Ma (I'm Only Bleeding) are portraits of hypocrisy and moral compromise. In later years he returned to specific historical injustices — Hurricane Carter, the murder of Medgar Evers — while never allowing himself to be claimed as a spokesman. His influence was to show that a popular song could think about the world without being a sermon.",
+      "Dylan's social commentary shifted in tone and target across the decades. In the early 1960s he wrote directly about civil rights, anti-nuclear fear, and the mechanics of racism, singing at voter-registration drives and marches. By the mid-1960s his songs had become more imagistic and less explicit, but they were still social: Desolation Row and It's Alright, Ma (I'm Only Bleeding) are portraits of hypocrisy and moral compromise. He later returned to specific historical injustice with his 1975 song Hurricane, while his earlier Only a Pawn in Their Game addressed the murder of Medgar Evers. He never allowed himself to be claimed as a spokesman. His influence was to show that a popular song could think about the world without being a sermon.",
     example: {
       title: "Only a Pawn in Their Game",
       note:
@@ -585,7 +585,7 @@ export const TERMS: Term[] = [
     definition:
       "Susan Rotolo (1943–2011) was an American artist, civil-rights activist, and writer best known for her relationship with Bob Dylan in the early 1960s. Raised in a left-wing Greenwich Village family, she was already attending protest meetings and art classes when she met Dylan. She appears beside him on the iconic cover of The Freewheelin' Bob Dylan, and her presence in his life introduced him to books, politics, and a circle of Village thinkers that shaped his early work.",
     inDylan:
-      "Rotolo was far more than a footnote or a muse. She gave Dylan a reading list that stretched from Bertolt Brecht to the French symbolists, deepened his political awareness, and traveled with him to Italy in 1962-63, a separation that provoked several of his most tender and conflicted love songs. The strength of their bond, and the pain of its eventual dissolution, gave him a way to write about love as something complicated and adult rather than merely romantic. He later said she had a kind of truth in her, and critics have long seen her as a quiet but formative influence on the person he became as a writer.",
+      "Rotolo was far more than a footnote or a muse. She gave Dylan a reading list that stretched from Bertolt Brecht to the French symbolists and deepened his political awareness. Her six-month stay in Italy in 1962–63 separated the couple and provoked several of his most tender and conflicted love songs. The strength of their bond, and the pain of its eventual dissolution, gave him a way to write about love as something complicated and adult rather than merely romantic. He later said she had a kind of truth in her, and critics have long seen her as a quiet but formative influence on the person he became as a writer.",
     example: {
       title: "Boots of Spanish Leather",
       note:
@@ -634,7 +634,7 @@ export const TERMS: Term[] = [
     definition:
       "A song addressing current events.",
     inDylan:
-      "Dylan's early topical songs, like Hurricane and The Lonesome Death of Hattie Carroll, captured specific social issues while still resonating universally.",
+      "Dylan's topical songs, from the early The Lonesome Death of Hattie Carroll to the later Hurricane, captured specific social issues while still resonating universally.",
     example: {
       title: "The Lonesome Death of Hattie Carroll",
       note:
@@ -758,7 +758,7 @@ export const TERMS: Term[] = [
     definition:
       "The name an artist chooses for their work.",
     inDylan:
-      "Born Robert Zimmerman, he adopted the name Bob Dylan — inspired by poet Dylan Thomas — signaling his desire to craft a new identity through music and poetry.",
+      "Born Robert Zimmerman, he adopted the name Bob Dylan — a choice often linked to poet Dylan Thomas — signaling his desire to craft a new identity through music and poetry.",
     example: {
       title: "Bob Dylan (1962 debut album)",
       note:
@@ -893,7 +893,7 @@ export const TERMS: Term[] = [
     definition:
       "A genre combining folk lyrics and melodies with rock instrumentation.",
     inDylan:
-      "Dylan's Like a Rolling Stone helped launch folk-rock, inspiring artists like The Byrds to electrify their sound.",
+      "Dylan's electric mid-1960s work, including Like a Rolling Stone, helped expand folk-rock after The Byrds had already electrified his songs.",
     example: {
       title: "Mr. Tambourine Man (The Byrds)",
       note:
@@ -998,7 +998,7 @@ export const TERMS: Term[] = [
     example: {
       title: "Nashville Skyline Rag",
       note:
-        "A country rag played by Dylan's Nashville session band, the track announces the album's down-home sound without a single lyric.",
+        "A country rag featuring Dylan and Nashville session players, the track announces the album's down-home sound without a single lyric.",
       media: { kind: "youtube", id: "F4T3xs4-Jso", spotifyId: "716TKYoyVXFrXjz3rHwajp" },
     },
     related: ["melody", "tempo"],
