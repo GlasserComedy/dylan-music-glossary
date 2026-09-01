@@ -801,7 +801,7 @@ export const TERMS: Term[] = [
         title: "Auld Lang Syne",
         note:
           "Burns's most famous song of friendship and remembrance, heard here in Jean Redpath's warm Scots reading from her celebrated Burns songbook project.",
-        media: { kind: "youtube", id: "yRk_vbg9sWA", spotifyId: "20znEvnRjcngRqm0lnJVhg" },
+        media: { kind: "youtube", id: "jMc7GAXQ4qo", spotifyId: "20znEvnRjcngRqm0lnJVhg" },
       },
     ],
     related: ["lyric", "literature", "robert-burns", "imagery"],
