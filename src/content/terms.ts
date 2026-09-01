@@ -176,7 +176,7 @@ export const TERMS: Term[] = [
       title: "I'm So Lonesome I Could Cry",
       note:
         "Hank Williams's original 1949 recording is a country cornerstone: a brief, plain-spoken lament built on a simple melody, a walking bass line, and a voice that sounds as if it is carrying the weight of the world. Dylan absorbed this kind of country writing early, and the song's economy and emotional directness run through his own Nashville Skyline work and later covers.",
-      media: { kind: "youtube", id: "", spotifyId: "2UdwaJRkPUYj6XZescIAK4" },
+      media: { kind: "youtube", id: "Vjq6UgetUkw", spotifyId: "2UdwaJRkPUYj6XZescIAK4" },
     },
     related: ["folk-revival", "johnny-cash", "vocal-style", "guitar"],
   },
