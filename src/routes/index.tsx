@@ -63,7 +63,7 @@ function LexiconPage() {
       if (!target) return;
       if (
         target.closest(
-          'button, a, input, textarea, select, header, aside, [role="dialog"]',
+          'button, a, input, textarea, select, aside, [role="dialog"]',
         )
       ) {
         return;
