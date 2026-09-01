@@ -1365,7 +1365,7 @@ export const TERMS: Term[] = [
       title: "Lay Lady Lay",
       note:
         "The bridge introduces a new emotional perspective before returning to the main song idea.",
-      media: { kind: "youtube", id: "LhzEsb2tNbI", spotifyId: "1yRxcHJsRMmQOZ7tZtXwo9" },
+      media: { kind: "youtube", id: "LhzEsb2tNbI", spotifyId: "4uYwlMp841PLJmj1gJJwIq" },
     },
     related: ["verse", "chorus-refrain"],
   },
