@@ -815,10 +815,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan absorbed its spirit from Jack Kerouac and Allen Ginsberg, channeling their energy into his own lyrical style.",
     example: {
-      title: "Desolation Row",
+      title: "Just Like Tom Thumb's Blues",
       note:
-        "The long free-associating catalogue of characters owes its rhythm and spirit to Beat poetry.",
-      media: { kind: "youtube", id: "hUvcWXTIjcU", spotifyId: "0V1771LhL3tG36pb55EZAH" },
+        "Its feverish, free-associating journey through Juárez, Rue Morgue Avenue, and a gallery of damaged characters carries the restless, streetwise energy of Beat writing.",
+      media: { kind: "youtube", id: "Ulb8BaUv8mM", spotifyId: "0V1771LhL3tG36pb55EZAH" },
     },
     related: ["jack-kerouac", "surrealism"],
   },
