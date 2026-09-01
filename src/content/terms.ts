@@ -818,7 +818,7 @@ export const TERMS: Term[] = [
       title: "Just Like Tom Thumb's Blues",
       note:
         "Its feverish, free-associating journey through Juárez, Rue Morgue Avenue, and a gallery of damaged characters carries the restless, streetwise energy of Beat writing.",
-      media: { kind: "youtube", id: "Ulb8BaUv8mM", spotifyId: "0V1771LhL3tG36pb55EZAH" },
+      media: { kind: "youtube", id: "CcRNSHqiH7A", spotifyId: "0V1771LhL3tG36pb55EZAH" },
     },
     related: ["jack-kerouac", "surrealism"],
   },
