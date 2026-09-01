@@ -260,7 +260,7 @@ function LexiconPage() {
 
             {/* Contact */}
             <a
-              href="mailto:glasser.nathaniel@gmail.com"
+              href="mailto:info@dylanlexicon.com"
               title="Contact us"
               aria-label="Contact us via email"
               className="group inline-flex shrink-0 items-center gap-1 border-b border-ink/20 px-1 py-2 font-mono text-[9px] uppercase tracking-[0.12em] text-ink/60 transition hover:border-ink/60 hover:text-ink sm:gap-1.5 md:text-[10px] md:tracking-[0.22em]"
