@@ -224,7 +224,7 @@ export const TERMS: Term[] = [
       title: "What Can I Do for You?",
       note:
         "From the Saved album, this piano-led prayer moves like a church testimony, with a soaring female chorus and a lyric that asks direct questions of the divine.",
-      media: { kind: "youtube", id: "rtnv5cVViRw", spotifyId: "6AYppP8X3YtNPAlwFuFyGA" },
+      media: { kind: "youtube", id: "rtnv5cVViRw", spotifyId: "71ttiJxheBp4rHlUEveVeY" },
     },
     related: ["blues"],
   },
@@ -264,7 +264,7 @@ export const TERMS: Term[] = [
       title: "I Shall Be Released (with The Band)",
       note:
         "The layered vocals of Dylan and The Band turn a simple hymn-like tune into a chorus of voices moving together in harmony.",
-      media: { kind: "youtube", id: "oHL5Y-ZCTY8", spotifyId: "7fGYJT5dBuGFxER8iWS8nQ" },
+      media: { kind: "youtube", id: "oHL5Y-ZCTY8", spotifyId: "0UrMCbsMMDsX1GK3dA7lca" },
     },
     related: ["chord-progression", "rhythm"],
   },
@@ -376,7 +376,7 @@ export const TERMS: Term[] = [
       title: "Mr. Tambourine Man",
       note:
         "Often cited as the song where Dylan's writing moves fully into poetry, it was central to the case that his songs are literature.",
-      media: { kind: "youtube", id: "oecX_1pqxk0", spotifyId: "7FsmZP2mj7qx7YDRrjGEUR" },
+      media: { kind: "youtube", id: "oecX_1pqxk0", spotifyId: "3RkQ3UwOyPqpIiIvGVewuU" },
     },
     related: ["lyric", "singer-songwriter"],
   },
@@ -620,10 +620,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan used standard signatures but bent them with his phrasing, making familiar rhythms sound fresh — Just Like a Woman sits in 6/8, and To Ramona rides a waltzing 3/4.",
     example: {
-      title: "Just Like a Woman",
+      title: "Sad Eyed Lady of the Lowlands",
       note:
-        "Its lilting 6/8 feel gives the song a swaying motion that a straight 4/4 would flatten.",
-      media: { kind: "youtube", id: "dRLXZVojdhQ", spotifyId: "37Dl7jQMmt0gUnzTKqnjkN" },
+        "An eleven-minute song carried on a slow, swaying 6/8 waltz feel \u2014 the triple pulse is what lets the verses roll on and on without ever sounding hurried.",
+      media: { kind: "youtube", id: "0c1NJPCN6nA", spotifyId: "4jdtLLyEL7wY0TlCdMKhxq" },
     },
     related: ["rhythm"],
   },
@@ -683,10 +683,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan sometimes incorporated violin (fiddle) in his arrangements to add a rustic or dramatic feel. Scarlet Rivera's exotic, gypsy-tinged playing on Desire is the classic example, and the instrument's portability and vocal-like sustain have made it a natural partner for singers in folk and roots settings.",
     example: {
-      title: "One More Cup of Coffee",
+      title: "Black Diamond Bay",
       note:
-        "Scarlet Rivera's violin winds around the vocal line throughout, giving the song its Eastern, wandering character.",
-      media: { kind: "youtube", id: "95cufW4h-gA", spotifyId: "4WOruM7TiQSETsWYy8bDSX" },
+        "Scarlet Rivera's violin darts through every verse of this Desire story-song, answering the vocal line and giving the whole tall tale its restless, cinematic motion.",
+      media: { kind: "youtube", id: "73N211qQCZU", spotifyId: "2OqE96IZhnQ7uNunN6Opag" },
     },
   },
   {
@@ -913,7 +913,7 @@ export const TERMS: Term[] = [
     example: {
       title: "The Water Is Wide",
       note:
-        "A traditional British folk song Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice.",
+        "A traditional British folk song Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice. It also shows his life-long love and appreciation of traditional songs \u2014 he has gone back to them again and again as a way of getting renewed inspiration.",
       media: { kind: "youtube", id: "ozKv_Nmgrkw", spotifyId: "6EmdWTaN4455ZPfZqoc0pT" },
     },
     related: ["traditional", "ballad", "greenwich-village", "talkin-blues"],
@@ -1015,7 +1015,7 @@ export const TERMS: Term[] = [
       title: "Diamonds & Rust (Joan Baez)",
       note:
         "Baez's signature reflection on their relationship, capturing both sides of a collaboration that shaped each artist's career.",
-      media: { kind: "youtube", id: "1ST9TZBb9v8", spotifyId: "4O0sGJdqpHMaWz7KoVd7tb" },
+      media: { kind: "youtube", id: "IrVD0bP_ybg", spotifyId: "4O0sGJdqpHMaWz7KoVd7tb" },
     },
     related: ["folk-revival"],
   },
@@ -1108,10 +1108,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan has worked with producers from John Hammond to Daniel Lanois, each leaving a mark on his albums. He has also produced many of his own records under the alias Jack Frost, keeping the studio control close to the songs themselves.",
     example: {
-      title: "Time Out of Mind (prod. Daniel Lanois)",
+      title: "Man in the Long Black Coat",
       note:
-        "Lanois's atmospheric production \u2014 reverb, murk, room sound \u2014 is as much a part of the record as the songs.",
-      media: { kind: "youtube", id: "Ex5h0PHHbNI", albumId: "185DHT5SvszXRrezx3lOjt" },
+        "Lanois's production is the song: a cricket-filled night, tremolo guitar and a wash of room sound around the vocal \u2014 atmosphere doing as much narrative work as the lyric.",
+      media: { kind: "youtube", id: "8JuLKtz_EH8", spotifyId: "5NtOAfnwkKo7eAGq7Uap3J" },
     },
     related: ["daniel-lanois", "john-hammond", "columbia-records"],
     aliases: ["Daniel Lanois", "Oh Mercy", "Time Out of Mind"],
@@ -1158,7 +1158,7 @@ export const TERMS: Term[] = [
       title: "To Be Alone with You",
       note:
         "The warm, close-country croon on this Nashville Skyline cut is a clear example of Dylan deliberately softening his voice to match a different emotional world.",
-      media: { kind: "youtube", id: "eos_70yqX8E", spotifyId: "7CuCP5OoLH77hJTibZQE4r" },
+      media: { kind: "youtube", id: "3OoXZHf4R7g", spotifyId: "7CuCP5OoLH77hJTibZQE4r" },
     },
   },
   {
@@ -1173,7 +1173,7 @@ export const TERMS: Term[] = [
       title: "I Am a Lonesome Hobo",
       note:
         "A plain three-chord frame that Dylan bends purely with delivery \u2014 lines pushed late, syllables crowded together and then stretched out, the last word of each verse hung in the air. Nothing in the melody explains the effect; it is all phrasing.",
-      media: { kind: "youtube", spotifyId: "49pZlXa9pZ6N0j6O4xduoC" },
+      media: { kind: "youtube", id: "20vc2DnceYc", spotifyId: "49pZlXa9pZ6N0j6O4xduoC" },
     },
     aliases: ["timing", "delivery", "behind the beat", "hard to cover"],
     related: ["vocal-style", "rhythm", "lyric"],
@@ -1191,13 +1191,13 @@ export const TERMS: Term[] = [
         title: "A Hard Rain's A-Gonna Fall (Live at Carnegie Hall, 1963)",
         note:
           "Dynamic variation inside one song: the verses are close and conversational, then each 'and it's a hard rain' refrain arrives markedly louder, the strumming heavier and the voice pushed \u2014 solo, with no band to help.",
-        media: { kind: "youtube", spotifyId: "2jO4NEFgGmWrtri7Bn3whm" },
+        media: { kind: "youtube", id: "RAmYHnOgp4w", spotifyId: "2jO4NEFgGmWrtri7Bn3whm" },
       },
       {
         title: "Tomorrow Is a Long Time (Live at Town Hall, 1963)",
         note:
           "The quiet end of the range \u2014 a soft, almost private performance held at low volume throughout, where the emotion comes from restraint rather than force.",
-        media: { kind: "youtube", spotifyId: "4UboNnwIIXme8aWSW6f6TF" },
+        media: { kind: "youtube", id: "UHG06Q45ziI", spotifyId: "4UboNnwIIXme8aWSW6f6TF" },
       },
       {
         title:
@@ -1212,7 +1212,7 @@ export const TERMS: Term[] = [
   },
   {
     slug: "umm-kulthum",
-    title: "Umm Kulthum",
+    title: "Umm Kulthoum",
     category: "Influence",
     definition:
       "Umm Kulthum (also spelled Om Khalsoum) was the most celebrated singer in the Arab world, known as the 'Star of the East' for her powerful, emotionally intense performances of long, poetic songs. Her voice moved through long, ornamented phrases and dramatic shifts in dynamics, accompanied by large orchestras that followed her every gesture.",
@@ -1222,7 +1222,7 @@ export const TERMS: Term[] = [
       title: "Alf Leila We Leila (A Thousand and One Nights)",
       note:
         "An hour-long meditation on a single night of love, where one line can be turned over for minutes at a time \u2014 the sustained, ornamental phrasing that fascinated Dylan and echoes in his most Eastern-tinged vocals.",
-      media: { kind: "youtube", id: "3xzySqYNKkA", spotifyId: "7kOtvS6igRttHxNnJDyaQD" },
+      media: { kind: "youtube", id: "MmZDniLCa1c", spotifyId: "0l0DQO6jlzwdKUX6iv5WWO" },
     },
     aliases: ["Om Khalsoum", "Umm Kalthoum", "Om Kalsoum", "Oum Kalthoum"],
     related: ["vocal-style", "violin"],
@@ -1303,7 +1303,7 @@ export const TERMS: Term[] = [
       title: "All Along the Watchtower",
       note:
         "A rare example of Dylan using a compact, verse-only structure with no traditional chorus.",
-      media: { kind: "youtube", id: "bT7Hj-ea0VE", spotifyId: "14kwHJxxL8BVmJMxKaP2E2" },
+      media: { kind: "youtube", id: "bT7Hj-ea0VE", spotifyId: "0Fnb2pfBfu0ka33d6Yki17" },
     },
     related: ["chorus-refrain", "bridge", "narrative"],
   },
@@ -1319,14 +1319,14 @@ export const TERMS: Term[] = [
       title: "Little Sadie",
       note:
         "Little Sadie leans on a Mixolydian melody — a modal tune carried over from the older folk repertoire.",
-      media: { kind: "youtube", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
+      media: { kind: "youtube", id: "Xl3bBttxRz4", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
     },
     examples: [
       {
         title: "Little Sadie",
         note:
           "Little Sadie leans on a Mixolydian melody — a modal tune carried over from the older folk repertoire.",
-        media: { kind: "youtube", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
+        media: { kind: "youtube", id: "Xl3bBttxRz4", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
       },
       {
         title: "Man of Constant Sorrow",
@@ -1459,7 +1459,7 @@ export const TERMS: Term[] = [
       title: "Kurtis Blow \u2014 Street Rock (with Bob Dylan)",
       note:
         "Dylan sings on Kurtis Blow's 1986 track, one of the earliest crossovers between a folk-rock songwriter and hip-hop \u2014 rhymed speech over a beat meeting sung verse.",
-      media: { kind: "youtube", id: "xfi7ME_Y5Vs", spotifyId: "1GO6BnAO8t6e35NX64QGN9" },
+      media: { kind: "youtube", id: "nQMQWVcUDvQ", spotifyId: "1GO6BnAO8t6e35NX64QGN9" },
     },
     related: ["talkin-blues", "rhyme", "beat", "rhythm"],
   },
@@ -1519,7 +1519,7 @@ export const TERMS: Term[] = [
       title: "He Was a Friend of Mine",
       note:
         "Van Ronk's own recording, with its heavy fingerpicking and gruff vocal, shows why he was the keeper of the old songs on MacDougal Street.",
-      media: { kind: "youtube", id: "754sRFIHIrA", spotifyId: "38bVZHfIbyZcbt9C465E3e" },
+      media: { kind: "youtube", id: "fmhJVDnrtcg", spotifyId: "38bVZHfIbyZcbt9C465E3e" },
     },
     related: ["greenwich-village", "folk-revival", "blues", "traditional"],
     aliases: [
@@ -1555,7 +1555,7 @@ export const TERMS: Term[] = [
       title: "The Night They Drove Old Dixie Down",
       note:
         "Robbie Robertson's Civil War ballad sung from the losing side, carried by Levon Helm's Arkansas drawl \u2014 the clearest statement of the weathered, communal American sound The Band built alongside Dylan.",
-      media: { kind: "youtube", id: "6dDbnwQlCek", spotifyId: "2nvcTDmZkRWKNMAL29sLHo" },
+      media: { kind: "youtube", id: "QC-eDtV5O0Q", spotifyId: "2nvcTDmZkRWKNMAL29sLHo" },
     },
     related: ["electric", "folk-rock", "harmony"],
   },
@@ -1588,7 +1588,7 @@ export const TERMS: Term[] = [
       title: "In the Pines (Where Did You Sleep Last Night)",
       note:
         "A traditional song Lead Belly made his own \u2014 the same process of inhabiting and reshaping an old song that Dylan built a career on.",
-      media: { kind: "youtube", id: "2MkfTYPmLlA", spotifyId: "5rerimz0RW2Royhow3g0sR" },
+      media: { kind: "youtube", id: "VdYVANxDNkg", spotifyId: "5rerimz0RW2Royhow3g0sR" },
     },
     related: ["traditional", "folklore", "blues"],
   },
@@ -1604,7 +1604,7 @@ export const TERMS: Term[] = [
       title: "Lost Highway",
       note:
         "Three verses of drifting and regret with almost no ornament \u2014 the compression and the road imagery Dylan carried into his own writing.",
-      media: { kind: "youtube", id: "lCgicPdsxxg", spotifyId: "0jo2E9nTTflJzAadadRaek" },
+      media: { kind: "youtube", id: "92dezZCxer8", spotifyId: "0jo2E9nTTflJzAadadRaek" },
     },
     related: ["lyric", "narrative", "traditional"],
   },
@@ -1620,7 +1620,7 @@ export const TERMS: Term[] = [
       title: "Cross Road Blues",
       note:
         "The crossroads legend in three minutes \u2014 slide guitar, a shifting beat, and images loaded far beyond their literal words.",
-      media: { kind: "youtube", id: "Kxi4XkIVWLQ", spotifyId: "1TrGdXSgiBm8W68D2K1COG" },
+      media: { kind: "youtube", id: "7fEMbYMuEKs", spotifyId: "1TrGdXSgiBm8W68D2K1COG" },
     },
     related: ["blues", "imagery", "folklore"],
   },
@@ -1659,12 +1659,18 @@ export const TERMS: Term[] = [
   },
   {
     slug: "folklore-center",
-    title: "The Folklore Center",
+    title: "Folklore Center",
     category: "Influence",
     definition:
       "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room.",
     inDylan:
       "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert, at Carnegie Chapter Hall in November 1961.",
+    example: {
+      title: "Izzy Young and the Folklore Center (film)",
+      note:
+        "Archive footage of Izzy Young and the MacDougal Street shop that served as the folk revival's front room.",
+      media: { kind: "youtube", id: "If3WGtI5v9s" },
+    },
     documents: [
       {
         src: folkloreCover,
@@ -1697,7 +1703,13 @@ export const TERMS: Term[] = [
     definition:
       "Israel \u201cIzzy\u201d Young, folklorist and founder of the Folklore Center, who promoted concerts, kept notebooks on the scene, and later ran the Folklore Centrum in Stockholm.",
     inDylan:
-      "Young interviewed Dylan in 1961 and produced his first New York concert, becoming one of the earliest people to write down who this singer said he was.",
+      "Young interviewed Dylan in 1961 and produced his first New York concert, becoming one of the earliest people to write down who this singer said he was. He was also the unassuming leader of the protest against the city's ban on instrument playing in Washington Square Park: after the Parks Department refused the musicians' permit in the spring of 1961, Young organised the demonstration that became known as the Beatnik Riot on 9 April, marching to the fountain with hundreds of singers. When the police moved in, he led the crowd in the one song that could not be called unpatriotic \u2014 The Star-Spangled Banner.",
+    example: {
+      title: "Izzy Young and the Folklore Center (film)",
+      note:
+        "Archive footage of Izzy Young and the MacDougal Street shop that served as the folk revival's front room.",
+      media: { kind: "youtube", id: "If3WGtI5v9s" },
+    },
     documents: [
       {
         src: folkloreCover,
@@ -1752,7 +1764,7 @@ export const TERMS: Term[] = [
       title: "No More Auction Block",
       note:
         "Odetta's powerful solo recording of this anti-slavery work song became the template Dylan studied when he was learning how a single voice and acoustic guitar could carry a whole history of struggle. Dylan almost certainly drew on 'No More Auction Block' for 'Blowin' in the Wind' — at least musically, if not thematically — taking the same three-line melodic lift and turning it into one of the most famous questions in popular music.",
-      media: { kind: "youtube", id: "AHVWpcJsZBw", spotifyId: "654uytI1ZQaTrioZUKVGAs" },
+      media: { kind: "youtube", id: "AHVWpcJsZBw", spotifyId: "6Cr25Cyxe60UIstbpOgHjS" },
     },
     related: ["folk-revival", "traditional", "blues"],
     aliases: ["Odetta Holmes", "Voice of the Civil Rights Movement"],
@@ -1769,7 +1781,7 @@ export const TERMS: Term[] = [
       title: "Up Above My Head",
       note:
         "Gospel call-and-response driven by her own electric lead lines \u2014 proof that plugging in was never a break with tradition.",
-      media: { kind: "youtube", id: "JeaBNAXfHfQ", spotifyId: "5SdV6pe3sgH7b0DphOwGmI" },
+      media: { kind: "youtube", id: "y-Jr-W6A5rs", spotifyId: "5SdV6pe3sgH7b0DphOwGmI" },
     },
     related: ["gospel", "electric", "newport-1965"],
     aliases: ["Rosetta Nubin", "Godmother of Rock and Roll", "gospel guitar"],
@@ -1905,7 +1917,7 @@ export const TERMS: Term[] = [
       title: "Isis (Rolling Thunder Revue)",
       note:
         "The bass keeps a hard, insistent beat under Dylan's shouted narrative, letting the arrangement stay wild without falling apart.",
-      media: { kind: "youtube", id: "INilAY6aJTc", spotifyId: "4znWzULyBSErvvt6rVHlta" },
+      media: { kind: "youtube", id: "b9WMhNqmWcc", spotifyId: "2IfygshcMSLVv8b6DbgIoK" },
     },
     related: ["violin", "reinvention", "beat"],
     aliases: ["Robert Rothstein", "bass", "bandleader"],
@@ -2024,7 +2036,7 @@ export const TERMS: Term[] = [
       title: "Tutti Frutti",
       note:
         "Pure delivery over content \u2014 the voice, the piano and the beat carry everything, a lesson in performance as meaning.",
-      media: { kind: "youtube", id: "F13JNjpNW6c", spotifyId: "2iXcvnD3d1gfLBum0cE5Eg" },
+      media: { kind: "youtube", id: "uU50v4BR3w0", spotifyId: "2iXcvnD3d1gfLBum0cE5Eg" },
     },
     related: ["piano", "vocal-style", "rock"],
     aliases: ["Richard Penniman", "Hibbing yearbook", "Tutti Frutti", "Macon"],
@@ -2089,10 +2101,10 @@ export const TERMS: Term[] = [
     inDylan:
       "They played the rhythm section on Infidels, putting a reggae pulse underneath some of Dylan's early-80s songs.",
     example: {
-      title: "Man of Peace",
+      title: "Don't Fall Apart on Me Tonight",
       note:
-        "The drums and bass lock into a reggae-inflected groove that drives the song more than the guitars do.",
-      media: { kind: "youtube", id: "kLJpoAsZR98", spotifyId: "4rTdJYQ98IB5EOvKxz1Dm3" },
+        "Sly's drums and Robbie's bass carry the whole Infidels ballad \u2014 a loose, patient reggae-rooted pulse that lets Dylan's vocal float above it.",
+      media: { kind: "youtube", id: "97vZ2qOQv_c", spotifyId: "1TcaA7LukgnPWZMtQpo3hN" },
     },
     related: ["reggae", "rhythm", "beat"],
     aliases: [
@@ -2115,7 +2127,7 @@ export const TERMS: Term[] = [
       title: "Time Out of Mind (prod. Daniel Lanois)",
       note:
         "Reverb, murk and distant room sound turn a set of blues-based songs into something haunted \u2014 production as authorship.",
-      media: { kind: "youtube", id: "Ex5h0PHHbNI", albumId: "185DHT5SvszXRrezx3lOjt" },
+      media: { kind: "youtube", id: "5y_VTtGujPI", albumId: "185DHT5SvszXRrezx3lOjt" },
     },
     related: ["producer", "reinvention", "blues"],
     aliases: ["Oh Mercy", "Time Out of Mind", "1997", "ambient production"],
