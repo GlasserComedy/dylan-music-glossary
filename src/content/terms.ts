@@ -747,7 +747,7 @@ export const TERMS: Term[] = [
       title: "Knockin' on Heaven's Door",
       note:
         "Written for Pat Garrett and Billy the Kid, in which Dylan also appears on screen as the character Alias.",
-      media: { kind: "youtube", id: "rm9coqlk8fY", spotifyId: "5Qyq0oeQ0amjnpwne2usj0" },
+      media: { kind: "youtube", id: "rm9coqlk8fY", spotifyId: "6HSXNV0b4M4cLJ7ljgVVeh" },
     },
     related: ["film-music"],
   },
