@@ -2210,6 +2210,30 @@ export const TERMS: Term[] = [
       "Mozambique",
     ],
   },
+  {
+    slug: "ramblin-jack-elliott",
+    title: "Ramblin' Jack Elliott",
+    category: "Roots",
+    definition:
+      "Brooklyn-born folk singer who carried Woody Guthrie's rambling cowboy style across the Atlantic and back, and became the vital link between Guthrie and Dylan.",
+    inDylan:
+      "Dylan learned Guthrie's songs largely by copying Elliott \u2014 his phrasing, his yodel and his talking-blues patter \u2014 and landed in New York billing himself as a second Elliott. Dylan told Studs Terkel in 1963 that 'Jack Elliott, wow \u2014 he influenced everybody'; Guthrie himself called Jack his 'surrogate son.' Elliott later joined Dylan on the 1975 Rolling Thunder Revue, closing a twenty-year circle.",
+    example: {
+      title: "San Francisco Bay Blues",
+      note:
+        "His signature Jesse Fuller cover, recorded for Jack Takes the Floor (1958) \u2014 the loose, banjo-driven storytelling that made Dylan want to sound like him.",
+      media: { kind: "youtube", id: "5JQhAiD6QTc", spotifyId: "5yzcdgk9aDot7iRZ6OXGPS" },
+    },
+    related: ["woody-guthrie", "talkin-blues", "dave-van-ronk", "greenwich-village"],
+    aliases: [
+      "Jack Elliott",
+      "Adolph Vernor Elliott",
+      "surrogate son of Woody Guthrie",
+      "Jack Takes the Floor",
+      "Jesse Fuller",
+      "Rolling Thunder Revue",
+    ],
+  },
 ];
 
 
