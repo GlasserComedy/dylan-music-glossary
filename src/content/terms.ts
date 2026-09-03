@@ -2146,7 +2146,7 @@ export const TERMS: Term[] = [
         "Performed on screen as Jack Fate in Masked & Anonymous \u2014 a Time Out of Mind song smuggled into the film's broken-down carnival world, blurring the line between Bob Dylan and his movie self.",
       media: { kind: "youtube", id: "9hO-83CIVKM", spotifyId: "7vLx5ZrLSCTWIKye2LBldT" },
     },
-    related: ["film-music", "acting", "music-video"],
+    related: ["film-music", "acting", "music-video", "da-pennebaker"],
     aliases: [
       "Renaldo and Clara",
       "Masked and Anonymous",
@@ -2156,7 +2156,58 @@ export const TERMS: Term[] = [
       "A Complete Unknown",
       "Hearts of Fire",
       "Jack Fate",
-      "D.A. Pennebaker",
+    ],
+  },
+  {
+    slug: "da-pennebaker",
+    title: "D.A. Pennebaker",
+    category: "Reinvention",
+    definition:
+      "Documentary filmmaker and pioneer of cinema v\u00e9rit\u00e9, whose handheld, observational style reshaped how popular music appeared on screen.",
+    inDylan:
+      "Pennebaker filmed Dylan constantly through the 1965 British tour; the result, Don't Look Back (1967), catches Dylan sharp, funny and merciless at the exact moment he was shedding folk convention. He returned for Eat the Document (1972), Dylan's own fractured tour collage, and his Monterey Pop captured the era Dylan soundtracked. Don't Look Back essentially invented the rock documentary \u2014 and the 'Subterranean Homesick Blues' cue-card clip inside it remains the most famous two minutes of music film ever shot.",
+    example: {
+      title: "It's All Over Now, Baby Blue",
+      note:
+        "From Bringing It All Back Home, the album whose tour Pennebaker filmed; the song plays over the closing moments of Don't Look Back, sending off the folk world Dylan was leaving behind.",
+      media: { kind: "youtube", id: "L4HW33SgZlM", spotifyId: "4EgKcG7aswxVfQEqa3dl8S" },
+    },
+    related: ["film", "music-video", "1960s", "electric"],
+    aliases: [
+      "Pennebaker",
+      "Don't Look Back",
+      "Eat the Document",
+      "Monterey Pop",
+      "cinema verite",
+      "documentary",
+      "rockumentary",
+    ],
+  },
+  {
+    slug: "jacques-levy",
+    title: "Jacques Levy",
+    category: "Words",
+    definition:
+      "Playwright, theatrical director and co-writer who helped author Dylan's 1976 album Desire \u2014 a record built on narratives, travelogues and characters rather than confession.",
+    inDylan:
+      "Levy co-wrote most of Desire with Dylan, sketching story-songs like scenes from a play: the fugitive lovers of Romance in Durango, the outlaw epic of Joey, the high-desert mythology of Isis. A director of the controversial revue Oh! Calcutta!, he also staged and co-directed the Rolling Thunder Revue in 1975, giving Dylan's theatrical touring circus its shape. Their partnership, born in Dylan's Chelsea Hotel basement writing sessions, produced the most collaborative songwriting of Dylan's career.",
+    example: {
+      title: "Romance in Durango",
+      note:
+        "A Levy co-write \u2014 a Mexican escape ballad with mariachi horns and running characters, written like a play he and Dylan were staging together.",
+      media: { kind: "youtube", id: "N2ZxwyBV2IM", spotifyId: "1OT1G66Lt9EpKFWkwK8i9z" },
+    },
+    related: ["narrative", "scarlet-rivera", "rob-stoner", "literature"],
+    aliases: [
+      "Jac Levy",
+      "Desire 1976",
+      "Oh! Calcutta",
+      "Rolling Thunder Revue director",
+      "co-writer",
+      "lyricist",
+      "Romance in Durango",
+      "Joey",
+      "Mozambique",
     ],
   },
 ];
