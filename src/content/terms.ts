@@ -2132,6 +2132,33 @@ export const TERMS: Term[] = [
     related: ["producer", "reinvention", "blues"],
     aliases: ["Oh Mercy", "Time Out of Mind", "1997", "ambient production"],
   },
+  {
+    slug: "film",
+    title: "Film",
+    category: "Reinvention",
+    definition:
+      "Motion pictures \u2014 as actor, subject, composer or director \u2014 and Dylan's long, restless relationship with the camera.",
+    inDylan:
+      "Dylan's film life runs from D.A. Pennebaker's cinema v\u00e9rit\u00e9 of Don't Look Back (1967) and his own collage Eat the Document, through Renaldo & Clara (1978), the sprawling four-hour Rolling Thunder experiment he co-wrote and starred in, to acting roles like Hearts of Fire and his turn as Jack Fate in Masked & Anonymous (2003), a shaggy dystopian fable he also co-wrote. Martin Scorsese has twice turned his lens on Dylan, with No Direction Home (2005) and Rolling Thunder Revue (2019), and A Complete Unknown (2024) dramatized the early years for a new generation.",
+    example: {
+      title: "Cold Irons Bound (Live, Masked & Anonymous)",
+      note:
+        "Performed on screen as Jack Fate in Masked & Anonymous \u2014 a Time Out of Mind song smuggled into the film's broken-down carnival world, blurring the line between Bob Dylan and his movie self.",
+      media: { kind: "youtube", id: "9hO-83CIVKM", spotifyId: "7vLx5ZrLSCTWIKye2LBldT" },
+    },
+    related: ["film-music", "acting", "music-video", "rolling-thunder-revue"],
+    aliases: [
+      "Renaldo and Clara",
+      "Masked and Anonymous",
+      "Don't Look Back",
+      "Eat the Document",
+      "No Direction Home",
+      "A Complete Unknown",
+      "Hearts of Fire",
+      "Jack Fate",
+      "D.A. Pennebaker",
+    ],
+  },
 ];
 
 
