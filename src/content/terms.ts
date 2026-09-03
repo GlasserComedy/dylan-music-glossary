@@ -2146,7 +2146,7 @@ export const TERMS: Term[] = [
         "Performed on screen as Jack Fate in Masked & Anonymous \u2014 a Time Out of Mind song smuggled into the film's broken-down carnival world, blurring the line between Bob Dylan and his movie self.",
       media: { kind: "youtube", id: "9hO-83CIVKM", spotifyId: "7vLx5ZrLSCTWIKye2LBldT" },
     },
-    related: ["film-music", "acting", "music-video", "rolling-thunder-revue"],
+    related: ["film-music", "acting", "music-video"],
     aliases: [
       "Renaldo and Clara",
       "Masked and Anonymous",
