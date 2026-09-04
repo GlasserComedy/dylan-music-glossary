@@ -2242,7 +2242,27 @@ export const TERMS: Term[] = [
       "Rolling Thunder Revue",
     ],
   },
+  {
+    slug: "art",
+    title: "Art",
+    category: "Reinvention",
+    definition:
+      "Visual creative practice — drawing, painting, sculpture, and the way of seeing that comes with it.",
+    inDylan:
+      "Dylan has drawn and painted since the 1960s, producing sketches, oil paintings and iron sculptures, many collected in books like Drawn Blank and The Brazil Series. Less visibly, his studies with the painter Norman Raeben in the early 1970s changed how he wrote songs: Raeben taught him to see a scene from several angles at once, dissolving a single linear point of view. That cubist lesson helped shape the shifting perspectives and collapsing time of some of his most celebrated work.",
+    example: {
+      title: "Tangled Up in Blue",
+      note:
+        "Dylan has said the song came out of his studies with Raeben; the lyrics jump between first and third person, past and present, as if the story is being viewed from more than one place at the same time.",
+      media: { kind: "youtube", id: "YwSZvHqf9qM", spotifyId: "6Vcwr9tb3ZLO63F8DL8cqu" },
+    },
+    related: ["artist-name", "film", "reinvention", "literature"],
+    aliases: ["visual art", "painting", "iron works", "Norman Raeben", "Drawn Blank"],
+  },
 ];
+
+
+
 
 
 
