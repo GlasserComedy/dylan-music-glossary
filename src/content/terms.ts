@@ -740,16 +740,24 @@ export const TERMS: Term[] = [
     title: "Acting",
     category: "Reinvention",
     definition:
-      "Taking on roles or personas in performance.",
+      "The art of adopting a character, persona or identity on stage or screen, separate from one's everyday self.",
     inDylan:
-      "Dylan often acted out identities in his songs, and appeared in films like Pat Garrett and Billy the Kid, blurring the line between musician and actor.",
+      "Dylan has treated performance itself as a kind of acting since the early Village years, slipping into personas — the folk protestor, the electric rock star, the born-again preacher, the wandering crooner — that were always partly fictional. On screen he has played versions of himself and invented characters alike: the tight-lipped Alias in Pat Garrett & Billy the Kid (1973), the burned-out rock idol Billy Parker in Hearts of Fire (1987), and the enigmatic Jack Fate in Masked & Anonymous (2003), a film he also co-wrote. These roles extend the mask-work of his songs, turning identity into a movable feast.",
     example: {
       title: "Knockin' on Heaven's Door",
       note:
-        "Written for Pat Garrett and Billy the Kid, in which Dylan also appears on screen as the character Alias.",
+        "Written for and performed in Pat Garrett and Billy the Kid, where Dylan appears as Alias, a drifter-knife man whose few lines echo the song's fatalism.",
       media: { kind: "youtube", id: "rm9coqlk8fY", spotifyId: "6HSXNV0b4M4cLJ7ljgVVeh" },
     },
-    related: ["film-music"],
+    related: ["film", "film-music", "reinvention", "artist-name"],
+    aliases: [
+      "Alias",
+      "Jack Fate",
+      "Billy Parker",
+      "Pat Garrett and Billy the Kid",
+      "Hearts of Fire",
+      "Masked and Anonymous",
+    ],
   },
   {
     slug: "artist-name",
