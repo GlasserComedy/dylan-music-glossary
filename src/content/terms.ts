@@ -2244,7 +2244,7 @@ export const TERMS: Term[] = [
   },
   {
     slug: "art",
-    title: "Art",
+    title: "Visual Art",
     category: "Reinvention",
     definition:
       "Visual creative practice — drawing, painting, sculpture, and the way of seeing that comes with it.",
