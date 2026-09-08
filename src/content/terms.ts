@@ -885,9 +885,9 @@ export const TERMS: Term[] = [
     title: "Counter-culture",
     category: "Reinvention",
     definition:
-      "The youth-driven movement of the 1960s that rejected mainstream values.",
+      "The youth-driven movement of the 1960s — and its longer counter-currents — that rejected mainstream values, war, and conformity, embracing alternative politics, art, and lifestyles.",
     inDylan:
-      "Dylan became its reluctant voice, though he often resisted being pinned down as a spokesperson and mocked the squares who couldn't keep up.",
+      "Dylan became its reluctant voice and uneasy figurehead. Songs that were read as protest anthems were adopted by the movement even as Dylan insisted he was a songwriter, not a leader, and increasingly mocked those who wanted him to speak for them.",
     example: {
       title: "Ballad of a Thin Man",
       note:
@@ -2150,10 +2150,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Lanois produced Oh Mercy and Time Out of Mind, two late-career records whose sound is inseparable from the songs.",
     example: {
-      title: "Time Out of Mind (prod. Daniel Lanois)",
+      title: "Love Sick",
       note:
-        "Reverb, murk and distant room sound turn a set of blues-based songs into something haunted \u2014 production as authorship.",
-      media: { kind: "youtube", id: "5y_VTtGujPI", albumId: "185DHT5SvszXRrezx3lOjt" },
+        "A tremolo-drenched, midnight crawl through obsession and weariness \u2014 Lanois's production turns the song into a haunted room of its own.",
+      media: { kind: "youtube", id: "5y_VTtGujPI", spotifyId: "3O1hpSOaJDW4SelgUG2XT3" },
     },
     related: ["producer", "reinvention", "blues"],
     aliases: ["Oh Mercy", "Time Out of Mind", "1997", "ambient production"],
