@@ -107,14 +107,32 @@ export const TERMS: Term[] = [
     definition:
       "A slow, narrative song, traditionally telling a story of love, loss, or legend across several verses.",
     inDylan:
-      "Dylan wrote some of the finest modern ballads, from the aching Boots of Spanish Leather to the sprawling Sad-Eyed Lady of the Lowlands.",
+      "The old Scottish and English ballads collected by Francis James Child — the 'Child ballads' — were a cornerstone of the folk revival: singers like Joan Baez carried songs such as Matty Groves to a new generation, and Dylan steeped himself in the same tradition. He went on to write some of the finest modern ballads, from the aching Boots of Spanish Leather to the sprawling Sad-Eyed Lady of the Lowlands.",
     example: {
       title: "Boots of Spanish Leather",
       note:
         "A classic ballad exchange of letters between two lovers separated by an ocean, telling its story verse by verse in the voice of both characters.",
       media: { kind: "youtube", id: "iy6wryJMwVU", spotifyId: "6QHYEZlm9wyfXfEM1vSu1P" },
     },
-    related: ["narrative", "folk-revival"],
+    related: ["narrative", "folk-revival", "joan-baez", "martin-carthy"],
+    aliases: ["Child ballads", "Matty Groves", "story song"],
+  },
+  {
+    slug: "martin-carthy",
+    title: "Martin Carthy",
+    category: "Roots",
+    definition:
+      "English singer and guitarist whose unorthodox tunings and deep scholarship of the old ballads made him a central figure of the English folk revival.",
+    inDylan:
+      "Dylan met Carthy in the London folk clubs at the end of 1962 and soaked up his repertoire: Carthy's arrangement of Lord Franklin became Bob Dylan's Dream, and his Scarborough Fair runs straight through Girl from the North Country.",
+    example: {
+      title: "Scarborough Fair",
+      note:
+        "Carthy's 1965 arrangement of the old ballad — later carried to Paul Simon in a London folk club, and one of the songs that fed Dylan's writing on his second album.",
+      media: { kind: "youtube", id: "2d8gZTa50os", spotifyId: "1xqsMGCqKyGctsGVcYjsMg" },
+    },
+    related: ["ballad", "folk-revival", "greenwich-village"],
+    aliases: ["Steeleye Span", "The Watersons", "English folk", "Scarborough Fair", "Lord Franklin"],
   },
   {
     slug: "blues",
@@ -123,7 +141,7 @@ export const TERMS: Term[] = [
     definition:
       "An African-American musical form built on a 12-bar chord pattern, blue notes, and a call-and-response feel.",
     inDylan:
-      "Dylan absorbed the blues from Robert Johnson and Blind Willie McTell; the form runs beneath much of Blood on the Tracks.",
+      "Dylan absorbed the blues from Robert Johnson, Blind Willie McTell and Howlin' Wolf, and the form runs beneath much of his work, period — from the early acoustic records through Blood on the Tracks to the late albums, where the blues is not a reference but the ground itself.",
     example: {
       title: "Meet Me in the Morning",
       note:
