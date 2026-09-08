@@ -57,7 +57,6 @@ function LexiconPage() {
   // Clicking anywhere on empty page background (desktop) resets the view:
   // closes the detail panel and re-centres the portrait.
   useEffect(() => {
-    if (isMobile) return;
     const onDocClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement | null;
       if (!target) return;
@@ -68,6 +67,10 @@ function LexiconPage() {
       ) {
         return;
       }
+      // Clicking empty page background also closes the search box
+      setShowSearch(false);
+      setQuery("");
+      if (isMobile) return;
       setActiveSlug(null);
       setSelectedLetter(null);
       setSelectedCategory(null);
