@@ -1885,7 +1885,7 @@ export const TERMS: Term[] = [
     title: "Billie Holiday",
     category: "Performance",
     definition:
-      "Jazz singer whose behind-the-beat phrasing and small, expressive voice redefined how a lyric could be sung.",
+      "Jazz singer whose behind-the-beat phrasing and worn, intimate voice redefined how a lyric could be sung.",
     inDylan:
       "Dylan has cited her as a model for treating time loosely \u2014 the singer's job is to bend the line, not to hit it squarely.",
     example: {
@@ -1989,7 +1989,7 @@ export const TERMS: Term[] = [
     definition:
       "Jamaican singer and songwriter who carried reggae, and its politics, to a global audience.",
     inDylan:
-      "Marley's example fed Dylan's late-70s interest in reggae rhythm and in songs that hold faith and protest together.",
+      "Dylan saw Marley perform live and spoke of how powerful the experience was — a single voice carrying faith, politics and rhythm as one thing. Marley's example fed Dylan's late-70s interest in reggae rhythm and in songs that hold faith and protest together.",
     example: {
       title: "Redemption Song",
       note:
@@ -2023,7 +2023,7 @@ export const TERMS: Term[] = [
     definition:
       "Singer-songwriter who wrote, played and produced his own material, setting the template for the self-contained rock artist.",
     inDylan:
-      "Dylan saw Holly play in Duluth days before his death and invoked him in his 1998 Grammy speech \u2014 an early model of writing your own songs.",
+      "Dylan saw Holly play the Duluth Armory on 31 January 1959, three days before the plane crash. From the third row, the teenage Dylan felt Holly look him straight in the eye \u2014 a moment he described as transmitting something he never forgot, and which he invoked again in his 1998 Grammy speech and his 2017 Nobel lecture: an early model of writing your own songs.",
     example: {
       title: "That'll Be the Day",
       note:
