@@ -57,9 +57,9 @@ export const TERMS: Term[] = [
     title: "Abstract Lyrics",
     category: "Words",
     definition:
-      "Lyrics that suggest meaning through imagery, metaphor, or dreamlike language rather than direct storytelling.",
+      "Abstract lyrics represent a departure from linear narrative, opting instead for impressionistic clusters of imagery, surrealist metaphors, and dreamlike sequences that suggest a mood or a psychic state rather than a concrete event. This technique draws heavily from Symbolist poetry and the Beat generation, prioritizing the phonetic texture of words and the evocative power of juxtaposition over the strict requirements of logical cohesion or literal interpretation in songwriting.",
     inDylan:
-      "Dylan mastered this in songs like Visions of Johanna and Desolation Row, influencing generations of songwriters.",
+      "Dylan fundamentally transformed the landscape of popular music by mastering this approach during his mid-sixties creative peak. In expansive compositions like Visions of Johanna and Desolation Row, he abandoned traditional folk storytelling for a kaleidoscopic lyrical style. By weaving together disparate cultural references and vivid, non-linear vignettes, he influenced generations of songwriters to view the song as a canvas for complex internal landscapes rather than just a medium for simple topical messages.",
     example: {
       title: "It's Alright, Ma (I'm Only Bleeding)",
       note:
@@ -73,9 +73,9 @@ export const TERMS: Term[] = [
     title: "A cappella",
     category: "Performance",
     definition:
-      "Vocal music performed without any instrumental accompaniment, using only the human voice for melody, harmony, and rhythm.",
+      "A cappella refers to vocal music performed without any instrumental accompaniment, relying exclusively on the human voice to provide melody, harmony, and percussive rhythm. Rooted in both religious traditions and secular folk singing, the style emphasizes the natural timbre and technical control of the singer, stripping away the safety net of rhythmic backing or harmonic support to place the focus entirely on the delivery of the text and the purity of the vocal performance itself.",
     inDylan:
-      "Dylan never released a fully a cappella recording, but his songs have been arranged by choirs and vocal groups that strip away instruments and let the lyrics and harmony carry everything.",
+      "Dylan has never officially released a studio recording in a strictly a cappella format, as his work is almost inextricably linked to his own guitar, piano, or harmonica playing. However, the melodic and lyrical strength of his compositions has made them prime material for vocal ensembles. Various choirs and a cappella groups have rearranged his catalog, removing all instrumentation to highlight the structural integrity of his writing, proving that his songs remain compelling even when reduced to the bare essence of the human voice.",
     example: {
       title: "Down To The River To Pray",
       note:
@@ -89,9 +89,9 @@ export const TERMS: Term[] = [
     title: "Acoustic",
     category: "Performance",
     definition:
-      "Music played on unamplified instruments, often highlighting a clear voice and natural resonance.",
+      "Acoustic music is produced through unamplified instruments, such as the wooden-bodied guitar, banjo, or upright bass, emphasizing the natural resonance of the materials and the physical interaction between the player and the instrument. This style is often associated with intimacy and authenticity, as it lacks the electronic manipulation or volume of electric music, favoring a clear, organic sound that highlights the nuances of a singer's voice and the subtle dynamics of the performance.",
     inDylan:
-      "Dylan's earliest recordings were almost entirely acoustic, letting the words and melody carry the performance without electric backing.",
+      "Dylan's arrival in the New York folk scene was defined by his mastery of the acoustic guitar and harmonica. His earliest albums are pillars of the acoustic tradition, where the lack of electric backing allowed his radical lyrics and idiosyncratic phrasing to take center stage. Even after his famous transition to electric rock, he periodically returned to his acoustic roots, most notably on the albums Good as I Been to You and World Gone Wrong, which reaffirmed his deep technical and emotional connection to the purely acoustic folk and blues forms.",
     example: {
       title: "All I Really Want to Do",
       note:
@@ -105,9 +105,9 @@ export const TERMS: Term[] = [
     title: "Ballad",
     category: "Roots",
     definition:
-      "A slow, narrative song, traditionally telling a story of love, loss, or legend across several verses.",
+      "A ballad is a narrative song that recounts a story—often involving themes of love, tragedy, historical events, or folklore—unfolding across a series of similar verses. Historically, the form served as a primary method for oral storytelling, with the 'Child Ballads' collected by Francis James Child representing the definitive canon of English and Scottish traditional music. These songs often utilize a repetitive structure to focus the listener's attention on the evolving drama of the tale.",
     inDylan:
-      "The old Scottish and English ballads collected by Francis James Child — the 'Child ballads' — were a cornerstone of the folk revival: singers like Joan Baez carried songs such as Matty Groves to a new generation, and Dylan steeped himself in the same tradition. He went on to write some of the finest modern ballads, from the aching Boots of Spanish Leather to the sprawling Sad-Eyed Lady of the Lowlands.",
+      "The Child Ballads were a foundational element of the folk revival that shaped Dylan's early career; contemporaries like Joan Baez popularized tracks such as Matty Groves, while Dylan immersed himself in the same deep well of tradition. He mastered the form early on, eventually expanding its boundaries to create modern masterpieces. From the intimate, poignant longing found in Boots of Spanish Leather to the epic, hallucinatory length of Sad-Eyed Lady of the Lowlands, he used the ballad structure to bridge the gap between ancient folklore and contemporary art.",
     example: {
       title: "Boots of Spanish Leather",
       note:
@@ -122,9 +122,9 @@ export const TERMS: Term[] = [
     title: "Martin Carthy",
     category: "Roots",
     definition:
-      "English singer and guitarist whose unorthodox tunings and deep scholarship of the old ballads made him a central figure of the English folk revival.",
+      "Martin Carthy is a preeminent English folk singer and guitarist recognized for his scholarly approach to traditional ballads and his innovative use of percussive, unorthodox guitar tunings. As a central figure in the British folk revival, Carthy sought to reclaim the rhythmic and melodic idiosyncrasies of English music, moving away from Americanized styles to find a distinct voice that reflected the complex heritage of the British Isles through meticulous research and performance.",
     inDylan:
-      "Dylan met Carthy in the London folk clubs at the end of 1962 and soaked up his repertoire: Carthy's arrangement of Lord Franklin became Bob Dylan's Dream, and his Scarborough Fair runs straight through Girl from the North Country.",
+      "Dylan encountered Carthy in the London folk clubs during his first visit to England in late 1962, and the meeting proved highly influential. Dylan closely studied Carthy's arrangements and vocal style, incorporating specific elements into his own work. Most famously, Carthy's version of the traditional song Lord Franklin served as the direct melodic blueprint for Bob Dylan's Dream, and his specific arrangement of Scarborough Fair was the clear inspiration for the melody and phrasing found in Dylan's Girl from the North Country.",
     example: {
       title: "Scarborough Fair",
       note:
@@ -139,9 +139,9 @@ export const TERMS: Term[] = [
     title: "Blues",
     category: "Roots",
     definition:
-      "An African-American musical form built on a 12-bar chord pattern, blue notes, and a call-and-response feel.",
+      "The blues is a foundational African-American musical genre characterized by a specific twelve-bar chord progression, the use of 'blue notes' for emotional tension, and a call-and-response structure. Emerging from the Mississippi Delta and the Deep South, the blues functioned as both a personal expression of hardship and a shared cultural language, influencing nearly every facet of modern popular music through its raw emotional power and distinctive harmonic framework.",
     inDylan:
-      "Dylan absorbed the blues from Robert Johnson, Blind Willie McTell and Howlin' Wolf, and the form runs beneath much of his work, period — from the early acoustic records through Blood on the Tracks to the late albums, where the blues is not a reference but the ground itself.",
+      "Dylan's musical identity is built upon a profound absorption of the blues tradition, drawing directly from the recordings of Robert Johnson, Blind Willie McTell, and Howlin' Wolf. Rather than merely imitating the style, he integrated its rhythmic and lyrical tropes into the core of his songwriting. This influence persists throughout his entire career, from his initial acoustic interpretations to the weathered, grit-infused sounds of his later albums like Time Out of Mind, where the blues serves not as a vintage costume but as the very foundation of his creative expression.",
     example: {
       title: "Meet Me in the Morning",
       note:
@@ -171,9 +171,9 @@ export const TERMS: Term[] = [
     title: "Chord Progression",
     category: "Music",
     definition:
-      "A sequence of chords that provides the harmonic backbone of a song.",
+      "A chord progression is a sequential series of musical chords that establishes the harmonic foundation and tonal direction of a song. By moving between different degrees of a scale, a progression creates tension and resolution, providing a structural map that supports the melody and rhythm. In many folk and rock traditions, simple and repetitive progressions are used to create a familiar environment that allows the listener to focus on the vocal performance and the lyrical content.",
     inDylan:
-      "Dylan built many of his best-known songs on a handful of chords, letting a plain progression carry extraordinary words.",
+      "Dylan is renowned for his ability to craft monumental songs using relatively simple chord progressions, often relying on basic three or four-chord structures common to folk and blues. By keeping the harmonic architecture straightforward, he creates a stable platform for his dense, complex, and often unpredictable lyrics. This economy of means is a hallmark of his style, demonstrating how a plain, well-trodden progression can be elevated by extraordinary words and a singular delivery, as seen in tracks like Knockin' on Heaven's Door or Blowin' in the Wind.",
     example: {
       title: "Knockin' on Heaven's Door",
       note:
@@ -203,9 +203,9 @@ export const TERMS: Term[] = [
     title: "Cover",
     category: "Reinvention",
     definition:
-      "A cover is when an artist performs someone else's song; an original is one they wrote themselves.",
+      "A cover is a performance or recording of a song by an artist other than the original composer or the performer who first made the song famous. Covering a song allows a musician to pay tribute to their influences, reinterpret a piece of music through a new lens, or breathe life into an older composition. It stands in contrast to an 'original,' which is a work written by the performing artist themselves, and it remains a vital practice for maintaining the continuity of the folk and blues traditions.",
     inDylan:
-      "Dylan's originals are legendary, but his reinterpretations of folk and blues classics show his deep respect for tradition.",
+      "While Dylan is primarily celebrated for his legendary body of original work, his career began with—and has frequently returned to—the art of the cover. His debut album consisted mostly of traditional songs and blues standards, showcasing his deep respect for the artists who came before him. Even at the height of his fame, he continued to record reinterpretations of others' work, such as on the Self Portrait album or his later collections of American standards, proving his enduring belief in the importance of the interpretive tradition in music.",
     example: {
       title: "Make You Feel My Love (Adele version)",
       note:
@@ -219,9 +219,9 @@ export const TERMS: Term[] = [
     title: "Folk Revival",
     category: "Roots",
     definition:
-      "The mid-20th-century American movement that brought traditional folk songs back into popular culture through artists like Pete Seeger and Joan Baez.",
+      "The mid-20th-century American movement that brought traditional folk songs and rural ballads back into the mainstream popular culture. Centered in urban hubs like Greenwich Village and popularized by figures such as Pete Seeger, The Weavers, and Joan Baez, the revival emphasized acoustic instrumentation, social activism, and the preservation of historical oral traditions that had been largely ignored by the commercial recording industry of the 1940s.",
     inDylan:
-      "Dylan arrived in Greenwich Village at its height, then helped push the movement toward original songwriting and rock.",
+      "Dylan arrived in New York City in 1961 at the height of this movement, immersing himself in the repertoire of the Anthology of American Folk Music and the archives of the New York Public Library. While he initially mastered the traditional idiom, he eventually catalyzed the movement's evolution toward original songwriting and electric rock, famously causing a schism at the 1965 Newport Folk Festival by challenging the rigid boundaries of acoustic purity.",
     example: {
       title: "House of the Risin' Sun",
       note:
@@ -235,9 +235,9 @@ export const TERMS: Term[] = [
     title: "Gospel",
     category: "Roots",
     definition:
-      "Christian devotional music rooted in African-American church traditions, marked by call-and-response and impassioned vocals.",
+      "A genre of Christian devotional music deeply rooted in African-American church traditions, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
     inDylan:
-      "Dylan's late-70s conversion produced Slow Train Coming and Saved, records steeped in gospel choirs and testifying vocals.",
+      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records utilized professional gospel choirs and impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
     example: {
       title: "What Can I Do for You?",
       note:
@@ -251,9 +251,9 @@ export const TERMS: Term[] = [
     title: "Harmonica",
     category: "Performance",
     definition:
-      "A free-reed wind instrument played by exhaling and inhaling through its channels; small, cheap, and loud enough to ride over a guitar, it became a fixture of both blues and folk.",
+      "A compact free-reed wind instrument played by exhaling and inhaling through specific channels. Its portability and volume allowed it to cut through the sound of a guitar, making it a staple of delta blues and Appalachian folk music. Often called a mouth organ or harp, it allows a solo musician to provide both melodic leads and rhythmic accompaniment, acting as a portable orchestra for the traveling singer-songwriter who requires high impact with minimal equipment.",
     inDylan:
-      "Dylan's first released recordings were not as a singer, but as a harmonica sideman: he played on Harry Belafonte's 'The Midnight Special' in 1961 and on Carolyn Hester's 1962 Columbia album, and later added harp to sessions with Big Joe Williams. He wore the instrument on a neck rack over his guitar, turning it into a visual signature and a raw, keening counter-voice to his singing.",
+      "Dylan's earliest professional appearances were as a harmonica sideman, playing on Harry Belafonte's The Midnight Special in 1961 and Carolyn Hester's 1962 Columbia debut. He also contributed harp to sessions with bluesman Big Joe Williams. By mounting the instrument on a wire neck rack, he integrated the harmonica into his visual identity and musical language, using its raw, keening wail as a second voice that could puncture the mood of a song or mirror the intensity of his lyrics.",
     example: {
       title: "Freight Train Blues",
       note:
@@ -275,9 +275,9 @@ export const TERMS: Term[] = [
     title: "Harmony",
     category: "Music",
     definition:
-      "The combination of simultaneously sounded notes to produce chords and chord progressions that support a melody.",
+      "The sounding of two or more musical notes simultaneously to produce chords and chord progressions that provide a structural foundation for a melody. In traditional music, harmony often functions to emphasize the emotional tone of a lyric, providing a sense of resolution or tension. While solo performers often rely on implied harmony, vocal groups utilize stacked parts to create a lush, communal sound that can significantly alter the listener's perception of a song's core message.",
     inDylan:
-      "Dylan's simpler harmonic palette let the words lead — but his collaborations with The Band added rich vocal harmony behind him.",
+      "Dylan often utilized a simpler harmonic palette to ensure the focus remained on his complex lyricism and rhythmic delivery. However, his significant collaborations with The Band in the late 1960s and mid-1970s introduced rich, soulful vocal harmonies that softened his edges and added a communal dimension to his sound. These harmonies were particularly effective during the Basement Tapes sessions and the 1974 tour, where the interplay of voices provided a sturdy counterpoint to his lead.",
     example: {
       title: "I Shall Be Released (with The Band)",
       note:
@@ -307,9 +307,9 @@ export const TERMS: Term[] = [
     title: "Jack Kerouac",
     category: "Influence",
     definition:
-      "Novelist and poet at the center of the Beat Generation, celebrated for spontaneous prose, road mythology, and jazz-inflected phrasing.",
+      "A central novelist and poet of the Beat Generation, Kerouac is celebrated for his method of spontaneous prose and his romanticization of the American road. His work emphasized the search for spiritual meaning in a post-war landscape, often utilizing jazz-inflected phrasing and a stream-of-consciousness style that rejected the formal constraints of mid-century literature in favor of a raw, immediate, and rhythmically driven form of storytelling that prioritized experience.",
     inDylan:
-      "Dylan carried On the Road with him as a young man; the free-associative rush of Chimes of Freedom owes something to Kerouac's line.",
+      "Dylan carried a copy of Kerouac's On the Road during his early travels, identifying with the book's restless energy and its rejection of societal norms. The free-associative, imagistic rush of compositions like Chimes of Freedom and the sprawling narratives of the mid-sixties owe a stylistic debt to Kerouac's breathy, percussive line. Later in his life, Dylan visited Kerouac's grave with Allen Ginsberg, acknowledging the profound impact the author had on his artistic formation.",
     example: {
       title: "Chimes of Freedom",
       note:
@@ -339,9 +339,9 @@ export const TERMS: Term[] = [
     title: "Metaphor",
     category: "Words",
     definition:
-      "A figure of speech that describes one thing as if it were another, opening up layered meanings.",
+      "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable, creating a symbolic comparison. By describing one thing in terms of another, metaphors allow writers to convey complex emotional truths and abstract concepts through concrete imagery. In songwriting, metaphors provide a layer of ambiguity that encourages diverse interpretations, allowing a single lyric to resonate across different historical and personal contexts.",
     inDylan:
-      "A Hard Rain's a-Gonna Fall builds an apocalypse out of stacked metaphors — the hard rain itself never gets literally defined.",
+      "Metaphor is the bedrock of Dylan's transformative songwriting style, moving beyond the literal storytelling of early folk music. In A Hard Rain's a-Gonna Fall, he constructs a vivid apocalypse through a series of stacked metaphors; notably, the titular hard rain is never strictly defined, functioning instead as a flexible symbol for looming catastrophe. This technique allows his work to remain relevant long after the specific political events that may have inspired them have passed.",
     example: {
       title: "A Hard Rain's a-Gonna Fall",
       note:
@@ -355,9 +355,9 @@ export const TERMS: Term[] = [
     title: "Narrative",
     category: "Words",
     definition:
-      "A song that tells a story with characters, setting, and unfolding events, often moving like a short film or spoken tale set to music.",
+      "A structural approach to songwriting that prioritizes a coherent story featuring specific characters, settings, and a sequence of events. Unlike purely lyrical or abstract songs, a narrative work functions like a short film or a novella set to music, often employing a clear point of view and a sense of dramatic progression that leads the listener from an established beginning through a conflict toward a resolution, providing a detailed window into a specific life or moment.",
     inDylan:
-      "North Country Blues unfolds the slow collapse of an iron-range mining town through the voice of a woman watching her family and community come apart. Like a miniature novel, it gives us a place, a timeline, and a witness who carries the weight of the story.",
+      "Dylan mastered the narrative form early in his career, often adopting the personas of those on the fringes of society. In North Country Blues, he depicts the slow, painful collapse of an iron-range mining town through the eyes of a woman witnessing her community's disintegration. By providing specific details of work, family loss, and economic hardship, he creates a miniature novel in verse, proving that a song can carry the weight of a complex history through a single witness.",
     example: {
       title: "North Country Blues",
       note:
@@ -403,9 +403,9 @@ export const TERMS: Term[] = [
     title: "Protest Song",
     category: "Influence",
     definition:
-      "A song written to challenge injustice, war, or political power.",
+      "A song specifically composed to challenge social injustice, voice opposition to war, or critique institutional power. These works often serve as anthems for political movements, utilizing direct language and moral urgency to mobilize listeners and articulate collective grievances. Historically, the genre is tied to the labor movements and the civil rights struggles of the 20th century, where music functioned as both a tactical tool for organizing and a powerful medium for dissent.",
     inDylan:
-      "Masters of War is one of the most unsparing protest songs ever recorded; Dylan called it a curse, not a plea. Yet he bristled at the label 'protest singer.' At a 1965 Los Angeles press conference, when asked if he sang protest songs, he replied, 'No. I sing all love songs' \u2014 collapsing the boundary between private feeling and public dissent.",
+      "Songs like Masters of War established Dylan as a definitive voice of social critique, though he frequently resisted the narrow constraints of being labeled a protest singer. He described Masters of War as a curse rather than a plea, emphasizing its visceral anger. During a 1965 press conference in Los Angeles, when asked if he sang protest songs, he replied that he sang all love songs, effectively collapsing the distinction between private emotional experience and public political statement.",
     example: {
       title: "Masters of War",
       note:
@@ -419,9 +419,9 @@ export const TERMS: Term[] = [
     title: "Rhythm",
     category: "Music",
     definition:
-      "The pattern of stressed and unstressed beats that gives a song its pulse and forward motion.",
+      "Rhythm comprises the systematic arrangement of musical sounds according to duration and periodic stress. It functions as the foundational pulse that drives a composition forward, dictate the physical movement of the listener, and organizes the relationship between melody and time. In American roots music, rhythm often derives from the interplay of backbeats and syncopation, providing a structural framework that can evoke anything from a funeral march to a frantic dance.",
     inDylan:
-      "Subterranean Homesick Blues moves in a rapid-fire talking rhythm that anticipates rap by more than a decade.",
+      "Dylan uses rhythm as a primary delivery vehicle for his dense lyrical clusters. Subterranean Homesick Blues moves in a rapid-fire talking rhythm that anticipates rap by more than a decade, utilizing a percussive vocal cadence that emphasizes internal rhymes over melodic variation. Throughout his career, he has shifted from the steady four-four thrum of acoustic folk to the swinging, erratic shuffles of his later blues-rock period, always prioritizing the groove as the essential canvas for his shifting poetic narratives.",
     example: {
       title: "Subterranean Homesick Blues",
       note:
@@ -451,9 +451,9 @@ export const TERMS: Term[] = [
     title: "Surrealism",
     category: "Words",
     definition:
-      "A 20th-century art movement that juxtaposed unreal images to reach a truth beyond ordinary logic.",
+      "Surrealism is a twentieth-century avant-garde movement in art and literature that sought to release the creative potential of the unconscious mind. By juxtaposing irrational, dreamlike imagery and illogical scenes, practitioners aimed to bypass the constraints of reason to reach a higher, more visceral psychological truth. In music, this translates to lyrical landscapes where time is fluid and disparate historical or mythical figures occupy the same psychic space.",
     inDylan:
-      "Desolation Row is an 11-minute surrealist parade — Einstein disguised as Robin Hood, Cinderella sweeping up on Desolation Row.",
+      "Dylan bridged the gap between the Beat poets and folk music by infusing his mid-sixties output with vivid surrealist techniques. Desolation Row is an 11-minute surrealist parade featuring Einstein disguised as Robin Hood and Cinderella sweeping up on Desolation Row. This style allowed him to comment on the chaos of modern society without relying on literal protest tropes. By placing iconic characters in bizarre settings, he created a cinematic, hall-of-mirrors effect that redefined the expressive possibilities of the popular song.",
     example: {
       title: "Desolation Row",
       note:
@@ -467,9 +467,9 @@ export const TERMS: Term[] = [
     title: "Talkin' Blues",
     category: "Roots",
     definition:
-      "A spoken-sung form over a simple blues progression, often satirical, popularized by Woody Guthrie.",
+      "The talkin' blues is a distinctive rhythmic speech form performed over a repetitive, usually twelve-bar blues progression. Characterized by dry wit, social commentary, and a conversational delivery, it allows for a flexible narrative structure where the performer can pause for comedic timing or emphasize specific satirical points. The style was famously popularized by Woody Guthrie, who used the format to chronicle the struggles of the working class during the Great Depression.",
     inDylan:
-      "Dylan's early sets were full of talkin' blues — sharp, funny, and unmistakably indebted to Guthrie.",
+      "Dylan's early club sets and debut recordings were full of talkin' blues, a format that allowed his sharp, funny persona to emerge. Pieces like Talkin' New York and Talkin' World War III Blues are unmistakably indebted to Guthrie, utilizing the rhythmic lilt of the form to deliver biting observations on urban life and Cold War anxieties. This style was foundational to his development, teaching him how to balance humor with gravity while maintaining a steady, driving musical pulse that kept the audience focused on the unfolding story.",
     example: {
       title: "Talkin' World War III Blues",
       note:
@@ -507,9 +507,9 @@ export const TERMS: Term[] = [
     title: "Film Music / Soundtrack",
     category: "Influence",
     definition:
-      "Songs written or used for movies.",
+      "Film music encompasses original scores and individual songs composed specifically for a motion picture or licensed to enhance its narrative and emotional resonance. The medium requires a songwriter to harmonize their personal vision with the visual requirements of a director, often resulting in works that are more atmospheric or character-driven than standard studio albums. Soundtracks serve as a bridge between auditory and visual storytelling, anchoring the film in a specific era or mood.",
     inDylan:
-      "Dylan contributed unforgettable soundtrack pieces, from Knockin' on Heaven's Door in Pat Garrett and Billy the Kid to his Oscar-winning Things Have Changed from Wonder Boys.",
+      "Dylan has engaged with cinema as both an actor and a composer, contributing several essential pieces to the American film canon. He wrote the entire soundtrack for Sam Peckinpah's western Pat Garrett and Billy the Kid, which produced the enduring Knockin' on Heaven's Door. His ability to distill the essence of a script into a single track was further proven by his Oscar-winning Things Have Changed from Wonder Boys. These contributions show a specific side of his craft where his lyrical preoccupations align with the specific demands of a cinematic narrative.",
     example: {
       title: "Things Have Changed (from Wonder Boys)",
       note:
@@ -522,9 +522,9 @@ export const TERMS: Term[] = [
     title: "Finger Picking",
     category: "Performance",
     definition:
-      "A guitar technique where the fingers pluck individual strings.",
+      "Fingerpicking is a guitar technique where the player plucks the strings directly with the fingertips, fingernails, or picks attached to the fingers, rather than using a plectrum. This allows for the simultaneous play of bass lines, chords, and melody, creating a self-contained polyphonic sound reminiscent of a piano. It is a hallmark of various traditions, including Piedmont blues, classical guitar, and the complex patterns of the early twentieth-century folk revival.",
     inDylan:
-      "Dylan used fingerpicking early in his folk career, particularly on songs influenced by Woody Guthrie and traditional blues.",
+      "Dylan utilized intricate fingerpicking throughout his early folk career, demonstrating a technical facility that is often overshadowed by his lyricism. His approach was heavily influenced by the fingerstyle techniques of Woody Guthrie and traditional bluesmen like Mississippi John Hurt. On tracks like Don't Think Twice, It's All Right, his nimble picking provides a delicate, melodic counterpoint to the bittersweet vocal. This style anchored his solo acoustic performances, giving them a richness and complexity that defined his sound before he transitioned to electric instrumentation.",
     example: {
       title: "Don't Think Twice, It's All Right",
       note:
@@ -538,9 +538,9 @@ export const TERMS: Term[] = [
     title: "Flat Picking",
     category: "Performance",
     definition:
-      "A guitar technique that uses a pick to strike single notes or chords.",
+      "Flatpicking involves the use of a plectrum, or flat pick, held between the thumb and forefinger to strike the guitar strings. This technique is favored for its ability to produce a bright, loud, and percussive tone, making it ideal for lead runs and clear chordal articulation. It is a staple of bluegrass, country, and rock music, where the volume and clarity of the pick allow the guitar to cut through the sound of an ensemble or provide a sharp rhythmic foundation for a vocalist.",
     inDylan:
-      "Dylan often combined flat picking with strumming, giving his folk and rock songs rhythmic drive.",
+      "Dylan frequently combined flatpicking with energetic strumming, a hybrid approach that gave his folk and rock songs their characteristic rhythmic drive. While his early work leaned on fingerstyle, he adopted the pick to achieve a more aggressive, driving sound as he moved into larger venues and electric arrangements. His flatpicking technique is particularly evident in his mid-sixties work, where the sharp attack of the pick emphasized the propulsive nature of his lyrics, ensuring that the musical backing matched the intensity of his vocal delivery.",
     example: {
       title: "Ballad of Hollis Brown",
       note:
@@ -570,9 +570,9 @@ export const TERMS: Term[] = [
     title: "Reggae",
     category: "Roots",
     definition:
-      "A Jamaican music style with an offbeat rhythm.",
+      "Reggae is a music genre that originated in Jamaica in the late 1960s, defined by its distinctive offbeat rhythmic patterns, known as the skank. It typically features a heavy emphasis on the bass line and a steady, syncopated beat on the drums. Beyond its musical traits, reggae is often associated with social and political themes, spiritual reflection, and the Rastafari movement, exerting a global influence on popular music through its focus on groove and message.",
     inDylan:
-      "Dylan saw Bob Marley perform live and was deeply impressed. He experimented with reggae influences on songs like Man Gave Names to All the Animals.",
+      "Dylan's interest in reggae intensified after he saw Bob Marley perform live, an experience that left a lasting impression on his musical direction. During the late 1970s and early 80s, he began experimenting with these rhythms, most notably on the 1979 track Man Gave Names to All the Animals. His exploration of reggae was not merely stylistic; he incorporated the genre's spiritual weight and rhythmic elasticity into his own gospel-inflected period, using the steady Jamaican pulse to provide a new structural context for his evolving lyrical themes.",
     example: {
       title: "Man Gave Names to All the Animals",
       note:
@@ -618,9 +618,9 @@ export const TERMS: Term[] = [
     title: "Strumming",
     category: "Performance",
     definition:
-      "Brushing across guitar strings to play chords.",
+      "Strumming is a guitar technique where the player brushes the strings in a rhythmic up-and-down motion to sound chords. It is the most fundamental way to provide harmonic accompaniment to a singer, creating a broad wash of sound that sustains the rhythm and fills the sonic space. Different strumming patterns can completely alter the feel of a song, turning a simple chord progression into a driving anthem or a gentle, swaying ballad.",
     inDylan:
-      "Dylan's strumming drove many of his folk songs, setting the rhythm for his lyrics to ride on.",
+      "Dylan's vigorous strumming was the engine behind many of his most famous folk songs, creating a relentless rhythmic wall for his complex lyrics to ride upon. His right-hand technique often focused on a heavy, consistent downbeat that helped him maintain tempo while playing the harmonica simultaneously. By varying the intensity and speed of his strumming, he could shift the mood of a performance instantly, moving from the soft, contemplative patterns of his ballads to the percussive, urgent thrash of his protest songs, demonstrating the power of the guitar as a rhythmic tool.",
     example: {
       title: "Pretty Peggy-O",
       note:
