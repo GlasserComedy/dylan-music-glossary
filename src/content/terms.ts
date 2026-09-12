@@ -634,9 +634,9 @@ export const TERMS: Term[] = [
     title: "Time Signature",
     category: "Music",
     definition:
-      "The way beats are grouped in music, like 4/4 or 3/4.",
+      "A musical notation indicating how many beats are contained in each measure and which note value represents one beat. Most Western popular music adheres to the common 4/4 time signature, but time signatures like 3/4 or 6/8 introduce a rhythmic lilt or circular momentum that alters the emotional weight of a lyric. These structures dictate the pulse of the composition and how the listener perceives the flow of the melody against the harmonic changes.",
     inDylan:
-      "Dylan used standard signatures but bent them with his phrasing, making familiar rhythms sound fresh — Just Like a Woman sits in 6/8, and To Ramona rides a waltzing 3/4.",
+      "Dylan frequently employs standard signatures while subverting their rigid constraints through his unique vocal phrasing and unconventional breath control. In Just Like a Woman, he utilizes a 6/8 time signature to create a delicate, swaying rhythm that mirrors the song's vulnerability. To Ramona features a waltzing 3/4 signature that underscores its folk roots. By stretching syllables across measures, he makes these familiar rhythms feel spontaneous and fresh, often blurring the line between speech and song.",
     example: {
       title: "Sad Eyed Lady of the Lowlands",
       note:
@@ -650,9 +650,9 @@ export const TERMS: Term[] = [
     title: "Topical Song",
     category: "Influence",
     definition:
-      "A song addressing current events.",
+      "A subgenre of folk music where lyrics address specific current events, social issues, or political controversies. Rooted in the broadside ballad tradition of the 18th and 19th centuries, topical songs serve as a form of musical journalism, often aiming to provoke public debate or express moral outrage. While they are tethered to a particular moment in time, the most effective examples transcend their immediate origins to touch upon universal themes of justice, power, and human suffering.",
     inDylan:
-      "Dylan's topical songs, from the early The Lonesome Death of Hattie Carroll to the later Hurricane, captured specific social issues while still resonating universally.",
+      "Dylan emerged as the preeminent voice of the 1960s folk revival through masterworks like The Lonesome Death of Hattie Carroll, which detailed a real-life homicide with cinematic precision. Even as his writing turned toward the surreal, he returned to the form with the 1975 protest anthem Hurricane, advocating for the release of boxer Rubin Carter. His topical writing is distinguished by a refusal to offer simple didacticism, instead creating complex narratives that force the listener to confront the systemic failures and personal tragedies of the American experience.",
     example: {
       title: "The Lonesome Death of Hattie Carroll",
       note:
@@ -682,9 +682,9 @@ export const TERMS: Term[] = [
     title: "Tremolo",
     category: "Music",
     definition:
-      "From the Italian for 'trembling' — a rapid, quivering musical effect, often produced by fast repetition of a single note.",
+      "Derived from the Italian word for 'trembling,' this musical effect involves the rapid repetition of a single note or a quick alternation between two notes or volumes. In string playing, it is achieved through fast movements of the bow or pick, while electronic tremolo involves the rhythmic fluctuation of amplitude. The resulting sound is one of agitation, shimmering tension, or atmospheric depth, providing a textured backdrop that can heighten the dramatic stakes of a vocal performance.",
     inDylan:
-      "Common in Dylan's early work; you can hear it in the guitar on With God on Our Side and Restless Farewell.",
+      "This effect is a hallmark of the stark arrangements found in Dylan's acoustic and transitional electric periods. The listener can hear a shivering tremolo on the guitar work throughout With God on Our Side and Restless Farewell, where the technique adds a haunting, funereal quality to the songs' weighty historical and personal reflections. By utilizing this quivering sound, Dylan creates a sense of sonic unease that perfectly complements his raspy, earnest delivery during the mid-1960s, ensuring that even the quietest passages possess a vibrating, vital energy.",
     example: {
       title: "With God on Our Side",
       note:
@@ -758,9 +758,9 @@ export const TERMS: Term[] = [
     title: "Acting",
     category: "Reinvention",
     definition:
-      "The art of adopting a character, persona or identity on stage or screen, separate from one's everyday self.",
+      "The art of adopting a character, persona, or identity on stage or screen, intentionally separate from one's everyday self. It involves the use of voice, gesture, and psychology to inhabit a narrative role. In the context of popular music, acting often blurs the line between the performer's true personality and the stage persona designed for public consumption, allowing an artist to explore different facets of the human condition through various constructed masks.",
     inDylan:
-      "Dylan has treated performance itself as a kind of acting since the early Village years, slipping into personas — the folk protestor, the electric rock star, the born-again preacher, the wandering crooner — that were always partly fictional. On screen he has played versions of himself and invented characters alike: the tight-lipped Alias in Pat Garrett & Billy the Kid (1973), the burned-out rock idol Billy Parker in Hearts of Fire (1987), and the enigmatic Jack Fate in Masked & Anonymous (2003), a film he also co-wrote. These roles extend the mask-work of his songs, turning identity into a movable feast.",
+      "Dylan has treated performance as a kind of acting since his early days in Greenwich Village, adopting personas ranging from the Dust Bowl troubadour to the born-again preacher. His film career mirrors this fluid approach to identity; he played the tight-lipped Alias in Pat Garrett & Billy the Kid (1973), the aging rock star Billy Parker in Hearts of Fire (1987), and the enigmatic Jack Fate in Masked & Anonymous (2003), a film he also co-wrote. These roles extend his lyrical mask-work, suggesting that identity is not a fixed state but a movable feast of fictionalized versions of the self.",
     example: {
       title: "Knockin' on Heaven's Door",
       note:
@@ -782,9 +782,9 @@ export const TERMS: Term[] = [
     title: "Artist Name",
     category: "Reinvention",
     definition:
-      "The name an artist chooses for their work.",
+      "A pseudonym or stage name adopted by a performer to represent their professional output. Choosing an artist name is often a foundational act of self-invention, allowing a creator to shed their biographical past and align themselves with specific cultural traditions, literary influences, or aesthetic movements. It functions as a brand, a mask, and a declaration of intent, signaling to the audience that the work presented belongs to a carefully crafted artistic reality.",
     inDylan:
-      "Born Robert Zimmerman, he adopted the name Bob Dylan — a choice often linked to poet Dylan Thomas — signaling his desire to craft a new identity through music and poetry.",
+      "Born Robert Zimmerman in Duluth, Minnesota, he legally adopted the name Bob Dylan early in his career. While he has occasionally downplayed the connection, the name is widely linked to the Welsh poet Dylan Thomas, signaling his deep affinity for verse and his desire to be viewed as a literary figure as much as a musician. This reinvention allowed him to distance himself from his Midwestern roots and emerge as a mythic figure in the New York folk scene. The name has since become synonymous with a specific brand of American iconoclasm and restless creative evolution.",
     example: {
       title: "Bob Dylan (1962 debut album)",
       note:
@@ -797,9 +797,9 @@ export const TERMS: Term[] = [
     title: "Avant-garde",
     category: "Reinvention",
     definition:
-      "Experimental, boundary-pushing art.",
+      "A term used to describe people or works that are experimental, radical, or unorthodox with respect to art, culture, and society. Avant-garde movements seek to push the boundaries of what is accepted as the norm, often incorporating abstraction, non-linear structures, and challenging aesthetics. In music, this often manifests as a rejection of standard verse-chorus forms or the inclusion of dissonant, surreal, or found-sound elements that disrupt the listener's expectations.",
     inDylan:
-      "Dylan embraced avant-garde ideas in his surreal mid-1960s lyrics and collaborations with poets like Allen Ginsberg, challenging what a song could be.",
+      "Dylan embraced avant-garde sensibilities during his mid-1960s peak, moving away from straightforward folk into the surrealist imagery found on albums like Highway 61 Revisited. His friendship and collaborations with Beat poets like Allen Ginsberg introduced him to 'spontaneous bop prosody,' which he applied to his own lyricism to break traditional songwriting rules. By blending high-culture literary techniques with rock and roll energy, he challenged the very definition of a popular song, proving that radio-friendly music could be as intellectually rigorous and experimental as any modern poetry.",
     example: {
       title: "Tombstone Blues",
       note:
@@ -837,9 +837,9 @@ export const TERMS: Term[] = [
     title: "Beat Generation",
     category: "Influence",
     definition:
-      "A 1950s literary movement that emphasized spontaneity, freedom, and poetry.",
+      "A literary and social movement that emerged in the 1950s, centered around a group of writers who rejected conventional social values and embraced spontaneity, jazz, Eastern philosophy, and drug experimentation. Key figures like Jack Kerouac, Allen Ginsberg, and William S. Burroughs sought a 'raw' form of expression that favored the immediate and the visceral over the polished and the academic. Their work laid the aesthetic groundwork for the counterculture that followed in the next decade.",
     inDylan:
-      "Dylan absorbed its spirit from Jack Kerouac and Allen Ginsberg, channeling their energy into his own lyrical style.",
+      "Dylan was a primary bridge between the Beat writers and the 1960s youth movement, having absorbed the spirit of Kerouac's On the Road and Ginsberg's Howl during his formative years. He channeled their frantic, stream-of-consciousness energy into his own lyrical style, particularly during his electric transition. His close personal and professional relationship with Ginsberg lasted for decades, including their appearances together on the Rolling Thunder Revue. Dylan took the Beats' literary rebellion and set it to a backbeat, effectively bringing their underground aesthetic into the mainstream.",
     example: {
       title: "Just Like Tom Thumb's Blues",
       note:
@@ -853,9 +853,9 @@ export const TERMS: Term[] = [
     title: "Christian Rock",
     category: "Roots",
     definition:
-      "Rock music with Christian themes.",
+      "A genre of rock music that incorporates lyrics focused on matters regarding the Christian faith, often emphasizing biblical themes, personal salvation, and religious devotion. While it emerged from the Jesus Movement of the late 1960s, the genre often struggles to balance the rebellious spirit of rock with the dogmatic requirements of religious messaging. It serves as both a tool for proselytization and a medium for believers to express their spiritual convictions through contemporary musical forms.",
     inDylan:
-      "Dylan shocked fans by embracing Christian rock on albums like Slow Train Coming (1979), proving his music would follow his own convictions rather than public expectation.",
+      "Dylan stunned the music world by undergoing a public conversion to Christianity in the late 1970s, resulting in a trilogy of albums starting with 1979's Slow Train Coming. This period was marked by fiery, evangelical lyrics and a high-production gospel-rock sound that alienated many long-time secular fans. However, his work in this genre was not merely a phase; it demonstrated his commitment to following his own internal convictions regardless of public expectation. Even after his overt gospel period ended, biblical imagery and theological questions remained central to his songwriting journey.",
     example: {
       title: "Saved",
       note:
