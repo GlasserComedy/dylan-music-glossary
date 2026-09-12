@@ -869,9 +869,9 @@ export const TERMS: Term[] = [
     title: "Columbia Records",
     category: "Influence",
     definition:
-      "The record label that has been Dylan's primary home since 1961.",
+      "Established in 1889, Columbia Records is one of the oldest and most prestigious labels in the recording industry. By the mid-20th century, it was a major force in jazz, classical, and popular music, steered by influential figures like Goddard Lieberson and Mitch Miller. The label represented a bridge between traditional commercial standards and the burgeoning interest in folk and blues that defined the early 1960s cultural shift.",
     inDylan:
-      "Signed by producer John Hammond, Dylan released nearly all his classic albums on Columbia.",
+      "Columbia Records has served as the primary home for Dylan's recorded output since 1961. Signed by the visionary talent scout and producer John Hammond, Dylan was initially dubbed 'Hammond's Folly' by skeptics within the company until his commercial breakthrough. He released nearly all his landmark albums under this imprint, briefly departing for Asylum Records in the mid-1970s before returning to the label to manage his vast catalog and ongoing studio projects.",
     example: {
       title: "The Freewheelin' Bob Dylan",
       note:
@@ -885,9 +885,9 @@ export const TERMS: Term[] = [
     title: "Counter-culture",
     category: "Reinvention",
     definition:
-      "The youth-driven movement of the 1960s — and its longer counter-currents — that rejected mainstream values, war, and conformity, embracing alternative politics, art, and lifestyles.",
+      "The counter-culture was a pervasive youth-driven movement during the 1960s that challenged established norms, military intervention, and corporate conformity. It fostered an environment of radical experimentation in art, politics, and social structures, prioritizing personal liberation and civil rights. This subterranean current sought to dismantle the rigid hierarchies of the post-war era, favoring communal expression and an rejection of the prevailing consumerist ideology.",
     inDylan:
-      "Dylan became its reluctant voice and uneasy figurehead. Songs that were read as protest anthems were adopted by the movement even as Dylan insisted he was a songwriter, not a leader, and increasingly mocked those who wanted him to speak for them.",
+      "Dylan emerged as the reluctant voice and uneasy figurehead of this movement. While his early compositions were adopted as protest anthems for civil rights marches and anti-war rallies, he resisted the role of a political savior. Songs that were interpreted as manifestos were often, in his view, personal expressions of art. As he moved toward surrealism and rock, he increasingly mocked the expectations of those who demanded he serve as a spokesman for their specific ideological causes.",
     example: {
       title: "Ballad of a Thin Man",
       note:
@@ -901,9 +901,9 @@ export const TERMS: Term[] = [
     title: "Electric",
     category: "Reinvention",
     definition:
-      "Music played with amplification and power.",
+      "Electric music involves the use of amplification, synthesizers, and electrified instruments like the telecaster or stratocaster to produce sound. In the context of mid-century music, the transition from acoustic to electric was often seen as a move from pure, traditionalist roots toward a louder, more aggressive urban sound. This technological shift allowed for greater sonic density, feedback, and volume, changing how audiences experienced live performances in large venues.",
     inDylan:
-      "Dylan's shift to electric rock in the mid-1960s not only transformed his sound but changed the course of popular music forever. Much has been said and written about this period, with whole books devoted to it, and it has been dramatized on screen — including in the 2024 biopic A Complete Unknown starring Timothée Chalamet.",
+      "Dylan's adoption of electric rock in the mid-1960s radically transformed his sound and redirected the trajectory of popular music. His controversial set at the 1965 Newport Folk Festival and the ensuing world tour with The Hawks polarized audiences, who often viewed the loud volume as a betrayal of folk purity. This pivotal period has been analyzed in countless books and was dramatized in the 2024 film A Complete Unknown, illustrating how his electrification broke the boundaries of genre.",
     example: {
       title: "Like a Rolling Stone",
       note:
@@ -917,9 +917,9 @@ export const TERMS: Term[] = [
     title: "Folk-Rock",
     category: "Roots",
     definition:
-      "A genre combining folk lyrics and melodies with rock instrumentation.",
+      "Folk-rock is a hybrid genre that melds the lyricism, narrative depth, and melodic structures of traditional folk music with the rhythmic drive and instrumentation of rock and roll. It typically features acoustic guitars and socially conscious lyrics underpinned by electric bass, drums, and sometimes organ. The genre bridged the gap between the intellectual weight of the folk revival and the mass appeal and energy of the pop charts, influencing the sound of the late sixties.",
     inDylan:
-      "Dylan's electric mid-1960s work, including Like a Rolling Stone, helped expand folk-rock after The Byrds had already electrified his songs.",
+      "Dylan's transition into electric textures helped define and expand folk-rock as a viable commercial and artistic movement. While The Byrds had already found success electrifying his songs like Mr. Tambourine Man, Dylan's own studio work on albums like Bringing It All Back Home and Highway 61 Revisited fused poetic complexity with a hard-driving beat. His masterpiece Like a Rolling Stone proved that a lengthy, lyrically dense track could dominate the radio, forever altering the industry.",
     example: {
       title: "Mr. Tambourine Man (The Byrds)",
       note:
@@ -933,9 +933,9 @@ export const TERMS: Term[] = [
     title: "Folklore",
     category: "Roots",
     definition:
-      "The traditions and stories of a culture, often passed down through music.",
+      "Folklore encompasses the traditional beliefs, customs, and stories of a community, typically passed through generations via word of mouth or music. It serves as a repository for cultural identity, containing myths, legends, and ballads that reflect the hardships and triumphs of everyday people. Unlike commercial pop, folklore is often viewed as a living, breathing lineage where songs are adapted and reinterpreted by each new performer who encounters the material.",
     inDylan:
-      "Dylan tapped into folklore through ballads and storytelling, carrying forward the oral tradition in a modern voice.",
+      "Dylan drew deeply from the wells of American and British folklore, utilizing the structures of ancient ballads to ground his songwriting. By tapping into the oral tradition, he carried forward a legacy of storytelling while injecting it with a modern, individualistic voice. He frequently borrowed melodies and motifs from traditional songs he discovered in the Harry Smith anthology, treating the past not as a museum piece but as a foundation for creating new, resonant works of art.",
     example: {
       title: "The Water Is Wide",
       note:
@@ -966,9 +966,9 @@ export const TERMS: Term[] = [
     title: "Washington Square Park",
     category: "Influence",
     definition:
-      "A public park at the heart of Greenwich Village, famous for its marble arch and its long tradition as an unofficial outdoor stage for folk musicians, protest singers, and street performers.",
+      "Located at the heart of Manhattan's Greenwich Village, Washington Square Park is a historic public space known for its landmark arch and its role as a hub for artistic activity. For decades, it served as an unofficial outdoor stage where musicians, beat poets, and activists gathered to share ideas and perform. The park's fountain became a central meeting point for the burgeoning folk music scene, providing a democratic space for creative exchange in the middle of the city.",
     inDylan:
-      "On Sunday afternoons, when the weather was warm, musicians gathered around the fountain and played for passersby, giving newcomers like Dylan a free place to test songs and find a community. In April 1961 the city tried to restrict singing in the park, sparking the 'Folk Riot' that saw musicians and supporters defend the park as a shared cultural space. For Dylan, Washington Square Park was the front porch of the Village scene: a place to hear a new chord, meet a rival, or learn a song that would travel far beyond Manhattan.",
+      "On Sunday afternoons, the park was where Dylan and his contemporaries tested new material and learned from elder musicians. It functioned as the front porch of the Village scene, a place where he could observe various playing styles and establish his presence. In 1961, when the city attempted to ban singing in the park, the resulting 'Folk Riot' saw musicians defend the space, reinforcing its status as a vital cultural battleground where Dylan's generation first found its collective voice.",
     example: {
       title: "Blowin' in the Wind",
       note:
@@ -1018,9 +1018,9 @@ export const TERMS: Term[] = [
     title: "Instrumental",
     category: "Music",
     definition:
-      "A piece of music without sung words, where melody, harmony, and rhythm are carried entirely by instruments — the opposite of an a cappella performance, where the human voice alone provides the instrumentation.",
+      "A piece of music without sung words, where melody, harmony, and rhythm are carried entirely by instruments. This format stands as the functional opposite of an a cappella performance, where the human voice alone provides the instrumentation. In folk and roots traditions, instrumentals often serve as dance tunes or technical showcases for virtuosic picking.",
     inDylan:
-      "Dylan rarely recorded instrumentals, but when he did they served as a deliberate statement of musical style and atmosphere.",
+      "While Bob Dylan is primarily heralded for his poetic lyricism, he has occasionally used instrumentals as deliberate statements of musical style and atmosphere. These wordless tracks, such as the Nashville Skyline compositions or the backing tracks for Pat Garrett and Billy the Kid, allow his melodic sensibilities and the specific textures of his backing musicians to command the listener's full attention. By stripping away the vocal narrative, Dylan emphasizes the evocative power of the arrangement, proving that the mood of the music alone can convey a sense of time and place as effectively as his prose.",
     example: {
       title: "Nashville Skyline Rag",
       note:
@@ -1034,9 +1034,9 @@ export const TERMS: Term[] = [
     title: "Joan Baez",
     category: "Influence",
     definition:
-      "A defining voice of the 1960s folk revival and one of the most influential folk singers of the modern era.",
+      "A defining voice of the 1960s folk revival and one of the most influential singers of the modern era, known for her crystalline soprano and unwavering social activism. Baez was a central figure in the traditional music community, utilizing her platform to preserve older ballads while advocating for civil rights and non-violence through song.",
     inDylan:
-      "Joan Baez was already a celebrated figure when she began championing Dylan's songs, bringing his early work to larger concert halls and radio audiences before his own name could fill them. She invited him on stage at her shows, introduced him to her listeners, and their bond became one of the most enduring partnerships in American roots music \u2014 stretching from the 1960s folk circuit through later tours and recordings, and giving Dylan a bridge between the folk underground and the mainstream.",
+      "Joan Baez was already a celebrated figure when she began championing Dylan's songs, bringing his early work to larger concert halls and radio audiences before his own name could fill them. She invited him on stage at her shows and introduced him to her listeners, helping to bridge the gap between the folk underground and the mainstream. Their bond became one of the most enduring partnerships in American music, stretching from the 1960s folk circuit through the Rolling Thunder Revue and beyond. Her early covers of his compositions helped establish Dylan as a premier songwriter among his contemporaries, cementing a professional and personal legacy that lasted for decades.",
     example: {
       title: "Diamonds & Rust (Joan Baez)",
       note:
@@ -1050,9 +1050,9 @@ export const TERMS: Term[] = [
     title: "John Hammond",
     category: "Influence",
     definition:
-      "The legendary Columbia Records producer who signed Dylan in 1961.",
+      "A legendary Columbia Records producer and talent scout who shaped the landscape of American music for over half a century. Known for his keen ear and civil rights advocacy, Hammond was responsible for discovering and signing a roster of monumental talents including Billie Holiday, Count Basie, and later Bruce Springsteen, forever altering the trajectory of jazz, blues, and rock.",
     inDylan:
-      "Hammond also discovered artists like Billie Holiday and Bruce Springsteen; his belief in Dylan launched a career.",
+      "John Hammond signed Bob Dylan in 1961 after seeing him perform at a recording session for Carolyn Hester. Despite early skepticism from Columbia executives, who referred to Dylan as Hammond's Folly, the producer remained steadfast in his belief in the young artist's unique voice and songwriting potential. This signing launched Dylan's recording career and allowed him the freedom to capture his raw, unpolished sound on his debut album. Hammond's intuition provided the necessary institutional support for Dylan to transition from a Greenwich Village folk singer to a globally recognized recording artist, securing his place in the pantheon of music history.",
     example: {
       title: "Song to Woody",
       note:
@@ -1082,9 +1082,9 @@ export const TERMS: Term[] = [
     title: "Melody",
     category: "Music",
     definition:
-      "A sequence of notes forming a recognizable tune.",
+      "A sequence of notes forming a recognizable tune that the listener perceives as a single entity. It is the linear aspect of music, often contrasting with harmony, and serves as the primary hook or emotional anchor of a composition. In traditional song structures, the melody provides the framework upon which lyrics are draped and rhythm is applied.",
     inDylan:
-      "Dylan sometimes leaned on simple melodies so that the lyrics could take center stage — but when he wanted a hook, he could write one that carried across generations.",
+      "Dylan frequently employed simple, recurring melodies to ensure his complex lyrics remained the focal point of the listener's experience. However, he also possessed the ability to craft soaring, anthemic tunes that became ingrained in the public consciousness across generations. From the driving, repetitive patterns of his mid-sixties rock period to the country-inflected lilts of his later work, his approach to melody evolved alongside his poetic style. Even when he reworked these melodies in live performance, the underlying structure remained a vital component of how his songs communicated meaning, demonstrating that his musicality was as integral to his impact as his words.",
     example: {
       title: "Sara",
       note:
@@ -1098,9 +1098,9 @@ export const TERMS: Term[] = [
     title: "Music Video",
     category: "Reinvention",
     definition:
-      "A short film accompanying a song.",
+      "A short film or video production that accompanies a piece of recorded music, designed to visually represent the song's themes or provide a promotional tool for the artist. While the format gained immense popularity during the 1980s with the rise of cable networks, its roots go back to the early days of television and promotional cinema shorts.",
     inDylan:
-      "Dylan's Subterranean Homesick Blues 'cue-card' clip (1965) is often called one of the first true music videos.",
+      "Dylan is widely credited with helping invent the modern music video aesthetic through the Subterranean Homesick Blues cue-card sequence, which appeared at the start of the documentary Dont Look Back. Filmed in an alleyway in 1965, the clip features Dylan discarding hand-lettered cards containing lyrics as the song plays, a minimalist concept that prioritized the text and the artist's persona over elaborate staging. This influential short predated the MTV era by nearly two decades and remains one of the most iconic visual representations of the rock era, illustrating Dylan's forward-thinking approach to how music could be presented and consumed in a visual medium.",
     example: {
       title: "Subterranean Homesick Blues (video)",
       note:
@@ -1130,9 +1130,9 @@ export const TERMS: Term[] = [
     title: "Producer",
     category: "Influence",
     definition:
-      "The person who shapes the sound of a recording.",
+      "The individual responsible for overseeing the creative and technical aspects of a recording session. A producer's role can range from a hands-off approach focused on capturing a natural performance to a highly involved process of selecting session musicians, arranging parts, and shaping the final sonic texture through engineering and mixing techniques.",
     inDylan:
-      "Dylan has worked with producers from John Hammond to Daniel Lanois, each leaving a mark on his albums. He has also produced many of his own records under the alias Jack Frost, keeping the studio control close to the songs themselves.",
+      "Dylan has collaborated with a diverse array of producers, from the early guidance of John Hammond to the atmospheric textures of Daniel Lanois on albums like Oh Mercy and Time Out of Mind. Each producer has left a distinct mark on his discography, helping him navigate various stylistic shifts from folk and rock to gospel and blues. In addition to these collaborations, Dylan has frequently produced his own records under the pseudonym Jack Frost. By taking the reins in the studio, he maintains tight control over his creative vision, ensuring that the final recordings align with his specific intentions and preserving the raw, immediate quality of his performances.",
     example: {
       title: "Man in the Long Black Coat",
       note:
@@ -1163,9 +1163,9 @@ export const TERMS: Term[] = [
     title: "Vinyl",
     category: "Influence",
     definition:
-      "The record format that dominated 20th-century music.",
+      "Vinyl records represent the primary physical format that dominated the twentieth-century music industry, composed of polyvinyl chloride. This medium facilitated the long-playing record, allowing artists to sequence songs into cohesive thematic statements rather than isolated singles. The format is prized for its analog warmth and the physical relationship it fosters between the listener and the large-scale cover art, which provides essential visual context for the audio content contained within the grooves.",
     inDylan:
-      "Dylan's albums — especially Blonde on Blonde — are still cherished on vinyl for their warm sound.",
+      "Dylan's discography is inextricably linked to the sonic qualities of vinyl, with his 1960s masterpieces designed specifically for the two-sided listening experience. The sprawling, dense textures of Blonde on Blonde are frequently cited by audiophiles as the peak of the format's potential, capturing the 'thin, wild mercury sound' with a depth that digital captures often miss. Collectors continue to seek out original monaural pressings of his early folk albums to hear the raw, uncompressed intimacy of his voice and acoustic guitar as they were first transmitted to the public.",
     example: {
       title: "Blonde on Blonde",
       note:
@@ -1241,9 +1241,9 @@ export const TERMS: Term[] = [
     title: "Umm Kulthoum",
     category: "Influence",
     definition:
-      "Umm Kulthum (also spelled Om Khalsoum) was the most celebrated singer in the Arab world, known as the 'Star of the East' for her powerful, emotionally intense performances of long, poetic songs. Her voice moved through long, ornamented phrases and dramatic shifts in dynamics, accompanied by large orchestras that followed her every gesture.",
+      "Umm Kulthum, also known as Om Kalsoum, was the preeminent singer of the Arab world, celebrated as the Star of the East. Her career spanned several decades, during which she became a cultural icon known for her immense vocal range and the emotional intensity of her long-form poetic performances. Her concerts featured elaborate orchestral arrangements that responded to her improvised vocal ornamentations, creating a transcendental experience where single phrases could be repeated and varied for minutes at a time to achieve a state of musical ecstasy known as tarab.",
     inDylan:
-      "Dylan named Umm Kulthum his favorite singer after first hearing her in Jerusalem. He said that Middle Eastern singing was a source for his own vocal approach, and the influence is audible in the way he stretches and ornaments lines on songs such as One More Cup of Coffee, letting the voice wander and hang in the air like one of her slow, winding melodies.",
+      "Dylan explicitly named Umm Kulthum his favorite singer after encountering her music while visiting Jerusalem. He was profoundly affected by her ability to sustain tension and her sophisticated use of microtonal inflections. This influence surfaced prominently in the mid-1970s, particularly on the Desire album. The track One More Cup of Coffee (Valley Below) showcases Dylan employing a distinctive, winding vocal style that mirrors the melismatic ornamentation found in Kulthum’s work, allowing his voice to hang and wander over the melody in a departure from Western folk traditions.",
     example: {
       title: "Alf Leila We Leila (A Thousand and One Nights)",
       note:
@@ -1274,9 +1274,9 @@ export const TERMS: Term[] = [
     title: "Minor Key",
     category: "Music",
     definition:
-      "A key based on the minor scale, often associated with darker, sadder, more tense, or dramatic moods than a major key.",
+      "A minor key is a musical tonality built upon the minor scale, characterized by the flattened third interval which traditionally evokes a sense of melancholy, tension, or introspection. In the context of American roots music, the minor key provides a necessary contrast to the standard major progressions of folk and blues, offering a harmonic space for tragic storytelling and psychological complexity. It is often employed to signal a shift from the literal or celebratory into the realm of the existential, the gothic, or the mournful.",
     inDylan:
-      "Dylan reaches for minor keys when a song needs unease — the mode colours much of his early topical writing and his mid-1970s work.",
+      "Dylan frequently utilizes minor keys to heighten the gravity of his lyrical content, especially when navigating themes of injustice or societal decay. Many of his early topical compositions rely on minor progressions to underscore the starkness of his message, while his mid-1970s output, notably on Blood on the Tracks, uses these tonalities to explore the intricacies of heartbreak and domestic dissolution. By grounding a song in a minor key, he creates a sense of unresolved unease that prevents the listener from finding easy comfort, forcing a closer engagement with the stark narrative at hand.",
     example: {
       title: "As I Went Out One Morning",
       note:
@@ -1290,9 +1290,9 @@ export const TERMS: Term[] = [
     title: "Major Key",
     category: "Music",
     definition:
-      "A key based on the major scale, generally associated with brighter, happier, more stable, or more optimistic sounds.",
+      "A major key is a musical system based on the major scale, widely recognized for its stable, bright, and traditionally optimistic character. It serves as the foundational harmonic structure for the vast majority of Western popular music, providing a sense of resolution and clarity. In the tradition of folk and country, the major key acts as a sturdy frame for straightforward narrative delivery, offering a reliable melodic backbone that supports both rhythmic drive and lyrical accessibility without the inherent weight of more dissonant tonalities.",
     inDylan:
-      "Many of Dylan's lighter, blues- and country-flavoured songs sit squarely in major keys, letting the humour in the words come through.",
+      "Many of Dylan’s most enduring compositions are rooted in major keys, particularly those influenced by the buoyancy of country-blues and early rock and roll. These brighter tonalities allow for a specific type of lyrical playfulness and dry humor to emerge, as heard in his more whimsical or satirical sketches. Even when the lyrics are biting or complex, the major key provides a grounding stability that keeps the song moving forward. This harmonic choice often highlights the rhythmic phrasing of his delivery, ensuring the wit and cadence of his poetry remain the focal point for the audience.",
     example: {
       title: "Honey, Just Allow Me One More Chance",
       note:
@@ -1306,9 +1306,9 @@ export const TERMS: Term[] = [
     title: "Chorus / Refrain",
     category: "Words",
     definition:
-      "A repeated section or line in a song. In folk music, a refrain is often a repeated phrase at the end of each verse rather than a separate chorus.",
+      "A chorus or refrain is a repeated musical and lyrical section that provides a song with its structural anchor. In folk traditions, a refrain is often a single line or a short couplet that concludes each verse, acting as a recurring thematic summary. In contrast, a pop chorus is typically a distinct, standalone section with a more expansive melody. Both serve to reinforce the central message of the piece, offering the listener a familiar point of return amidst the evolving narrative content of the verses, while also facilitating communal singing in live settings.",
     inDylan:
-      "Dylan leans on the folk refrain far more than the pop chorus, using a returning final line to fix a song's argument in the listener's memory.",
+      "Dylan predominantly favors the folk-style refrain over the more commercial pop chorus, using a consistent final line to hammer home the central thesis of a song. By returning to a singular phrase at the end of each verse, he creates a cumulative emotional effect where the meaning of the refrain shifts or deepens as the story progresses. This technique is central to his songwriting, as it allows the narrative to remain the primary focus while still providing a rhythmic and melodic hook that fixes the song’s primary argument or image firmly in the listener's memory long after the music has stopped.",
     example: {
       title: "The Lonesome Death of Hattie Carroll",
       note:
@@ -1322,9 +1322,9 @@ export const TERMS: Term[] = [
     title: "Verse",
     category: "Words",
     definition:
-      "A section of a song where the melody usually stays the same while the lyrics change, often advancing a story or idea.",
+      "The verse is a structural unit of a song where the melody remains relatively constant while the lyrics change from one section to the next. In traditional songwriting, the verse functions as the vehicle for narrative progression, setting the scene, introducing characters, and building the conceptual framework of the piece. Unlike the chorus, which provides a static emotional center, the verse is dynamic, driving the listener through the plot or through a sequence of vivid images that expand upon the song's primary theme or mood.",
     inDylan:
-      "Dylan's verses do most of the work in his songs, carrying narrative and image where other writers would reach for a hook.",
+      "In Dylan's work, the verse is the essential engine of the composition, often extended to unusual lengths to accommodate his dense and surrealist imagery. Where other songwriters might rely on a catchy hook or a repetitive chorus to sustain interest, Dylan places the weight of the song on the verses, using them to weave intricate tapestries of language and observation. His mastery of the verse structure allows him to transform simple folk melodies into epic narratives, ensuring that the development of the lyric remains the most compelling element of the performance, rather than a mere bridge to a repeated refrain.",
     example: {
       title: "All Along the Watchtower",
       note:
@@ -1338,9 +1338,9 @@ export const TERMS: Term[] = [
     title: "Mode",
     category: "Music",
     definition:
-      "A musical scale pattern different from the major and minor scales, often associated with traditional folk music. Modes can create ancient, mysterious, or folk-like sounds.",
+      "A musical scale pattern distinct from the standard Western major and minor keys, frequently associated with traditional folk, liturgical, and ancient music. These structures, such as the Dorian, Phrygian, or Mixolydian modes, are defined by their unique intervals, which often evoke archaic, mysterious, or melancholic atmospheres that predate modern harmonic conventions.",
     inDylan:
-      "Dylan drew heavily from traditional folk songs, many of which use modal melodies inherited from British and Appalachian traditions.",
+      "Dylan drew heavily from traditional folk songs, many of which utilize modal melodies inherited from British Isles and Appalachian vocal traditions. By favoring these patterns over conventional pop chord changes, he connects his work to a pre-industrial musical lineage. Songs like Girl from the North Country or various tracks on John Wesley Harding rely on these structures to create a timeless, stark quality that bypasses the sentimentality of standard major-key resolutions.",
     example: {
       title: "Little Sadie",
       note:
@@ -1368,9 +1368,9 @@ export const TERMS: Term[] = [
     title: "Drone",
     category: "Music",
     definition:
-      "A sustained note or chord that continues underneath a melody, creating a hypnotic or traditional folk sound.",
+      "A sustained note or chord that continues continuously underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone eliminates the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch.",
     inDylan:
-      "The drone links Dylan's writing back to the modal folk tradition, where a fixed bass note anchors a melody instead of a moving chord sequence.",
+      "The drone links Dylan's writing back to the modal folk tradition, where a fixed bass note anchors a melody instead of a moving chord sequence. This technique is particularly evident in his mid-sixties work and his later explorations of blues-based structures. By utilizing a drone-like approach, Dylan emphasizes the circular nature of his lyrics and the relentless delivery of his vocals, often allowing the atmosphere to build tension without the relief of a traditional chord progression.",
     example: {
       title: "Masters of War",
       note:
@@ -1384,9 +1384,9 @@ export const TERMS: Term[] = [
     title: "Bridge",
     category: "Words",
     definition:
-      "A contrasting section of a song that provides musical or lyrical variety, often connecting two repeated sections. In the UK, the bridge is traditionally called the middle eight.",
+      "A contrasting section of a song designed to provide musical or lyrical variety, typically appearing after the second chorus to connect two repeated sections. Known in the United Kingdom as the middle eight, this passage often introduces a new chord progression, a different key, or a shift in perspective, preventing the primary verse-chorus structure from becoming repetitive for the listener.",
     inDylan:
-      "Dylan uses bridges sparingly, but when he does they usually shift the song's emotional angle before it returns to its main idea.",
+      "Dylan uses bridges sparingly, often preferring the linear, repetitive stanzas of the ballad or the blues. When he does employ them, they serve as crucial pivots that shift the song's emotional angle before returning to the central theme. In compositions like Just Like a Woman, the bridge provides a melodic and narrative release that heightens the impact of the surrounding verses. His use of these sections is tactical, appearing only when the narrative requires a distinct change in tone.",
     example: {
       title: "Lay Lady Lay",
       note:
@@ -1400,9 +1400,9 @@ export const TERMS: Term[] = [
     title: "Beat",
     category: "Music",
     definition:
-      "The steady pulse that listeners tap their foot to; the basic unit of rhythm in music.",
+      "The steady, underlying pulse that serves as the basic unit of time in music, allowing listeners to tap their feet or dance in synchronicity. The beat provides the framework for rhythm and tempo, acting as the heartbeat of a composition. It can be accented in various ways, such as a backbeat on the second and fourth counts, to define specific genres like rock, blues, or country.",
     inDylan:
-      "Dylan's bands have set his words against everything from a loose folk pulse to a hard, insistent backbeat.",
+      "Dylan's various backing bands have set his words against everything from a loose, rambling folk pulse to a hard, insistent rock backbeat. Throughout his career, his relationship with the beat has been fluid; he often sings against the rhythm, trailing behind or jumping ahead of the pulse to emphasize certain syllables. Whether supported by the lean snap of The Band or the thick groove of a gospel choir, the beat remains the essential engine that carries his dense lyrical narratives forward.",
     example: {
       title: "Gotta Serve Somebody",
       note:
@@ -1416,9 +1416,9 @@ export const TERMS: Term[] = [
     title: "Tempo",
     category: "Music",
     definition:
-      "The speed at which a piece of music is performed. Tempo can create feelings of urgency, excitement, calmness, or reflection.",
+      "The specific speed or pace at which a piece of music is performed, usually measured in beats per minute. Tempo is a primary driver of a song's emotional character, capable of instilling feelings of urgency, frantic excitement, serenity, or somber reflection. Adjusting the tempo can fundamentally alter the listener's perception of a song's meaning, regardless of the fixed lyrics.",
     inDylan:
-      "Dylan often re-tempos his own songs in performance, turning a brisk number into a meditation or the reverse.",
+      "Dylan is famous for re-tempos his own catalog in live performance, frequently turning a brisk, agitated number into a slow, haunting meditation or vice versa. This constant alteration ensures that his material remains a living entity rather than a fixed artifact. By slowing down a song like It's All Over Now, Baby Blue, he may uncover hidden nuances in the text, while speeding up an older folk ballad can transform a tragic story into a defiant, high-energy rock performance.",
     example: {
       title: "Lily, Rosemary and the Jack of Hearts",
       note:
@@ -1446,9 +1446,9 @@ export const TERMS: Term[] = [
     title: "Rhyme",
     category: "Words",
     definition:
-      "The repetition of similar sounds, usually at the ends of lines, used to create musicality, structure, and emphasis in lyrics.",
+      "The repetition of similar sounding syllables, typically occurring at the ends of poetic lines, used to establish musicality, formal structure, and mnemonic emphasis within lyrics. Rhyme can be exact, such as cat and hat, or slant, where the vowel sounds align but the consonants differ, allowing for a broader and more sophisticated range of expressive possibilities in songwriting.",
     inDylan:
-      "Rhyme is one of Dylan's sharpest tools — he stacks it, buries it inside lines, and stretches words to make it land.",
+      "Rhyme is one of Dylan's sharpest and most versatile tools. He frequently stacks multiple rhymes in quick succession, buries internal rhymes deep within a single line, and stretches the pronunciation of words to force a match where one might not naturally exist. His mastery of the technique allows him to pair the profound with the absurd, using complex rhyme schemes to lock his intricate images into the listener's memory while maintaining the conversational flow of his delivery.",
     example: {
       title: "Hurricane",
       note:
@@ -1462,9 +1462,9 @@ export const TERMS: Term[] = [
     title: "Form / Structure",
     category: "Music",
     definition:
-      "The overall architecture of a song \u2014 the order and repetition of its sections, such as intro, verse, chorus, bridge and outro.",
+      "Form and structure denote the specific architecture of a musical composition, governing the sequence, duration, and repetition of distinct internal segments. This includes the organizational relationship between elements like the introduction, verse, chorus, bridge, and outro. A song's form dictates how its narrative or melodic themes develop over time, providing a map for the listener to navigate the emotional landscape of the work through familiar recurring sections or progressive linear evolution.",
     inDylan:
-      "Dylan works in both directions: long, chorus-less ballads that run on verses alone, and tightly built pop songs that follow classic sectional form.",
+      "Dylan approaches structure with a duality that challenges and honors folk and pop conventions. He is a master of the strophic form, frequently employing long, chorus-less ballads that rely on a relentless succession of verses to build cumulative tension and detail. Conversely, he often utilizes tightly constructed sectional forms typical of the Great American Songbook, using bridges to shift harmonic perspectives. His ability to elongate or compress these structures remains a hallmark of his craft.",
     example: {
       title: "Just Like a Woman",
       note:
@@ -1478,9 +1478,9 @@ export const TERMS: Term[] = [
     title: "Rap/Hip Hop",
     category: "Roots",
     definition:
-      "Rhythmic, rhymed speech delivered over a beat \u2014 a spoken vocal tradition that became the backbone of hip-hop.",
+      "Rap and hip-hop are defined by rhythmic, rhymed speech delivered over a percussive beat, emerging from an African American vocal tradition that includes boasting, signifyin', and street poetry. This style prioritizes the cadence and flow of the human voice as a lead instrument, often utilizing internal rhymes and complex meter to convey social commentary, personal narrative, or linguistic virtuosity. While its modern form crystallized in late-1970s New York, its roots extend deep into older oral traditions and talking blues.",
     inDylan:
-      "Dylan's rapid-fire talking blues and word-torrent songs like Subterranean Homesick Blues are often cited as ancestors of rap; he later name-checked the form directly.",
+      "Dylan is frequently cited as a precursor to the hip-hop aesthetic through his development of the 'talking blues' style and his surrealist, rapid-fire lyrical delivery. Songs like 'Subterranean Homesick Blues' showcased a torrent of wordplay and percussive phrasing that anticipated the rhythmic density of rap. Later in his career, he directly acknowledged the genre's power and cultural dominance, even collaborating with Kurtis Blow in the 1980s and mentioning his appreciation for the genre's focus on the intensity of the word.",
     example: {
       title: "Kurtis Blow \u2014 Street Rock (with Bob Dylan)",
       note:
@@ -1538,9 +1538,9 @@ export const TERMS: Term[] = [
     title: "Dave Van Ronk",
     category: "Influence",
     definition:
-      "A folk and blues singer, guitarist, and fixture of the Greenwich Village scene, often called the 'Mayor of MacDougal Street.' His encyclopedic knowledge of traditional blues and ragtime made him a mentor to younger musicians arriving in the early 1960s.",
+      "Dave Van Ronk was a central figure of the Greenwich Village folk revival, a formidable guitarist and singer whose command of ragtime, jazz, and traditional blues earned him the nickname 'The Mayor of MacDougal Street.' His raspy, expressive baritone and intricate fingerpicking style made him a sophisticated bridge between the archival recordings of the 1920s and the urban folk scene of the 1960s. He acted as a mentor and gatekeeper, guiding countless younger musicians through the complexities of the American songbook.",
     inDylan:
-      "Dylan met Van Ronk soon after reaching the Village and quickly fell under his influence. Van Ronk's own recording of 'He Was a Friend of Mine' captures the thick, bluesy guitar style and rough-weathered voice that made him a hero on MacDougal Street, and Dylan's early version of the song carries the stamp of those club-floor lessons. Van Ronk remained a presence in the Village long after Dylan's fame eclipsed the small clubs they had both played.",
+      "Dylan sought out Van Ronk shortly after his arrival in New York, and the older musician's influence is evident in Dylan's early repertoire and vocal phrasing. Van Ronk's arrangement of 'House of the Risin' Sun' was famously borrowed by Dylan for his debut album, illustrating the fluid exchange of material in the Village. Dylan's early performance of 'He Was a Friend of Mine' mirrors the gravelly, blues-inflected delivery and steady thumb-beat guitar work that Van Ronk pioneered, marking a crucial apprenticeship in the art of the folk blues.",
     example: {
       title: "He Was a Friend of Mine",
       note:
@@ -1558,9 +1558,9 @@ export const TERMS: Term[] = [
     title: "Allen Ginsberg",
     category: "Influence",
     definition:
-      "Beat poet whose long-lined, incantatory verse reshaped what American poetry could sound like.",
+      "Allen Ginsberg was a foundational figure of the Beat Generation, a poet whose landmark work 'Howl' shattered traditional constraints on American verse. His writing was characterized by a spontaneous, incantatory style that favored long, breath-measured lines and a raw, confrontational honesty. By blending Jewish liturgical rhythms with modern urban imagery and a prophetic voice, Ginsberg expanded the boundaries of what poetry could address, influencing the counterculture's approach to spirituality, politics, and personal freedom.",
     inDylan:
-      "Ginsberg was a friend, travelling companion and touchstone; his breath-length lines echo through Dylan's mid-60s writing and the Rolling Thunder years.",
+      "Ginsberg became a close friend, spiritual advisor, and frequent traveling companion to Dylan, representing a vital link between the literary avant-garde and popular music. The poet's theory of 'spontaneous bop prosody' and his expansive, rhythmic lines deeply informed Dylan's mid-1960s transition toward surrealist, stream-of-consciousness songwriting. Ginsberg notably appeared in the background of the promotional film for 'Subterranean Homesick Blues' and later joined the Rolling Thunder Revue, signifying a long-term bond built on mutual artistic respect.",
     example: {
       title: "America",
       note:
@@ -1590,9 +1590,9 @@ export const TERMS: Term[] = [
     title: "The Beatles",
     category: "Influence",
     definition:
-      "The English group whose songwriting and studio work redefined popular music in the 1960s, blending rock and roll, pop craft, and studio experimentation into a new art form.",
+      "The Beatles were the quintessential English rock group whose rapid evolution from a pop sensation into a vanguard of studio experimentation transformed the global musical landscape. By integrating disparate influences—from rhythm and blues and music hall to Indian classical music and musique concrete—they expanded the sonic possibilities of the long-playing record. Their collaborative songwriting and technical innovations in the studio established new standards for artistry and commercial reach in the mid-to-late twentieth century.",
     inDylan:
-      "Dylan and The Beatles traded influence in both directions after they first met in New York in 1964 — he pushed their lyrics toward introspection and wordplay, while they pushed him toward the band sound and the electric single. Dylan's bond with George Harrison was especially close; the two became genuine friends, collaborated on the Concert for Bangladesh in 1971, and later formed the Traveling Wilburys together, a side project that let them share songwriting under playful pseudonyms.",
+      "The meeting between Dylan and The Beatles in August 1964 initiated one of the most significant cross-pollinations in music history. Dylan influenced their shift from conventional love songs toward more introspective, metaphorical, and socially conscious lyrics, while their sophisticated arrangements encouraged Dylan to explore his own rock and roll instincts. His lifelong friendship with George Harrison led to significant collaborations, including the landmark Concert for Bangladesh and their later work as founding members of the Traveling Wilburys.",
     example: {
       title: "I Want to Hold Your Hand",
       note:
@@ -1623,9 +1623,9 @@ export const TERMS: Term[] = [
     title: "Hank Williams",
     category: "Roots",
     definition:
-      "Country singer and songwriter whose plain, aching songs set the template for confessional country writing.",
+      "Hank Williams was the definitive singer-songwriter of post-war country music, whose stark, emotionally transparent lyrics earned him the title of the 'Hillbilly Shakespeare.' His ability to distill complex feelings of loneliness, devotion, and despair into simple, resonant melodies revolutionized the genre. Despite a brief career, his work established the template for the modern country song, emphasizing the songwriter's personal voice and a direct, unadorned delivery that spoke to the experiences of a broad American audience.",
     inDylan:
-      "Dylan has called Hank Williams his first musical hero and a lifelong lesson in saying the most with the fewest words.",
+      "Dylan has consistently identified Hank Williams as his primary musical hero, noting that the country star's songs provided his earliest lessons in the economy of language and the power of plainspoken truth. Williams' influence is woven into the fabric of Dylan's songwriting, particularly in his ability to convey deep pathos through minimalist structures. For Dylan, Williams was not just a performer but a spiritual guide whose rhythmic phrasing and clarity of expression remained a foundational standard for his own explorations of the American musical landscape.",
     example: {
       title: "Lost Highway",
       note:
