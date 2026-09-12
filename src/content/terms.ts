@@ -1655,9 +1655,9 @@ export const TERMS: Term[] = [
     title: "Robert Burns",
     category: "Influence",
     definition:
-      "The eighteenth-century Scottish poet and songwriter regarded as Scotland's national bard. Burns collected, revised, and immortalized folk songs in both Scots and English, turning everyday speech into some of the most durable love, drinking, and social-justice verses in the language; he also penned the words to Auld Lang Syne, the song now sung the world over to mark the turn of a year.",
+      "The eighteenth-century Scottish poet and songwriter regarded as Scotland's national bard. Burns collected, revised, and immortalized folk songs in both Scots and English, turning everyday speech into some of the most durable love, drinking, and social-justice verses in the language; he also penned the words to Auld Lang Syne, the song now sung the world over to mark the turn of a year. His work bridged the gap between oral tradition and high literature, often celebrating the common man and the democratic spirit.",
     inDylan:
-      "In 2008 Dylan named Burns his greatest inspiration, citing the 1794 love song A Red, Red Rose as the lyric or verse that had the biggest effect on his life. The choice placed a Scottish folk poet at the root of a distinctly American songwriting voice.",
+      "In 2008 Dylan named Burns his greatest inspiration, citing the 1794 love song A Red, Red Rose as the lyric or verse that had the biggest effect on his life. The choice placed a Scottish folk poet at the root of a distinctly American songwriting voice. Dylan has often utilized the cadences of British and Scottish balladry to structure his own narratives, demonstrating how the archaic structures found in Burns's collections remain foundational to modern folk-rock songwriting and the lyrical economy of his own most enduring compositions.",
     example: {
       title: "A Red, Red Rose",
       note:
@@ -1672,9 +1672,9 @@ export const TERMS: Term[] = [
     title: "Jimmie Rodgers",
     category: "Roots",
     definition:
-      "The \u201cSinging Brakeman,\u201d whose blue yodels fused blues, country and vaudeville into the first great American recording star.",
+      "The Singing Brakeman, whose blue yodels fused blues, country and vaudeville into the first great American recording star. Rodgers became a primary architect of country music, recording over one hundred songs between 1927 and 1933 that reflected the transient, hard-luck life of the Depression era. His style combined rhythmic guitar patterns with a distinctive, high-lonesome vocal delivery that transcended racial and regional boundaries.",
     inDylan:
-      "Dylan produced a Jimmie Rodgers tribute album in 1997 and has pointed to him as the point where the strands of American song first braided together.",
+      "Dylan produced a Jimmie Rodgers tribute album in 1997 and has pointed to him as the point where the strands of American song first braided together. He frequently references Rodgers in interviews as a figure who represents the intersection of the blues and the mountain ballad. For Dylan, Rodgers is not merely a country music forefather but a pivotal stylist who proved that a lone singer with a guitar could create a sound that felt both ancient and modern, a template Dylan followed throughout his early career and beyond.",
     example: {
       title: "In the Jailhouse Now",
       note:
@@ -1688,9 +1688,9 @@ export const TERMS: Term[] = [
     title: "Folklore Center",
     category: "Influence",
     definition:
-      "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room.",
+      "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room. Owned and operated by Izzy Young, the store was an essential information hub where musicians gathered to trade techniques and study the Harry Smith anthology. It functioned as a clubhouse, library, and concert hall for the burgeoning underground folk scene.",
     inDylan:
-      "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert, at Carnegie Chapter Hall in November 1961.",
+      "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert at Carnegie Chapter Hall in November 1961. The shop provided Dylan with the source material for many of his early covers and original compositions. Young was a key early supporter, keeping files and notes on Dylan's progress that later became vital historical documents. The store represents the physical center of the community that shaped Dylan's transition from an aspiring performer to a professional artist.",
     example: {
       title: "Izzy Young and the Folklore Center (film)",
       note:
@@ -1783,9 +1783,9 @@ export const TERMS: Term[] = [
     title: "Odetta",
     category: "Roots",
     definition:
-      "Folk and blues singer whose booming voice and guitar work carried spirituals, work songs and ballads into the revival.",
+      "Folk and blues singer whose booming voice and guitar work carried spirituals, work songs and ballads into the revival. Known as the Queen of Folk, Odetta possessed a powerful contralto and a percussive guitar style she called the Odetta strum. Her performances were deeply rooted in the African American experience and the civil rights movement, providing a moral and musical gravity that influenced the entire generation of 1960s urban folk singers.",
     inDylan:
-      "Dylan has said hearing Odetta's records made him trade his electric guitar for an acoustic \u2014 she was one of his first direct models.",
+      "Dylan has said hearing Odetta's records made him trade his electric guitar for an acoustic she was one of his first direct models. Her 1956 album Odetta Sings Ballads and Blues was a transformative record for him, revealing the depth and seriousness possible within the folk idiom. He learned her arrangements and adapted her intense, focused delivery. By modeling himself after Odetta, Dylan moved away from teen pop and rockabilly toward the historical and social consciousness that would define his early masterpiece albums.",
     example: {
       title: "No More Auction Block",
       note:
@@ -1800,9 +1800,9 @@ export const TERMS: Term[] = [
     title: "Sister Rosetta Tharpe",
     category: "Roots",
     definition:
-      "Gospel singer and electric guitarist whose distorted, swinging playing helped invent rock and roll.",
+      "Gospel singer and electric guitarist whose distorted, swinging playing helped invent rock and roll. A virtuosic performer, she was one of the first artists to use heavy distortion on an electric guitar while singing sacred music. Tharpe broke barriers by performing in secular nightclubs while maintaining her gospel roots, blending the fervor of the church with the driving rhythm of the blues and big band jazz.",
     inDylan:
-      "Tharpe is the bridge Dylan's electric turn stands on \u2014 sacred song played loud on an electric guitar, decades before Newport.",
+      "Tharpe is the bridge Dylan's electric turn stands on sacred song played loud on an electric guitar, decades before Newport. He has praised her as a magnificent performer and a powerful presence who could shake the rafters. Her influence is most visible in the way Dylan combined religious imagery with loud, aggressive instrumentation during his mid-sixties period and his later gospel years. Tharpe proved that spiritual conviction and electric volume were not mutually exclusive, providing a historical precedent for Dylan's most controversial stylistic shifts.",
     example: {
       title: "Up Above My Head",
       note:
@@ -1817,9 +1817,9 @@ export const TERMS: Term[] = [
     title: "Elizabeth Cotten",
     category: "Performance",
     definition:
-      "Self-taught guitarist and songwriter who played left-handed on an upside-down guitar, creating the alternating-bass style known as Cotten picking.",
+      "Self-taught guitarist and songwriter who played left-handed on an upside-down guitar, creating the alternating-bass style known as Cotten picking. A domestic worker who was discovered by the Seeger family, her gentle voice and complex fingerpicking style brought traditional North Carolina folk and blues to a national audience. Her most famous song, Freight Train, became a staple of the folk revival and the skiffle movement in England.",
     inDylan:
-      "Her fingerpicking became a standard vocabulary in the Village, and her songs entered the revival repertoire Dylan learned from.",
+      "Her fingerpicking became a standard vocabulary in the Village, and her songs entered the revival repertoire Dylan learned from. Dylan often performed her material in his early sets, and the intricate, rolling rhythm of her guitar style can be heard in his own acoustic arrangements. Cotten's influence represents the quiet, domestic side of the folk tradition that Dylan absorbed alongside the more aggressive blues styles. Her ability to translate personal history into universal song served as a lesson for Dylan in the art of the folk ballad.",
     example: {
       title: "Freight Train",
       note:
@@ -1834,9 +1834,9 @@ export const TERMS: Term[] = [
     title: "Joni Mitchell",
     category: "Words",
     definition:
-      "Canadian songwriter, painter and guitarist celebrated for open tunings, painterly harmony and candid, emotionally detailed writing that stretched what a pop song could confess.",
+      "A Canadian songwriter, painter, and guitarist celebrated for her innovative open tunings, painterly approach to harmony, and candid, emotionally detailed writing that fundamentally stretched what a pop song could confess. Her career tracked a move from acoustic folk toward sophisticated jazz-inflected compositions, maintaining a rigorous intellectual distance while mining the depths of her own experience. She approached the guitar as an orchestra, utilizing non-standard tunings to create a harmonic language that felt both ancient and modernist.",
     inDylan:
-      "A peer rather than a follower \u2014 she toured with Dylan during the Rolling Thunder Revue, and while Dylan had already broadened songwriting into social, mythic and interior territory, Mitchell pushed even further into the openly confessional, mapping private feeling with a specificity that made the personal landscape feel as vast as his symbolic one.",
+      "Considered a peer rather than a follower, she toured with Dylan during the first leg of the 1975 Rolling Thunder Revue. While Dylan had already broadened songwriting into social, mythic, and interior territory, Mitchell pushed even further into the openly confessional, mapping private feeling with a specificity that made the personal landscape feel as vast as his symbolic one. Their creative relationship was marked by mutual respect and occasionally sharp artistic competition, as seen in the intimate footage from the 1975 tour.",
     example: {
       title: "Coyote",
       note:
@@ -1851,9 +1851,9 @@ export const TERMS: Term[] = [
     title: "Patti Smith",
     category: "Reinvention",
     definition:
-      "Poet and performer who welded Beat and Symbolist poetry to rock and roll at the birth of punk.",
+      "A revolutionary poet and performer who welded the grit of Beat and Symbolist poetry to the raw energy of rock and roll during the birth of the New York punk scene. Her work bridged the gap between the literary underground and the burgeoning electricity of CBGB, emphasizing improvisation and shamanistic performance. She transformed the role of the frontwoman by prioritizing intellectual ferocity and a ragged, visionary vocal delivery over traditional pop polish or conventional stage personas.",
     inDylan:
-      "Smith took Dylan's example \u2014 poetry sung over a band \u2014 into punk, and in 2016 sang A Hard Rain's A-Gonna Fall at his Nobel ceremony.",
+      "Smith took Dylan's primary example—high poetry delivered over the roar of a rock band—and translated it into the punk idiom. Their paths famously crossed in the 1970s New York club scene, a meeting captured in iconic black-and-white photography that signaled a torch-passing between generations of bohemians. In a profound gesture of artistic continuity, she performed a vulnerable, stirring rendition of A Hard Rain's A-Gonna Fall at the 2016 Nobel Prize ceremony in Stockholm on his behalf.",
     example: {
       title: "Because the Night",
       note:
@@ -1868,9 +1868,9 @@ export const TERMS: Term[] = [
     title: "Bessie Smith",
     category: "Roots",
     definition:
-      "The Empress of the Blues \u2014 the greatest of the 1920s classic blues singers, with a huge voice and impeccable phrasing.",
+      "Known as the Empress of the Blues, she was the preeminent classic blues singer of the 1920s, possessing a massive, commanding voice and impeccable rhythmic phrasing. Her recordings for Columbia Records set the standard for the genre, combining sophisticated urban arrangements with the raw emotional power of the rural South. She sang of struggle, independence, and desire with a level of authority that influenced every jazz and blues vocalist who followed in her wake throughout the twentieth century.",
     inDylan:
-      "Her records are part of the old, weird America Dylan absorbed; the 12-bar shapes and blues phrasing behind his singing start here.",
+      "Her records are a foundational part of the old, weird America that Dylan absorbed during his formative years in Greenwich Village. The 12-bar blues structures and the specific blues phrasing behind his own singing find their ancestry here. Dylan often returns to the archetype of the blues shouter she perfected, and he notably paid tribute to her influence on the 1967 Basement Tapes recordings, where the band explored the fundamental roots of American music that Smith helped define during the jazz age.",
     example: {
       title: "Nobody Knows You When You're Down and Out",
       note:
@@ -1885,9 +1885,9 @@ export const TERMS: Term[] = [
     title: "Billie Holiday",
     category: "Performance",
     definition:
-      "Jazz singer whose behind-the-beat phrasing and worn, intimate voice redefined how a lyric could be sung.",
+      "An influential jazz singer whose signature behind-the-beat phrasing and worn, intimate vocal tone redefined the possibilities of lyric interpretation. Rather than relying on technical virtuosity or volume, she manipulated tempo and pitch to convey deep psychological nuance, treating her voice like a solo horn. Her ability to inhabit a song and transform even mediocre material into a profound emotional statement made her one of the most significant figures in the history of American popular singing.",
     inDylan:
-      "Dylan has cited her as a model for treating time loosely \u2014 the singer's job is to bend the line, not to hit it squarely.",
+      "Dylan has frequently cited her as a primary model for his own approach to time and rhythm. He learned from her that the singer's job is not to hit the note squarely on the beat, but to bend the line and play with the listener's expectations of duration. This loose, improvisational style became a hallmark of Dylan's live performances and his later studio work. He paid explicit tribute to her in his memoir, noting how her singing style provided a roadmap for how to project a lyric with truth and rhythmic freedom.",
     example: {
       title: "Strange Fruit",
       note:
@@ -1902,9 +1902,9 @@ export const TERMS: Term[] = [
     title: "Emmylou Harris",
     category: "Performance",
     definition:
-      "Country singer and harmony vocalist of extraordinary purity, and an interpreter of other writers' songs.",
+      "A country singer and harmony vocalist known for the extraordinary purity of her voice and her sophisticated ability to interpret the work of other songwriters. After rising to prominence as the singing partner of Gram Parsons, she became a central figure in the country-rock and Americana movements. Her career is characterized by a deep reverence for tradition combined with a willingness to experiment with atmospheric production and contemporary folk arrangements, always centered by her crystalline soprano.",
     inDylan:
-      "Harris sang harmony across most of Desire, and her voice shadowing Dylan's is a defining sound of that record.",
+      "Harris provided the essential harmony vocals across nearly the entire Desire album in 1975. Her voice shadowing Dylan's rougher delivery became a defining sonic element of that record, adding a mournful, ethereal quality to songs like One More Cup of Coffee and Mozambique. The sessions were largely spontaneous, with Harris following Dylan's lead in real-time. This collaboration resulted in a unique vocal blend that remains one of the most distinctive and haunting textures in Dylan's entire discography.",
     example: {
       title: "Oh Sister",
       note:
@@ -1919,9 +1919,9 @@ export const TERMS: Term[] = [
     title: "Scarlet Rivera",
     category: "Performance",
     definition:
-      "Violinist whose gypsy-inflected, improvised lines became the signature instrumental voice of Dylan's mid-70s work.",
+      "A classically trained violinist whose gypsy-inflected, highly improvised melodic lines became the signature instrumental voice of Bob Dylan's mid-1970s output. Her style bridged the gap between folk fiddling and avant-garde violin, utilizing a distinctively sharp tone and fluid phrasing that could weave around a vocal melody or drive a rock arrangement. She played a pivotal role in the shift toward the more exotic, layered sound that characterized Dylan's work during this creatively fertile period.",
     inDylan:
-      "Dylan spotted her carrying a violin case on a New York street, auditioned her that day, and put her on Desire and the Rolling Thunder Revue.",
+      "In a legendary piece of Dylan lore, he spotted her carrying a violin case on a street in New York, invited her to his studio to audition that same day, and immediately incorporated her into the recording sessions for the album Desire. Her contribution proved so integral that she was recruited for the Rolling Thunder Revue, where her presence on stage—often appearing in elaborate costume—provided a visual and sonic counterpoint to Dylan's white-faced, high-energy performances throughout 1975 and 1976.",
     example: {
       title: "Hurricane",
       note:
@@ -1936,9 +1936,9 @@ export const TERMS: Term[] = [
     title: "Rob Stoner",
     category: "Performance",
     definition:
-      "Bassist, bandleader and harmony singer who anchored Dylan's Desire sessions and the Rolling Thunder Revue.",
+      "A formidable bassist, bandleader, and harmony singer, Rob Stoner was a pivotal figure in the mid-1970s sound of American roots music. Known for his melodic yet driving bass lines and his ability to provide precise vocal harmonies, Stoner possessed a deep understanding of rockabilly, country, and folk-rock traditions. He brought a sense of structured discipline to the recording studio and the stage, serving as a reliable anchor for artists who preferred improvisational or fluid arrangements. His technical proficiency and background in professional arrangement allowed him to translate complex artistic visions into cohesive musical performances.",
     inDylan:
-      "Stoner assembled and led the Rolling Thunder band, holding a loose, shifting group of players to a steady pulse night after night.",
+      "Stoner was the primary musical architect for the Desire sessions and the subsequent Rolling Thunder Revue. As the bandleader, he was responsible for assembling and guiding a diverse, often volatile group of musicians through Dylan's mercurial arrangements. On the 1975 and 1976 tours, his steady pulse and high-tenor harmonies provided the necessary framework for Dylan's impassioned, white-faced vocal delivery. Stoner's ability to hold the rhythm together amid the chaos of the caravan tour was essential, creating the hard-driving, gypsy-rock sound that defined one of the most celebrated eras of Dylan's live performance history.",
     example: {
       title: "Isis (Rolling Thunder Revue)",
       note:
@@ -1970,9 +1970,9 @@ export const TERMS: Term[] = [
     title: "Johnny Cash",
     category: "Influence",
     definition:
-      "American singer, songwriter, and guitarist whose spare, bass-driven storytelling and deep, plainspoken voice made him a cornerstone of country, rockabilly, and American roots music. Known as the Man in Black, his songs mixed gospel, folk, prison ballads, and social commentary into a singular, unvarnished sound.",
+      "American singer, songwriter, and guitarist whose spare, bass-driven storytelling and deep, plainspoken voice made him a cornerstone of country, rockabilly, and American roots music. Known as the Man in Black, his songs mixed gospel, folk, prison ballads, and social commentary into a singular, unvarnished sound. Cash occupied a unique space in the American consciousness, embodying both the outlaw spirit and a profound, traditional moral gravity that resonated across generational and cultural divides.",
     inDylan:
-      "Dylan and Cash first met at the 1964 Newport Folk Festival and developed a mutual admiration. In 1969, Dylan recorded much of Nashville Skyline in Nashville, where Cash joined him for a warm, conversational duet on Girl from the North Country. Cash's steady authority and Dylan's mythic lyricism made them unlikely kindred spirits, and their friendship bridged folk, country, and rock audiences.",
+      "Dylan and Cash first met at the 1964 Newport Folk Festival and developed a deep mutual admiration. When Dylan faced criticism for his stylistic shifts, Cash famously wrote a letter to Broadside magazine defending him. In 1969, during the Nashville Skyline sessions, Cash joined Dylan for a series of recordings, including their warm, conversational duet on Girl from the North Country. Cash also hosted Dylan on the debut episode of his television show. Their friendship served as a vital bridge between the burgeoning rock culture and the country music establishment, proving that their shared devotion to songcraft and American truth outweighed any genre distinctions.",
     example: {
       title: "Girl from the North Country (with Bob Dylan)",
       note:
@@ -1987,9 +1987,9 @@ export const TERMS: Term[] = [
     title: "Bob Marley",
     category: "Roots",
     definition:
-      "Jamaican singer and songwriter who carried reggae, and its politics, to a global audience.",
+      "A visionary Jamaican singer, songwriter, and musician, Bob Marley became the global face of reggae, elevating the genre from a local Caribbean sound to an international force for social and spiritual change. His music was deeply rooted in the Rastafarian faith, combining infectious rhythmic grooves with lyrics that addressed systemic oppression, redemption, and pan-African unity. Marley's work remains a primary example of how popular music can function as a vehicle for profound political and religious testimony while maintaining a broad, melodic appeal.",
     inDylan:
-      "Dylan saw Marley perform live and spoke of how powerful the experience was — a single voice carrying faith, politics and rhythm as one thing. Marley's example fed Dylan's late-70s interest in reggae rhythm and in songs that hold faith and protest together.",
+      "Dylan attended Marley's performances in the mid-1970s and was profoundly moved by the experience, noting the power of a single voice carrying faith, politics, and rhythm as a unified force. This exposure directly influenced Dylan's musical direction during his late-1970s period, most notably in the rhythmic textures of the Street-Legal album and the reggae-influenced arrangements he employed on his 1978 world tour. Marley's example of integrating overt spiritual conviction with modern popular music served as a precursor to Dylan's own exploration of gospel and message-driven songwriting in the years that followed.",
     example: {
       title: "Redemption Song",
       note:
@@ -2004,9 +2004,9 @@ export const TERMS: Term[] = [
     title: "Elvis Presley",
     category: "Roots",
     definition:
-      "The singer who fused blues, country and gospel into rock and roll and made it a mass phenomenon.",
+      "The transformative singer who fused African-American blues and gospel with white country traditions to create rock and roll as a global mass phenomenon. As the most significant cultural icon of the 1950s, Presley changed the sound and the visual language of popular music, bringing raw energy and a charismatic performance style to the mainstream. His early recordings for Sun Records established the blueprint for the rockabilly sound, emphasizing vocal spontaneity and a driving beat that challenged the social and musical conventions of the era.",
     inDylan:
-      "Dylan said hearing Elvis was like busting out of jail; Elvis later recorded Tomorrow Is a Long Time, which Dylan called his favourite cover of his own work.",
+      "Dylan famously remarked that hearing Elvis for the first time was like busting out of jail, representing a liberation from the mundane world of his youth. The influence of Presley's early rockabilly energy was a foundational element of Dylan's musical identity long before he arrived in Greenwich Village. Later, in a significant full-circle moment, Presley recorded a version of Dylan's Tomorrow Is a Long Time during his Spinout sessions. Dylan later cited this rendition as his personal favorite cover of his own work, highlighting the deep, enduring respect he held for the man who originally sparked his interest in a life of musical performance.",
     example: {
       title: "Tomorrow Is a Long Time (Elvis Presley)",
       note:
@@ -2021,9 +2021,9 @@ export const TERMS: Term[] = [
     title: "Buddy Holly",
     category: "Roots",
     definition:
-      "Singer-songwriter who wrote, played and produced his own material, setting the template for the self-contained rock artist.",
+      "A pioneering singer-songwriter and musician who wrote, played, and produced his own material, Buddy Holly essentially set the template for the self-contained rock and roll artist. His innovative use of studio techniques and his distinctive vocal style, characterized by hiccups and melodic shifts, influenced nearly every major act of the 1960s. Holly's work bridged the gap between the rebellious energy of early rock and the sophisticated songwriting that would follow, emphasizing the importance of the artist's personal control over their creative output.",
     inDylan:
-      "Dylan saw Holly play the Duluth Armory on 31 January 1959, three days before the plane crash. From the third row, the teenage Dylan felt Holly look him straight in the eye \u2014 a moment he described as transmitting something he never forgot, and which he invoked again in his 1998 Grammy speech and his 2017 Nobel lecture: an early model of writing your own songs.",
+      "Dylan saw Holly perform at the Duluth Armory on 31 January 1959, just three days before Holly died in a plane crash. From the third row, the teenage Dylan felt a powerful connection when Holly looked him straight in the eye, a moment Dylan later described as the transmission of a musical torch. He invoked this specific memory in both his 1998 Grammy acceptance speech and his 2017 Nobel Prize lecture, citing Holly as the initial model for writing his own songs. For Dylan, Holly represented the original spark of the singer-songwriter archetype, a figure whose brief career left an indelible mark on his own artistic trajectory.",
     example: {
       title: "That'll Be the Day",
       note:
@@ -2038,9 +2038,9 @@ export const TERMS: Term[] = [
     title: "Chuck Berry",
     category: "Words",
     definition:
-      "Guitarist and songwriter whose rapid, detailed lyrics and signature riffs defined rock and roll writing.",
+      "A central architect of rock and roll, Chuck Berry was a masterful guitarist and songwriter whose work defined the genre's initial vocabulary. His signature double-stop guitar riffs and his ability to write detailed, rhythmic lyrics about teenage life and American culture established him as rock's first great poet. Berry's songs were characterized by a sharp, witty delivery and a propulsive beat that married the swing of jump blues with the storytelling clarity of country music, creating a style that was both commercially successful and artistically revolutionary.",
     inDylan:
-      "Subterranean Homesick Blues owes its tumbling, comic wordplay directly to Berry's Too Much Monkey Business.",
+      "The influence of Chuck Berry on Dylan is most evident in the frantic, rhythmic wordplay of his mid-1960s electric transition. Specifically, the tumbling, comic narrative style of Subterranean Homesick Blues was directly inspired by Berry's own rapid-fire delivery in Too Much Monkey Business. Beyond specific song structures, Berry's ability to elevate the vernacular of everyday life into sophisticated, rhyming verse provided a roadmap for Dylan's own expansion of the rock lyric. By adopting Berry's sense of pace and internal rhyme, Dylan was able to bridge the gap between folk tradition and the modern, high-velocity sound of the electric guitar.",
     example: {
       title: "Too Much Monkey Business",
       note:
@@ -2055,9 +2055,9 @@ export const TERMS: Term[] = [
     title: "Little Richard",
     category: "Performance",
     definition:
-      "Pianist and singer whose screaming vocals and pounding piano made rock and roll a physical event.",
+      "Richard Penniman, known as Little Richard, was the architect of rock and roll. His frantic piano pounding, gospel-inflected shrieks, and flamboyant persona transformed R&B into a new, kinetic American music. By integrating sacred fervor with profane rhythm, he offered a blueprint for the rebellious energy of the 1950s, influencing every singer who followed.",
     inDylan:
-      "Dylan's high-school yearbook ambition was to join Little Richard's band \u2014 his first idea of what a performer could be.",
+      "Before he discovered acoustic folk, Dylan was a teenage rock and roller. His 1959 high school yearbook famously stated his ambition to join Little Richard's band. This was his initial archetype for a performer: a high-energy, wild-haired piano man. Decades later, Dylan continued to speak of Richard as the greatest of the greats, acknowledging that the singer's raw vocal power remained a foundational spark for his own artistic identity.",
     example: {
       title: "Tutti Frutti",
       note:
@@ -2072,9 +2072,9 @@ export const TERMS: Term[] = [
     title: "The Byrds",
     category: "Reinvention",
     definition:
-      "Los Angeles band whose jangling twelve-string guitars and close harmonies created folk rock.",
+      "Formed in Los Angeles, The Byrds were the premier architects of folk rock. By blending the melodic sensibilities of The Beatles with the lyrical depth of the 1960s folk revival, they created a lush, jangly sound defined by Roger McGuinn's electric twelve-string Rickenbacker guitar and sophisticated three-part vocal harmonies. They bridged the gap between Greenwich Village and the Sunset Strip.",
     inDylan:
-      "Their electric Mr. Tambourine Man was a number one hit in 1965 and showed Dylan's songs could live inside rock arrangements.",
+      "The Byrds were essential to Dylan's transition into a rock icon. Their 1965 electric cover of Mr. Tambourine Man hit number one, proving that Dylan's complex, poetic imagery could thrive within a commercial pop format. This success validated his shift toward electric instruments. The band continued to mine his catalog for years, recording more of his compositions than perhaps any other contemporary group of the era.",
     example: {
       title: "Mr. Tambourine Man (The Byrds)",
       note:
@@ -2089,9 +2089,9 @@ export const TERMS: Term[] = [
     title: "Grateful Dead",
     category: "Performance",
     definition:
-      "San Francisco band built on long improvisation and a repertoire drawn deep from American roots music.",
+      "The Grateful Dead were the quintessential San Francisco jam band, known for their expansive improvisations and a vast repertoire that synthesized bluegrass, blues, jazz, and country. Led by Jerry Garcia, the group developed a dedicated subculture and a unique approach to live performance that favored spontaneity and long-form musical exploration over studio perfection.",
     inDylan:
-      "Dylan toured with the Dead in 1987, and rehearsing his own back catalogue with them pushed him to rethink how his older songs could be played.",
+      "The 1987 Dylan and the Dead tour was a pivotal moment in Dylan's late-career development. During rehearsals, the Dead's deep knowledge of his own songbook forced him to re-examine his back catalog from new angles. Working with a band that treated his lyrics as living, malleable texts helped push Dylan toward the nightly reinventions that would later characterize his Never Ending Tour, revitalizing his relationship with his past work.",
     example: {
       title: "Slow Train (Dylan & the Dead, 1987)",
       note:
@@ -2106,9 +2106,9 @@ export const TERMS: Term[] = [
     title: "Mark Knopfler",
     category: "Influence",
     definition:
-      "Guitarist and producer of Dire Straits, known for clean fingerstyle electric playing and unhurried arrangements.",
+      "A virtuoso guitarist and the leader of Dire Straits, Mark Knopfler is celebrated for his clean, fingerstyle electric technique and his ability to create space within an arrangement. His melodic sensitivity and cinematic approach to production made him one of the most respected musicians of the late 1970s and 80s, favoring tone and nuance over distorted power chords.",
     inDylan:
-      "Knopfler played on Slow Train Coming and produced Infidels, giving both records their spare, precise sound.",
+      "Knopfler became a key collaborator during Dylan's transition into the 1980s. He provided the distinct, tasteful lead guitar work on the 1979 gospel album Slow Train Coming, helping to define its soulful, polished sound. Later, Knopfler produced the 1983 album Infidels. His disciplined production style and precise guitar lines brought a clarity and modern professional sheen to Dylan's songwriting during this crucial stylistic shift.",
     example: {
       title: "Jokerman",
       note:
@@ -2123,9 +2123,9 @@ export const TERMS: Term[] = [
     title: "Sly & Robbie",
     category: "Roots",
     definition:
-      "Sly Dunbar and Robbie Shakespeare, the Jamaican drum-and-bass duo who defined the sound of modern reggae.",
+      "Drummer Sly Dunbar and bassist Robbie Shakespeare were the most prolific and influential rhythm section in Jamaican music history. Together, they refined the sound of reggae, dub, and dancehall. Their distinctive approach focused on a deep, heavy pocket and innovative electronic percussion, making them sought-after collaborators for artists across the pop and rock spectrum.",
     inDylan:
-      "They played the rhythm section on Infidels, putting a reggae pulse underneath some of Dylan's early-80s songs.",
+      "For the Infidels sessions in 1983, Dylan recruited Sly and Robbie to provide a solid, contemporary foundation. Their presence injected a subtle reggae pulse and a modern rhythmic toughness into the recordings. By pairing his dense lyrics with their steady, muscular grooves, Dylan moved away from the sprawling arrangements of his previous tours toward a leaner, more physically grounded sound that reflected the production trends of the early 1980s.",
     example: {
       title: "Don't Fall Apart on Me Tonight",
       note:
@@ -2146,9 +2146,9 @@ export const TERMS: Term[] = [
     title: "Daniel Lanois",
     category: "Influence",
     definition:
-      "Canadian producer known for atmospheric, room-heavy recordings built on texture as much as arrangement.",
+      "A Canadian producer and multi-instrumentalist, Daniel Lanois is renowned for his atmospheric, room-heavy production style. He specializes in creating sonic textures that feel both ancient and modern, often using pedal steel, heavy reverb, and natural room acoustics to build a sense of place. His work is characterized by a moody, immersive quality that emphasizes emotional resonance.",
     inDylan:
-      "Lanois produced Oh Mercy and Time Out of Mind, two late-career records whose sound is inseparable from the songs.",
+      "Lanois is responsible for the sound of Dylan's two great late-period masterpieces, Oh Mercy and Time Out of Mind. He helped Dylan find a new voice by placing him in swampy, evocative soundscapes that matched the gravity of his aging vocals. On Time Out of Mind, the Grammy-winning collaboration resulted in a haunting, layered aesthetic that many critics consider the definitive sound of Dylan's twilight years, blending blues roots with ghostly modernism.",
     example: {
       title: "Love Sick",
       note:
@@ -2163,9 +2163,9 @@ export const TERMS: Term[] = [
     title: "Film",
     category: "Reinvention",
     definition:
-      "Motion pictures \u2014 as actor, subject, composer or director \u2014 and Dylan's long, restless relationship with the camera.",
+      "Motion pictures represent Bob Dylan's long and often restless relationship with the camera, encompassing roles as an actor, subject, composer, and director. This fascination with the medium extends beyond simple performance into the structural logic of his storytelling, mirroring the jump-cuts and surrealist juxtapositions found in his lyrics. His cinematic output reflects a desire to control his own myth while simultaneously deconstructing it through fractured narratives and observational documentaries that challenge the traditional boundaries of the celebrity profile.",
     inDylan:
-      "Dylan's film life runs from D.A. Pennebaker's cinema v\u00e9rit\u00e9 of Don't Look Back (1967) and his own collage Eat the Document, through Renaldo & Clara (1978), the sprawling four-hour Rolling Thunder experiment he co-wrote and starred in, to acting roles like Hearts of Fire and his turn as Jack Fate in Masked & Anonymous (2003), a shaggy dystopian fable he also co-wrote. Martin Scorsese has twice turned his lens on Dylan, with No Direction Home (2005) and Rolling Thunder Revue (2019), and A Complete Unknown (2024) dramatized the early years for a new generation.",
+      "Dylan's film life began with D.A. Pennebaker's cinema verite landmark Don't Look Back (1967) and continued with his own experimental collage Eat the Document. He took a primary creative role in Renaldo and Clara (1978), the sprawling four-hour Rolling Thunder experiment he co-wrote and starred in, before taking traditional acting roles in Pat Garrett and Billy the Kid and the dystopian fable Masked and Anonymous (2003). Martin Scorsese later refined Dylan's history through No Direction Home (2005) and a semi-fictionalized Rolling Thunder Revue (2019), while A Complete Unknown (2024) brought his early years to a modern audience.",
     example: {
       title: "Cold Irons Bound (Live, Masked & Anonymous)",
       note:
@@ -2189,9 +2189,9 @@ export const TERMS: Term[] = [
     title: "D.A. Pennebaker",
     category: "Reinvention",
     definition:
-      "Documentary filmmaker and pioneer of cinema v\u00e9rit\u00e9, whose handheld, observational style reshaped how popular music appeared on screen.",
+      "Donn Alan Pennebaker was a preeminent documentary filmmaker and a pioneer of the cinema verite movement. His handheld, observational style and refusal to utilize formal interviews or omniscient narration reshaped how popular music appeared on screen. By focusing on the candid, backstage reality of performers rather than their polished public facades, Pennebaker created a visual language that defined the aesthetic of the 1960s counterculture and influenced generations of music documentarians and directors who sought a raw, unvarnished truth.",
     inDylan:
-      "Pennebaker filmed Dylan constantly through the 1965 British tour; the result, Don't Look Back (1967), catches Dylan sharp, funny and merciless at the exact moment he was shedding folk convention. He returned for Eat the Document (1972), Dylan's own fractured tour collage, and his Monterey Pop captured the era Dylan soundtracked. Don't Look Back essentially invented the rock documentary \u2014 and the 'Subterranean Homesick Blues' cue-card clip inside it remains the most famous two minutes of music film ever shot.",
+      "Pennebaker filmed Dylan constantly during the 1965 British tour; the resulting film, Don't Look Back (1967), captures Dylan as sharp, funny, and merciless at the exact moment he was shedding folk convention for electric rock. He returned to assist with Eat the Document (1972), Dylan's own fractured and surreal tour collage from 1966. Don't Look Back essentially invented the modern rock documentary, and the opening Subterranean Homesick Blues sequence featuring Dylan holding hand-lettered cue cards remains the most famous two minutes of music film ever shot, serving as a precursor to the music video.",
     example: {
       title: "It's All Over Now, Baby Blue",
       note:
@@ -2214,9 +2214,9 @@ export const TERMS: Term[] = [
     title: "Jacques Levy",
     category: "Words",
     definition:
-      "Playwright, theatrical director and co-writer who helped author Dylan's 1976 album Desire \u2014 a record built on narratives, travelogues and characters rather than confession.",
+      "Jacques Levy was a versatile playwright, theatrical director, and clinical psychologist who became a crucial co-writer for Bob Dylan during the mid-1970s. Levy brought a disciplined, dramatic sensibility to the songwriting process, helping to author the 1976 album Desire. This record was built on cinematic narratives, travelogues, and specific character studies rather than the internal confessionals of Dylan's previous work. Levy's experience in the avant-garde theater scene provided the framework for some of the most vivid and evocative storytelling in the Dylan catalog.",
     inDylan:
-      "Levy co-wrote most of Desire with Dylan, sketching story-songs like scenes from a play: the fugitive lovers of Romance in Durango, the outlaw epic of Joey, the high-desert mythology of Isis. A director of the controversial revue Oh! Calcutta!, he also staged and co-directed the Rolling Thunder Revue in 1975, giving Dylan's theatrical touring circus its shape. Their partnership, born in Dylan's Chelsea Hotel basement writing sessions, produced the most collaborative songwriting of Dylan's career.",
+      "Levy co-wrote nearly every track on Desire, sketching story-songs like scenes from a stage play: the fugitive lovers of Romance in Durango, the outlaw epic of Joey, and the high-desert mythology of Isis. A director of the controversial revue Oh! Calcutta!, Levy also staged and co-directed the initial Rolling Thunder Revue in 1975, giving Dylan's theatrical touring circus its distinctive vaudevillian shape. Their partnership, born during intensive writing sessions in Dylan's Chelsea Hotel basement, produced the most sustained and successful collaborative songwriting of Dylan's entire career.",
     example: {
       title: "Romance in Durango",
       note:
@@ -2241,9 +2241,9 @@ export const TERMS: Term[] = [
     title: "Ramblin' Jack Elliott",
     category: "Roots",
     definition:
-      "Brooklyn-born folk singer who carried Woody Guthrie's rambling cowboy style across the Atlantic and back, and became the vital link between Guthrie and Dylan.",
+      "Ramblin' Jack Elliott is a Brooklyn-born folk singer who became the vital link between Woody Guthrie and the 1960s folk revival. By mastering Guthrie's idiosyncratic guitar style, flat-picking technique, and weathered vocal delivery, Elliott carried the rambling cowboy persona across the Atlantic and back. He served as a living repository of American roots music, bridging the gap between the original Dust Bowl balladeers and the urban bohemians of Greenwich Village, ensuring the survival of a specific regional aesthetic within the broader American songbook.",
     inDylan:
-      "Dylan learned Guthrie's songs largely by copying Elliott \u2014 his phrasing, his yodel and his talking-blues patter \u2014 and landed in New York billing himself as a second Elliott. Dylan told Studs Terkel in 1963 that 'Jack Elliott, wow \u2014 he influenced everybody'; Guthrie himself called Jack his 'surrogate son.' Elliott later joined Dylan on the 1975 Rolling Thunder Revue, closing a twenty-year circle.",
+      "Dylan learned Woody Guthrie's songs largely by emulating Elliott, mimicking his phrasing, his particular yodel, and his dry talking-blues patter. Upon arriving in New York, Dylan was frequently billed as a second Elliott or a Jack Elliott disciple. In 1963, Dylan told Studs Terkel that Jack Elliott influenced everybody, while Guthrie himself referred to Jack as his surrogate son. Decades after their initial meeting, Elliott joined the 1975 Rolling Thunder Revue as a featured performer, closing a twenty-year circle of mutual influence and shared musical heritage.",
     example: {
       title: "San Francisco Bay Blues",
       note:
@@ -2265,9 +2265,9 @@ export const TERMS: Term[] = [
     title: "Visual Art",
     category: "Reinvention",
     definition:
-      "Visual creative practice — drawing, painting, sculpture, and the way of seeing that comes with it.",
+      "Bob Dylan's visual creative practice encompasses drawing, painting, and sculpture, reflecting a way of seeing that informs his entire artistic output. His visual work is characterized by a focus on everyday American landscapes, railway lines, and portraits that capture a sense of transit and solitude. Over several decades, this practice has evolved from private sketches into a professional discipline with major international exhibitions, revealing a creator who treats the canvas with the same imagistic density and interpretive mystery he applies to his songwriting.",
     inDylan:
-      "Dylan has drawn and painted since the 1960s, producing sketches, oil paintings and iron sculptures, many collected in books like Drawn Blank and The Brazil Series. Less visibly, his studies with the painter Norman Raeben in the early 1970s changed how he wrote songs: Raeben taught him to see a scene from several angles at once, dissolving a single linear point of view. That cubist lesson helped shape the shifting perspectives and collapsing time of some of his most celebrated work.",
+      "Dylan has drawn and painted since the 1960s, producing works collected in volumes like Drawn Blank and The Brazil Series, along with large-scale iron sculptures. Crucially, his private studies with the painter Norman Raeben in the early 1970s fundamentally altered his songwriting method. Raeben taught him to perceive a scene from several angles simultaneously, dissolving the traditional linear point of view. This cubist lesson directly influenced the shifting perspectives and collapsing timeframes of Blood on the Tracks, allowing Dylan to inhabit multiple temporalities within a single lyric.",
     example: {
       title: "Tangled Up in Blue",
       note:
