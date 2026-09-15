@@ -2243,7 +2243,7 @@ export const TERMS: Term[] = [
     definition:
       "Ramblin' Jack Elliott is a Brooklyn-born folk singer who became the vital link between Woody Guthrie and the 1960s folk revival. By mastering Guthrie's idiosyncratic guitar style, flat-picking technique, and weathered vocal delivery, Elliott carried the rambling cowboy persona across the Atlantic and back. He served as a living repository of American roots music, bridging the gap between the original Dust Bowl balladeers and the urban bohemians of Greenwich Village, ensuring the survival of a specific regional aesthetic within the broader American songbook.",
     inDylan:
-      "Dylan learned Woody Guthrie's songs largely by emulating Elliott, mimicking his phrasing, his particular yodel, and his dry talking-blues patter. Upon arriving in New York, Dylan was frequently billed as a second Elliott or a Jack Elliott disciple. In 1963, Dylan told Studs Terkel that Jack Elliott influenced everybody, while Guthrie himself referred to Jack as his surrogate son. Decades after their initial meeting, Elliott joined the 1975 Rolling Thunder Revue as a featured performer, closing a twenty-year circle of mutual influence and shared musical heritage.",
+      "Dylan learned Woody Guthrie's songs largely by emulating Elliott, mimicking his phrasing, his particular yodel, and his dry talking-blues patter. Upon arriving in New York, Dylan was frequently billed as a second Elliott or a Jack Elliott disciple. In 1963, Dylan told Studs Terkel that Jack Elliott influenced everybody, while Guthrie himself once remarked that Jack sounded more like him than he did. Decades after their initial meeting, Elliott joined the 1975 Rolling Thunder Revue as a featured performer, closing a twenty-year circle of mutual influence and shared musical heritage.",
     example: {
       title: "San Francisco Bay Blues",
       note:
@@ -2253,8 +2253,7 @@ export const TERMS: Term[] = [
     related: ["woody-guthrie", "talkin-blues", "dave-van-ronk", "greenwich-village"],
     aliases: [
       "Jack Elliott",
-      "Adolph Vernor Elliott",
-      "surrogate son of Woody Guthrie",
+      "Elliot Charles Adnopoz",
       "Jack Takes the Floor",
       "Jesse Fuller",
       "Rolling Thunder Revue",
