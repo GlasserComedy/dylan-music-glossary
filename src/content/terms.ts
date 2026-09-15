@@ -253,7 +253,7 @@ export const TERMS: Term[] = [
     definition:
       "A compact free-reed wind instrument played by exhaling and inhaling through specific channels. Its portability and volume allowed it to cut through the sound of a guitar, making it a staple of delta blues and Appalachian folk music. Often called a mouth organ or harp, it allows a solo musician to provide both melodic leads and rhythmic accompaniment, acting as a portable orchestra for the traveling singer-songwriter who requires high impact with minimal equipment.",
     inDylan:
-      "Dylan's earliest professional appearances were as a harmonica sideman, playing on Harry Belafonte's The Midnight Special in 1961 and Carolyn Hester's 1962 Columbia debut. He also contributed harp to sessions with bluesman Big Joe Williams. By mounting the instrument on a wire neck rack, he integrated the harmonica into his visual identity and musical language, using its raw, keening wail as a second voice that could puncture the mood of a song or mirror the intensity of his lyrics.",
+      "Dylan's earliest professional appearances were as a harmonica sideman, playing on Carolyn Hester's session for her 1962 Columbia debut (recorded September 1961) and Harry Belafonte's The Midnight Special (recorded February 1962). He also contributed harp to sessions with bluesman Big Joe Williams. By mounting the instrument on a wire neck rack, he integrated the harmonica into his visual identity and musical language, using its raw, keening wail as a second voice that could puncture the mood of a song or mirror the intensity of his lyrics.",
     example: {
       title: "Freight Train Blues",
       note:
@@ -405,7 +405,7 @@ export const TERMS: Term[] = [
     definition:
       "A song specifically composed to challenge social injustice, voice opposition to war, or critique institutional power. These works often serve as anthems for political movements, utilizing direct language and moral urgency to mobilize listeners and articulate collective grievances. Historically, the genre is tied to the labor movements and the civil rights struggles of the 20th century, where music functioned as both a tactical tool for organizing and a powerful medium for dissent.",
     inDylan:
-      "Songs like Masters of War established Dylan as a definitive voice of social critique, though he frequently resisted the narrow constraints of being labeled a protest singer. He described Masters of War as a curse rather than a plea, emphasizing its visceral anger. During a 1965 press conference in Los Angeles, when asked if he sang protest songs, he replied that he sang all love songs, effectively collapsing the distinction between private emotional experience and public political statement.",
+      "Songs like Masters of War established Dylan as a definitive voice of social critique, though he frequently resisted the narrow constraints of being labeled a protest singer. He described Masters of War as a curse rather than a plea, emphasizing its visceral anger. During a 1965 press conference in San Francisco, when asked if he sang protest songs, he replied that he sang all love songs, effectively collapsing the distinction between private emotional experience and public political statement.",
     example: {
       title: "Masters of War",
       note:
@@ -1870,7 +1870,7 @@ export const TERMS: Term[] = [
     definition:
       "Known as the Empress of the Blues, she was the preeminent classic blues singer of the 1920s, possessing a massive, commanding voice and impeccable rhythmic phrasing. Her recordings for Columbia Records set the standard for the genre, combining sophisticated urban arrangements with the raw emotional power of the rural South. She sang of struggle, independence, and desire with a level of authority that influenced every jazz and blues vocalist who followed in her wake throughout the twentieth century.",
     inDylan:
-      "Her records are a foundational part of the old, weird America that Dylan absorbed during his formative years in Greenwich Village. The 12-bar blues structures and the specific blues phrasing behind his own singing find their ancestry here. Dylan often returns to the archetype of the blues shouter she perfected, and he notably paid tribute to her influence on the 1967 Basement Tapes recordings, where the band explored the fundamental roots of American music that Smith helped define during the jazz age.",
+      "Her records are a foundational part of the old, weird America that Dylan absorbed during his formative years in Greenwich Village. The 12-bar blues structures and the specific blues phrasing behind his own singing find their ancestry here. Dylan often returns to the archetype of the blues shouter she perfected, and during the 1967 Basement Tapes sessions his bandmates Rick Danko and Robbie Robertson wrote and recorded a song called 'Bessie Smith,' part of the same excavation of the old American music she helped define in the jazz age.",
     example: {
       title: "Nobody Knows You When You're Down and Out",
       note:
@@ -2165,7 +2165,7 @@ export const TERMS: Term[] = [
     definition:
       "Motion pictures represent Bob Dylan's long and often restless relationship with the camera, encompassing roles as an actor, subject, composer, and director. This fascination with the medium extends beyond simple performance into the structural logic of his storytelling, mirroring the jump-cuts and surrealist juxtapositions found in his lyrics. His cinematic output reflects a desire to control his own myth while simultaneously deconstructing it through fractured narratives and observational documentaries that challenge the traditional boundaries of the celebrity profile.",
     inDylan:
-      "Dylan's film life began with D.A. Pennebaker's cinema verite landmark Don't Look Back (1967) and continued with his own experimental collage Eat the Document. He took a primary creative role in Renaldo and Clara (1978), the sprawling four-hour Rolling Thunder experiment he co-wrote and starred in, before taking traditional acting roles in Pat Garrett and Billy the Kid and the dystopian fable Masked and Anonymous (2003). Martin Scorsese later refined Dylan's history through No Direction Home (2005) and a semi-fictionalized Rolling Thunder Revue (2019), while A Complete Unknown (2024) brought his early years to a modern audience.",
+      "Dylan's film life began with D.A. Pennebaker's cinema verite landmark Don't Look Back (1967) and continued with his own experimental collage Eat the Document. After a traditional acting role in Sam Peckinpah's Pat Garrett and Billy the Kid (1973), he took a primary creative role in Renaldo and Clara (1978), the sprawling four-hour Rolling Thunder experiment he co-wrote and starred in, and later appeared in the dystopian fable Masked and Anonymous (2003). Martin Scorsese later refined Dylan's history through No Direction Home (2005) and a semi-fictionalized Rolling Thunder Revue (2019), while A Complete Unknown (2024) brought his early years to a modern audience.",
     example: {
       title: "Cold Irons Bound (Live, Masked & Anonymous)",
       note:
@@ -2243,7 +2243,7 @@ export const TERMS: Term[] = [
     definition:
       "Ramblin' Jack Elliott is a Brooklyn-born folk singer who became the vital link between Woody Guthrie and the 1960s folk revival. By mastering Guthrie's idiosyncratic guitar style, flat-picking technique, and weathered vocal delivery, Elliott carried the rambling cowboy persona across the Atlantic and back. He served as a living repository of American roots music, bridging the gap between the original Dust Bowl balladeers and the urban bohemians of Greenwich Village, ensuring the survival of a specific regional aesthetic within the broader American songbook.",
     inDylan:
-      "Dylan learned Woody Guthrie's songs largely by emulating Elliott, mimicking his phrasing, his particular yodel, and his dry talking-blues patter. Upon arriving in New York, Dylan was frequently billed as a second Elliott or a Jack Elliott disciple. In 1963, Dylan told Studs Terkel that Jack Elliott influenced everybody, while Guthrie himself referred to Jack as his surrogate son. Decades after their initial meeting, Elliott joined the 1975 Rolling Thunder Revue as a featured performer, closing a twenty-year circle of mutual influence and shared musical heritage.",
+      "Dylan learned Woody Guthrie's songs largely by emulating Elliott, mimicking his phrasing, his particular yodel, and his dry talking-blues patter. Upon arriving in New York, Dylan was frequently billed as a second Elliott or a Jack Elliott disciple. In 1963, Dylan told Studs Terkel that Jack Elliott influenced everybody, while Guthrie himself once remarked that Jack sounded more like him than he did. Decades after their initial meeting, Elliott joined the 1975 Rolling Thunder Revue as a featured performer, closing a twenty-year circle of mutual influence and shared musical heritage.",
     example: {
       title: "San Francisco Bay Blues",
       note:
@@ -2253,8 +2253,7 @@ export const TERMS: Term[] = [
     related: ["woody-guthrie", "talkin-blues", "dave-van-ronk", "greenwich-village"],
     aliases: [
       "Jack Elliott",
-      "Adolph Vernor Elliott",
-      "surrogate son of Woody Guthrie",
+      "Elliot Charles Adnopoz",
       "Jack Takes the Floor",
       "Jesse Fuller",
       "Rolling Thunder Revue",
