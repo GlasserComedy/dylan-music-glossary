@@ -1870,7 +1870,7 @@ export const TERMS: Term[] = [
     definition:
       "Known as the Empress of the Blues, she was the preeminent classic blues singer of the 1920s, possessing a massive, commanding voice and impeccable rhythmic phrasing. Her recordings for Columbia Records set the standard for the genre, combining sophisticated urban arrangements with the raw emotional power of the rural South. She sang of struggle, independence, and desire with a level of authority that influenced every jazz and blues vocalist who followed in her wake throughout the twentieth century.",
     inDylan:
-      "Her records are a foundational part of the old, weird America that Dylan absorbed during his formative years in Greenwich Village. The 12-bar blues structures and the specific blues phrasing behind his own singing find their ancestry here. Dylan often returns to the archetype of the blues shouter she perfected, and he notably paid tribute to her influence on the 1967 Basement Tapes recordings, where the band explored the fundamental roots of American music that Smith helped define during the jazz age.",
+      "Her records are a foundational part of the old, weird America that Dylan absorbed during his formative years in Greenwich Village. The 12-bar blues structures and the specific blues phrasing behind his own singing find their ancestry here. Dylan often returns to the archetype of the blues shouter she perfected, and during the 1967 Basement Tapes sessions his bandmates Rick Danko and Robbie Robertson wrote and recorded a song called 'Bessie Smith,' part of the same excavation of the old American music she helped define in the jazz age.",
     example: {
       title: "Nobody Knows You When You're Down and Out",
       note:
