@@ -636,7 +636,7 @@ export const TERMS: Term[] = [
     definition:
       "A musical notation indicating how many beats are contained in each measure and which note value represents one beat. Most Western popular music adheres to the common 4/4 time signature, but time signatures like 3/4 or 6/8 introduce a rhythmic lilt or circular momentum that alters the emotional weight of a lyric. These structures dictate the pulse of the composition and how the listener perceives the flow of the melody against the harmonic changes.",
     inDylan:
-      "Dylan frequently employs standard signatures while subverting their rigid constraints through his unique vocal phrasing and unconventional breath control. In Just Like a Woman, he utilizes a lilting 3/4 waltz feel to create a delicate, swaying rhythm that mirrors the song's vulnerability. To Ramona rides the same waltzing 3/4 signature, underscoring its folk roots. By stretching syllables across measures, he makes these familiar rhythms feel spontaneous and fresh, often blurring the line between speech and song.",
+      "Dylan frequently employs standard signatures while subverting their rigid constraints through his unique vocal phrasing and unconventional breath control. In Just Like a Woman, he utilizes a lilting 6/8 feel to create a delicate, swaying rhythm that mirrors the song's vulnerability. To Ramona rides the same waltzing 3/4 signature, underscoring its folk roots. By stretching syllables across measures, he makes these familiar rhythms feel spontaneous and fresh, often blurring the line between speech and song.",
     example: {
       title: "Sad Eyed Lady of the Lowlands",
       note:
