@@ -1169,7 +1169,7 @@ export const TERMS: Term[] = [
     example: {
       title: "Blonde on Blonde",
       note:
-        "Rock's first double album, sequenced across four vinyl sides \u2014 the format shaped how it was written and heard.",
+        "One of rock's first double albums, sequenced across four vinyl sides \u2014 the format shaped how it was written and heard.",
       media: { kind: "youtube", id: "A3qXRfHIeuY", albumId: "4NP1rhnsPdYpnyJP0p0k0L" },
     },
   },
