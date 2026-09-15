@@ -253,7 +253,7 @@ export const TERMS: Term[] = [
     definition:
       "A compact free-reed wind instrument played by exhaling and inhaling through specific channels. Its portability and volume allowed it to cut through the sound of a guitar, making it a staple of delta blues and Appalachian folk music. Often called a mouth organ or harp, it allows a solo musician to provide both melodic leads and rhythmic accompaniment, acting as a portable orchestra for the traveling singer-songwriter who requires high impact with minimal equipment.",
     inDylan:
-      "Dylan's earliest professional appearances were as a harmonica sideman, playing on Harry Belafonte's The Midnight Special in 1961 and Carolyn Hester's 1962 Columbia debut. He also contributed harp to sessions with bluesman Big Joe Williams. By mounting the instrument on a wire neck rack, he integrated the harmonica into his visual identity and musical language, using its raw, keening wail as a second voice that could puncture the mood of a song or mirror the intensity of his lyrics.",
+      "Dylan's earliest professional appearances were as a harmonica sideman, playing on Carolyn Hester's session for her 1962 Columbia debut (recorded September 1961) and Harry Belafonte's The Midnight Special (recorded February 1962). He also contributed harp to sessions with bluesman Big Joe Williams. By mounting the instrument on a wire neck rack, he integrated the harmonica into his visual identity and musical language, using its raw, keening wail as a second voice that could puncture the mood of a song or mirror the intensity of his lyrics.",
     example: {
       title: "Freight Train Blues",
       note:
@@ -405,7 +405,7 @@ export const TERMS: Term[] = [
     definition:
       "A song specifically composed to challenge social injustice, voice opposition to war, or critique institutional power. These works often serve as anthems for political movements, utilizing direct language and moral urgency to mobilize listeners and articulate collective grievances. Historically, the genre is tied to the labor movements and the civil rights struggles of the 20th century, where music functioned as both a tactical tool for organizing and a powerful medium for dissent.",
     inDylan:
-      "Songs like Masters of War established Dylan as a definitive voice of social critique, though he frequently resisted the narrow constraints of being labeled a protest singer. He described Masters of War as a curse rather than a plea, emphasizing its visceral anger. During a 1965 press conference in Los Angeles, when asked if he sang protest songs, he replied that he sang all love songs, effectively collapsing the distinction between private emotional experience and public political statement.",
+      "Songs like Masters of War established Dylan as a definitive voice of social critique, though he frequently resisted the narrow constraints of being labeled a protest singer. He described Masters of War as a curse rather than a plea, emphasizing its visceral anger. During a 1965 press conference in San Francisco, when asked if he sang protest songs, he replied that he sang all love songs, effectively collapsing the distinction between private emotional experience and public political statement.",
     example: {
       title: "Masters of War",
       note:
