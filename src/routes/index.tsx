@@ -215,7 +215,7 @@ function LexiconPage() {
           <div className="flex shrink-0 items-start gap-3 md:gap-5">
             {/* All terms dropdown */}
             <div
-              className="relative py-3 px-4 -my-3 -mx-4"
+              className="relative -m-2 p-2"
               onMouseEnter={() => {
                 clearCategoryTimer();
                 setShowCategories(true);
@@ -223,14 +223,14 @@ function LexiconPage() {
               onMouseLeave={() => {
                 categoryLeaveTimer.current = window.setTimeout(() => {
                   setShowCategories(false);
-                }, 150);
+                }, 250);
               }}
             >
               <button
                 type="button"
-                className={`inline-block py-2 px-1 font-mono text-[10px] uppercase tracking-[0.14em] transition md:px-3 md:text-xs md:tracking-[0.22em] ${
-                  activeSlug ? "text-ink" : "text-ink/50"
-                } hover:text-ink`}
+                className={`inline-block rounded border border-ink/10 bg-paper px-4 py-2.5 font-mono text-[11px] uppercase tracking-[0.14em] shadow-sm transition md:px-5 md:text-sm md:tracking-[0.18em] ${
+                  activeSlug ? "text-ink" : "text-ink/60"
+                } hover:border-ink/30 hover:bg-paper-2 hover:text-ink`}
                 onClick={() => setShowCategories((prev) => !prev)}
                 aria-label="Browse all terms"
               >
@@ -251,7 +251,7 @@ function LexiconPage() {
                   }}
                 >
                   {/* Invisible hover bridge so the dropdown doesn't close when the cursor enters from below */}
-                  <div className="absolute -top-4 left-1/2 h-4 w-24 -translate-x-1/2" />
+                  <div className="absolute -top-5 left-1/2 h-5 w-48 -translate-x-1/2" />
                   <ul className="space-y-1">
                     {allTermsSorted.map((t) => (
                       <li key={t.slug}>
