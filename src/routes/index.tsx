@@ -1,6 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Coffee, Mail, Search, X } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { TERMS, CATEGORIES } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
 import { TermList } from "@/components/lexicon/TermList";
@@ -46,6 +53,7 @@ function LexiconPage() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [showCategories, setShowCategories] = useState(false);
   const [mobileEntered, setMobileEntered] = useState(false);
+  const [coffeeOpen, setCoffeeOpen] = useState(false);
   const categoryLeaveTimer = useRef<number | null>(null);
 
   const clearCategoryTimer = () => {
@@ -57,7 +65,7 @@ function LexiconPage() {
   // Clicking anywhere on empty page background (desktop) resets the view:
   // closes the detail panel and re-centres the portrait.
   useEffect(() => {
-    const INTERACTIVE = 'button, a, input, textarea, select, aside, [role="dialog"]';
+    const INTERACTIVE = 'button, a, input, textarea, select, aside, [role="dialog"], [data-radix-dialog-overlay]';
     const onDocClick = (e: MouseEvent) => {
       // Use composedPath(): the event target may already be detached from the
       // DOM by a React re-render, which makes closest() return null.
@@ -281,17 +289,48 @@ function LexiconPage() {
             </div>
 
             {/* Buy Me a Coffee */}
-            <a
-              href="https://buymeacoffee.com/dylanlexicon"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
+              onClick={() => setCoffeeOpen(true)}
               title="One more cup of coffee"
               aria-label="One more cup of coffee — support The Dylan Lexicon on Buy Me a Coffee"
               className="group inline-flex shrink-0 items-center gap-1 border-b border-ink/20 px-1 py-2 font-mono text-[9px] uppercase tracking-[0.12em] text-ink/60 transition hover:border-ink/60 hover:text-ink sm:gap-1.5 md:text-[10px] md:tracking-[0.22em]"
             >
               <Coffee className="h-3.5 w-3.5 md:h-4 md:w-4" />
               <span className="hidden sm:inline">One more cup of coffee</span>
-            </a>
+            </button>
+
+            <Dialog open={coffeeOpen} onOpenChange={setCoffeeOpen}>
+              <DialogContent className="flex h-[85vh] max-h-[800px] w-[92vw] max-w-3xl flex-col gap-0 overflow-hidden border-ink/15 bg-paper p-0 shadow-2xl sm:rounded-lg">
+                <DialogHeader className="border-b border-ink/10 px-5 py-4 text-left">
+                  <DialogTitle className="font-display text-base tracking-tight text-ink">
+                    One more cup of coffee
+                  </DialogTitle>
+                  <DialogDescription className="font-body text-sm text-ink/60">
+                    Support The Dylan Lexicon on Buy Me a Coffee.
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="relative flex-1 bg-paper-2">
+                  <iframe
+                    src="https://www.buymeacoffee.com/dylanlexicon"
+                    title="Buy Me a Coffee — Dylan Lexicon"
+                    className="h-full w-full border-0"
+                    loading="lazy"
+                    allow="payment"
+                  />
+                </div>
+                <div className="border-t border-ink/10 px-5 py-3 text-right">
+                  <a
+                    href="https://buymeacoffee.com/dylanlexicon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-mono text-[10px] uppercase tracking-[0.12em] text-ink/60 underline-offset-2 transition hover:text-ink hover:underline"
+                  >
+                    Open in a new tab
+                  </a>
+                </div>
+              </DialogContent>
+            </Dialog>
 
             {/* Contact */}
             <a
