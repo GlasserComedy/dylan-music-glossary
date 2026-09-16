@@ -480,7 +480,7 @@ export function MindMap({
       </div>
 
       {size.w > 0 &&
-        shuffledTerms.map((term, i) => {
+        layoutTerms.map((term, i) => {
           const label = labels.get(term.id);
           const isActive = term.id === activeId;
           const isCategoryMatch = highlightIds?.has(term.id) ?? false;
