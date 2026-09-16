@@ -10,10 +10,6 @@ type Props = {
 };
 
 export function TermDetail({ term, onSelectTerm, onClose }: Props) {
-  const [expandedDefinitionSlug, setExpandedDefinitionSlug] = useState<string | null>(null);
-  const [expandedCareerSlug, setExpandedCareerSlug] = useState<string | null>(null);
-  const definitionExpanded = expandedDefinitionSlug === term.slug;
-  const careerExpanded = expandedCareerSlug === term.slug;
   const examples = (term.examples?.length
     ? term.examples
     : term.example
