@@ -8,6 +8,7 @@ import { TermDetail } from "@/components/lexicon/TermDetail";
 import { AlphabetStrip } from "@/components/lexicon/AlphabetStrip";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Head3D } from "@/components/lexicon/Head3D";
+import { MobileCategoryMap } from "@/components/lexicon/MobileCategoryMap";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -418,17 +419,44 @@ function LexiconPage() {
         </button>
       </main>
 
-      {/* Mobile: scrollable A–Z list */}
+      {/* Mobile: category constellation, then the selected category or letter list */}
       <main
-        className={`min-h-0 flex-1 overflow-y-auto overscroll-contain md:hidden ${mobileEntered ? "flex" : "hidden"}`}
+        className={`relative min-h-0 flex-1 flex-col overflow-hidden md:hidden ${mobileEntered ? "flex" : "hidden"}`}
       >
-        <TermList
-          terms={TERMS}
-          activeSlug={activeSlug}
-          selectedLetter={selectedLetter}
-          selectedCategory={selectedCategory}
-          onSelectTerm={openTerm}
-        />
+        {selectedCategory || selectedLetter ? (
+          <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
+            <div className="sticky top-0 z-20 grid grid-cols-[auto_minmax(0,1fr)_auto] items-center border-b border-ink/10 bg-paper/95 px-4 py-3 backdrop-blur-sm">
+              <button
+                type="button"
+                onClick={() => {
+                  setSelectedCategory(null);
+                  setSelectedLetter(null);
+                }}
+                className="shrink-0 font-body text-xs text-ink/55 transition active:text-ink"
+              >
+                ← Categories
+              </button>
+              <h2 className="truncate px-3 text-center font-typewriter text-base text-ink">
+                {selectedCategory ?? selectedLetter}
+              </h2>
+              <span className="w-[68px]" aria-hidden="true" />
+            </div>
+            <TermList
+              terms={TERMS}
+              activeSlug={activeSlug}
+              selectedLetter={selectedLetter}
+              selectedCategory={selectedCategory}
+              onSelectTerm={openTerm}
+            />
+          </div>
+        ) : (
+          <div className="min-h-0 flex-1 px-2 pb-3">
+            <MobileCategoryMap
+              categories={CATEGORIES}
+              onSelect={handleSelectCategory}
+            />
+          </div>
+        )}
         {activeTerm && (
           <div className="fixed inset-0 z-40 bg-paper">
             <TermDetail
