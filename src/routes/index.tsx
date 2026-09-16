@@ -57,16 +57,20 @@ function LexiconPage() {
   // Clicking anywhere on empty page background (desktop) resets the view:
   // closes the detail panel and re-centres the portrait.
   useEffect(() => {
+    const INTERACTIVE = 'button, a, input, textarea, select, aside, [role="dialog"]';
     const onDocClick = (e: MouseEvent) => {
+      // Use composedPath(): the event target may already be detached from the
+      // DOM by a React re-render, which makes closest() return null.
+      const path = (e.composedPath?.() ?? []) as EventTarget[];
+      const hitInteractive = path.some(
+        (node) =>
+          node instanceof Element &&
+          typeof node.matches === "function" &&
+          node.matches(INTERACTIVE),
+      );
+      if (hitInteractive) return;
       const target = e.target as HTMLElement | null;
-      if (!target) return;
-      if (
-        target.closest(
-          'button, a, input, textarea, select, aside, [role="dialog"]',
-        )
-      ) {
-        return;
-      }
+      if (target?.isConnected && target.closest(INTERACTIVE)) return;
       // Clicking empty page background also closes the search box
       setShowSearch(false);
       setQuery("");
