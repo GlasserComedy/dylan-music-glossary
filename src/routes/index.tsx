@@ -498,7 +498,7 @@ function LexiconPage() {
         </div>
 
         {activeTerm && (
-          <div className="absolute right-0 top-0 bottom-14 z-10 w-full max-w-[400px]">
+          <div className="absolute right-0 top-0 bottom-14 z-10 w-[78%] max-w-[900px] shadow-[0_0_60px_rgba(0,0,0,0.08)]">
             <TermDetail
               term={activeTerm}
               onSelectTerm={openTerm}
