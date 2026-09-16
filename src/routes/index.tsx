@@ -529,7 +529,7 @@ function LexiconPage() {
               <X className="h-4 w-4" />
             </button>
 
-            <div className="shrink-0 overflow-y-auto border-b border-ink/10 bg-paper-2 p-6">
+            <div className="shrink-0 overflow-y-auto border-b border-ink/10 bg-paper-2 p-6 md:max-h-[220px]">
               <h2 className="font-display text-lg uppercase tracking-[0.12em] text-ink">
                 About The Dylan Lexicon
               </h2>
@@ -554,7 +554,7 @@ function LexiconPage() {
               </div>
             </div>
 
-            <div className="min-h-0 flex-1 bg-paper">
+            <div className="min-h-[320px] flex-1 bg-paper">
               <iframe
                 src="https://www.buymeacoffee.com/widget/page/dylanlexicon"
                 title="Support The Dylan Lexicon on Buy Me a Coffee"
