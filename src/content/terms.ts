@@ -4,13 +4,13 @@ import folkloreSeries from "@/assets/talking-folklore-center-3.jpg";
 
 export type Category =
   | "Music"
-  | "Songwriting & Lyrics"
+  | "Songwriting"
   | "Performance"
-  | "Genre & Styles"
+  | "Genres & Styles"
   | "Roots & Tradition"
   | "Influences"
-  | "People & Places"
-  | "Culture & History"
+  | "People, Places & Moments"
+  | "Context"
   | "Reinvention";
 
 export type MediaRef =
@@ -47,13 +47,13 @@ export type Term = {
 
 export const CATEGORIES: Category[] = [
   "Music",
-  "Songwriting & Lyrics",
+  "Songwriting",
   "Performance",
-  "Genre & Styles",
+  "Genres & Styles",
   "Roots & Tradition",
   "Influences",
-  "People & Places",
-  "Culture & History",
+  "People, Places & Moments",
+  "Context",
   "Reinvention",
 ];
 
@@ -61,7 +61,7 @@ export const TERMS: Term[] = [
   {
     slug: "abstract-lyrics",
     title: "Abstract Lyrics",
-    category: "Reinvention",
+    category: "Songwriting",
     definition:
       "Abstract lyrics represent a departure from linear narrative, opting instead for impressionistic clusters of imagery, surrealist metaphors, and dreamlike sequences that suggest a mood or a psychic state rather than a concrete event. This technique draws heavily from Symbolist poetry and the Beat generation, prioritizing the phonetic texture of words and the evocative power of juxtaposition over the strict requirements of logical cohesion or literal interpretation in songwriting.",
     inDylan:
@@ -93,7 +93,7 @@ export const TERMS: Term[] = [
   {
     slug: "acoustic",
     title: "Acoustic",
-    category: "Performance",
+    category: "Music",
     definition:
       "Acoustic music is produced through unamplified instruments, such as the wooden-bodied guitar, banjo, or upright bass, emphasizing the natural resonance of the materials and the physical interaction between the player and the instrument. This style is often associated with intimacy and authenticity, as it lacks the electronic manipulation or volume of electric music, favoring a clear, organic sound that highlights the nuances of a singer's voice and the subtle dynamics of the performance.",
     inDylan:
@@ -109,7 +109,7 @@ export const TERMS: Term[] = [
   {
     slug: "ballad",
     title: "Ballad",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "A ballad is a narrative song that recounts a story—often involving themes of love, tragedy, historical events, or folklore—unfolding across a series of similar verses. Historically, the form served as a primary method for oral storytelling, with the 'Child Ballads' collected by Francis James Child representing the definitive canon of English and Scottish traditional music. These songs often utilize a repetitive structure to focus the listener's attention on the evolving drama of the tale.",
     inDylan:
@@ -126,7 +126,7 @@ export const TERMS: Term[] = [
   {
     slug: "martin-carthy",
     title: "Martin Carthy",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "Martin Carthy is a preeminent English folk singer and guitarist recognized for his scholarly approach to traditional ballads and his innovative use of percussive, unorthodox guitar tunings. As a central figure in the British folk revival, Carthy sought to reclaim the rhythmic and melodic idiosyncrasies of English music, moving away from Americanized styles to find a distinct voice that reflected the complex heritage of the British Isles through meticulous research and performance.",
     inDylan:
@@ -143,7 +143,7 @@ export const TERMS: Term[] = [
   {
     slug: "blues",
     title: "Blues",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "The blues is a foundational African-American musical genre characterized by a specific twelve-bar chord progression, the use of 'blue notes' for emotional tension, and a call-and-response structure. Emerging from the Mississippi Delta and the Deep South, the blues functioned as both a personal expression of hardship and a shared cultural language, influencing nearly every facet of modern popular music through its raw emotional power and distinctive harmonic framework.",
     inDylan:
@@ -159,7 +159,7 @@ export const TERMS: Term[] = [
   {
     slug: "bootleg",
     title: "Bootleg",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "An unofficial recording — a studio outtake, rehearsal tape, or audience recording of a concert — circulated outside the artist's record label. Bootlegs surfaced in rock culture at the end of the 1960s, traded first on vinyl and cassette and later online, and they turned discarded takes and one-off performances into a parallel discography that fans studied as closely as the official albums.",
     inDylan:
@@ -191,7 +191,7 @@ export const TERMS: Term[] = [
   {
     slug: "country",
     title: "Country",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "A popular music genre rooted in the folk songs, ballads, and dance tunes of the rural American South, shaped by blues, gospel, fiddle music, cowboy songs, and Tin Pan Alley. It is built on plain, direct storytelling, clear vocal delivery, and straightforward song forms, often carried by acoustic guitars, fiddles, steel guitars, and close harmonies.",
     inDylan:
@@ -239,7 +239,7 @@ export const TERMS: Term[] = [
   {
     slug: "gospel",
     title: "Gospel",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "A genre of Christian devotional music deeply rooted in African-American church traditions, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
     inDylan:
@@ -295,7 +295,7 @@ export const TERMS: Term[] = [
   {
     slug: "imagery",
     title: "Imagery",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "Descriptive language that appeals to the senses and conjures pictures in the mind. In Dylan's work it ranges from concrete, almost cinematic snapshots to dreamlike, symbolist visions, often compressing a whole world into a single line.",
     inDylan:
@@ -327,7 +327,7 @@ export const TERMS: Term[] = [
   {
     slug: "lyric",
     title: "Lyric",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "The words of a song, distinct from melody and harmony. The term reaches back to ancient Greece, where a lyric was a poem sung to the lyre, and it has come to mean any short, song-like verse that compresses feeling into a few charged lines. In popular music, the lyric is the carrier of story, image, argument, and mood.",
     inDylan:
@@ -343,7 +343,7 @@ export const TERMS: Term[] = [
   {
     slug: "metaphor",
     title: "Metaphor",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable, creating a symbolic comparison. By describing one thing in terms of another, metaphors allow writers to convey complex emotional truths and abstract concepts through concrete imagery. In songwriting, metaphors provide a layer of ambiguity that encourages diverse interpretations, allowing a single lyric to resonate across different historical and personal contexts.",
     inDylan:
@@ -359,7 +359,7 @@ export const TERMS: Term[] = [
   {
     slug: "narrative",
     title: "Narrative",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "A structural approach to songwriting that prioritizes a coherent story featuring specific characters, settings, and a sequence of events. Unlike purely lyrical or abstract songs, a narrative work functions like a short film or a novella set to music, often employing a clear point of view and a sense of dramatic progression that leads the listener from an established beginning through a conflict toward a resolution, providing a detailed window into a specific life or moment.",
     inDylan:
@@ -375,7 +375,7 @@ export const TERMS: Term[] = [
   {
     slug: "newport-1965",
     title: "Newport 1965",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "The 1965 Newport Folk Festival set at which Dylan gave his first professional live performance with electric instruments, dividing the folk audience. The Newport Folk Festival itself was founded in 1959 by jazz impresario George Wein, singer Theodore Bikel, and a circle of folk advocates as a counterpart to the already established Newport Jazz Festival. It quickly became the annual summit of the American folk revival, a place where Lead Belly's heirs, Woody Guthrie's disciples, and a new generation of songwriters shared stages and workshops on the lawns of Newport, Rhode Island.",
     inDylan:
@@ -391,7 +391,7 @@ export const TERMS: Term[] = [
   {
     slug: "nobel-prize",
     title: "Nobel Prize",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.' He was the first laureate chiefly known as a popular songwriter, and the announcement by Permanent Secretary Sara Danius on 13 October 2016 was met with a long, startled silence in the Stockholm press room before the questions began.",
     inDylan:
@@ -407,7 +407,7 @@ export const TERMS: Term[] = [
   {
     slug: "protest-song",
     title: "Protest Song",
-    category: "Roots & Tradition",
+    category: "Songwriting",
     definition:
       "A song specifically composed to challenge social injustice, voice opposition to war, or critique institutional power. These works often serve as anthems for political movements, utilizing direct language and moral urgency to mobilize listeners and articulate collective grievances. Historically, the genre is tied to the labor movements and the civil rights struggles of the 20th century, where music functioned as both a tactical tool for organizing and a powerful medium for dissent.",
     inDylan:
@@ -439,7 +439,7 @@ export const TERMS: Term[] = [
   {
     slug: "singer-songwriter",
     title: "Singer-Songwriter",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "An artist who writes, composes, and performs their own songs, so that the voice, the words, and the music all come from a single source. The term has existed as long as troubadours and folk singers, but in the 1960s it became a recognized category of popular music: a figure who was not merely interpreting professional songwriters but presenting an original, self-authored world.",
     inDylan:
@@ -471,7 +471,7 @@ export const TERMS: Term[] = [
   {
     slug: "talkin-blues",
     title: "Talkin' Blues",
-    category: "Roots & Tradition",
+    category: "Genres & Styles",
     definition:
       "The talkin' blues is a distinctive rhythmic speech form performed over a repetitive, usually twelve-bar blues progression. Characterized by dry wit, social commentary, and a conversational delivery, it allows for a flexible narrative structure where the performer can pause for comedic timing or emphasize specific satirical points. The style was famously popularized by Woody Guthrie, who used the format to chronicle the struggles of the working class during the Great Depression.",
     inDylan:
@@ -511,7 +511,7 @@ export const TERMS: Term[] = [
   {
     slug: "film-music",
     title: "Film Music / Soundtrack",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "Film music encompasses original scores and individual songs composed specifically for a motion picture or licensed to enhance its narrative and emotional resonance. The medium requires a songwriter to harmonize their personal vision with the visual requirements of a director, often resulting in works that are more atmospheric or character-driven than standard studio albums. Soundtracks serve as a bridge between auditory and visual storytelling, anchoring the film in a specific era or mood.",
     inDylan:
@@ -574,7 +574,7 @@ export const TERMS: Term[] = [
   {
     slug: "reggae",
     title: "Reggae",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "Reggae is a music genre that originated in Jamaica in the late 1960s, defined by its distinctive offbeat rhythmic patterns, known as the skank. It typically features a heavy emphasis on the bass line and a steady, syncopated beat on the drums. Beyond its musical traits, reggae is often associated with social and political themes, spiritual reflection, and the Rastafari movement, exerting a global influence on popular music through its focus on groove and message.",
     inDylan:
@@ -589,7 +589,7 @@ export const TERMS: Term[] = [
   {
     slug: "social-commentary",
     title: "Social Commentary",
-    category: "Culture & History",
+    category: "Songwriting",
     definition:
       "Art that observes, critiques, or dramatizes the conditions of society: inequality, war, power, race, class, and the ways ordinary people are caught inside systems larger than themselves. It does not have to preach; sometimes it simply bears witness, making the abstract personal and the personal public.",
     inDylan:
@@ -605,7 +605,7 @@ export const TERMS: Term[] = [
   {
     slug: "suze-rotolo",
     title: "Suze Rotolo",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "Susan Rotolo (1943–2011) was an American artist, civil-rights activist, and writer best known for her relationship with Bob Dylan in the early 1960s. Raised in a left-wing Greenwich Village family, she was already attending protest meetings and art classes when she met Dylan. She appears beside him on the iconic cover of The Freewheelin' Bob Dylan, and her presence in his life introduced him to books, politics, and a circle of Village thinkers that shaped his early work.",
     inDylan:
@@ -654,7 +654,7 @@ export const TERMS: Term[] = [
   {
     slug: "topical-song",
     title: "Topical Song",
-    category: "Roots & Tradition",
+    category: "Songwriting",
     definition:
       "A subgenre of folk music where lyrics address specific current events, social issues, or political controversies. Rooted in the broadside ballad tradition of the 18th and 19th centuries, topical songs serve as a form of musical journalism, often aiming to provoke public debate or express moral outrage. While they are tethered to a particular moment in time, the most effective examples transcend their immediate origins to touch upon universal themes of justice, power, and human suffering.",
     inDylan:
@@ -732,7 +732,7 @@ export const TERMS: Term[] = [
   {
     slug: "1960s",
     title: "1960s",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "The decade that redefined popular music as a force for social change, personal confession, and artistic ambition. Between the civil-rights movement, the Vietnam War, and a youth culture searching for new values, the 1960s turned the songwriter into a public poet and the three-minute single into a manifesto.",
     inDylan:
@@ -841,7 +841,7 @@ export const TERMS: Term[] = [
   {
     slug: "beat-generation",
     title: "Beat Generation",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "A literary and social movement that emerged in the 1950s, centered around a group of writers who rejected conventional social values and embraced spontaneity, jazz, Eastern philosophy, and drug experimentation. Key figures like Jack Kerouac, Allen Ginsberg, and William S. Burroughs sought a 'raw' form of expression that favored the immediate and the visceral over the polished and the academic. Their work laid the aesthetic groundwork for the counterculture that followed in the next decade.",
     inDylan:
@@ -857,7 +857,7 @@ export const TERMS: Term[] = [
   {
     slug: "christian-rock",
     title: "Christian Rock",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "A genre of rock music that incorporates lyrics focused on matters regarding the Christian faith, often emphasizing biblical themes, personal salvation, and religious devotion. While it emerged from the Jesus Movement of the late 1960s, the genre often struggles to balance the rebellious spirit of rock with the dogmatic requirements of religious messaging. It serves as both a tool for proselytization and a medium for believers to express their spiritual convictions through contemporary musical forms.",
     inDylan:
@@ -873,7 +873,7 @@ export const TERMS: Term[] = [
   {
     slug: "columbia-records",
     title: "Columbia Records",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "Established in 1889, Columbia Records is one of the oldest and most prestigious labels in the recording industry. By the mid-20th century, it was a major force in jazz, classical, and popular music, steered by influential figures like Goddard Lieberson and Mitch Miller. The label represented a bridge between traditional commercial standards and the burgeoning interest in folk and blues that defined the early 1960s cultural shift.",
     inDylan:
@@ -889,7 +889,7 @@ export const TERMS: Term[] = [
   {
     slug: "counter-culture",
     title: "Counter-culture",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "The counter-culture was a pervasive youth-driven movement during the 1960s that challenged established norms, military intervention, and corporate conformity. It fostered an environment of radical experimentation in art, politics, and social structures, prioritizing personal liberation and civil rights. This subterranean current sought to dismantle the rigid hierarchies of the post-war era, favoring communal expression and an rejection of the prevailing consumerist ideology.",
     inDylan:
@@ -921,7 +921,7 @@ export const TERMS: Term[] = [
   {
     slug: "folk-rock",
     title: "Folk-Rock",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "Folk-rock is a hybrid genre that melds the lyricism, narrative depth, and melodic structures of traditional folk music with the rhythmic drive and instrumentation of rock and roll. It typically features acoustic guitars and socially conscious lyrics underpinned by electric bass, drums, and sometimes organ. The genre bridged the gap between the intellectual weight of the folk revival and the mass appeal and energy of the pop charts, influencing the sound of the late sixties.",
     inDylan:
@@ -954,7 +954,7 @@ export const TERMS: Term[] = [
   {
     slug: "greenwich-village",
     title: "Greenwich Village",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "A Lower Manhattan neighborhood whose low brick townhouses, hidden courtyards, and crooked streets have drawn artists, writers, and radicals since the nineteenth century. Long before the 1960s, its small-scale architecture and cheap rents made it a refuge for painters, poets, and performers who wanted to live outside the city's commercial grid.",
     inDylan:
@@ -970,7 +970,7 @@ export const TERMS: Term[] = [
   {
     slug: "washington-square-park",
     title: "Washington Square Park",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "Located at the heart of Manhattan's Greenwich Village, Washington Square Park is a historic public space known for its landmark arch and its role as a hub for artistic activity. For decades, it served as an unofficial outdoor stage where musicians, beat poets, and activists gathered to share ideas and perform. The park's fountain became a central meeting point for the burgeoning folk music scene, providing a democratic space for creative exchange in the middle of the city.",
     inDylan:
@@ -1038,7 +1038,7 @@ export const TERMS: Term[] = [
   {
     slug: "joan-baez",
     title: "Joan Baez",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A defining voice of the 1960s folk revival and one of the most influential singers of the modern era, known for her crystalline soprano and unwavering social activism. Baez was a central figure in the traditional music community, utilizing her platform to preserve older ballads while advocating for civil rights and non-violence through song.",
     inDylan:
@@ -1054,7 +1054,7 @@ export const TERMS: Term[] = [
   {
     slug: "john-hammond",
     title: "John Hammond",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "A legendary Columbia Records producer and talent scout who shaped the landscape of American music for over half a century. Known for his keen ear and civil rights advocacy, Hammond was responsible for discovering and signing a roster of monumental talents including Billie Holiday, Count Basie, and later Bruce Springsteen, forever altering the trajectory of jazz, blues, and rock.",
     inDylan:
@@ -1070,7 +1070,7 @@ export const TERMS: Term[] = [
   {
     slug: "literature",
     title: "Literature",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "Written works of lasting artistic value, ranging from poetry and drama to fiction and scripture, distinguished by imaginative power, formal craft, and a voice that survives beyond its moment.",
     inDylan:
@@ -1102,7 +1102,7 @@ export const TERMS: Term[] = [
   {
     slug: "music-video",
     title: "Music Video",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "A short film or video production that accompanies a piece of recorded music, designed to visually represent the song's themes or provide a promotional tool for the artist. While the format gained immense popularity during the 1980s with the rise of cable networks, its roots go back to the early days of television and promotional cinema shorts.",
     inDylan:
@@ -1134,7 +1134,7 @@ export const TERMS: Term[] = [
   {
     slug: "producer",
     title: "Producer",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "The individual responsible for overseeing the creative and technical aspects of a recording session. A producer's role can range from a hands-off approach focused on capturing a natural performance to a highly involved process of selecting session musicians, arranging parts, and shaping the final sonic texture through engineering and mixing techniques.",
     inDylan:
@@ -1151,7 +1151,7 @@ export const TERMS: Term[] = [
   {
     slug: "rock",
     title: "Rock",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "A broad popular-music form rooted in rhythm and blues, country, gospel, and Tin Pan Alley, powered by electric guitars, bass, drums, and a driving backbeat. From its 1950s birth through endless offshoots — rockabilly, surf, psychedelic, hard rock, punk, and beyond — rock has remained a vessel for rebellion, romance, and social commentary, loud enough to fill a stadium and intimate enough to carry a single voice.",
     inDylan:
@@ -1167,7 +1167,7 @@ export const TERMS: Term[] = [
   {
     slug: "vinyl",
     title: "Vinyl",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "Vinyl records represent the primary physical format that dominated the twentieth-century music industry, composed of polyvinyl chloride. This medium facilitated the long-playing record, allowing artists to sequence songs into cohesive thematic statements rather than isolated singles. The format is prized for its analog warmth and the physical relationship it fosters between the listener and the large-scale cover art, which provides essential visual context for the audio content contained within the grooves.",
     inDylan:
@@ -1262,7 +1262,7 @@ export const TERMS: Term[] = [
   {
     slug: "voice-of-a-generation",
     title: "Voice of a Generation",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "The label pinned on Dylan from about 1963 onward, casting him as the spokesman who put the hopes and grievances of American youth into words. It came from the topical songs \u2014 Blowin' in the Wind, The Times They Are a-Changin', Only a Pawn in Their Game \u2014 and from the civil rights and anti-war movements that adopted them, and it hardened into an expectation that he keep supplying the movement with anthems.",
     inDylan:
@@ -1310,7 +1310,7 @@ export const TERMS: Term[] = [
   {
     slug: "chorus-refrain",
     title: "Chorus / Refrain",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "A chorus or refrain is a repeated musical and lyrical section that provides a song with its structural anchor. In folk traditions, a refrain is often a single line or a short couplet that concludes each verse, acting as a recurring thematic summary. In contrast, a pop chorus is typically a distinct, standalone section with a more expansive melody. Both serve to reinforce the central message of the piece, offering the listener a familiar point of return amidst the evolving narrative content of the verses, while also facilitating communal singing in live settings.",
     inDylan:
@@ -1326,7 +1326,7 @@ export const TERMS: Term[] = [
   {
     slug: "verse",
     title: "Verse",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "The verse is a structural unit of a song where the melody remains relatively constant while the lyrics change from one section to the next. In traditional songwriting, the verse functions as the vehicle for narrative progression, setting the scene, introducing characters, and building the conceptual framework of the piece. Unlike the chorus, which provides a static emotional center, the verse is dynamic, driving the listener through the plot or through a sequence of vivid images that expand upon the song's primary theme or mood.",
     inDylan:
@@ -1388,7 +1388,7 @@ export const TERMS: Term[] = [
   {
     slug: "bridge",
     title: "Bridge",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "A contrasting section of a song designed to provide musical or lyrical variety, typically appearing after the second chorus to connect two repeated sections. Known in the United Kingdom as the middle eight, this passage often introduces a new chord progression, a different key, or a shift in perspective, preventing the primary verse-chorus structure from becoming repetitive for the listener.",
     inDylan:
@@ -1450,7 +1450,7 @@ export const TERMS: Term[] = [
   {
     slug: "rhyme",
     title: "Rhyme",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "The repetition of similar sounding syllables, typically occurring at the ends of poetic lines, used to establish musicality, formal structure, and mnemonic emphasis within lyrics. Rhyme can be exact, such as cat and hat, or slant, where the vowel sounds align but the consonants differ, allowing for a broader and more sophisticated range of expressive possibilities in songwriting.",
     inDylan:
@@ -1466,7 +1466,7 @@ export const TERMS: Term[] = [
   {
     slug: "form-structure",
     title: "Form / Structure",
-    category: "Songwriting & Lyrics",
+    category: "Songwriting",
     definition:
       "Form and structure denote the specific architecture of a musical composition, governing the sequence, duration, and repetition of distinct internal segments. This includes the organizational relationship between elements like the introduction, verse, chorus, bridge, and outro. A song's form dictates how its narrative or melodic themes develop over time, providing a map for the listener to navigate the emotional landscape of the work through familiar recurring sections or progressive linear evolution.",
     inDylan:
@@ -1482,7 +1482,7 @@ export const TERMS: Term[] = [
   {
     slug: "rap",
     title: "Rap/Hip Hop",
-    category: "Genre & Styles",
+    category: "Genres & Styles",
     definition:
       "Rap and hip-hop are defined by rhythmic, rhymed speech delivered over a percussive beat, emerging from an African American vocal tradition that includes boasting, signifyin', and street poetry. This style prioritizes the cadence and flow of the human voice as a lead instrument, often utilizing internal rhymes and complex meter to convey social commentary, personal narrative, or linguistic virtuosity. While its modern form crystallized in late-1970s New York, its roots extend deep into older oral traditions and talking blues.",
     inDylan:
@@ -1498,7 +1498,7 @@ export const TERMS: Term[] = [
   {
     slug: "radio",
     title: "Radio",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "Broadcast sound sent over the air \u2014 the medium that turned music from a local, live event into something shared across a whole country. Commercial broadcasting began in the early 1920s, and by the 1930s and 1940s network shows, barn dances like the Grand Ole Opry, and border stations blasting from Mexico were carrying blues, country, gospel and pop into farmhouses and city apartments alike. In the 1950s the transistor radio put that signal in a teenager's pocket, and disc jockeys \u2014 playing records across the colour line \u2014 became tastemakers who could break a song nationally in a week. Radio mixed genres that segregation and geography had kept apart, and it is the reason a boy in northern Minnesota could grow up hearing Delta blues, Appalachian ballads and Chicago R&B in the same evening.",
     inDylan:
@@ -1578,7 +1578,7 @@ export const TERMS: Term[] = [
   {
     slug: "the-band",
     title: "The Band",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A Canadian-American roots-rock group, originally the backing band for rockabilly singer Ronnie Hawkins, who became the definitive ensemble behind Dylan's electric reinvention and went on to shape American rock as a self-contained unit. Their sound was a deliberate rejection of late-1960s psychedelic excess: slowed tempos, wood-and-rust textures, organ, piano, mandolin, and interlocking vocals that sounded like a front-porch conversation. In their early years with Hawkins they were known as the Hawks, and after they broke away they toured briefly as Levon and the Hawks before settling on the simple, self-effacing name The Band.",
     inDylan:
@@ -1692,7 +1692,7 @@ export const TERMS: Term[] = [
   {
     slug: "folklore-center",
     title: "Folklore Center",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room. Owned and operated by Izzy Young, the store was an essential information hub where musicians gathered to trade techniques and study the Harry Smith anthology. It functioned as a clubhouse, library, and concert hall for the burgeoning underground folk scene.",
     inDylan:
@@ -1731,7 +1731,7 @@ export const TERMS: Term[] = [
   {
     slug: "izzy-young",
     title: "Izzy Young",
-    category: "People & Places",
+    category: "People, Places & Moments",
     definition:
       "Israel \u201cIzzy\u201d Young, folklorist and founder of the Folklore Center, who promoted concerts, kept notebooks on the scene, and later ran the Folklore Centrum in Stockholm.",
     inDylan:
@@ -1821,7 +1821,7 @@ export const TERMS: Term[] = [
   {
     slug: "elizabeth-cotten",
     title: "Elizabeth Cotten",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "Self-taught guitarist and songwriter who played left-handed on an upside-down guitar, creating the alternating-bass style known as Cotten picking. A domestic worker who was discovered by the Seeger family, her gentle voice and complex fingerpicking style brought traditional North Carolina folk and blues to a national audience. Her most famous song, Freight Train, became a staple of the folk revival and the skiffle movement in England.",
     inDylan:
@@ -1838,7 +1838,7 @@ export const TERMS: Term[] = [
   {
     slug: "joni-mitchell",
     title: "Joni Mitchell",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A Canadian songwriter, painter, and guitarist celebrated for her innovative open tunings, painterly approach to harmony, and candid, emotionally detailed writing that fundamentally stretched what a pop song could confess. Her career tracked a move from acoustic folk toward sophisticated jazz-inflected compositions, maintaining a rigorous intellectual distance while mining the depths of her own experience. She approached the guitar as an orchestra, utilizing non-standard tunings to create a harmonic language that felt both ancient and modernist.",
     inDylan:
@@ -1855,7 +1855,7 @@ export const TERMS: Term[] = [
   {
     slug: "patti-smith",
     title: "Patti Smith",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A revolutionary poet and performer who welded the grit of Beat and Symbolist poetry to the raw energy of rock and roll during the birth of the New York punk scene. Her work bridged the gap between the literary underground and the burgeoning electricity of CBGB, emphasizing improvisation and shamanistic performance. She transformed the role of the frontwoman by prioritizing intellectual ferocity and a ragged, visionary vocal delivery over traditional pop polish or conventional stage personas.",
     inDylan:
@@ -1906,7 +1906,7 @@ export const TERMS: Term[] = [
   {
     slug: "emmylou-harris",
     title: "Emmylou Harris",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A country singer and harmony vocalist known for the extraordinary purity of her voice and her sophisticated ability to interpret the work of other songwriters. After rising to prominence as the singing partner of Gram Parsons, she became a central figure in the country-rock and Americana movements. Her career is characterized by a deep reverence for tradition combined with a willingness to experiment with atmospheric production and contemporary folk arrangements, always centered by her crystalline soprano.",
     inDylan:
@@ -1923,7 +1923,7 @@ export const TERMS: Term[] = [
   {
     slug: "scarlet-rivera",
     title: "Scarlet Rivera",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A classically trained violinist whose gypsy-inflected, highly improvised melodic lines became the signature instrumental voice of Bob Dylan's mid-1970s output. Her style bridged the gap between folk fiddling and avant-garde violin, utilizing a distinctively sharp tone and fluid phrasing that could weave around a vocal melody or drive a rock arrangement. She played a pivotal role in the shift toward the more exotic, layered sound that characterized Dylan's work during this creatively fertile period.",
     inDylan:
@@ -1940,7 +1940,7 @@ export const TERMS: Term[] = [
   {
     slug: "rob-stoner",
     title: "Rob Stoner",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A formidable bassist, bandleader, and harmony singer, Rob Stoner was a pivotal figure in the mid-1970s sound of American roots music. Known for his melodic yet driving bass lines and his ability to provide precise vocal harmonies, Stoner possessed a deep understanding of rockabilly, country, and folk-rock traditions. He brought a sense of structured discipline to the recording studio and the stage, serving as a reliable anchor for artists who preferred improvisational or fluid arrangements. His technical proficiency and background in professional arrangement allowed him to translate complex artistic visions into cohesive musical performances.",
     inDylan:
@@ -1974,7 +1974,7 @@ export const TERMS: Term[] = [
   {
     slug: "johnny-cash",
     title: "Johnny Cash",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "American singer, songwriter, and guitarist whose spare, bass-driven storytelling and deep, plainspoken voice made him a cornerstone of country, rockabilly, and American roots music. Known as the Man in Black, his songs mixed gospel, folk, prison ballads, and social commentary into a singular, unvarnished sound. Cash occupied a unique space in the American consciousness, embodying both the outlaw spirit and a profound, traditional moral gravity that resonated across generational and cultural divides.",
     inDylan:
@@ -2025,7 +2025,7 @@ export const TERMS: Term[] = [
   {
     slug: "buddy-holly",
     title: "Buddy Holly",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A pioneering singer-songwriter and musician who wrote, played, and produced his own material, Buddy Holly essentially set the template for the self-contained rock and roll artist. His innovative use of studio techniques and his distinctive vocal style, characterized by hiccups and melodic shifts, influenced nearly every major act of the 1960s. Holly's work bridged the gap between the rebellious energy of early rock and the sophisticated songwriting that would follow, emphasizing the importance of the artist's personal control over their creative output.",
     inDylan:
@@ -2076,7 +2076,7 @@ export const TERMS: Term[] = [
   {
     slug: "the-byrds",
     title: "The Byrds",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "Formed in Los Angeles, The Byrds were the premier architects of folk rock. By blending the melodic sensibilities of The Beatles with the lyrical depth of the 1960s folk revival, they created a lush, jangly sound defined by Roger McGuinn's electric twelve-string Rickenbacker guitar and sophisticated three-part vocal harmonies. They bridged the gap between Greenwich Village and the Sunset Strip.",
     inDylan:
@@ -2093,7 +2093,7 @@ export const TERMS: Term[] = [
   {
     slug: "grateful-dead",
     title: "Grateful Dead",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "The Grateful Dead were the quintessential San Francisco jam band, known for their expansive improvisations and a vast repertoire that synthesized bluegrass, blues, jazz, and country. Led by Jerry Garcia, the group developed a dedicated subculture and a unique approach to live performance that favored spontaneity and long-form musical exploration over studio perfection.",
     inDylan:
@@ -2110,7 +2110,7 @@ export const TERMS: Term[] = [
   {
     slug: "mark-knopfler",
     title: "Mark Knopfler",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A virtuoso guitarist and the leader of Dire Straits, Mark Knopfler is celebrated for his clean, fingerstyle electric technique and his ability to create space within an arrangement. His melodic sensitivity and cinematic approach to production made him one of the most respected musicians of the late 1970s and 80s, favoring tone and nuance over distorted power chords.",
     inDylan:
@@ -2127,7 +2127,7 @@ export const TERMS: Term[] = [
   {
     slug: "sly-and-robbie",
     title: "Sly & Robbie",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "Drummer Sly Dunbar and bassist Robbie Shakespeare were the most prolific and influential rhythm section in Jamaican music history. Together, they refined the sound of reggae, dub, and dancehall. Their distinctive approach focused on a deep, heavy pocket and innovative electronic percussion, making them sought-after collaborators for artists across the pop and rock spectrum.",
     inDylan:
@@ -2150,7 +2150,7 @@ export const TERMS: Term[] = [
   {
     slug: "daniel-lanois",
     title: "Daniel Lanois",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "A Canadian producer and multi-instrumentalist, Daniel Lanois is renowned for his atmospheric, room-heavy production style. He specializes in creating sonic textures that feel both ancient and modern, often using pedal steel, heavy reverb, and natural room acoustics to build a sense of place. His work is characterized by a moody, immersive quality that emphasizes emotional resonance.",
     inDylan:
@@ -2167,7 +2167,7 @@ export const TERMS: Term[] = [
   {
     slug: "film",
     title: "Film",
-    category: "Culture & History",
+    category: "Context",
     definition:
       "Motion pictures represent Bob Dylan's long and often restless relationship with the camera, encompassing roles as an actor, subject, composer, and director. This fascination with the medium extends beyond simple performance into the structural logic of his storytelling, mirroring the jump-cuts and surrealist juxtapositions found in his lyrics. His cinematic output reflects a desire to control his own myth while simultaneously deconstructing it through fractured narratives and observational documentaries that challenge the traditional boundaries of the celebrity profile.",
     inDylan:
@@ -2193,7 +2193,7 @@ export const TERMS: Term[] = [
   {
     slug: "da-pennebaker",
     title: "D.A. Pennebaker",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "Donn Alan Pennebaker was a preeminent documentary filmmaker and a pioneer of the cinema verite movement. His handheld, observational style and refusal to utilize formal interviews or omniscient narration reshaped how popular music appeared on screen. By focusing on the candid, backstage reality of performers rather than their polished public facades, Pennebaker created a visual language that defined the aesthetic of the 1960s counterculture and influenced generations of music documentarians and directors who sought a raw, unvarnished truth.",
     inDylan:
@@ -2218,7 +2218,7 @@ export const TERMS: Term[] = [
   {
     slug: "jacques-levy",
     title: "Jacques Levy",
-    category: "Influences",
+    category: "People, Places & Moments",
     definition:
       "Jacques Levy was a versatile playwright, theatrical director, and clinical psychologist who became a crucial co-writer for Bob Dylan during the mid-1970s. Levy brought a disciplined, dramatic sensibility to the songwriting process, helping to author the 1976 album Desire. This record was built on cinematic narratives, travelogues, and specific character studies rather than the internal confessionals of Dylan's previous work. Levy's experience in the avant-garde theater scene provided the framework for some of the most vivid and evocative storytelling in the Dylan catalog.",
     inDylan:
@@ -2268,7 +2268,7 @@ export const TERMS: Term[] = [
   {
     slug: "art",
     title: "Visual Art",
-    category: "Reinvention",
+    category: "Context",
     definition:
       "Bob Dylan's visual creative practice encompasses drawing, painting, and sculpture, reflecting a way of seeing that informs his entire artistic output. His visual work is characterized by a focus on everyday American landscapes, railway lines, and portraits that capture a sense of transit and solitude. Over several decades, this practice has evolved from private sketches into a professional discipline with major international exhibitions, revealing a creator who treats the canvas with the same imagistic density and interpretive mystery he applies to his songwriting.",
     inDylan:
