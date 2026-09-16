@@ -212,7 +212,7 @@ function LexiconPage() {
             </p>
           </div>
 
-          <div className="flex shrink-0 items-start gap-3 md:gap-5">
+          <div className="flex shrink-0 items-center gap-3 md:gap-5">
             {/* All terms dropdown */}
             <div
               className="relative -m-2 p-2"
@@ -228,7 +228,7 @@ function LexiconPage() {
             >
               <button
                 type="button"
-                className={`inline-block px-6 py-4 font-mono text-[11px] uppercase tracking-[0.14em] transition md:px-8 md:text-[11px] md:tracking-[0.18em] ${
+                className={`relative inline-flex items-center px-6 py-4 font-mono text-[11px] uppercase tracking-[0.14em] transition md:px-8 md:text-[11px] md:tracking-[0.18em] ${
                   activeSlug ? "text-ink" : "text-ink/55"
                 } hover:text-ink`}
                 onClick={() => setShowCategories((prev) => !prev)}
