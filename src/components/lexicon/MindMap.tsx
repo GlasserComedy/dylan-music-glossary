@@ -206,7 +206,11 @@ function createInitialLayout(terms: MapItem[], w: number, h: number): Label[] {
   });
 }
 
-/** Place items at equal angles around an airy ring. Keeps the layout open and symmetrical. */
+/**
+ * Place items at equal angles around one or more airy rings.
+ * Small lists get a single ring; larger categories are spread across concentric
+ * rings so the layout stays symmetrical and breathable.
+ */
 function createRadialLayout(
   terms: MapItem[],
   w: number,
@@ -218,13 +222,27 @@ function createRadialLayout(
   const rx = (w / 2) * RX_FRAC;
   const ry = (h / 2) * RY_FRAC;
   const n = terms.length;
-  const step = (2 * Math.PI) / Math.max(n, 1);
-  // Start from the top (-PI/2) so the first item sits above the head.
+
+  // Aim for ~14 items per ring; split large groups across concentric rings.
+  const idealPerRing = 14;
+  const ringCount = Math.max(1, Math.ceil(n / idealPerRing));
+  const perRing = Math.ceil(n / ringCount);
+  const spread = 0.15;
+  const ringSpacing = spread / Math.max(ringCount - 1, 1);
   const start = -Math.PI / 2;
 
   return terms.map((term, i) => {
-    const angle = start + i * step;
-    const r = HOLE + (1 - HOLE) * baseR;
+    const ring = Math.min(ringCount - 1, Math.floor(i / perRing));
+    const itemsInRing = ring === ringCount - 1 ? n - ring * perRing : perRing;
+    const idxInRing = i - ring * perRing;
+    const step = (2 * Math.PI) / Math.max(itemsInRing, 1);
+    // Offset alternate rings by half a step so outer rings fill the gaps.
+    const offset = ring % 2 === 0 ? 0 : step / 2;
+    const angle = start + (idxInRing + offset) * step;
+
+    const rNorm = ringCount === 1 ? baseR : baseR - ring * ringSpacing;
+    const r = HOLE + (1 - HOLE) * rNorm;
+
     return {
       term,
       angle,
