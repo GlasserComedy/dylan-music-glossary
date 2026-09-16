@@ -524,6 +524,8 @@ function LexiconPage() {
         data-cfasync="false"
         src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
         data-id="dylanlexicon"
+        data-description="Support The Dylan Lexicon on Buy me a coffee!"
+        data-message={"We've been Dylan fans since before we were born. Our parents indoctrinated us, and now we indoctrinate our children. The world is cruel, and Dylan is our refuge. He gives us shelter from the storm, any day of the week, any time we think of him or his music.\n\nNow, we are scratching an itch, collectively. A site that was born out of our love of Bob plus our passion for music education, we're marrying the two with your help.\n\nIf you appreciate The Dylan Lexicon and want to contribute to its development and maintenance, buy us a coffee — thanks!\n\nOne more cup… to the valley below."}
         data-color="#FFDD00"
         data-position="Right"
         data-x_margin="18"
