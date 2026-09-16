@@ -228,7 +228,7 @@ function LexiconPage() {
             >
               <button
                 type="button"
-                className={`relative inline-flex items-center px-6 py-4 font-mono text-[11px] uppercase tracking-[0.14em] transition md:px-8 md:text-[11px] md:tracking-[0.18em] ${
+                className={`relative inline-flex items-center px-6 py-2 font-mono text-[11px] uppercase tracking-[0.14em] transition after:absolute after:-inset-3 after:content-[''] md:px-8 md:text-[11px] md:tracking-[0.18em] ${
                   activeSlug ? "text-ink" : "text-ink/55"
                 } hover:text-ink`}
                 onClick={() => setShowCategories((prev) => !prev)}
