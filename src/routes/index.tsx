@@ -184,6 +184,11 @@ function LexiconPage() {
     ).map((t) => ({ id: t.slug, label: t.title }));
   }, [mapMode, selectedCategory, selectedLetter]);
 
+  const allTermsSorted = useMemo(
+    () => [...TERMS].sort((a, b) => a.title.localeCompare(b.title)),
+    [],
+  );
+
   const handleMapSelect = (id: string) => {
     if (mapMode === "categories") handleSelectCategory(id);
     else openTerm(id);
