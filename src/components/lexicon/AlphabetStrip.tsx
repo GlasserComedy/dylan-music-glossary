@@ -27,7 +27,7 @@ export function AlphabetStrip({ terms, activeLetter, onSelectLetter }: Props) {
               key={letter}
               disabled={!has}
               onClick={() => onSelectLetter(letter)}
-              className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-mono text-xs uppercase transition md:h-7 md:w-7 ${
+              className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-typewriter text-sm uppercase transition md:h-7 md:w-7 ${
                 active
                   ? "bg-ink text-paper"
                   : has

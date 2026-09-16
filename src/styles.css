@@ -43,7 +43,7 @@
   --font-display: "Grandstand", "Archivo", "Helvetica Neue", sans-serif;
   --font-body: "Passenger", "Source Serif 4", Georgia, serif;
   --font-mono: "Telegrama", "Space Mono", ui-monospace, monospace;
-  --font-typewriter: var(--font-display);
+  --font-typewriter: "Special Elite", "Courier New", ui-monospace, monospace;
   --font-serif: var(--font-body);
   --font-sans: var(--font-display);
 }
