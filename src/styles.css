@@ -111,3 +111,8 @@
   background-position: left center;
   height: 1px;
 }
+
+/* Buy Me a Coffee widget: hide the default floating button; we trigger it from the header. */
+#bmc-wbtn {
+  display: none !important;
+}
