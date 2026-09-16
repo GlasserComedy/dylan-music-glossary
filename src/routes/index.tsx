@@ -521,7 +521,7 @@ function LexiconPage() {
             if (e.target === e.currentTarget) setShowCoffeeModal(false);
           }}
         >
-          <div className="relative flex h-[92dvh] w-full flex-col overflow-hidden rounded-t-2xl bg-paper shadow-[0_0_60px_rgba(0,0,0,0.25)] md:h-[92vh] md:max-w-[520px] md:rounded-2xl">
+          <div className="relative flex h-[92dvh] w-full flex-col overflow-y-auto rounded-t-2xl bg-paper shadow-[0_0_60px_rgba(0,0,0,0.25)] md:h-[92vh] md:max-w-[520px] md:rounded-2xl">
             <button
               type="button"
               onClick={() => setShowCoffeeModal(false)}
@@ -531,7 +531,7 @@ function LexiconPage() {
               <X className="h-4 w-4" />
             </button>
 
-            <div className="shrink-0 overflow-y-auto border-b border-ink/10 bg-paper-2 p-6 md:max-h-[200px]">
+            <div className="shrink-0 border-b border-ink/10 bg-paper-2 p-6">
               <h2 className="font-display text-lg uppercase tracking-[0.12em] text-ink">
                 About The Dylan Lexicon
               </h2>
@@ -556,7 +556,7 @@ function LexiconPage() {
               </div>
             </div>
 
-            <div className="min-h-0 flex-1 bg-paper">
+            <div className="min-h-[380px] flex-1 bg-paper">
               <iframe
                 src="https://www.buymeacoffee.com/widget/page/dylanlexicon"
                 title="Support The Dylan Lexicon on Buy Me a Coffee"
