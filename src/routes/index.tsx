@@ -251,7 +251,7 @@ function LexiconPage() {
                   }}
                 >
                   {/* Invisible hover bridge so the dropdown doesn't close when the cursor enters from below */}
-                  <div className="absolute -top-4 left-1/2 h-4 w-24 -translate-x-1/2" />
+                  <div className="absolute -top-5 left-1/2 h-5 w-48 -translate-x-1/2" />
                   <ul className="space-y-1">
                     {allTermsSorted.map((t) => (
                       <li key={t.slug}>
