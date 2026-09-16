@@ -85,18 +85,7 @@ function LexiconPage() {
     return () => document.removeEventListener("click", onDocClick);
   }, [isMobile]);
 
-  const openCoffee = () => {
-    const bmcBtn = document.getElementById("bmc-wbtn");
-    if (bmcBtn) {
-      bmcBtn.click();
-    } else {
-      window.open(
-        "https://buymeacoffee.com/dylanlexicon",
-        "_blank",
-        "noopener,noreferrer",
-      );
-    }
-  };
+  const openCoffee = () => setShowCoffeeModal(true);
 
 
   const activeTerm = useMemo(
