@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Coffee, Mail, Search, X } from "lucide-react";
-import { TERMS, CATEGORIES } from "@/content/terms";
+import { TERMS, CATEGORIES, type Category } from "@/content/terms";
 import { MindMap } from "@/components/lexicon/MindMap";
 import { TermList } from "@/components/lexicon/TermList";
 import { TermDetail } from "@/components/lexicon/TermDetail";
@@ -106,7 +106,7 @@ function LexiconPage() {
         t.title,
         t.definition,
         t.inDylan,
-        t.category,
+        t.categories.join(" "),
         t.example?.title ?? "",
         t.example?.note ?? "",
         ...(t.examples ?? []).flatMap((ex) => [ex.title, ex.note]),
@@ -183,7 +183,7 @@ function LexiconPage() {
     }
     return TERMS.filter((t) =>
       selectedCategory
-        ? t.category === selectedCategory
+        ? t.categories.includes(selectedCategory as Category)
         : t.title[0]!.toUpperCase() === selectedLetter,
     ).map((t) => ({ id: t.slug, label: t.title }));
   }, [mapMode, selectedCategory, selectedLetter]);
@@ -379,7 +379,7 @@ function LexiconPage() {
                           >
                             {t.title}
                             <span className="ml-2 font-mono text-[10px] uppercase tracking-widest text-ink/30">
-                              {t.category}
+                              {t.categories.join(" · ")}
                             </span>
                           </button>
                         </li>
