@@ -84,6 +84,19 @@ function LexiconPage() {
     return () => document.removeEventListener("click", onDocClick);
   }, [isMobile]);
 
+  const openCoffee = () => {
+    const bmcBtn = document.getElementById("bmc-wbtn");
+    if (bmcBtn) {
+      bmcBtn.click();
+    } else {
+      window.open(
+        "https://buymeacoffee.com/dylanlexicon",
+        "_blank",
+        "noopener,noreferrer",
+      );
+    }
+  };
+
 
   const activeTerm = useMemo(
     () => TERMS.find((t) => t.slug === activeSlug) ?? null,
@@ -281,17 +294,16 @@ function LexiconPage() {
             </div>
 
             {/* Buy Me a Coffee */}
-            <a
-              href="https://buymeacoffee.com/dylanlexicon"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
+              onClick={openCoffee}
               title="One more cup of coffee"
               aria-label="One more cup of coffee — support The Dylan Lexicon on Buy Me a Coffee"
               className="group inline-flex shrink-0 items-center gap-1 border-b border-ink/20 px-1 py-2 font-mono text-[9px] uppercase tracking-[0.12em] text-ink/60 transition hover:border-ink/60 hover:text-ink sm:gap-1.5 md:text-[10px] md:tracking-[0.22em]"
             >
               <Coffee className="h-3.5 w-3.5 md:h-4 md:w-4" />
               <span className="hidden sm:inline">One more cup of coffee</span>
-            </a>
+            </button>
 
             {/* Contact */}
             <a
@@ -506,6 +518,19 @@ function LexiconPage() {
           onSelectLetter={handleSelectLetter}
         />
       </div>
+
+      <script
+        data-name="BMC-Widget"
+        data-cfasync="false"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="dylanlexicon"
+        data-description="Support The Dylan Lexicon on Buy me a coffee!"
+        data-message=""
+        data-color="#FFDD00"
+        data-position="Right"
+        data-x_margin="18"
+        data-y_margin="18"
+      />
     </div>
   );
 }
