@@ -153,20 +153,40 @@ function LexiconPage() {
   const openTerm = (slug: string) => {
     const term = TERMS.find((t) => t.slug === slug);
     if (!term) return;
-    setSelectedLetter(null);
-    setSelectedCategory(null);
     setActiveSlug(slug);
   };
 
   const handleSelectLetter = (letter: string) => {
     setSelectedCategory(null);
+    setActiveSlug(null);
     setSelectedLetter((current) => (current === letter ? null : letter));
   };
 
   const handleSelectCategory = (category: string) => {
     setSelectedLetter(null);
+    setActiveSlug(null);
     setSelectedCategory((current) => (current === category ? null : category));
     setShowCategories(false);
+  };
+
+  /** Terms shown in the map: a category's terms, a letter's terms, else the categories themselves. */
+  const mapMode: "categories" | "terms" =
+    selectedCategory || selectedLetter ? "terms" : "categories";
+
+  const mapItems = useMemo(() => {
+    if (mapMode === "categories") {
+      return CATEGORIES.map((c) => ({ id: c, label: c }));
+    }
+    return TERMS.filter((t) =>
+      selectedCategory
+        ? t.category === selectedCategory
+        : t.title[0]!.toUpperCase() === selectedLetter,
+    ).map((t) => ({ id: t.slug, label: t.title }));
+  }, [mapMode, selectedCategory, selectedLetter]);
+
+  const handleMapSelect = (id: string) => {
+    if (mapMode === "categories") handleSelectCategory(id);
+    else openTerm(id);
   };
 
 
