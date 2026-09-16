@@ -528,7 +528,7 @@ export function MindMap({
               }}
               onMouseEnter={() => setHoveredSlug(term.id)}
               onMouseLeave={() => setHoveredSlug(null)}
-              className={`absolute left-1/2 top-1/2 whitespace-normal px-1 text-center font-body leading-tight ${large ? "max-w-[14rem] text-[22px]" : "max-w-[10rem] text-[14px]"}  transition-all duration-100 ease-out will-change-transform ${
+              className={`absolute left-1/2 top-1/2 whitespace-normal bg-paper px-2 py-1 text-center font-typewriter leading-tight shadow-[1px_2px_5px_rgba(0,0,0,0.14)] outline outline-1 outline-ink/10 ${large ? "max-w-[14rem] text-[20px]" : "max-w-[10rem] text-[13px]"}  transition-all duration-100 ease-out will-change-transform ${
                 isActive
                   ? "text-accent z-20"
                   : isHovered
@@ -537,10 +537,10 @@ export function MindMap({
                       ? "text-ink"
                       : isLetterMatch
                         ? "text-ink"
-                        : "text-ink/55 hover:text-ink"
+                        : "text-ink/60 hover:text-ink"
               }`}
               style={{
-                transform: `translate(-50%, -50%) translate(${visible ? x : 0}px, ${visible ? y : 0}px) scale(${isHovered ? 1.2 : 1})`,
+                transform: `translate(-50%, -50%) translate(${visible ? x : 0}px, ${visible ? y : 0}px) rotate(${((i * 7) % 5) - 2}deg) scale(${isHovered ? 1.15 : 1})`,
                 opacity: visible ? 1 : 0,
                 transitionDelay: visible ? "0ms" : `${i * 12}ms`,
               }}
