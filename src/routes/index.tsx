@@ -478,7 +478,8 @@ function LexiconPage() {
               items={mapItems}
               activeId={mapMode === "categories" ? selectedCategory : activeSlug}
               large={mapMode === "categories"}
-              mode={mapMode === "categories" ? "radial" : "organic"}
+              mode={mapMode === "categories" || selectedCategory ? "radial" : "organic"}
+              tight={!!selectedCategory}
               onSelect={handleMapSelect}
             />
           </div>

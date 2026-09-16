@@ -11,6 +11,8 @@ type Props = {
   large?: boolean;
   /** Radial mode places items at equal angles around the head — good for categories. */
   mode?: "organic" | "radial";
+  /** Tighter radial ring, closer to the head but still airy. */
+  tight?: boolean;
   onSelect: (id: string) => void;
 };
 
@@ -205,7 +207,12 @@ function createInitialLayout(terms: MapItem[], w: number, h: number): Label[] {
 }
 
 /** Place items at equal angles around an airy ring. Keeps the layout open and symmetrical. */
-function createRadialLayout(terms: MapItem[], w: number, h: number): Label[] {
+function createRadialLayout(
+  terms: MapItem[],
+  w: number,
+  h: number,
+  baseR = 0.78,
+): Label[] {
   const cx = w / 2;
   const cy = h / 2;
   const rx = (w / 2) * RX_FRAC;
@@ -214,8 +221,6 @@ function createRadialLayout(terms: MapItem[], w: number, h: number): Label[] {
   const step = (2 * Math.PI) / Math.max(n, 1);
   // Start from the top (-PI/2) so the first item sits above the head.
   const start = -Math.PI / 2;
-  // Push the ring outward enough to keep the head clear and the page airy.
-  const baseR = 0.78;
 
   return terms.map((term, i) => {
     const angle = start + i * step;
@@ -417,6 +422,7 @@ export function MindMap({
   highlightIds,
   large = false,
   mode = "organic",
+  tight = false,
   onSelect,
 }: Props) {
   const [ref, size] = useSize<HTMLDivElement>();
@@ -444,7 +450,7 @@ export function MindMap({
 
     const initial =
       mode === "radial"
-        ? createRadialLayout(layoutTerms, size.w, size.h)
+        ? createRadialLayout(layoutTerms, size.w, size.h, tight ? 0.62 : 0.78)
         : createInitialLayout(layoutTerms, size.w, size.h);
     layoutTerms.forEach((term, i) => {
       const el = itemRefs.current.get(term.id);
