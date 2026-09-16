@@ -416,6 +416,7 @@ export function MindMap({
   activeId,
   highlightIds,
   large = false,
+  mode = "organic",
   onSelect,
 }: Props) {
   const [ref, size] = useSize<HTMLDivElement>();
@@ -424,9 +425,11 @@ export function MindMap({
   const [labels, setLabels] = useState<Map<string, Label>>(new Map());
   const itemRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
 
-  const shuffledTerms = useMemo(
-    () => layeredOreoOrder(seededShuffle(items, "dylan-lexicon-v1")),
-    [items],
+  // For the radial category view we keep the supplied order so categories stay
+  // in a predictable, symmetric ring. For the organic term view we shuffle.
+  const layoutTerms = useMemo(
+    () => (mode === "radial" ? items : layeredOreoOrder(seededShuffle(items, "dylan-lexicon-v1"))),
+    [items, mode],
   );
 
   useEffect(() => {
