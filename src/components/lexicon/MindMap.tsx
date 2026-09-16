@@ -9,6 +9,8 @@ type Props = {
   highlightIds?: ReadonlySet<string>;
   /** Larger type for short lists (e.g. the category view). */
   large?: boolean;
+  /** Radial mode places items at equal angles around the head — good for categories. */
+  mode?: "organic" | "radial";
   onSelect: (id: string) => void;
 };
 
@@ -190,6 +192,34 @@ function createInitialLayout(terms: MapItem[], w: number, h: number): Label[] {
       : ((i + 0.5) / terms.length) ** 0.55;
     const r = HOLE + (1 - HOLE) * rNorm;
     const angle = override ? override.angle : i * goldenAngle;
+    return {
+      term,
+      angle,
+      baseR: r,
+      x: cx + Math.cos(angle) * r * rx,
+      y: cy + Math.sin(angle) * r * ry,
+      w: 0,
+      h: 0,
+    };
+  });
+}
+
+/** Place items at equal angles around an airy ring. Keeps the layout open and symmetrical. */
+function createRadialLayout(terms: MapItem[], w: number, h: number): Label[] {
+  const cx = w / 2;
+  const cy = h / 2;
+  const rx = (w / 2) * RX_FRAC;
+  const ry = (h / 2) * RY_FRAC;
+  const n = terms.length;
+  const step = (2 * Math.PI) / Math.max(n, 1);
+  // Start from the top (-PI/2) so the first item sits above the head.
+  const start = -Math.PI / 2;
+  // Push the ring outward enough to keep the head clear and the page airy.
+  const baseR = 0.78;
+
+  return terms.map((term, i) => {
+    const angle = start + i * step;
+    const r = HOLE + (1 - HOLE) * baseR;
     return {
       term,
       angle,
@@ -386,6 +416,7 @@ export function MindMap({
   activeId,
   highlightIds,
   large = false,
+  mode = "organic",
   onSelect,
 }: Props) {
   const [ref, size] = useSize<HTMLDivElement>();
@@ -394,9 +425,11 @@ export function MindMap({
   const [labels, setLabels] = useState<Map<string, Label>>(new Map());
   const itemRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
 
-  const shuffledTerms = useMemo(
-    () => layeredOreoOrder(seededShuffle(items, "dylan-lexicon-v1")),
-    [items],
+  // For the radial category view we keep the supplied order so categories stay
+  // in a predictable, symmetric ring. For the organic term view we shuffle.
+  const layoutTerms = useMemo(
+    () => (mode === "radial" ? items : layeredOreoOrder(seededShuffle(items, "dylan-lexicon-v1"))),
+    [items, mode],
   );
 
   useEffect(() => {
@@ -409,8 +442,11 @@ export function MindMap({
   useLayoutEffect(() => {
     if (size.w === 0 || size.h === 0) return;
 
-    const initial = createInitialLayout(shuffledTerms, size.w, size.h);
-    shuffledTerms.forEach((term, i) => {
+    const initial =
+      mode === "radial"
+        ? createRadialLayout(layoutTerms, size.w, size.h)
+        : createInitialLayout(layoutTerms, size.w, size.h);
+    layoutTerms.forEach((term, i) => {
       const el = itemRefs.current.get(term.id);
       if (el) {
         initial[i].w = el.offsetWidth;
@@ -434,7 +470,7 @@ export function MindMap({
       });
     });
     setLabels(next);
-  }, [shuffledTerms, size.w, size.h]);
+  }, [layoutTerms, mode, size.w, size.h]);
 
   return (
     <div ref={ref} className="relative h-full w-full">
@@ -444,7 +480,7 @@ export function MindMap({
       </div>
 
       {size.w > 0 &&
-        shuffledTerms.map((term, i) => {
+        layoutTerms.map((term, i) => {
           const label = labels.get(term.id);
           const isActive = term.id === activeId;
           const isCategoryMatch = highlightIds?.has(term.id) ?? false;
