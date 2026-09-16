@@ -22,7 +22,7 @@ export type MediaRef =
 export type Term = {
   slug: string;
   title: string;
-  category: Category;
+  categories: Category[];
   definition: string;
   inDylan: string;
   example?: {
