@@ -442,8 +442,11 @@ export function MindMap({
   useLayoutEffect(() => {
     if (size.w === 0 || size.h === 0) return;
 
-    const initial = createInitialLayout(shuffledTerms, size.w, size.h);
-    shuffledTerms.forEach((term, i) => {
+    const initial =
+      mode === "radial"
+        ? createRadialLayout(layoutTerms, size.w, size.h)
+        : createInitialLayout(layoutTerms, size.w, size.h);
+    layoutTerms.forEach((term, i) => {
       const el = itemRefs.current.get(term.id);
       if (el) {
         initial[i].w = el.offsetWidth;
@@ -467,7 +470,7 @@ export function MindMap({
       });
     });
     setLabels(next);
-  }, [shuffledTerms, size.w, size.h]);
+  }, [layoutTerms, mode, size.w, size.h]);
 
   return (
     <div ref={ref} className="relative h-full w-full">
