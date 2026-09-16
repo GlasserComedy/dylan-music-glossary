@@ -65,9 +65,11 @@ export function TermList({
                   >
                     {t.title}
                   </span>
-                  <span className="shrink-0 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/35">
-                    {t.category}
-                  </span>
+                  {!selectedCategory && (
+                    <span className="shrink-0 font-body text-[10px] uppercase tracking-[0.08em] text-ink/35">
+                      {t.category}
+                    </span>
+                  )}
                 </button>
               </li>
             ))}
