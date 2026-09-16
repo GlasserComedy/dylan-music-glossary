@@ -481,7 +481,7 @@ function LexiconPage() {
             className="h-full w-full origin-center transition-transform duration-500 ease-out"
             style={{
               transform: activeTerm
-                ? "translateX(-11%) scale(0.78)"
+                ? "translateX(-34%) scale(0.55)"
                 : "translateX(0) scale(1)",
             }}
           >
@@ -498,7 +498,7 @@ function LexiconPage() {
         </div>
 
         {activeTerm && (
-          <div className="absolute right-0 top-0 bottom-14 z-10 w-full max-w-[400px]">
+          <div className="absolute right-0 top-0 bottom-14 z-10 w-[78%] max-w-[900px] shadow-[0_0_60px_rgba(0,0,0,0.08)]">
             <TermDetail
               term={activeTerm}
               onSelectTerm={openTerm}
@@ -525,7 +525,7 @@ function LexiconPage() {
         src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
         data-id="dylanlexicon"
         data-description="Support The Dylan Lexicon on Buy me a coffee!"
-        data-message=""
+        data-message="The Dylan Lexicon is a free, independent guide to the language of Bob Dylan's music — written, researched and maintained by one person. If it's been useful to you, one more cup of coffee helps keep it going."
         data-color="#FFDD00"
         data-position="Right"
         data-x_margin="18"
