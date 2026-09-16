@@ -509,18 +509,61 @@ function LexiconPage() {
         />
       </div>
 
-      <script
-        data-name="BMC-Widget"
-        data-cfasync="false"
-        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-        data-id="dylanlexicon"
-        data-description="Support The Dylan Lexicon on Buy me a coffee!"
-        data-message={"We've been Dylan fans since before we were born. Our parents indoctrinated us, and now we indoctrinate our children. The world is cruel, and Dylan is our refuge. He gives us shelter from the storm, any day of the week, any time we think of him or his music.\n\nNow, we are scratching an itch, collectively. A site that was born out of our love of Bob plus our passion for music education, we're marrying the two with your help.\n\nIf you appreciate The Dylan Lexicon and want to contribute to its development and maintenance, buy us a coffee — thanks!\n\nOne more cup… to the valley below."}
-        data-color="#FFDD00"
-        data-position="Right"
-        data-x_margin="18"
-        data-y_margin="18"
-      />
+      {/* Buy Me a Coffee modal: site About section plus the BMC widget iframe */}
+      {showCoffeeModal && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          className="fixed inset-0 z-[999999] flex items-end justify-center bg-ink/60 backdrop-blur-sm md:items-center md:p-6"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setShowCoffeeModal(false);
+          }}
+        >
+          <div className="relative flex h-[92dvh] w-full flex-col overflow-hidden rounded-t-2xl bg-paper shadow-[0_0_60px_rgba(0,0,0,0.25)] md:h-auto md:max-h-[85vh] md:max-w-[520px] md:rounded-2xl">
+            <button
+              type="button"
+              onClick={() => setShowCoffeeModal(false)}
+              className="absolute right-3 top-3 z-10 rounded-full bg-paper/90 p-2 text-ink/70 transition hover:text-ink"
+              aria-label="Close"
+            >
+              <X className="h-4 w-4" />
+            </button>
+
+            <div className="shrink-0 overflow-y-auto border-b border-ink/10 bg-paper-2 p-6">
+              <h2 className="font-display text-lg uppercase tracking-[0.12em] text-ink">
+                About The Dylan Lexicon
+              </h2>
+              <div className="mt-3 space-y-3 font-body text-sm leading-relaxed text-ink/85">
+                <p>
+                  We've been Dylan fans since before we were born. Our parents
+                  indoctrinated us, and now we indoctrinate our children. The
+                  world is cruel, and Dylan is our refuge. He gives us shelter
+                  from the storm, any day of the week, any time we think of him
+                  or his music.
+                </p>
+                <p>
+                  Now, we are scratching an itch, collectively. A site that was
+                  born out of our love of Bob plus our passion for music
+                  education, we're marrying the two with your help.
+                </p>
+                <p>
+                  If you appreciate The Dylan Lexicon and want to contribute to
+                  its development and maintenance, buy us a coffee — thanks!
+                </p>
+                <p>One more cup… to the valley below.</p>
+              </div>
+            </div>
+
+            <div className="min-h-0 flex-1 bg-paper">
+              <iframe
+                src="https://www.buymeacoffee.com/widget/page/dylanlexicon"
+                title="Support The Dylan Lexicon on Buy Me a Coffee"
+                className="h-full w-full border-none"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
