@@ -948,7 +948,7 @@ export const TERMS: Term[] = [
         "A traditional British folk song Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice. It also shows his life-long love and appreciation of traditional songs \u2014 he has gone back to them again and again as a way of getting renewed inspiration.",
       media: { kind: "youtube", id: "ozKv_Nmgrkw", spotifyId: "6EmdWTaN4455ZPfZqoc0pT" },
     },
-    related: ["traditional", "ballad", "greenwich-village", "talkin-blues"],
+    related: ["traditional", "ballad", "greenwich-village", "folklore-center", "izzy-young", "talkin-blues"],
 
   },
   {
@@ -965,7 +965,7 @@ export const TERMS: Term[] = [
         "Dylan's own account of arriving in the Village, written in the talking-blues style he learned in its clubs.",
       media: { kind: "youtube", id: "rxIJnZQmTt4", spotifyId: "1X6dRpq3Wi6Jxthi8ZBBBz" },
     },
-    related: ["folk-revival", "washington-square-park", "dave-van-ronk"],
+    related: ["folk-revival", "washington-square-park", "folklore-center", "izzy-young", "dave-van-ronk"],
   },
   {
     slug: "washington-square-park",
