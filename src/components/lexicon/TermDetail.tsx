@@ -42,40 +42,17 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       </h2>
 
       <Section label="Definition">
-        <p
-          className={`font-body text-[15px] leading-relaxed text-ink/85 ${
-            definitionExpanded ? "" : "line-clamp-4"
-          }`}
-        >
+        <p className="font-body text-[15px] leading-relaxed text-ink/85">
           {term.definition}
         </p>
-        <button
-          type="button"
-          onClick={() => setExpandedDefinitionSlug(definitionExpanded ? null : term.slug)}
-          aria-expanded={definitionExpanded}
-          className="mt-2 font-mono text-[10px] uppercase tracking-[0.16em] text-ink/50 transition hover:text-ink"
-        >
-          {definitionExpanded ? "Show less" : "Read more…"}
-        </button>
       </Section>
 
       <Section label="In Dylan's Career">
-        <p
-          className={`font-body text-[15px] leading-relaxed text-ink/85 ${
-            careerExpanded ? "" : "line-clamp-4"
-          }`}
-        >
+        <p className="font-body text-[15px] leading-relaxed text-ink/85">
           {term.inDylan}
         </p>
-        <button
-          type="button"
-          onClick={() => setExpandedCareerSlug(careerExpanded ? null : term.slug)}
-          aria-expanded={careerExpanded}
-          className="mt-2 font-mono text-[10px] uppercase tracking-[0.16em] text-ink/50 transition hover:text-ink"
-        >
-          {careerExpanded ? "Show less" : "Read more…"}
-        </button>
       </Section>
+
 
       {examples.length > 0 && (
         <Section label={examples.length > 1 ? "Examples" : "Example"}>
