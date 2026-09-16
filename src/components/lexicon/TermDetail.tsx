@@ -31,7 +31,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       </button>
 
       <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink/40">
-        {term.category}
+        {term.categories.join(" · ")}
       </p>
       <h2 className="mt-2 pr-8 font-display text-xl uppercase tracking-[0.06em] text-ink md:text-2xl">
         {term.title}

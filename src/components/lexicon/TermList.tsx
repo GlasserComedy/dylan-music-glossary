@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import type { Term } from "@/content/terms";
+import { type Term, type Category } from "@/content/terms";
 
 type Props = {
   terms: Term[];
@@ -19,7 +19,7 @@ export function TermList({
 }: Props) {
   const groups = useMemo(() => {
     const filtered = terms
-      .filter((t) => (selectedCategory ? t.category === selectedCategory : true))
+      .filter((t) => (selectedCategory ? t.categories.includes(selectedCategory as Category) : true))
       .filter((t) =>
         selectedLetter ? t.title[0]!.toUpperCase() === selectedLetter : true,
       )
@@ -67,7 +67,7 @@ export function TermList({
                   </span>
                   {!selectedCategory && (
                     <span className="shrink-0 font-body text-[10px] uppercase tracking-[0.08em] text-ink/35">
-                      {t.category}
+                      {t.categories.join(" · ")}
                     </span>
                   )}
                 </button>
