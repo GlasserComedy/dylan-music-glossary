@@ -4,10 +4,13 @@ import folkloreSeries from "@/assets/talking-folklore-center-3.jpg";
 
 export type Category =
   | "Music"
-  | "Words"
+  | "Songwriting & Lyrics"
   | "Performance"
-  | "Roots"
-  | "Influence"
+  | "Genre & Styles"
+  | "Roots & Tradition"
+  | "Influences"
+  | "People & Places"
+  | "Culture & History"
   | "Reinvention";
 
 export type MediaRef =
@@ -44,10 +47,13 @@ export type Term = {
 
 export const CATEGORIES: Category[] = [
   "Music",
-  "Words",
+  "Songwriting & Lyrics",
   "Performance",
-  "Roots",
-  "Influence",
+  "Genre & Styles",
+  "Roots & Tradition",
+  "Influences",
+  "People & Places",
+  "Culture & History",
   "Reinvention",
 ];
 
