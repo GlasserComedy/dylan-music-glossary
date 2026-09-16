@@ -32,7 +32,7 @@ export function MobileCategoryMap({ categories, onSelect }: Props) {
             type="button"
             data-term-label
             onClick={() => onSelect(category)}
-            className="absolute z-10 max-w-[128px] -translate-x-1/2 -translate-y-1/2 bg-paper px-2.5 py-1.5 text-center font-typewriter text-[14px] leading-tight text-ink/75 shadow-sm outline outline-1 outline-ink/10 transition duration-150 active:scale-95 active:text-accent"
+            className="absolute z-10 max-w-[128px] bg-paper px-2.5 py-1.5 text-center font-typewriter text-[14px] leading-tight text-ink/75 shadow-sm outline outline-1 outline-ink/10 transition duration-150 active:text-accent"
             style={{
               left: position.left,
               top: position.top,
