@@ -39,10 +39,10 @@
   --color-panel: var(--panel);
   --color-panel-foreground: var(--panel-foreground);
 
-  /* Bob Dylan Center type: Grandstand / Passenger / Telegrama with web fallbacks */
-  --font-display: "Grandstand", "Archivo", "Helvetica Neue", sans-serif;
-  --font-body: "Passenger", "Source Serif 4", Georgia, serif;
-  --font-mono: "Telegrama", "Space Mono", ui-monospace, monospace;
+  /* One clean sans-serif for the UI; Special Elite only for newspaper clippings. */
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --font-typewriter: "Special Elite", "Courier New", ui-monospace, monospace;
   --font-serif: var(--font-body);
   --font-sans: var(--font-display);
