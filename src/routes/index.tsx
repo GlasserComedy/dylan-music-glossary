@@ -228,9 +228,9 @@ function LexiconPage() {
             >
               <button
                 type="button"
-                className={`inline-block rounded border border-ink/10 bg-paper px-4 py-2.5 font-mono text-[11px] uppercase tracking-[0.14em] shadow-sm transition md:px-5 md:text-sm md:tracking-[0.18em] ${
-                  activeSlug ? "text-ink" : "text-ink/60"
-                } hover:border-ink/30 hover:bg-paper-2 hover:text-ink`}
+                className={`inline-block px-3 py-2 font-mono text-[12px] uppercase tracking-[0.16em] transition md:px-4 md:text-[14px] md:tracking-[0.2em] ${
+                  activeSlug ? "text-ink" : "text-ink/55"
+                } hover:text-ink`}
                 onClick={() => setShowCategories((prev) => !prev)}
                 aria-label="Browse all terms"
               >
