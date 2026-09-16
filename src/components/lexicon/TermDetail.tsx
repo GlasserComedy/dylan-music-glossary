@@ -1,5 +1,4 @@
 import { X } from "lucide-react";
-import { useState } from "react";
 import type { Term } from "@/content/terms";
 import { TERMS } from "@/content/terms";
 import { MediaEmbed } from "./MediaEmbed";
