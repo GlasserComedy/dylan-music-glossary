@@ -9,6 +9,8 @@ type Props = {
   highlightIds?: ReadonlySet<string>;
   /** Larger type for short lists (e.g. the category view). */
   large?: boolean;
+  /** Radial mode places items at equal angles around the head — good for categories. */
+  mode?: "organic" | "radial";
   onSelect: (id: string) => void;
 };
 
