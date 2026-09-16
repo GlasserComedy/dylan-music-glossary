@@ -153,20 +153,45 @@ function LexiconPage() {
   const openTerm = (slug: string) => {
     const term = TERMS.find((t) => t.slug === slug);
     if (!term) return;
-    setSelectedLetter(null);
-    setSelectedCategory(null);
     setActiveSlug(slug);
   };
 
   const handleSelectLetter = (letter: string) => {
     setSelectedCategory(null);
+    setActiveSlug(null);
     setSelectedLetter((current) => (current === letter ? null : letter));
   };
 
   const handleSelectCategory = (category: string) => {
     setSelectedLetter(null);
+    setActiveSlug(null);
     setSelectedCategory((current) => (current === category ? null : category));
     setShowCategories(false);
+  };
+
+  /** Terms shown in the map: a category's terms, a letter's terms, else the categories themselves. */
+  const mapMode: "categories" | "terms" =
+    selectedCategory || selectedLetter ? "terms" : "categories";
+
+  const mapItems = useMemo(() => {
+    if (mapMode === "categories") {
+      return CATEGORIES.map((c) => ({ id: c, label: c }));
+    }
+    return TERMS.filter((t) =>
+      selectedCategory
+        ? t.category === selectedCategory
+        : t.title[0]!.toUpperCase() === selectedLetter,
+    ).map((t) => ({ id: t.slug, label: t.title }));
+  }, [mapMode, selectedCategory, selectedLetter]);
+
+  const allTermsSorted = useMemo(
+    () => [...TERMS].sort((a, b) => a.title.localeCompare(b.title)),
+    [],
+  );
+
+  const handleMapSelect = (id: string) => {
+    if (mapMode === "categories") handleSelectCategory(id);
+    else openTerm(id);
   };
 
 
@@ -185,7 +210,7 @@ function LexiconPage() {
           </div>
 
           <div className="flex shrink-0 items-start gap-3 md:gap-5">
-            {/* Categories dropdown */}
+            {/* All terms dropdown */}
             <div
               className="relative py-3 px-4 -my-3 -mx-4"
               onMouseEnter={() => {
@@ -201,17 +226,17 @@ function LexiconPage() {
               <button
                 type="button"
                 className={`inline-block py-2 px-1 font-mono text-[10px] uppercase tracking-[0.14em] transition md:px-3 md:text-xs md:tracking-[0.22em] ${
-                  selectedCategory ? "text-ink" : "text-ink/50"
+                  activeSlug ? "text-ink" : "text-ink/50"
                 } hover:text-ink`}
                 onClick={() => setShowCategories((prev) => !prev)}
-                aria-label="Browse categories"
+                aria-label="Browse all terms"
               >
-                Categories
+                All Terms
               </button>
 
               {showCategories && (
                 <div
-                  className="absolute left-1/2 top-9 -translate-x-1/2 w-auto min-w-max border border-ink/15 bg-paper p-2 pt-4 shadow-sm"
+                  className="absolute left-1/2 top-9 -translate-x-1/2 max-h-[70vh] w-64 overflow-y-auto border border-ink/15 bg-paper p-2 pt-4 shadow-sm"
                   onMouseEnter={() => {
                     clearCategoryTimer();
                     setShowCategories(true);
@@ -225,24 +250,27 @@ function LexiconPage() {
                   {/* Invisible hover bridge so the dropdown doesn't close when the cursor enters from below */}
                   <div className="absolute -top-4 left-1/2 h-4 w-24 -translate-x-1/2" />
                   <ul className="space-y-1">
-                    {CATEGORIES.map((category) => (
-                      <li key={category}>
+                    {allTermsSorted.map((t) => (
+                      <li key={t.slug}>
                         <button
-                          onClick={() => handleSelectCategory(category)}
+                          onClick={() => {
+                            openTerm(t.slug);
+                            setShowCategories(false);
+                          }}
                           className={`block w-full text-left font-body text-xs transition ${
-                            selectedCategory === category
+                            activeSlug === t.slug
                               ? "text-ink"
                               : "text-ink/60 hover:text-ink"
                           }`}
                         >
                           <span
                             className={
-                              selectedCategory === category
+                              activeSlug === t.slug
                                 ? "border-b border-ink/60 pb-0.5"
                                 : ""
                             }
                           >
-                            {category}
+                            {t.title}
                           </span>
                         </button>
                       </li>
@@ -412,6 +440,22 @@ function LexiconPage() {
 
       {/* Desktop: mind map stage */}
       <main className="relative hidden min-h-0 flex-1 md:block">
+        {mapMode === "terms" && (
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedCategory(null);
+              setSelectedLetter(null);
+              setActiveSlug(null);
+            }}
+            className="absolute left-6 top-2 z-20 font-mono text-[10px] uppercase tracking-[0.22em] text-ink/45 transition hover:text-ink"
+          >
+            ← All categories
+            <span className="ml-2 text-ink/70">
+              {selectedCategory ?? selectedLetter}
+            </span>
+          </button>
+        )}
         <div
           onClick={() => {
             setSelectedLetter(null);
@@ -430,11 +474,11 @@ function LexiconPage() {
             }}
           >
             <MindMap
-              terms={TERMS}
-              activeSlug={activeSlug}
-              selectedLetter={selectedLetter}
-              selectedCategory={selectedCategory}
-              onSelectTerm={openTerm}
+              key={mapMode === "categories" ? "categories" : `${selectedCategory ?? selectedLetter}`}
+              items={mapItems}
+              activeId={mapMode === "categories" ? selectedCategory : activeSlug}
+              large={mapMode === "categories"}
+              onSelect={handleMapSelect}
             />
           </div>
         </div>

@@ -1,13 +1,15 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import type { Term } from "@/content/terms";
 import { Head3D } from "./Head3D";
 
+export type MapItem = { id: string; label: string };
+
 type Props = {
-  terms: Term[];
-  activeSlug: string | null;
-  selectedLetter: string | null;
-  selectedCategory: string | null;
-  onSelectTerm: (slug: string) => void;
+  items: MapItem[];
+  activeId: string | null;
+  highlightIds?: ReadonlySet<string>;
+  /** Larger type for short lists (e.g. the category view). */
+  large?: boolean;
+  onSelect: (id: string) => void;
 };
 
 function useSize<T extends HTMLElement>() {
@@ -88,9 +90,9 @@ const PEOPLE_SLUGS = new Set([
  * layers, and people sit in the middle band, but we interleave the layers
  * so each angular sector gets a mix of lengths and avoids left/right clustering.
  */
-function layeredOreoOrder(terms: Term[]): Term[] {
-  const people = terms.filter((t) => PEOPLE_SLUGS.has(t.slug));
-  const others = terms.filter((t) => !PEOPLE_SLUGS.has(t.slug));
+function layeredOreoOrder(terms: MapItem[]): MapItem[] {
+  const people = terms.filter((t) => PEOPLE_SLUGS.has(t.id));
+  const others = terms.filter((t) => !PEOPLE_SLUGS.has(t.id));
   const inner = others.slice(0, Math.round(others.length * 0.45));
   const outer = others.slice(Math.round(others.length * 0.45));
 
@@ -100,7 +102,7 @@ function layeredOreoOrder(terms: Term[]): Term[] {
   const shuffledPeople = seededShuffle(people, "dylan-lexicon-people");
   const shuffledOuter = seededShuffle(outer, "dylan-lexicon-outer");
 
-  const result: Term[] = [];
+  const result: MapItem[] = [];
   const maxLen = Math.max(
     shuffledInner.length,
     shuffledPeople.length,
@@ -115,7 +117,7 @@ function layeredOreoOrder(terms: Term[]): Term[] {
 }
 
 type Label = {
-  term: Term;
+  term: MapItem;
   x: number; // offset from center x
   y: number; // offset from center y
   angle: number;
@@ -172,7 +174,7 @@ function headReachAt(ux: number, uy: number, hrx: number, hry: number) {
 
 const POSITION_OVERRIDES: Record<string, { angle: number; baseR: number; fixed?: boolean }> = {};
 
-function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
+function createInitialLayout(terms: MapItem[], w: number, h: number): Label[] {
   const cx = w / 2;
   const cy = h / 2;
   const rx = (w / 2) * RX_FRAC;
@@ -180,7 +182,7 @@ function createInitialLayout(terms: Term[], w: number, h: number): Label[] {
   const goldenAngle = Math.PI * (3 - Math.sqrt(5));
 
   return terms.map((term, i) => {
-    const override = POSITION_OVERRIDES[term.slug];
+    const override = POSITION_OVERRIDES[term.id];
     // Airy oval radius: bias slightly outward (exponent < 0.5) so the centre
     // stays open and the rim carries more labels, using the page's blank space.
     const rNorm = override
@@ -252,8 +254,8 @@ function resolveCollisions(
       for (let j = i + 1; j < boxes.length; j++) {
         const a = boxes[i];
         const b = boxes[j];
-        const aFixed = isFixed(a.term.slug);
-        const bFixed = isFixed(b.term.slug);
+        const aFixed = isFixed(a.term.id);
+        const bFixed = isFixed(b.term.id);
         if (aFixed && bFixed) continue;
 
         const { padX, padY } = padAt(a, b);
@@ -287,7 +289,7 @@ function resolveCollisions(
     const enforceShape = iter < 700;
 
     boxes.forEach((b) => {
-      if (isFixed(b.term.slug)) {
+      if (isFixed(b.term.id)) {
         // Fixed labels keep their override position; we only clamp them to the
         // stage in case the viewport becomes extremely small.
         clampToStage(b);
@@ -333,8 +335,8 @@ function resolveCollisions(
       for (let j = i + 1; j < boxes.length; j++) {
         const a = boxes[i];
         const b = boxes[j];
-        const aFixed = isFixed(a.term.slug);
-        const bFixed = isFixed(b.term.slug);
+        const aFixed = isFixed(a.term.id);
+        const bFixed = isFixed(b.term.id);
         if (aFixed && bFixed) continue;
 
         const dx = (b.nx - a.nx) * rx;
@@ -380,11 +382,11 @@ function resolveCollisions(
 }
 
 export function MindMap({
-  terms,
-  activeSlug,
-  selectedLetter,
-  selectedCategory,
-  onSelectTerm,
+  items,
+  activeId,
+  highlightIds,
+  large = false,
+  onSelect,
 }: Props) {
   const [ref, size] = useSize<HTMLDivElement>();
   const [shown, setShown] = useState(false);
@@ -393,8 +395,8 @@ export function MindMap({
   const itemRefs = useRef<Map<string, HTMLButtonElement>>(new Map());
 
   const shuffledTerms = useMemo(
-    () => layeredOreoOrder(seededShuffle(terms, "dylan-lexicon-v1")),
-    [terms],
+    () => layeredOreoOrder(seededShuffle(items, "dylan-lexicon-v1")),
+    [items],
   );
 
   useEffect(() => {
@@ -409,7 +411,7 @@ export function MindMap({
 
     const initial = createInitialLayout(shuffledTerms, size.w, size.h);
     shuffledTerms.forEach((term, i) => {
-      const el = itemRefs.current.get(term.slug);
+      const el = itemRefs.current.get(term.id);
       if (el) {
         initial[i].w = el.offsetWidth;
         initial[i].h = el.offsetHeight;
@@ -425,7 +427,7 @@ export function MindMap({
     const resolved = resolveCollisions(initial, size.w, size.h, fixedSlugs);
     const next = new Map<string, Label>();
     resolved.forEach((b) => {
-      next.set(b.term.slug, {
+      next.set(b.term.id, {
         ...b,
         x: b.x - size.w / 2,
         y: b.y - size.h / 2,
@@ -443,14 +445,11 @@ export function MindMap({
 
       {size.w > 0 &&
         shuffledTerms.map((term, i) => {
-          const label = labels.get(term.slug);
-          const isActive = term.slug === activeSlug;
-          const isCategoryMatch =
-            selectedCategory !== null && term.category === selectedCategory;
-          const isLetterMatch =
-            selectedLetter !== null &&
-            term.title[0]!.toUpperCase() === selectedLetter;
-          const isHovered = term.slug === hoveredSlug;
+          const label = labels.get(term.id);
+          const isActive = term.id === activeId;
+          const isCategoryMatch = highlightIds?.has(term.id) ?? false;
+          const isLetterMatch = false;
+          const isHovered = term.id === hoveredSlug;
 
           const x = label ? label.x : 0;
           const y = label ? label.y : 0;
@@ -458,18 +457,18 @@ export function MindMap({
 
           return (
             <button
-              key={term.slug}
+              key={term.id}
               data-term-label
               ref={(el) => {
-                if (el) itemRefs.current.set(term.slug, el);
+                if (el) itemRefs.current.set(term.id, el);
               }}
               onClick={(e) => {
                 e.stopPropagation();
-                onSelectTerm(term.slug);
+                onSelect(term.id);
               }}
-              onMouseEnter={() => setHoveredSlug(term.slug)}
+              onMouseEnter={() => setHoveredSlug(term.id)}
               onMouseLeave={() => setHoveredSlug(null)}
-              className={`absolute left-1/2 top-1/2 max-w-[10rem] whitespace-normal px-1 text-center font-body text-[14px] leading-tight transition-all duration-100 ease-out will-change-transform ${
+              className={`absolute left-1/2 top-1/2 whitespace-normal px-1 text-center font-body leading-tight ${large ? "max-w-[14rem] text-[22px]" : "max-w-[10rem] text-[14px]"}  transition-all duration-100 ease-out will-change-transform ${
                 isActive
                   ? "text-accent z-20"
                   : isHovered
@@ -495,7 +494,7 @@ export function MindMap({
                       : ""
                 }
               >
-                {term.title}
+                {term.label}
               </span>
             </button>
           );
