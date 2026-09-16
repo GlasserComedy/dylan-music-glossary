@@ -109,7 +109,7 @@ export const TERMS: Term[] = [
   {
     slug: "ballad",
     title: "Ballad",
-    categories: ["Genres & Styles"],
+    categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
       "A ballad is a narrative song that recounts a story—often involving themes of love, tragedy, historical events, or folklore—unfolding across a series of similar verses. Historically, the form served as a primary method for oral storytelling, with the 'Child Ballads' collected by Francis James Child representing the definitive canon of English and Scottish traditional music. These songs often utilize a repetitive structure to focus the listener's attention on the evolving drama of the tale.",
     inDylan:
@@ -143,7 +143,7 @@ export const TERMS: Term[] = [
   {
     slug: "blues",
     title: "Blues",
-    categories: ["Genres & Styles"],
+    categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
       "The blues is a foundational African-American musical genre characterized by a specific twelve-bar chord progression, the use of 'blue notes' for emotional tension, and a call-and-response structure. Emerging from the Mississippi Delta and the Deep South, the blues functioned as both a personal expression of hardship and a shared cultural language, influencing nearly every facet of modern popular music through its raw emotional power and distinctive harmonic framework.",
     inDylan:
@@ -191,7 +191,7 @@ export const TERMS: Term[] = [
   {
     slug: "country",
     title: "Country",
-    categories: ["Genres & Styles"],
+    categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
       "A popular music genre rooted in the folk songs, ballads, and dance tunes of the rural American South, shaped by blues, gospel, fiddle music, cowboy songs, and Tin Pan Alley. It is built on plain, direct storytelling, clear vocal delivery, and straightforward song forms, often carried by acoustic guitars, fiddles, steel guitars, and close harmonies.",
     inDylan:
@@ -239,7 +239,7 @@ export const TERMS: Term[] = [
   {
     slug: "gospel",
     title: "Gospel",
-    categories: ["Genres & Styles"],
+    categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
       "A genre of Christian devotional music deeply rooted in African-American church traditions, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
     inDylan:
@@ -471,7 +471,7 @@ export const TERMS: Term[] = [
   {
     slug: "talkin-blues",
     title: "Talkin' Blues",
-    categories: ["Genres & Styles"],
+    categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
       "The talkin' blues is a distinctive rhythmic speech form performed over a repetitive, usually twelve-bar blues progression. Characterized by dry wit, social commentary, and a conversational delivery, it allows for a flexible narrative structure where the performer can pause for comedic timing or emphasize specific satirical points. The style was famously popularized by Woody Guthrie, who used the format to chronicle the struggles of the working class during the Great Depression.",
     inDylan:
