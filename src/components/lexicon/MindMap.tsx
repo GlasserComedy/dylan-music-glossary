@@ -204,6 +204,34 @@ function createInitialLayout(terms: MapItem[], w: number, h: number): Label[] {
   });
 }
 
+/** Place items at equal angles around an airy ring. Keeps the layout open and symmetrical. */
+function createRadialLayout(terms: MapItem[], w: number, h: number): Label[] {
+  const cx = w / 2;
+  const cy = h / 2;
+  const rx = (w / 2) * RX_FRAC;
+  const ry = (h / 2) * RY_FRAC;
+  const n = terms.length;
+  const step = (2 * Math.PI) / Math.max(n, 1);
+  // Start from the top (-PI/2) so the first item sits above the head.
+  const start = -Math.PI / 2;
+  // Push the ring outward enough to keep the head clear and the page airy.
+  const baseR = 0.78;
+
+  return terms.map((term, i) => {
+    const angle = start + i * step;
+    const r = HOLE + (1 - HOLE) * baseR;
+    return {
+      term,
+      angle,
+      baseR: r,
+      x: cx + Math.cos(angle) * r * rx,
+      y: cy + Math.sin(angle) * r * ry,
+      w: 0,
+      h: 0,
+    };
+  });
+}
+
 /**
  * Relaxation in normalised space: push overlapping boxes apart, keep every
  * label a constant pixel distance clear of the portrait, and hold them inside
