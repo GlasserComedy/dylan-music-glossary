@@ -46,6 +46,7 @@ function LexiconPage() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [showCategories, setShowCategories] = useState(false);
   const [mobileEntered, setMobileEntered] = useState(false);
+  const [showCoffeeModal, setShowCoffeeModal] = useState(false);
   const categoryLeaveTimer = useRef<number | null>(null);
 
   const clearCategoryTimer = () => {
