@@ -84,28 +84,6 @@ function LexiconPage() {
     return () => document.removeEventListener("click", onDocClick);
   }, [isMobile]);
 
-  // Load the Buy Me a Coffee widget once; the default floating button is hidden
-  // in styles.css and triggered from the header instead.
-  useEffect(() => {
-    if (document.getElementById("bmc-widget-script")) return;
-    const script = document.createElement("script");
-    script.id = "bmc-widget-script";
-    script.setAttribute("data-name", "BMC-Widget");
-    script.setAttribute("data-cfasync", "false");
-    script.src = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js";
-    script.setAttribute("data-id", "dylanlexicon");
-    script.setAttribute(
-      "data-description",
-      "Support The Dylan Lexicon on Buy me a coffee!",
-    );
-    script.setAttribute("data-message", "");
-    script.setAttribute("data-color", "#FFDD00");
-    script.setAttribute("data-position", "Right");
-    script.setAttribute("data-x_margin", "18");
-    script.setAttribute("data-y_margin", "18");
-    document.body.appendChild(script);
-  }, []);
-
   const openCoffee = () => {
     const bmcBtn = document.getElementById("bmc-wbtn");
     if (bmcBtn) {
