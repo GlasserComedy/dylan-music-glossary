@@ -471,7 +471,7 @@ function LexiconPage() {
             className="h-full w-full origin-center transition-transform duration-500 ease-out"
             style={{
               transform: activeTerm
-                ? "translateX(-34%) scale(0.55)"
+                ? "translateX(-45%) scale(0.45)"
                 : "translateX(0) scale(1)",
             }}
           >
@@ -488,12 +488,14 @@ function LexiconPage() {
         </div>
 
         {activeTerm && (
-          <div className="absolute right-0 top-0 bottom-14 z-10 w-[78%] max-w-[900px] shadow-[0_0_60px_rgba(0,0,0,0.08)]">
-            <TermDetail
-              term={activeTerm}
-              onSelectTerm={openTerm}
-              onClose={() => setActiveSlug(null)}
-            />
+          <div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-center p-4 md:p-8">
+            <div className="pointer-events-auto h-[85vh] w-[94vw] max-w-[1200px] overflow-hidden rounded-xl bg-paper shadow-[0_0_80px_rgba(0,0,0,0.15)]">
+              <TermDetail
+                term={activeTerm}
+                onSelectTerm={openTerm}
+                onClose={() => setActiveSlug(null)}
+              />
+            </div>
           </div>
         )}
       </main>

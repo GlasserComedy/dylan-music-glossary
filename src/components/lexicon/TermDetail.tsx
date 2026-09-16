@@ -16,14 +16,15 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       ? [term.example]
       : []
   ).filter((ex) => ex.media);
+
   return (
     <aside
       key={term.slug}
-      className="animate-in slide-in-from-right-8 fade-in relative flex h-full min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-6 pb-24 duration-500 ease-out md:border-l md:border-ink/15 md:px-7 md:pt-8 md:pb-28"
+      className="animate-in slide-in-from-bottom-4 fade-in relative flex h-full min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-6 pb-24 duration-500 ease-out md:px-8 md:pt-8 md:pb-28"
     >
       <button
         onClick={onClose}
-        className="absolute right-5 top-6 rounded p-1 text-ink/40 transition hover:text-ink"
+        className="absolute right-5 top-6 rounded p-1 text-ink/40 transition hover:text-ink md:right-8"
         aria-label="Close term"
       >
         <X className="h-4 w-4" />
@@ -36,37 +37,46 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
         {term.title}
       </h2>
 
-      <Section label="Definition">
-        <p className="font-body text-[15px] leading-relaxed text-ink/85">
-          {term.definition}
-        </p>
-      </Section>
+      {/* Three-column layout: Definition | In Dylan's Career | Examples */}
+      <div className="mt-6 grid grid-cols-1 gap-5 md:mt-8 md:grid-cols-3 md:gap-6">
+        <Column label="Definition">
+          <p className="font-body text-[15px] leading-relaxed text-ink/85">
+            {term.definition}
+          </p>
+        </Column>
 
-      <Section label="In Dylan's Career">
-        <p className="font-body text-[15px] leading-relaxed text-ink/85">
-          {term.inDylan}
-        </p>
-      </Section>
+        <Column label="In Dylan's Career">
+          <p className="font-body text-[15px] leading-relaxed text-ink/85">
+            {term.inDylan}
+          </p>
+        </Column>
 
-
-      {examples.length > 0 && (
-        <Section label={examples.length > 1 ? "Examples" : "Example"}>
-          <div className="space-y-5">
-            {examples.map((ex) => (
-              <div key={ex.title}>
-                <MediaEmbed title={ex.title} media={ex.media} />
-                <p className="mt-3 font-body text-[14px] leading-relaxed text-ink/70">
-                  {ex.note}
-                </p>
-              </div>
-            ))}
-          </div>
-        </Section>
-      )}
+        <Column label={examples.length > 1 ? "Examples" : examples.length === 1 ? "Example" : "Example"} className="rounded-lg md:rounded-none md:bg-transparent bg-paper-2/40 p-4 md:p-0">
+          {examples.length > 0 ? (
+            <div className="space-y-5">
+              {examples.map((ex) => (
+                <div
+                  key={ex.title}
+                  className="rounded border border-ink/10 bg-paper p-3 shadow-sm md:p-4"
+                >
+                  <MediaEmbed title={ex.title} media={ex.media} />
+                  <p className="mt-3 font-body text-[14px] leading-relaxed text-ink/70">
+                    {ex.note}
+                  </p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="font-body text-[14px] italic text-ink/50">
+              No musical example selected.
+            </p>
+          )}
+        </Column>
+      </div>
 
       {term.documents && term.documents.length > 0 && (
-        <Section label="Documents">
-          <div className="space-y-4">
+        <Section label="Documents" className="mt-8">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {term.documents.map((doc) => (
               <figure key={doc.src}>
                 <img
@@ -85,8 +95,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       )}
 
       {term.related && term.related.length > 0 && (
-
-        <Section label="Related Terms">
+        <Section label="Related Terms" className="mt-8">
           <div className="flex flex-wrap gap-2">
             {term.related.map((slug) => {
               const t = TERMS.find((x) => x.slug === slug);
@@ -108,10 +117,37 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
   );
 }
 
-function Section({ label, children }: { label: string; children: React.ReactNode }) {
+function Column({
+  label,
+  children,
+  className = "",
+}: {
+  label: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <div className="mt-6 border-t border-ink/10 pt-4">
-      <h3 className="mb-2 font-mono text-[10px] uppercase tracking-[0.25em] text-ink/40">
+    <div className={`flex flex-col ${className}`}>
+      <h3 className="mb-3 font-mono text-[10px] uppercase tracking-[0.25em] text-ink/40 md:mb-4">
+        {label}
+      </h3>
+      <div className="flex-1">{children}</div>
+    </div>
+  );
+}
+
+function Section({
+  label,
+  children,
+  className = "",
+}: {
+  label: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <div className={`border-t border-ink/10 pt-5 ${className}`}>
+      <h3 className="mb-3 font-mono text-[10px] uppercase tracking-[0.25em] text-ink/40">
         {label}
       </h3>
       {children}
