@@ -440,6 +440,22 @@ function LexiconPage() {
 
       {/* Desktop: mind map stage */}
       <main className="relative hidden min-h-0 flex-1 md:block">
+        {mapMode === "terms" && (
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedCategory(null);
+              setSelectedLetter(null);
+              setActiveSlug(null);
+            }}
+            className="absolute left-6 top-2 z-20 font-mono text-[10px] uppercase tracking-[0.22em] text-ink/45 transition hover:text-ink"
+          >
+            ← All categories
+            <span className="ml-2 text-ink/70">
+              {selectedCategory ?? selectedLetter}
+            </span>
+          </button>
+        )}
         <div
           onClick={() => {
             setSelectedLetter(null);
