@@ -34,10 +34,6 @@ export function Head3D({ className = "" }: { className?: string }) {
     };
 
     const onMove = (e: PointerEvent) => {
-      // Only follow the cursor while it is over a term label — hovering the
-      // blank background must not make the head move.
-      const el = e.target as HTMLElement | null;
-      if (!el || !el.closest("[data-term-label]")) return;
       pointer.x = e.clientX;
       pointer.y = e.clientY;
       pointer.has = true;
@@ -54,8 +50,7 @@ export function Head3D({ className = "" }: { className?: string }) {
     };
     raf = requestAnimationFrame(tick);
 
-    // Background clicks re-centre the head: forget the pointer until it moves
-    // a meaningful distance again so the portrait eases back to facing forward.
+    // Reset events re-centre the head until the cursor moves again.
     const onReset = () => {
       pointer.has = false;
       target.current = { x: 0, y: 0 };
