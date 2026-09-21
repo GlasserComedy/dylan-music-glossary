@@ -38,8 +38,8 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
         {term.title}
       </h2>
 
-      {/* Three-column layout: Definition | In Dylan's Career | Examples */}
-      <div className="mt-5 grid grid-cols-1 gap-5 md:mt-6 md:grid-cols-3 md:gap-5">
+      {/* Vertical stack so the panel stays narrow and the head/cloud stay visible */}
+      <div className="mt-5 grid grid-cols-1 gap-5 md:mt-6 md:gap-5">
         <Column label="Definition">
           <ReadMore text={term.definition} />
         </Column>
@@ -48,14 +48,13 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
           <ReadMore text={term.inDylan} />
         </Column>
 
-
-        <Column label={examples.length > 1 ? "Examples" : "Example"} className="rounded-lg bg-paper-2/40 p-4 md:rounded-none md:bg-transparent md:p-0">
+        <Column label={examples.length > 1 ? "Examples" : "Example"}>
           {examples.length > 0 ? (
-            <div className="space-y-4 md:space-y-5">
+            <div className="space-y-4">
               {examples.map((ex) => (
                 <div
                   key={ex.title}
-                  className="rounded border border-ink/10 bg-paper p-2.5 shadow-sm md:p-4"
+                  className="rounded border border-ink/10 bg-paper p-3 shadow-sm md:p-4"
                 >
                   <MediaEmbed title={ex.title} media={ex.media} />
                   <div className="mt-2">
