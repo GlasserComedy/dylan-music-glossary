@@ -543,7 +543,7 @@ function LexiconPage() {
             className="h-full w-full origin-center transition-transform duration-500 ease-out"
             style={{
               transform: activeTerm
-                ? "translateX(-29%) scale(0.6)"
+                ? "translateX(-34%) scale(0.72)"
                 : "translateX(0) scale(1)",
             }}
           >
