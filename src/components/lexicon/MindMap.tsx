@@ -443,6 +443,7 @@ export function MindMap({
   large = false,
   mode = "organic",
   tight = false,
+  headStatic = false,
   onSelect,
 }: Props) {
   const [ref, size] = useSize<HTMLDivElement>();
