@@ -537,15 +537,10 @@ function LexiconPage() {
             setActiveSlug(null);
             window.dispatchEvent(new Event("lexicon:reset-head"));
           }}
-          className="h-full px-4 pb-16"
+          className={`flex h-full px-4 pb-16 ${activeTerm ? "gap-6 md:gap-8" : ""}`}
         >
           <div
-            className="h-full w-full origin-center transition-transform duration-500 ease-out"
-            style={{
-              transform: activeTerm
-                ? "translateX(-34%) scale(0.72)"
-                : "translateX(0) scale(1)",
-            }}
+            className="h-full min-w-0 flex-1 transition-[width] duration-500 ease-out"
           >
             <MindMap
               key={mapMode === "categories" ? "categories" : `${selectedCategory ?? selectedLetter}`}
@@ -557,6 +552,12 @@ function LexiconPage() {
               onSelect={handleMapSelect}
             />
           </div>
+          {activeTerm && (
+            <div
+              className="w-[36vw] max-w-[480px] shrink-0 lg:w-[32vw]"
+              aria-hidden="true"
+            />
+          )}
         </div>
 
         {activeTerm && (
