@@ -549,6 +549,7 @@ function LexiconPage() {
               large={mapMode === "categories"}
               mode={mapMode === "categories" || selectedCategory ? "radial" : "organic"}
               tight={!!selectedCategory}
+              headStatic={!!activeSlug}
               onSelect={handleMapSelect}
             />
           </div>
