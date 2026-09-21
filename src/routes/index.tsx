@@ -435,6 +435,12 @@ function LexiconPage() {
       {/* Mobile landing page */}
       <main
         className={`relative min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6 md:hidden ${mobileEntered ? "hidden" : "flex"}`}
+        role="button"
+        tabIndex={0}
+        onClick={() => setMobileEntered(true)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") setMobileEntered(true);
+        }}
       >
         <button
           type="button"
