@@ -13,6 +13,8 @@ type Props = {
   mode?: "organic" | "radial";
   /** Tighter radial ring, closer to the head but still airy. */
   tight?: boolean;
+  /** Keep the portrait facing forward and still. */
+  headStatic?: boolean;
   onSelect: (id: string) => void;
 };
 
