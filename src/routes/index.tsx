@@ -543,7 +543,7 @@ function LexiconPage() {
             className="h-full w-full origin-center transition-transform duration-500 ease-out"
             style={{
               transform: activeTerm
-                ? "translateX(-29%) scale(0.6)"
+                ? "translateX(-34%) scale(0.72)"
                 : "translateX(0) scale(1)",
             }}
           >
@@ -561,7 +561,7 @@ function LexiconPage() {
 
         {activeTerm && (
           <div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-end p-4 md:p-8">
-            <div className="pointer-events-auto max-h-[80vh] w-[48vw] max-w-[660px] overflow-hidden rounded-xl bg-paper shadow-[0_0_80px_rgba(0,0,0,0.15)] lg:w-[44vw]">
+            <div className="pointer-events-auto max-h-[80vh] w-[36vw] max-w-[480px] overflow-hidden rounded-xl bg-paper shadow-[0_0_80px_rgba(0,0,0,0.15)] lg:w-[32vw]">
               <TermDetail
                 term={activeTerm}
                 onSelectTerm={openTerm}
