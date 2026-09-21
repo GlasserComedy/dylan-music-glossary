@@ -17,6 +17,8 @@ export function Head3D({ className = "" }: { className?: string }) {
   const [vec, setVec] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
+    if (window.matchMedia("(pointer: coarse)").matches) return;
+
     const pointer = { x: 0, y: 0, has: false };
 
     const measure = () => {

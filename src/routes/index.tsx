@@ -48,7 +48,12 @@ function LexiconPage() {
   const [showCategories, setShowCategories] = useState(false);
   const [mobileEntered, setMobileEntered] = useState(false);
   const [showCoffeeModal, setShowCoffeeModal] = useState(false);
+  const [viewportReady, setViewportReady] = useState(false);
   const categoryLeaveTimer = useRef<number | null>(null);
+
+  useEffect(() => {
+    setViewportReady(true);
+  }, []);
 
   const clearCategoryTimer = () => {
     if (categoryLeaveTimer.current) {
@@ -336,14 +341,25 @@ function LexiconPage() {
               </button>
 
               {showSearch && (
-                <div className="fixed left-3 right-3 top-[4.75rem] z-30 max-h-[calc(100dvh-6rem)] overflow-y-auto border border-ink/15 bg-paper p-3 shadow-sm sm:absolute sm:left-auto sm:right-0 sm:top-9 sm:w-72 sm:max-h-none sm:overflow-visible">
+                <div className="fixed left-3 right-3 top-[4.75rem] z-30 max-h-[calc(100dvh-6rem)] overflow-y-auto border border-ink/15 bg-paper p-3 pt-4 shadow-sm sm:absolute sm:left-auto sm:right-0 sm:top-9 sm:w-72 sm:max-h-none sm:overflow-visible sm:pt-3">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowSearch(false);
+                      setQuery("");
+                    }}
+                    className="absolute right-3 top-3 rounded p-1 text-ink/45 transition hover:text-ink sm:hidden"
+                    aria-label="Close search panel"
+                  >
+                    <X className="h-4 w-4" />
+                  </button>
                   <input
                     autoFocus
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     placeholder="Search terms…"
-                    className="w-full border-b border-ink/20 bg-transparent pb-1 font-body text-base outline-none placeholder:text-ink/30 focus:border-ink sm:text-sm"
+                    className="w-full border-b border-ink/20 bg-transparent pb-1 pr-8 font-body text-base outline-none placeholder:text-ink/30 focus:border-ink sm:pr-0 sm:text-sm"
                   />
                   {(searchResults.length > 0 || songResults.length > 0) && (
                     <div className="mt-2 max-h-72 overflow-y-auto">
@@ -418,18 +434,18 @@ function LexiconPage() {
 
       {/* Mobile landing page */}
       <main
-        className={`relative flex min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6 md:hidden ${mobileEntered ? "hidden" : "flex"}`}
-        role="button"
-        tabIndex={0}
-        onClick={() => setMobileEntered(true)}
-        onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") setMobileEntered(true);
-        }}
+        className={`relative min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6 md:hidden ${mobileEntered ? "hidden" : "flex"}`}
       >
-        <div className="h-[55vh] w-[55vh] max-h-[360px] max-w-[360px]">
+        <button
+          type="button"
+          onClick={() => setMobileEntered(true)}
+          className="absolute inset-0 z-10 cursor-default"
+          aria-label="Continue to The Dylan Lexicon"
+        />
+        <div className="pointer-events-none relative z-20 h-[55vh] w-[55vh] max-h-[360px] max-w-[360px]">
           <StaticHead className="h-full w-full" />
         </div>
-        <div className="mt-8 border-b border-ink/30 px-3 py-2 text-center font-mono text-xs uppercase leading-relaxed tracking-[0.18em] text-ink/70">
+        <div className="pointer-events-none relative z-20 mt-8 border-b border-ink/30 px-3 py-2 text-center font-mono text-xs uppercase leading-relaxed tracking-[0.18em] text-ink/70">
           Click to continue to
           <br />
           the Dylan Lexicon
@@ -486,7 +502,7 @@ function LexiconPage() {
       </main>
 
       {/* Desktop: mind map stage */}
-      <main className="relative hidden min-h-0 flex-1 md:block">
+      {viewportReady && !isMobile && <main className="relative hidden min-h-0 flex-1 md:block">
         {mapMode === "terms" && (
           <button
             type="button"
@@ -543,7 +559,7 @@ function LexiconPage() {
             </div>
           </div>
         )}
-      </main>
+      </main>}
 
       {/* Alphabet */}
       <div
