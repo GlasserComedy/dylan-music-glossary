@@ -13,6 +13,8 @@ type Props = {
   mode?: "organic" | "radial";
   /** Tighter radial ring, closer to the head but still airy. */
   tight?: boolean;
+  /** Keep the portrait facing forward and still. */
+  headStatic?: boolean;
   onSelect: (id: string) => void;
 };
 
@@ -441,6 +443,7 @@ export function MindMap({
   large = false,
   mode = "organic",
   tight = false,
+  headStatic = false,
   onSelect,
 }: Props) {
   const [ref, size] = useSize<HTMLDivElement>();
@@ -500,7 +503,7 @@ export function MindMap({
     <div ref={ref} className="relative h-full w-full">
       {/* Portrait at the centre of the map */}
       <div className="absolute left-1/2 top-1/2 h-[26%] max-h-[260px] min-h-[150px] w-[26%] max-w-[260px] min-w-[150px] -translate-x-1/2 -translate-y-1/2">
-        <Head3D className="h-full w-full" />
+        <Head3D className="h-full w-full" frozen={headStatic} />
       </div>
 
       {size.w > 0 &&
