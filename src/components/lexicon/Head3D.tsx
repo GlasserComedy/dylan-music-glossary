@@ -24,6 +24,10 @@ export function Head3D({
   const [vec, setVec] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
+    frozenRef.current = frozen;
+  }, [frozen]);
+
+  useEffect(() => {
     if (window.matchMedia("(pointer: coarse)").matches) return;
 
     const pointer = { x: 0, y: 0, has: false };
@@ -41,6 +45,7 @@ export function Head3D({
     };
 
     const onMove = (e: PointerEvent) => {
+      if (frozenRef.current) return;
       pointer.x = e.clientX;
       pointer.y = e.clientY;
       pointer.has = true;
@@ -50,6 +55,10 @@ export function Head3D({
     let raf = 0;
     const current = { x: 0, y: 0 };
     const tick = () => {
+      if (frozenRef.current) {
+        pointer.has = false;
+        target.current = { x: 0, y: 0 };
+      }
       current.x = lerp(current.x, target.current.x, 0.1);
       current.y = lerp(current.y, target.current.y, 0.1);
       setVec({ x: current.x, y: current.y });
