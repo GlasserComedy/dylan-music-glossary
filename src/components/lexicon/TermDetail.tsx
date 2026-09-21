@@ -38,18 +38,13 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       </h2>
 
       {/* Three-column layout: Definition | In Dylan's Career | Examples */}
-      <div className="mt-6 grid grid-cols-1 gap-5 md:mt-8 md:grid-cols-3 md:gap-6">
+      <div className="mt-5 grid grid-cols-1 gap-5 md:mt-6 md:grid-cols-3 md:gap-5">
         <Column label="Definition">
-          <p className="font-body text-[15px] leading-relaxed text-ink/85">
-            {term.definition}
-          </p>
+          <ReadMore text={term.definition} />
         </Column>
 
         <Column label="In Dylan's Career">
-          <p className="font-body text-[15px] leading-relaxed text-ink/85">
-            {term.inDylan}
-          </p>
-        </Column>
+          <ReadMore text={term.inDylan} />
 
         <Column label={examples.length > 1 ? "Examples" : examples.length === 1 ? "Example" : "Example"} className="rounded-lg md:rounded-none md:bg-transparent bg-paper-2/40 p-4 md:p-0">
           {examples.length > 0 ? (
@@ -60,9 +55,9 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
                   className="rounded border border-ink/10 bg-paper p-3 shadow-sm md:p-4"
                 >
                   <MediaEmbed title={ex.title} media={ex.media} />
-                  <p className="mt-3 font-body text-[14px] leading-relaxed text-ink/70">
-                    {ex.note}
-                  </p>
+                  <div className="mt-2">
+                    <ReadMore text={ex.note} lines={3} className="text-[13px] text-ink/70" />
+                  </div>
                 </div>
               ))}
             </div>
