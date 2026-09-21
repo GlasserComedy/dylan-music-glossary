@@ -45,6 +45,8 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
 
         <Column label="In Dylan's Career">
           <ReadMore text={term.inDylan} />
+        </Column>
+
 
         <Column label={examples.length > 1 ? "Examples" : examples.length === 1 ? "Example" : "Example"} className="rounded-lg md:rounded-none md:bg-transparent bg-paper-2/40 p-4 md:p-0">
           {examples.length > 0 ? (
