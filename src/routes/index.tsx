@@ -436,18 +436,16 @@ function LexiconPage() {
       <main
         className={`relative min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6 md:hidden ${mobileEntered ? "hidden" : "flex"}`}
         role="button"
+        aria-label="Continue to The Dylan Lexicon"
         tabIndex={0}
         onClick={() => setMobileEntered(true)}
         onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") setMobileEntered(true);
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            setMobileEntered(true);
+          }
         }}
       >
-        <button
-          type="button"
-          onClick={() => setMobileEntered(true)}
-          className="absolute inset-0 z-10 cursor-default"
-          aria-label="Continue to The Dylan Lexicon"
-        />
         <div className="pointer-events-none relative z-20 h-[55vh] w-[55vh] max-h-[360px] max-w-[360px]">
           <StaticHead className="h-full w-full" />
         </div>
