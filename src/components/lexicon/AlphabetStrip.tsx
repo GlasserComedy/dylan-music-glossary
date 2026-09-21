@@ -17,8 +17,8 @@ export function AlphabetStrip({ terms, activeLetter, onSelectLetter }: Props) {
   }, [terms]);
 
   return (
-    <div className="border-t border-ink/10 bg-paper py-2 md:py-3">
-      <div className="mx-auto flex max-w-5xl flex-nowrap items-center gap-1 overflow-x-auto px-4 [scrollbar-width:none] md:flex-wrap md:justify-between md:overflow-visible">
+    <div className="border-t border-ink/10 bg-paper pt-2 pb-[calc(env(safe-area-inset-bottom)+0.75rem)] md:py-3">
+      <div className="mx-auto flex max-w-5xl flex-nowrap items-center gap-0.5 overflow-x-auto overscroll-x-contain px-3 [scrollbar-width:none] [touch-action:pan-x] md:flex-wrap md:justify-between md:gap-1 md:overflow-visible md:px-4">
         {ALPHABET.map((letter) => {
           const has = available.has(letter);
           const active = activeLetter === letter;
@@ -27,7 +27,7 @@ export function AlphabetStrip({ terms, activeLetter, onSelectLetter }: Props) {
               key={letter}
               disabled={!has}
               onClick={() => onSelectLetter(letter)}
-              className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full font-typewriter text-sm uppercase transition md:h-7 md:w-7 ${
+              className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full font-typewriter text-sm uppercase transition md:h-7 md:w-7 ${
                 active
                   ? "bg-ink text-paper"
                   : has
