@@ -55,6 +55,13 @@ function LexiconPage() {
     setViewportReady(true);
   }, []);
 
+  // When a term opens on desktop, reset Dylan's head to face forward.
+  useEffect(() => {
+    if (activeSlug && !isMobile) {
+      window.dispatchEvent(new Event("lexicon:reset-head"));
+    }
+  }, [activeSlug, isMobile]);
+
   const clearCategoryTimer = () => {
     if (categoryLeaveTimer.current) {
       window.clearTimeout(categoryLeaveTimer.current);
