@@ -39,18 +39,18 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       </h2>
 
       {/* Vertical stack so the panel stays narrow and the head/cloud stay visible */}
-      <div className="mt-5 grid grid-cols-1 gap-5 md:mt-6 md:gap-5">
+      <div className="mt-4 grid grid-cols-1 gap-4 md:mt-5 md:gap-5">
         <Column label="Definition">
-          <ReadMore text={term.definition} />
+          <ReadMore text={term.definition} lines={4} />
         </Column>
 
         <Column label="In Dylan's Career">
-          <ReadMore text={term.inDylan} />
+          <ReadMore text={term.inDylan} lines={4} />
         </Column>
 
         <Column label={examples.length > 1 ? "Examples" : "Example"}>
           {examples.length > 0 ? (
-            <div className="space-y-4">
+            <div className="space-y-3">
               {examples.map((ex) => (
                 <div
                   key={ex.title}
@@ -58,7 +58,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
                 >
                   <MediaEmbed title={ex.title} media={ex.media} />
                   <div className="mt-2">
-                    <ReadMore text={ex.note} lines={3} mobileLines={2} className="text-[13px] text-ink/70" />
+                    <ReadMore text={ex.note} lines={2} mobileLines={2} className="text-[13px] text-ink/70" />
                   </div>
                 </div>
               ))}
