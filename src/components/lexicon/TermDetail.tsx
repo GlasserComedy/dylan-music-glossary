@@ -21,7 +21,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
   return (
     <aside
       key={term.slug}
-      className="animate-in slide-in-from-bottom-4 fade-in relative flex max-h-[80vh] min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-5 pb-8 duration-500 ease-out md:px-6 md:pt-6 md:pb-8"
+      className="animate-in slide-in-from-bottom-4 fade-in relative flex h-full min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-5 pb-8 duration-500 ease-out md:h-auto md:max-h-[80vh] md:px-6 md:pt-6 md:pb-8"
     >
       <button
         onClick={onClose}
@@ -49,17 +49,17 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
         </Column>
 
 
-        <Column label={examples.length > 1 ? "Examples" : examples.length === 1 ? "Example" : "Example"} className="rounded-lg md:rounded-none md:bg-transparent bg-paper-2/40 p-4 md:p-0">
+        <Column label={examples.length > 1 ? "Examples" : "Example"} className="rounded-lg bg-paper-2/40 p-4 md:rounded-none md:bg-transparent md:p-0">
           {examples.length > 0 ? (
-            <div className="space-y-5">
+            <div className="space-y-4 md:space-y-5">
               {examples.map((ex) => (
                 <div
                   key={ex.title}
-                  className="rounded border border-ink/10 bg-paper p-3 shadow-sm md:p-4"
+                  className="rounded border border-ink/10 bg-paper p-2.5 shadow-sm md:p-4"
                 >
                   <MediaEmbed title={ex.title} media={ex.media} />
                   <div className="mt-2">
-                    <ReadMore text={ex.note} lines={3} className="text-[13px] text-ink/70" />
+                    <ReadMore text={ex.note} lines={3} mobileLines={2} className="text-[13px] text-ink/70" />
                   </div>
                 </div>
               ))}
@@ -118,21 +118,34 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
 function ReadMore({
   text,
   lines = 7,
+  mobileLines = 3,
   className = "",
 }: {
   text: string;
   lines?: number;
+  mobileLines?: number;
   className?: string;
 }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLParagraphElement>(null);
   const [clipped, setClipped] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 768px)");
+    const update = () => setIsMobile(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+
+  const clampLines = open ? undefined : isMobile ? mobileLines : lines;
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
     setClipped(el.scrollHeight - el.clientHeight > 2);
-  }, [text, lines]);
+  }, [text, clampLines]);
 
   return (
     <div>
@@ -145,7 +158,7 @@ function ReadMore({
             : {
                 display: "-webkit-box",
                 WebkitBoxOrient: "vertical",
-                WebkitLineClamp: lines,
+                WebkitLineClamp: clampLines,
                 overflow: "hidden",
               }
         }
