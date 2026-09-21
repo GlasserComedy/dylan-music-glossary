@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import type { Term } from "@/content/terms";
 import { TERMS } from "@/content/terms";
@@ -111,6 +112,55 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
         </Section>
       )}
     </aside>
+  );
+}
+
+function ReadMore({
+  text,
+  lines = 7,
+  className = "",
+}: {
+  text: string;
+  lines?: number;
+  className?: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLParagraphElement>(null);
+  const [clipped, setClipped] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    setClipped(el.scrollHeight - el.clientHeight > 2);
+  }, [text, lines]);
+
+  return (
+    <div>
+      <p
+        ref={ref}
+        className={`font-body text-[13.5px] leading-relaxed text-ink/85 ${className}`}
+        style={
+          open
+            ? undefined
+            : {
+                display: "-webkit-box",
+                WebkitBoxOrient: "vertical",
+                WebkitLineClamp: lines,
+                overflow: "hidden",
+              }
+        }
+      >
+        {text}
+      </p>
+      {(clipped || open) && (
+        <button
+          onClick={() => setOpen((v) => !v)}
+          className="mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 transition hover:text-ink"
+        >
+          {open ? "read less" : "read more…"}
+        </button>
+      )}
+    </div>
   );
 }
 
