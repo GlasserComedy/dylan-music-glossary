@@ -11,8 +11,15 @@ const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
  * in space toward the cursor. Layered depth planes (shadow, portrait, light,
  * contact shadow) give it volume without WebGL.
  */
-export function Head3D({ className = "" }: { className?: string }) {
+export function Head3D({
+  className = "",
+  frozen = false,
+}: {
+  className?: string;
+  frozen?: boolean;
+}) {
   const ref = useRef<HTMLDivElement>(null);
+  const frozenRef = useRef(frozen);
   const target = useRef({ x: 0, y: 0 });
   const [vec, setVec] = useState({ x: 0, y: 0 });
 
