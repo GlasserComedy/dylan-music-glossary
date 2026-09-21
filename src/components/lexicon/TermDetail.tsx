@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import type { Term } from "@/content/terms";
 import { TERMS } from "@/content/terms";
@@ -20,7 +21,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
   return (
     <aside
       key={term.slug}
-      className="animate-in slide-in-from-bottom-4 fade-in relative flex h-full min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-6 pb-24 duration-500 ease-out md:px-8 md:pt-8 md:pb-28"
+      className="animate-in slide-in-from-bottom-4 fade-in relative flex max-h-[80vh] min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-5 pb-8 duration-500 ease-out md:px-6 md:pt-6 md:pb-8"
     >
       <button
         onClick={onClose}
@@ -38,18 +39,15 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       </h2>
 
       {/* Three-column layout: Definition | In Dylan's Career | Examples */}
-      <div className="mt-6 grid grid-cols-1 gap-5 md:mt-8 md:grid-cols-3 md:gap-6">
+      <div className="mt-5 grid grid-cols-1 gap-5 md:mt-6 md:grid-cols-3 md:gap-5">
         <Column label="Definition">
-          <p className="font-body text-[15px] leading-relaxed text-ink/85">
-            {term.definition}
-          </p>
+          <ReadMore text={term.definition} />
         </Column>
 
         <Column label="In Dylan's Career">
-          <p className="font-body text-[15px] leading-relaxed text-ink/85">
-            {term.inDylan}
-          </p>
+          <ReadMore text={term.inDylan} />
         </Column>
+
 
         <Column label={examples.length > 1 ? "Examples" : examples.length === 1 ? "Example" : "Example"} className="rounded-lg md:rounded-none md:bg-transparent bg-paper-2/40 p-4 md:p-0">
           {examples.length > 0 ? (
@@ -60,9 +58,9 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
                   className="rounded border border-ink/10 bg-paper p-3 shadow-sm md:p-4"
                 >
                   <MediaEmbed title={ex.title} media={ex.media} />
-                  <p className="mt-3 font-body text-[14px] leading-relaxed text-ink/70">
-                    {ex.note}
-                  </p>
+                  <div className="mt-2">
+                    <ReadMore text={ex.note} lines={3} className="text-[13px] text-ink/70" />
+                  </div>
                 </div>
               ))}
             </div>
@@ -114,6 +112,55 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
         </Section>
       )}
     </aside>
+  );
+}
+
+function ReadMore({
+  text,
+  lines = 7,
+  className = "",
+}: {
+  text: string;
+  lines?: number;
+  className?: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLParagraphElement>(null);
+  const [clipped, setClipped] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    setClipped(el.scrollHeight - el.clientHeight > 2);
+  }, [text, lines]);
+
+  return (
+    <div>
+      <p
+        ref={ref}
+        className={`font-body text-[13.5px] leading-relaxed text-ink/85 ${className}`}
+        style={
+          open
+            ? undefined
+            : {
+                display: "-webkit-box",
+                WebkitBoxOrient: "vertical",
+                WebkitLineClamp: lines,
+                overflow: "hidden",
+              }
+        }
+      >
+        {text}
+      </p>
+      {(clipped || open) && (
+        <button
+          onClick={() => setOpen((v) => !v)}
+          className="mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 transition hover:text-ink"
+        >
+          {open ? "read less" : "read more…"}
+        </button>
+      )}
+    </div>
   );
 }
 
