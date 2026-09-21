@@ -1,4 +1,4 @@
-import { Head3D } from "./Head3D";
+import { StaticHead } from "./Head3D";
 
 type Props = {
   categories: string[];
@@ -21,7 +21,7 @@ export function MobileCategoryMap({ categories, onSelect }: Props) {
   return (
     <div className="relative mx-auto h-full min-h-[540px] w-full max-w-[430px] overflow-hidden">
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[50vw] max-h-[220px] min-h-[180px] w-[50vw] max-w-[220px] min-w-[180px] -translate-x-1/2 -translate-y-1/2">
-        <Head3D className="h-full w-full" />
+        <StaticHead className="h-full w-full" />
       </div>
 
       {categories.map((category, index) => {

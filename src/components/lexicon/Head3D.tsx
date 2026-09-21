@@ -138,3 +138,33 @@ export function Head3D({ className = "" }: { className?: string }) {
     </div>
   );
 }
+
+export function StaticHead({
+  className = "",
+  alt = "Portrait of Bob Dylan, facing forward",
+}: {
+  className?: string;
+  alt?: string;
+}) {
+  return (
+    <div className={`pointer-events-none relative select-none ${className}`}>
+      <div
+        className="absolute inset-[12%] rounded-[50%]"
+        style={{
+          background: "radial-gradient(50% 50% at 50% 50%, hsl(0 0% 0% / 0.16), transparent 72%)",
+          filter: "blur(10px)",
+        }}
+      />
+      <img
+        src={dylanFront}
+        alt={alt}
+        width={1024}
+        height={1024}
+        className="relative h-full w-full object-contain"
+        style={{
+          filter: "drop-shadow(0 6px 12px hsl(0 0% 0% / 0.14))",
+        }}
+      />
+    </div>
+  );
+}

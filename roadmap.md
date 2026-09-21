@@ -4,3 +4,4 @@
 - [x] Add an Art entry covering visual art (iron works, paintings, sketches) and influence on songwriting, with "Tangled Up in Blue" as the example.
 - [x] Expand every glossary entry to approximately the length of the Reinvention entry.
 - [x] Redesign the entered mobile view around the Dylan head and interactive category clippings, while keeping All Terms at the top.
+- [ ] Refine mobile performance and touch behavior, make the logo return to categories, fix search zoom, and restore the desktop side term panel.

@@ -7,7 +7,7 @@ import { TermList } from "@/components/lexicon/TermList";
 import { TermDetail } from "@/components/lexicon/TermDetail";
 import { AlphabetStrip } from "@/components/lexicon/AlphabetStrip";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { Head3D } from "@/components/lexicon/Head3D";
+import { StaticHead } from "@/components/lexicon/Head3D";
 import { MobileCategoryMap } from "@/components/lexicon/MobileCategoryMap";
 
 export const Route = createFileRoute("/")({
@@ -87,6 +87,16 @@ function LexiconPage() {
   }, [isMobile]);
 
   const openCoffee = () => setShowCoffeeModal(true);
+
+  const goToCategoryHome = () => {
+    setMobileEntered(true);
+    setActiveSlug(null);
+    setSelectedLetter(null);
+    setSelectedCategory(null);
+    setShowSearch(false);
+    setQuery("");
+    window.dispatchEvent(new Event("lexicon:reset-head"));
+  };
 
 
   const activeTerm = useMemo(
@@ -203,17 +213,22 @@ function LexiconPage() {
     <div className="flex h-screen flex-col overflow-hidden bg-paper text-ink">
       {/* Header */}
       <header className={`relative z-20 shrink-0 ${mobileEntered ? "" : "hidden md:block"}`}>
-        <div className="mx-auto grid max-w-[1600px] grid-cols-[minmax(0,1fr)_auto] items-start gap-4 px-4 py-4 md:flex md:justify-between md:px-6 md:py-5">
+        <div className="mx-auto grid max-w-[1600px] grid-cols-[minmax(0,1fr)_auto] items-center gap-2 px-3 py-4 md:flex md:justify-between md:gap-4 md:px-6 md:py-5">
           <div className="min-w-0">
-            <h1 className="font-display text-base uppercase leading-none tracking-[0.12em] sm:text-xl md:text-2xl">
+            <button
+              type="button"
+              onClick={goToCategoryHome}
+              className="block max-w-full text-left font-display text-sm uppercase leading-none tracking-[0.08em] text-ink transition hover:text-ink/70 sm:text-xl sm:tracking-[0.12em] md:text-2xl"
+              aria-label="Return to categories"
+            >
               The Dylan Lexicon
-            </h1>
+            </button>
             <p className="mt-2 hidden font-mono text-[10px] uppercase tracking-[0.18em] text-ink/45 md:block md:text-center md:text-xs md:tracking-[0.22em]">
               A glossary of musical terms
             </p>
           </div>
 
-          <div className="flex shrink-0 items-center gap-3 md:gap-5">
+          <div className="flex shrink-0 items-center gap-2 md:gap-5">
             {/* All terms dropdown */}
             <div
               className="relative -m-2 p-2"
@@ -229,7 +244,7 @@ function LexiconPage() {
             >
               <button
                 type="button"
-                className={`relative inline-flex items-center px-6 py-2 font-mono text-[11px] uppercase tracking-[0.14em] transition after:absolute after:-inset-3 after:content-[''] md:px-8 md:text-[11px] md:tracking-[0.18em] ${
+                className={`relative inline-flex items-center px-2 py-2 font-mono text-[10px] uppercase tracking-[0.1em] transition after:absolute after:-inset-3 after:content-[''] md:px-8 md:text-[11px] md:tracking-[0.18em] ${
                   activeSlug ? "text-ink" : "text-ink/55"
                 } hover:text-ink`}
                 onClick={() => setShowCategories((prev) => !prev)}
@@ -310,7 +325,7 @@ function LexiconPage() {
             {/* Search */}
             <div className="relative">
               <button
-                className="p-1 text-ink/50 transition hover:text-ink"
+                 className="p-2 text-ink/50 transition hover:text-ink"
                 onClick={() => {
                   setShowSearch((s) => !s);
                   setQuery("");
@@ -321,14 +336,14 @@ function LexiconPage() {
               </button>
 
               {showSearch && (
-                <div className="fixed left-4 right-4 top-20 z-30 border border-ink/15 bg-paper p-3 shadow-sm sm:absolute sm:left-auto sm:right-0 sm:top-9 sm:w-72">
+                <div className="fixed left-3 right-3 top-[4.75rem] z-30 max-h-[calc(100dvh-6rem)] overflow-y-auto border border-ink/15 bg-paper p-3 shadow-sm sm:absolute sm:left-auto sm:right-0 sm:top-9 sm:w-72 sm:max-h-none sm:overflow-visible">
                   <input
                     autoFocus
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     placeholder="Search terms…"
-                    className="w-full border-b border-ink/20 bg-transparent pb-1 font-body text-sm outline-none placeholder:text-ink/30 focus:border-ink"
+                    className="w-full border-b border-ink/20 bg-transparent pb-1 font-body text-base outline-none placeholder:text-ink/30 focus:border-ink sm:text-sm"
                   />
                   {(searchResults.length > 0 || songResults.length > 0) && (
                     <div className="mt-2 max-h-72 overflow-y-auto">
@@ -404,19 +419,21 @@ function LexiconPage() {
       {/* Mobile landing page */}
       <main
         className={`relative flex min-h-0 flex-1 flex-col items-center justify-center overflow-hidden px-6 md:hidden ${mobileEntered ? "hidden" : "flex"}`}
+        role="button"
+        tabIndex={0}
+        onClick={() => setMobileEntered(true)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") setMobileEntered(true);
+        }}
       >
         <div className="h-[55vh] w-[55vh] max-h-[360px] max-w-[360px]">
-          <Head3D className="h-full w-full" />
+          <StaticHead className="h-full w-full" />
         </div>
-        <button
-          type="button"
-          onClick={() => setMobileEntered(true)}
-          className="mt-8 border-b border-ink/30 px-3 py-2 text-center font-mono text-xs uppercase leading-relaxed tracking-[0.18em] text-ink/70 transition hover:border-ink hover:text-ink"
-        >
+        <div className="mt-8 border-b border-ink/30 px-3 py-2 text-center font-mono text-xs uppercase leading-relaxed tracking-[0.18em] text-ink/70">
           Click to continue to
           <br />
           the Dylan Lexicon
-        </button>
+        </div>
       </main>
 
       {/* Mobile: category constellation, then the selected category or letter list */}
@@ -499,7 +516,7 @@ function LexiconPage() {
             className="h-full w-full origin-center transition-transform duration-500 ease-out"
             style={{
               transform: activeTerm
-                ? "translateX(-45%) scale(0.45)"
+                ? "translateX(-26%) scale(0.7)"
                 : "translateX(0) scale(1)",
             }}
           >
@@ -516,8 +533,8 @@ function LexiconPage() {
         </div>
 
         {activeTerm && (
-          <div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-center p-4 md:p-8">
-            <div className="pointer-events-auto h-[85vh] w-[94vw] max-w-[1200px] overflow-hidden rounded-xl bg-paper shadow-[0_0_80px_rgba(0,0,0,0.15)]">
+          <div className="pointer-events-none absolute inset-0 z-50 flex items-center justify-end p-4 md:p-8">
+            <div className="pointer-events-auto h-[85vh] w-[72vw] overflow-hidden rounded-xl bg-paper shadow-[0_0_80px_rgba(0,0,0,0.15)] lg:w-[58vw] lg:max-w-[940px]">
               <TermDetail
                 term={activeTerm}
                 onSelectTerm={openTerm}
