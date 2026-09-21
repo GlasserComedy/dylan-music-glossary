@@ -21,7 +21,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
   return (
     <aside
       key={term.slug}
-      className="animate-in slide-in-from-bottom-4 fade-in relative flex max-h-[80vh] min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-5 pb-8 duration-500 ease-out md:px-6 md:pt-6 md:pb-8"
+      className="animate-in slide-in-from-bottom-4 fade-in relative flex h-full min-h-0 flex-col overflow-y-auto overscroll-contain bg-paper px-5 pt-5 pb-8 duration-500 ease-out md:h-auto md:max-h-[80vh] md:px-6 md:pt-6 md:pb-8"
     >
       <button
         onClick={onClose}
