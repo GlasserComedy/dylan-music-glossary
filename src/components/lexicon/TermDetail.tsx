@@ -118,21 +118,34 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
 function ReadMore({
   text,
   lines = 7,
+  mobileLines = 3,
   className = "",
 }: {
   text: string;
   lines?: number;
+  mobileLines?: number;
   className?: string;
 }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLParagraphElement>(null);
   const [clipped, setClipped] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 768px)");
+    const update = () => setIsMobile(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
+  }, []);
+
+  const clampLines = open ? undefined : isMobile ? mobileLines : lines;
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
     setClipped(el.scrollHeight - el.clientHeight > 2);
-  }, [text, lines]);
+  }, [text, clampLines]);
 
   return (
     <div>
@@ -145,7 +158,7 @@ function ReadMore({
             : {
                 display: "-webkit-box",
                 WebkitBoxOrient: "vertical",
-                WebkitLineClamp: lines,
+                WebkitLineClamp: clampLines,
                 overflow: "hidden",
               }
         }
