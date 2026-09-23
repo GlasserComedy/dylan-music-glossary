@@ -660,10 +660,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan emerged as the preeminent voice of the 1960s folk revival through masterworks like The Lonesome Death of Hattie Carroll, which detailed a real-life homicide with cinematic precision. Even as his writing turned toward the surreal, he returned to the form with the 1975 protest anthem Hurricane, advocating for the release of boxer Rubin Carter. His topical writing is distinguished by a refusal to offer simple didacticism, instead creating complex narratives that force the listener to confront the systemic failures and personal tragedies of the American experience.",
     example: {
-      title: "The Lonesome Death of Hattie Carroll",
+      title: "Who Killed Davey Moore?",
       note:
-        "Drawn from a 1963 court case, the song reports the facts and lets the sentence at the end deliver the verdict.",
-      media: { kind: "youtube", id: "FmbwU3J-2kk", spotifyId: "6j1fiAG1NFBqPDRfJY19Yv" },
+        "Written days after the boxer's 1963 death, the song puts the question to the referee, the crowd, the manager, the gambler, the writer and the fighter \u2014 and every one of them denies the blame.",
+      media: { kind: "youtube", id: "", spotifyId: "640qDNJeKHunZ7c90unilf" },
     },
     related: ["protest-song", "social-commentary", "narrative"],
   },
