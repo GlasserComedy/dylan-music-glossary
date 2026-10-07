@@ -85,7 +85,7 @@ export const TERMS: Term[] = [
     example: {
       title: "All the Tired Horses",
       note:
-        "The opener of Self Portrait is the closest Dylan has come to a fully a cappella recording: he never sings a word, and the entire song is carried by a trio of female voices repeating the same two lines. It is not strictly voice-only — organ, guitars, and strings swell underneath, so there are no purely unaccompanied passages — but with Dylan's own voice and lead instrument absent, the choir effectively becomes the song.",
+        "The opener of Self Portrait is the closest Dylan has come to a fully a cappella recording: he never sings a word, and the entire song is carried by a trio of female voices repeating the same two lines. It opens strictly voice-only, the first few bars bare before organ, guitars, and strings come in underneath — so his one genuinely unaccompanied stretch sits right at the top of it.",
       media: { kind: "youtube", id: "6Ph4yhzyk3A", spotifyId: "4nBjbqj7nKd7Rsa7HJ3VtX" },
     },
     related: ["instrumental", "harmony", "folk-revival"],
