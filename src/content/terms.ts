@@ -1513,10 +1513,10 @@ export const TERMS: Term[] = [
     example: {
       title: "Kurtis Blow \u2014 Street Rock (with Bob Dylan)",
       note:
-        "Dylan sings on Kurtis Blow's 1986 track, one of the earliest crossovers between a folk-rock songwriter and hip-hop \u2014 rhymed speech over a beat meeting sung verse.",
+        "Dylan raps a cappella over the opening of Kurtis Blow's 1986 track \u2014 four lines cut in one take at Dylan's Malibu home, his voice alone on the record before the beat and scratches arrive \u2014 one of the earliest crossovers between a folk-rock songwriter and hip-hop.",
       media: { kind: "youtube", id: "nQMQWVcUDvQ", spotifyId: "1GO6BnAO8t6e35NX64QGN9" },
     },
-    related: ["talkin-blues", "rhyme", "beat", "rhythm"],
+    related: ["talkin-blues", "rhyme", "beat", "rhythm", "a-cappella"],
   },
   {
     slug: "radio",
