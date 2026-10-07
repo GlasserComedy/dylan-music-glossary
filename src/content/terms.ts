@@ -86,7 +86,7 @@ export const TERMS: Term[] = [
       {
         title: "All the Tired Horses",
         note:
-          "The opener of Self Portrait is the closest Dylan has come to a fully a cappella recording: he never sings a word, and the entire song is carried by a trio of female voices repeating the same two lines. It opens strictly voice-only, the first few bars bare before organ, guitars, and strings come in underneath — so his one genuinely unaccompanied stretch sits right at the top of it.",
+          "The opener of Self Portrait: Dylan doesn't sing a word, and a trio of female voices carries the song on two repeated lines. The intro is a cappella, before the instruments join in.",
         media: { kind: "youtube", id: "6Ph4yhzyk3A", spotifyId: "4nBjbqj7nKd7Rsa7HJ3VtX" },
       },
       {
