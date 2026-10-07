@@ -81,14 +81,22 @@ export const TERMS: Term[] = [
     definition:
       "A cappella refers to vocal music performed without any instrumental accompaniment, relying exclusively on the human voice to provide melody, harmony, and percussive rhythm. Rooted in both religious traditions and secular folk singing, the style emphasizes the natural timbre and technical control of the singer, stripping away the safety net of rhythmic backing or harmonic support to place the focus entirely on the delivery of the text and the purity of the vocal performance itself.",
     inDylan:
-      "Dylan has never officially released a studio recording in a strictly a cappella format, as his work is almost inextricably linked to his own guitar, piano, or harmonica playing. However, the melodic and lyrical strength of his compositions has made them prime material for vocal ensembles. Various choirs and a cappella groups have rearranged his catalog, removing all instrumentation to highlight the structural integrity of his writing, proving that his songs remain compelling even when reduced to the bare essence of the human voice.",
-    example: {
-      title: "All the Tired Horses",
-      note:
-        "The opener of Self Portrait is the closest Dylan has come to a fully a cappella recording: he never sings a word, and the entire song is carried by a trio of female voices repeating the same two lines. It opens strictly voice-only, the first few bars bare before organ, guitars, and strings come in underneath — so his one genuinely unaccompanied stretch sits right at the top of it.",
-      media: { kind: "youtube", id: "6Ph4yhzyk3A", spotifyId: "4nBjbqj7nKd7Rsa7HJ3VtX" },
-    },
-    related: ["instrumental", "harmony", "folk-revival"],
+      "Dylan has never officially released a studio recording in a strictly a cappella format, as his work is almost inextricably linked to his own guitar, piano, or harmonica playing. The one place his own voice truly stands alone on a released record is a guest spot on someone else's: he raps a cappella over the opening of Kurtis Blow's 'Street Rock,' four lines delivered bare before the beat and scratches come in. Beyond that, the melodic and lyrical strength of his compositions has made them prime material for vocal ensembles. Various choirs and a cappella groups have rearranged his catalog, removing all instrumentation to highlight the structural integrity of his writing, proving that his songs remain compelling even when reduced to the bare essence of the human voice.",
+    examples: [
+      {
+        title: "All the Tired Horses",
+        note:
+          "The opener of Self Portrait is the closest Dylan has come to a fully a cappella recording: he never sings a word, and the entire song is carried by a trio of female voices repeating the same two lines. It opens strictly voice-only, the first few bars bare before organ, guitars, and strings come in underneath — so his one genuinely unaccompanied stretch sits right at the top of it.",
+        media: { kind: "youtube", id: "6Ph4yhzyk3A", spotifyId: "4nBjbqj7nKd7Rsa7HJ3VtX" },
+      },
+      {
+        title: "Kurtis Blow \u2014 Street Rock (with Bob Dylan)",
+        note:
+          "The track that opens Kingdom Blow starts with Dylan alone on the record: he raps the opening quatrain a cappella, voice only, before Kurtis Blow's beat and Bill Black's scratches arrive. Blow turned up at Dylan's Malibu home with the idea and Bob cut it in one take; the same four lines return as a verse deeper into the nearly nine-minute track.",
+        media: { kind: "youtube", id: "nQMQWVcUDvQ", spotifyId: "1GO6BnAO8t6e35NX64QGN9" },
+      },
+    ],
+    related: ["instrumental", "harmony", "folk-revival", "rap"],
   },
   {
     slug: "acoustic",
