@@ -83,10 +83,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan has never officially released a studio recording in a strictly a cappella format, as his work is almost inextricably linked to his own guitar, piano, or harmonica playing. However, the melodic and lyrical strength of his compositions has made them prime material for vocal ensembles. Various choirs and a cappella groups have rearranged his catalog, removing all instrumentation to highlight the structural integrity of his writing, proving that his songs remain compelling even when reduced to the bare essence of the human voice.",
     example: {
-      title: "Down To The River To Pray",
+      title: "All the Tired Horses",
       note:
-        "Alison Krauss's recording from the O Brother, Where Art Thou? soundtrack presents the spiritual as a spare, unaccompanied vocal, letting the melody and harmony unfold through voices alone.",
-      media: { kind: "youtube", id: "4SZv7JJqcNY", spotifyId: "79x6uDDP9EAT5c35zOZhXv" },
+        "The opener of Self Portrait is the closest Dylan has come to a fully a cappella recording: he never sings a word, and the entire song is carried by a trio of female voices repeating the same two lines. It is not strictly voice-only — organ, guitars, and strings swell underneath, so there are no purely unaccompanied passages — but with Dylan's own voice and lead instrument absent, the choir effectively becomes the song.",
+      media: { kind: "youtube", id: "6Ph4yhzyk3A", spotifyId: "4nBjbqj7nKd7Rsa7HJ3VtX" },
     },
     related: ["instrumental", "harmony", "folk-revival"],
   },
