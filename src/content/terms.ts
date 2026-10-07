@@ -788,15 +788,30 @@ export const TERMS: Term[] = [
     title: "Artist Name",
     categories: ["Reinvention"],
     definition:
-      "A pseudonym or stage name adopted by a performer to represent their professional output. Choosing an artist name is often a foundational act of self-invention, allowing a creator to shed their biographical past and align themselves with specific cultural traditions, literary influences, or aesthetic movements. It functions as a brand, a mask, and a declaration of intent, signaling to the audience that the work presented belongs to a carefully crafted artistic reality.",
+      "A pseudonym or stage name adopted by a performer to represent their professional output. Choosing an artist name is often a foundational act of self-invention, allowing a creator to shed their biographical past and align themselves with specific cultural traditions, literary influences, or aesthetic movements. It functions as a brand, a mask, and a declaration of intent, signaling to the audience that the work presented belongs to a carefully crafted artistic reality. Some performers treat the name as one permanent rebrand; others keep cycling through pseudonyms, taking a new one on for each session, side project, or disguise.",
     inDylan:
-      "Born Robert Zimmerman in Duluth, Minnesota, he legally adopted the name Bob Dylan early in his career. While he has occasionally downplayed the connection, the name is widely linked to the Welsh poet Dylan Thomas, signaling his deep affinity for verse and his desire to be viewed as a literary figure as much as a musician. This reinvention allowed him to distance himself from his Midwestern roots and emerge as a mythic figure in the New York folk scene. The name has since become synonymous with a specific brand of American iconoclasm and restless creative evolution.",
+      "Born Robert Zimmerman in Duluth, Minnesota, he legally adopted the name Bob Dylan early in his career. While he has occasionally downplayed the connection, the name is widely linked to the Welsh poet Dylan Thomas, signaling his deep affinity for verse and his desire to be viewed as a literary figure as much as a musician. This reinvention allowed him to distance himself from his Midwestern roots and emerge as a mythic figure in the New York folk scene. The name has since become synonymous with a specific brand of American iconoclasm and restless creative evolution. Bob Dylan was never his only name, though. Before it came Elston Gunn, spelled Elston Gunnn with three n's, the alias he played under on the late-1950s club circuit around Fargo and briefly in Bobby Vee's band, along with experiments like Robert Allen and the spelling Bob Dillon. Once the famous name stuck he still kept borrowing others when it suited him: Blind Boy Grunt on his Broadside magazine recordings, Sergei Petrov on a co-writing credit, Jack Frost and Lucky Wilbury among the Traveling Wilburys' pseudonyms, plus Bob Landy and Robert Milkwood Thomas on various record credits. The list reads like a running joke about identity: the name on the sleeve is simply whichever mask is currently in use.",
     example: {
       title: "Bob Dylan (1962 debut album)",
       note:
         "The album that first put the name Bob Dylan on a record sleeve, replacing Robert Zimmerman for good.",
       media: { kind: "youtube", id: "QgJ9oUX1pbA", albumId: "5k63xxy9YcKM0H9GS3vP1K" },
     },
+    aliases: [
+      "Elston Gunn",
+      "Elston Gunnn",
+      "Bob Dillon",
+      "Robert Allen",
+      "Robert Allyn",
+      "Blind Boy Grunt",
+      "Sergei Petrov",
+      "Jack Frost",
+      "Lucky Wilbury",
+      "Boo Wilbury",
+      "Bob Landy",
+      "Robert Milkwood Thomas",
+      "Zimmy",
+    ],
   },
   {
     slug: "avant-garde",

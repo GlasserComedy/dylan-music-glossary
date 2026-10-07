@@ -7,3 +7,4 @@
 - [x] Refine mobile performance and touch behavior, make the logo return to categories, fix search zoom, and restore the desktop side term panel.
 - [x] Fit the complete desktop category cloud into the space beside an open definition panel.
 - [x] Keep the desktop head following the cursor over the white definition panel and page background.
+- [x] Note Bob Dylan's other aliases (Elston Gunn, Bob Dillon, Blind Boy Grunt and others) in the Artist Name entry.
