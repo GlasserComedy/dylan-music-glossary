@@ -9,3 +9,4 @@
 - [x] Keep the desktop head following the cursor over the white definition panel and page background.
 - [x] Note Bob Dylan's other aliases (Elston Gunn, Bob Dillon, Blind Boy Grunt and others) in the Artist Name entry.
 - [x] Correct the All the Tired Horses note: the opening bars are strictly a cappella before instruments enter.
+- [x] A cappella entry: add Kurtis Blow's "Street Rock" opening — Dylan rapping a cappella (second example box, real Spotify/YouTube links); rap entry note corrected to "raps a cappella over the opening"
