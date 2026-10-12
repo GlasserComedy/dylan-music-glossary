@@ -14,7 +14,7 @@ export type Category =
   | "Reinvention";
 
 export type MediaRef =
-  | { kind: "youtube"; id?: string; spotifyId?: string; albumId?: string }
+  | { kind: "youtube"; id?: string; spotifyId?: string; albumId?: string; youtubeUrl?: string }
   | { kind: "spotify"; id: string }
   | { kind: "link"; url: string; label: string }
   | { kind: "search"; query: string };
@@ -155,7 +155,7 @@ export const TERMS: Term[] = [
     definition:
       "The blues is a foundational African-American musical genre characterized by a specific twelve-bar chord progression, the use of 'blue notes' for emotional tension, and a call-and-response structure. Emerging from the Mississippi Delta and the Deep South, the blues functioned as both a personal expression of hardship and a shared cultural language, influencing nearly every facet of modern popular music through its raw emotional power and distinctive harmonic framework.",
     inDylan:
-      "Dylan's musical identity is built upon a profound absorption of the blues tradition, drawing directly from the recordings of Robert Johnson, Blind Willie McTell, and Howlin' Wolf. Rather than merely imitating the style, he integrated its rhythmic and lyrical tropes into the core of his songwriting. This influence persists throughout his entire career, from his initial acoustic interpretations to the weathered, grit-infused sounds of his later albums like Time Out of Mind, where the blues serves not as a vintage costume but as the very foundation of his creative expression.",
+      "Dylan's musical identity is built upon a profound absorption of the blues tradition, drawing directly from the recordings of Robert Johnson, Blind Willie McTell, and Howlin' Wolf, amongst others. Rather than merely imitating the style, he integrated its rhythmic and lyrical tropes into the core of his songwriting. This influence persists throughout his entire career, from his initial acoustic interpretations to the weathered, grit-infused sounds of his later albums like Time Out of Mind, where the blues serves not as a vintage costume but as the very foundation of his creative expression.",
     example: {
       title: "Meet Me in the Morning",
       note:
@@ -169,9 +169,9 @@ export const TERMS: Term[] = [
     title: "Bootleg",
     categories: ["Context"],
     definition:
-      "An unofficial recording — a studio outtake, rehearsal tape, or audience recording of a concert — circulated outside the artist's record label. Bootlegs surfaced in rock culture at the end of the 1960s, traded first on vinyl and cassette and later online, and they turned discarded takes and one-off performances into a parallel discography that fans studied as closely as the official albums.",
+      "An unofficial recording — a studio outtake, rehearsal tape, or audience recording of a concert — circulated outside the artist's record label. The word comes from bootleg whiskey — liquor made or smuggled illegally, originally hidden in the leg of a tall boot during Prohibition — and the music trade borrowed the sense of an illicit product sold under the counter. Bootlegs surfaced in rock culture at the end of the 1960s, traded first on vinyl and cassette and later online, and they turned discarded takes and one-off performances into a parallel discography that fans studied as closely as the official albums.",
     inDylan:
-      "The bootleg era effectively began with Dylan: Great White Wonder, the 1969 double album of Basement Tapes and early outtakes, is usually named the first rock bootleg, and the underground trade in his tapes never stopped. Because he records fast, changes arrangements nightly, and leaves extraordinary songs off albums, the unofficial recordings often rival the released ones. Columbia eventually answered the collectors on their own terms with The Bootleg Series, beginning in 1991 — an authorized flood of outtakes, live tapes, and alternate takes that recast whole periods of his work.",
+      "The bootleg era effectively began with Dylan: Great White Wonder - the 1969 double album of Basement Tapes and early outtakes - is usually named the first rock bootleg, and the underground trade in his tapes never stopped. Because he records fast, changes arrangements nightly, and leaves extraordinary songs off albums, the unofficial recordings often rival the released ones. Columbia eventually answered the collectors on their own terms with The Bootleg Series, beginning in 1991 — an authorized flood of outtakes, live tapes, and alternate takes that recast whole periods of his work.",
     example: {
       title: "Blind Willie McTell (Studio Outtake, 1983)",
       note:
@@ -187,7 +187,7 @@ export const TERMS: Term[] = [
     definition:
       "A chord progression is a sequential series of musical chords that establishes the harmonic foundation and tonal direction of a song. By moving between different degrees of a scale, a progression creates tension and resolution, providing a structural map that supports the melody and rhythm. In many folk and rock traditions, simple and repetitive progressions are used to create a familiar environment that allows the listener to focus on the vocal performance and the lyrical content.",
     inDylan:
-      "Dylan is renowned for his ability to craft monumental songs using relatively simple chord progressions, often relying on basic three or four-chord structures common to folk and blues. By keeping the harmonic architecture straightforward, he creates a stable platform for his dense, complex, and often unpredictable lyrics. This economy of means is a hallmark of his style, demonstrating how a plain, well-trodden progression can be elevated by extraordinary words and a singular delivery, as seen in tracks like Knockin' on Heaven's Door or Blowin' in the Wind.",
+      "Dylan is renowned for his ability to craft monumental songs using relatively simple chord progressions, often relying on basic three or four-chord structures common to folk and blues. By keeping the harmonic architecture straightforward, he creates a stable platform for his dense, complex, and often unpredictable lyrics. This economy of means is a hallmark of his style, demonstrating how a plain, well-trodden progression can be elevated by extraordinary words and a singular delivery, as seen in tracks like Mr. Tambourine Man or Blowin' in the Wind.",
     example: {
       title: "Knockin' on Heaven's Door",
       note:
@@ -219,7 +219,7 @@ export const TERMS: Term[] = [
     definition:
       "A cover is a performance or recording of a song by an artist other than the original composer or the performer who first made the song famous. Covering a song allows a musician to pay tribute to their influences, reinterpret a piece of music through a new lens, or breathe life into an older composition. It stands in contrast to an 'original,' which is a work written by the performing artist themselves, and it remains a vital practice for maintaining the continuity of the folk and blues traditions.",
     inDylan:
-      "While Dylan is primarily celebrated for his legendary body of original work, his career began with—and has frequently returned to—the art of the cover. His debut album consisted mostly of traditional songs and blues standards, showcasing his deep respect for the artists who came before him. Even at the height of his fame, he continued to record reinterpretations of others' work, such as on the Self Portrait album or his later collections of American standards, proving his enduring belief in the importance of the interpretive tradition in music.",
+      "While Dylan is primarily celebrated for his legendary body of original work, his career began with—and has frequently returned to—the art of the cover. His debut album consisted mostly of traditional songs and blues standards, showcasing his deep respect for the artists who came before him. Even at the height of his fame, he continued to record reinterpretations of others' work, such as on the Self Portrait album or his later collections of American standards, proving his enduring belief in the importance of the interpretive tradition in music. His songs are among the most covered of any artist's — possibly the most covered of all — and several became more famous in other hands, such as Knockin' on Heaven's Door and All Along the Watchtower. After Jimi Hendrix's version, Dylan essentially began covering Hendrix's arrangement himself in concert, often as an encore; it is the song he has performed live more than any other, well over 2,000 times.",
     example: {
       title: "Make You Feel My Love (Adele version)",
       note:
@@ -235,11 +235,11 @@ export const TERMS: Term[] = [
     definition:
       "The mid-20th-century American movement that brought traditional folk songs and rural ballads back into the mainstream popular culture. Centered in urban hubs like Greenwich Village and popularized by figures such as Pete Seeger, The Weavers, and Joan Baez, the revival emphasized acoustic instrumentation, social activism, and the preservation of historical oral traditions that had been largely ignored by the commercial recording industry of the 1940s.",
     inDylan:
-      "Dylan arrived in New York City in 1961 at the height of this movement, immersing himself in the repertoire of the Anthology of American Folk Music and the archives of the New York Public Library. While he initially mastered the traditional idiom, he eventually catalyzed the movement's evolution toward original songwriting and electric rock, famously causing a schism at the 1965 Newport Folk Festival by challenging the rigid boundaries of acoustic purity.",
+      "Dylan arrived in New York City in 1961 at the height of this movement, learning from Village mentors like Dave Van Ronk — whose arrangement of House of the Rising Sun Dylan took for his debut album — and immersing himself in the repertoire of the Anthology of American Folk Music and the archives of the New York Public Library. While he initially mastered the traditional idiom, he eventually catalyzed the movement's evolution toward original songwriting and electric rock, famously causing a schism at the 1965 Newport Folk Festival by challenging the rigid boundaries of acoustic purity.",
     example: {
       title: "House of the Risin' Sun",
       note:
-        "A traditional song Dylan learned in the Village and recorded on his debut, showing how the revival passed old material into new hands.",
+        "A traditional song Dylan learned in the Village and recorded on his debut using Dave Van Ronk's rendition and chord arrangement, showing how the revival passed old material into new hands.",
       media: { kind: "youtube", id: "RP_caKDfoyU", spotifyId: "3yFRbFaSj8MeNuYaN21HIu" },
     },
     related: ["acoustic", "woody-guthrie", "protest-song"],
@@ -249,9 +249,9 @@ export const TERMS: Term[] = [
     title: "Gospel",
     categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
-      "A genre of Christian devotional music deeply rooted in African-American church traditions, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
+      "A genre of Christian devotional music deeply rooted in African-American church traditions and growing out of the spirituals sung by enslaved people in the 18th and 19th centuries, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
     inDylan:
-      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records utilized professional gospel choirs and impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
+      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records used a small group of gospel-trained backing singers — among them Regina McCrary, Clydie King, Mona Lisa Young and Helena Springs — rather than full choirs, along with impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
     example: {
       title: "What Can I Do for You?",
       note:
@@ -554,14 +554,14 @@ export const TERMS: Term[] = [
     definition:
       "Flatpicking involves the use of a plectrum, or flat pick, held between the thumb and forefinger to strike the guitar strings. This technique is favored for its ability to produce a bright, loud, and percussive tone, making it ideal for lead runs and clear chordal articulation. It is a staple of bluegrass, country, and rock music, where the volume and clarity of the pick allow the guitar to cut through the sound of an ensemble or provide a sharp rhythmic foundation for a vocalist.",
     inDylan:
-      "Dylan frequently combined flatpicking with energetic strumming, a hybrid approach that gave his folk and rock songs their characteristic rhythmic drive. While his early work leaned on fingerstyle, he adopted the pick to achieve a more aggressive, driving sound as he moved into larger venues and electric arrangements. His flatpicking technique is particularly evident in his mid-sixties work, where the sharp attack of the pick emphasized the propulsive nature of his lyrics, ensuring that the musical backing matched the intensity of his vocal delivery.",
+      "In his earlier acoustic songs Dylan often flatpicks, using the plectrum to pick out individual bass notes and single-string figures rather than fingerpicking. The pick's sharp attack gives those solo performances their hard, percussive edge: a bass note struck on the beat, a repeated single-note figure, a run between chords. It suited the grim, driving ballads of his early albums, where the bright, cutting tone of the pick carried in a crowded club and kept the story moving relentlessly, matching the intensity of his vocal delivery.",
     example: {
       title: "Ballad of Hollis Brown",
       note:
         "Struck with a flatpick, the insistent single-chord figure keeps the grim story moving.",
       media: { kind: "youtube", id: "_8xkxy3tXTA", spotifyId: "3Si9u9FVlUTcUXVcawnstJ" },
     },
-    related: ["finger-picking", "strumming"],
+    related: ["finger-picking", "guitar"],
   },
   {
     slug: "keyboard",
@@ -884,7 +884,7 @@ export const TERMS: Term[] = [
     definition:
       "A genre of rock music that incorporates lyrics focused on matters regarding the Christian faith, often emphasizing biblical themes, personal salvation, and religious devotion. While it emerged from the Jesus Movement of the late 1960s, the genre often struggles to balance the rebellious spirit of rock with the dogmatic requirements of religious messaging. It serves as both a tool for proselytization and a medium for believers to express their spiritual convictions through contemporary musical forms.",
     inDylan:
-      "Dylan stunned the music world by undergoing a public conversion to Christianity in the late 1970s, resulting in a trilogy of albums starting with 1979's Slow Train Coming. This period was marked by fiery, evangelical lyrics and a high-production gospel-rock sound that alienated many long-time secular fans. However, his work in this genre was not merely a phase; it demonstrated his commitment to following his own internal convictions regardless of public expectation. Even after his overt gospel period ended, biblical imagery and theological questions remained central to his songwriting journey.",
+      "Biblical imagery and themes run through Dylan's songs from the very beginning — from the early-sixties apocalypse of A Hard Rain's A-Gonna Fall and When the Ship Comes In to the parables of John Wesley Harding. Even so, he stunned the music world by undergoing a public conversion to Christianity in the late 1970s, resulting in a trilogy of albums starting with 1979's Slow Train Coming. This period was marked by fiery, evangelical lyrics and a high-production gospel-rock sound that alienated many long-time secular fans, even though the records contain some of the most impassioned singing of his career. However, his work in this genre was not merely a phase; it demonstrated his commitment to following his own internal convictions regardless of public expectation. Even after his overt gospel period ended, biblical imagery and theological questions remained central to his songwriting journey.",
     example: {
       title: "Saved",
       note:
@@ -904,7 +904,7 @@ export const TERMS: Term[] = [
     example: {
       title: "The Freewheelin' Bob Dylan",
       note:
-        "Dylan's second Columbia album, and the one that established the label's faith in him as a writer.",
+        "Dylan's second Columbia album, and the one that established the label's faith in him as a singer-songwriter.",
       media: { kind: "youtube", id: "JncbFS5ek74", albumId: "0o1uFxZ1VTviqvNaYkTJek" },
     },
     related: ["john-hammond"],
@@ -914,7 +914,7 @@ export const TERMS: Term[] = [
     title: "Counter-culture",
     categories: ["Context"],
     definition:
-      "The counter-culture was a pervasive youth-driven movement during the 1960s that challenged established norms, military intervention, and corporate conformity. It fostered an environment of radical experimentation in art, politics, and social structures, prioritizing personal liberation and civil rights. This subterranean current sought to dismantle the rigid hierarchies of the post-war era, favoring communal expression and an rejection of the prevailing consumerist ideology.",
+      "The counter-culture was a pervasive youth-driven movement during the 1960s that challenged established norms, military intervention, and corporate conformity. It fostered an environment of radical experimentation in art, politics, and social structures, prioritizing personal liberation and civil rights. This subterranean current sought to dismantle the rigid hierarchies of the post-war era, favoring communal expression and a rejection of the prevailing consumerist ideology.",
     inDylan:
       "Dylan emerged as the reluctant voice and uneasy figurehead of this movement. While his early compositions were adopted as protest anthems for civil rights marches and anti-war rallies, he resisted the role of a political savior. Songs that were interpreted as manifestos were often, in his view, personal expressions of art. As he moved toward surrealism and rock, he increasingly mocked the expectations of those who demanded he serve as a spokesman for their specific ideological causes.",
     example: {
@@ -962,13 +962,13 @@ export const TERMS: Term[] = [
     title: "Folklore",
     categories: ["Roots & Tradition"],
     definition:
-      "Folklore encompasses the traditional beliefs, customs, and stories of a community, typically passed through generations via word of mouth or music. It serves as a repository for cultural identity, containing myths, legends, and ballads that reflect the hardships and triumphs of everyday people. Unlike commercial pop, folklore is often viewed as a living, breathing lineage where songs are adapted and reinterpreted by each new performer who encounters the material.",
+      "Folklore is the body of expressive culture shared by a particular group of people, culture or subculture. It includes oral traditions such as tales, legends, proverbs, poems, jokes and songs; material culture, such as traditional building styles and crafts; and customary lore \u2014 folk beliefs and folk religion, and the forms and rituals of celebrations such as festivals, weddings, folk dances and initiation rites. Passed on by word of mouth and example rather than by institutions, it is a living lineage that each generation adapts and reinterprets, and a store of a community's identity, hardships and triumphs.",
     inDylan:
       "Dylan drew deeply from the wells of American and British folklore, utilizing the structures of ancient ballads to ground his songwriting. By tapping into the oral tradition, he carried forward a legacy of storytelling while injecting it with a modern, individualistic voice. He frequently borrowed melodies and motifs from traditional songs he discovered in the Harry Smith anthology, treating the past not as a museum piece but as a foundation for creating new, resonant works of art.",
     example: {
       title: "The Water Is Wide",
       note:
-        "A traditional British folk song Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice. It also shows his life-long love and appreciation of traditional songs \u2014 he has gone back to them again and again as a way of getting renewed inspiration.",
+        "A traditional British folk song, also known as O Waly, Waly, that Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice. It also shows his life-long love and appreciation of traditional songs \u2014 he has gone back to them again and again as a way of getting renewed inspiration.",
       media: { kind: "youtube", id: "ozKv_Nmgrkw", spotifyId: "6EmdWTaN4455ZPfZqoc0pT" },
     },
     related: ["traditional", "ballad", "greenwich-village", "folklore-center", "izzy-young", "talkin-blues"],
@@ -1022,7 +1022,7 @@ export const TERMS: Term[] = [
     example: {
       title: "Girl from the North Country",
       note:
-        "From The Freewheelin' Bob Dylan, this solo acoustic performance is built around a steady fingerpicked figure and open-tuned resonance that leaves room for the vocal to tell the story.",
+        "From The Freewheelin' Bob Dylan, this solo acoustic performance is built around a steady fingerpicked figure in standard tuning, with ringing open strings that leave room for the vocal to tell the story.",
       media: { kind: "youtube", id: "JncbFS5ek74", spotifyId: "739sLmfUkVFoyPtb0C3263" },
     },
     related: ["strumming", "finger-picking"],
@@ -1259,7 +1259,7 @@ export const TERMS: Term[] = [
           "Tonight I'll Be Staying Here with You (Live at Montreal Forum, 1975)",
         note:
           "The loud end \u2014 a Rolling Thunder Revue performance played full tilt, the whole band at once and the vocal shouted over the top of it.",
-        media: { kind: "youtube", spotifyId: "1cigWAI69aQliu1CE15jZd" },
+        media: { kind: "youtube", id: "5l394wXm5k0", spotifyId: "1cigWAI69aQliu1CE15jZd" },
       },
     ],
     aliases: ["loud and soft", "volume", "crescendo", "light and shade"],
@@ -1341,7 +1341,7 @@ export const TERMS: Term[] = [
     example: {
       title: "The Lonesome Death of Hattie Carroll",
       note:
-        "Dylan uses a traditional ballad structure where the repeated refrain reinforces the song's moral message and emotional impact.",
+        "Unusually for Dylan, the refrain here works more like a pop chorus \u2014 a separate, recurring section ('But you who philosophize disgrace\u2026') rather than a line closing each verse. Then, very Dylanesque, he changes it the last time: 'Now ain't the time for your tears' becomes 'Now's the time for your tears.' Most pop choruses never vary like that.",
       media: { kind: "youtube", id: "FmbwU3J-2kk", spotifyId: "6j1fiAG1NFBqPDRfJY19Yv" },
     },
     related: ["verse", "bridge", "ballad"],
@@ -1397,7 +1397,7 @@ export const TERMS: Term[] = [
     title: "Drone",
     categories: ["Music"],
     definition:
-      "A sustained note or chord that continues continuously underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone eliminates the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch.",
+      "A sustained note or chord that holds steady underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone eliminates the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch.",
     inDylan:
       "The drone links Dylan's writing back to the modal folk tradition, where a fixed bass note anchors a melody instead of a moving chord sequence. This technique is particularly evident in his mid-sixties work and his later explorations of blues-based structures. By utilizing a drone-like approach, Dylan emphasizes the circular nature of his lyrics and the relentless delivery of his vocals, often allowing the atmosphere to build tension without the relief of a traditional chord progression.",
     example: {
@@ -1567,9 +1567,9 @@ export const TERMS: Term[] = [
     title: "Dave Van Ronk",
     categories: ["Influences"],
     definition:
-      "Dave Van Ronk was a central figure of the Greenwich Village folk revival, a formidable guitarist and singer whose command of ragtime, jazz, and traditional blues earned him the nickname 'The Mayor of MacDougal Street.' His raspy, expressive baritone and intricate fingerpicking style made him a sophisticated bridge between the archival recordings of the 1920s and the urban folk scene of the 1960s. He acted as a mentor and gatekeeper, guiding countless younger musicians through the complexities of the American songbook.",
+      "Dave Van Ronk was a central figure of the Greenwich Village folk revival, a formidable guitarist and singer whose command of ragtime, jazz, and traditional blues earned him the nickname 'The Mayor of MacDougal Street' — he played the street's clubs and basket houses so constantly that he seemed to preside over it. His raspy, expressive baritone and intricate fingerpicking style made him a sophisticated bridge between the archival recordings of the 1920s and the urban folk scene of the 1960s. He acted as a mentor and gatekeeper, guiding countless younger musicians through the complexities of the American songbook.",
     inDylan:
-      "Dylan sought out Van Ronk shortly after his arrival in New York, and the older musician's influence is evident in Dylan's early repertoire and vocal phrasing. Van Ronk's arrangement of 'House of the Risin' Sun' was famously borrowed by Dylan for his debut album, illustrating the fluid exchange of material in the Village. Dylan's early performance of 'He Was a Friend of Mine' mirrors the gravelly, blues-inflected delivery and steady thumb-beat guitar work that Van Ronk pioneered, marking a crucial apprenticeship in the art of the folk blues.",
+      "Dylan sought out Van Ronk shortly after his arrival in New York, and the older musician's influence is evident in Dylan's early repertoire and vocal phrasing. Van Ronk's arrangement of 'House of the Risin' Sun' was famously borrowed by Dylan for his debut album, much to Van Ronk's chagrin, since he had planned to record it himself. Ironically, when the Animals scored a hit with the song in 1964 using that same arrangement, Dylan had to stop playing it because audiences assumed he was copying them. Van Ronk retells the story in No Direction Home, a showcase for his great storytelling. Dylan's early performance of 'He Was a Friend of Mine' mirrors the gravelly, blues-inflected delivery and steady thumb-beat guitar work that Van Ronk pioneered, marking a crucial apprenticeship in the art of the folk blues.",
     example: {
       title: "He Was a Friend of Mine",
       note:
@@ -1719,13 +1719,25 @@ export const TERMS: Term[] = [
     definition:
       "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room. Owned and operated by Izzy Young, the store was an essential information hub where musicians gathered to trade techniques and study the Harry Smith anthology. It functioned as a clubhouse, library, and concert hall for the burgeoning underground folk scene.",
     inDylan:
-      "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert at Carnegie Chapter Hall in November 1961. The shop provided Dylan with the source material for many of his early covers and original compositions. Young was a key early supporter, keeping files and notes on Dylan's progress that later became vital historical documents. The store represents the physical center of the community that shaped Dylan's transition from an aspiring performer to a professional artist.",
-    example: {
-      title: "Izzy Young and the Folklore Center (film)",
-      note:
-        "Archive footage of Izzy Young and the MacDougal Street shop that served as the folk revival's front room.",
-      media: { kind: "youtube", id: "If3WGtI5v9s" },
-    },
+      "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged Dylan's first formal concert at Carnegie Chapter Hall in November 1961. The shop provided Dylan with the source material for many of his early covers and original compositions. Young was a key early supporter, keeping files and notes on Dylan's progress that later became vital historical documents. The store represents the physical center of the community that shaped Dylan's transition from an aspiring performer to a professional artist. In 1973 Young moved the Folklore Center to Stockholm, Sweden, and ran it there until his death in 2019; much of his collection now belongs to the Smithsonian.",
+    examples: [
+      {
+        title: "Live at Carnegie Chapter Hall, November 4, 1961",
+        note:
+          "Recordings from the concert Izzy Young organized for Dylan \u2014 his first formal concert, attended by only a few dozen people.",
+        media: {
+          kind: "youtube",
+          youtubeUrl: "https://www.youtube.com/watch?v=e9dwNwd30X0&list=PLo8l_QnwdNOmlYJX3hzrK0N5dZQTh0Epi",
+          albumId: "4ry3Ryew4ZUOWCMQbbw5c0",
+        },
+      },
+      {
+        title: "Izzy Young and the Folklore Center (documentary)",
+        note:
+          "A documentary about Izzy Young and the Folklore Center, from MacDougal Street to Stockholm.",
+        media: { kind: "link", url: "https://www.youtube.com/watch?v=If3WGtI5v9s&t=974s", label: "Watch the documentary" },
+      },
+    ],
     documents: [
       {
         src: folkloreCover,
@@ -1914,13 +1926,13 @@ export const TERMS: Term[] = [
     title: "Billie Holiday",
     categories: ["Influences"],
     definition:
-      "An influential jazz singer whose signature behind-the-beat phrasing and worn, intimate vocal tone redefined the possibilities of lyric interpretation. Rather than relying on technical virtuosity or volume, she manipulated tempo and pitch to convey deep psychological nuance, treating her voice like a solo horn. Her ability to inhabit a song and transform even mediocre material into a profound emotional statement made her one of the most significant figures in the history of American popular singing.",
+      "An influential jazz singer whose signature behind-the-beat phrasing and worn, intimate vocal tone redefined the possibilities of lyric interpretation. Rather than relying on technical virtuosity or volume, she manipulated tempo and pitch to convey deep psychological nuance, treating her voice like a solo horn. Her ability to inhabit a song and transform even slight Tin Pan Alley novelties and throwaway pop tunes into a profound emotional statement made her one of the most significant figures in the history of American popular singing.",
     inDylan:
       "Dylan has frequently cited her as a primary model for his own approach to time and rhythm. He learned from her that the singer's job is not to hit the note squarely on the beat, but to bend the line and play with the listener's expectations of duration. This loose, improvisational style became a hallmark of Dylan's live performances and his later studio work. He paid explicit tribute to her in his memoir, noting how her singing style provided a roadmap for how to project a lyric with truth and rhythmic freedom.",
     example: {
       title: "Strange Fruit",
       note:
-        "A protest song delivered almost without raising the voice \u2014 restraint and phrasing carrying the whole weight of the subject.",
+        "Based on Abel Meeropol's poem about the lynching of Black Americans in the South \u2014 the 'strange fruit' hanging from the poplar trees. Columbia, her label, wouldn't touch it, so she recorded it for Commodore in 1939. In No Direction Home it is held up as proof that serious, even harrowing material could live on a record, at a time when the industry held that popular music shouldn't be too visceral. She delivers it almost without raising her voice, restraint and phrasing carrying the whole weight of the subject.",
       media: { kind: "youtube", id: "-DGY9HvChXk", spotifyId: "6W5706MsehAWMAZLIg9Fu2" },
     },
     related: ["vocal-style", "protest-song", "melody"],
@@ -2018,7 +2030,7 @@ export const TERMS: Term[] = [
     definition:
       "A visionary Jamaican singer, songwriter, and musician, Bob Marley became the global face of reggae, elevating the genre from a local Caribbean sound to an international force for social and spiritual change. His music was deeply rooted in the Rastafarian faith, combining infectious rhythmic grooves with lyrics that addressed systemic oppression, redemption, and pan-African unity. Marley's work remains a primary example of how popular music can function as a vehicle for profound political and religious testimony while maintaining a broad, melodic appeal.",
     inDylan:
-      "Dylan attended Marley's performances in the mid-1970s and was profoundly moved by the experience, noting the power of a single voice carrying faith, politics, and rhythm as a unified force. This exposure directly influenced Dylan's musical direction during his late-1970s period, most notably in the rhythmic textures of the Street-Legal album and the reggae-influenced arrangements he employed on his 1978 world tour. Marley's example of integrating overt spiritual conviction with modern popular music served as a precursor to Dylan's own exploration of gospel and message-driven songwriting in the years that followed.",
+      "Dylan saw Bob Marley and the Wailers at the Roxy in Los Angeles in May 1976 — the one documented occasion — and was profoundly moved by the experience, noting the power of a single voice carrying faith, politics, and rhythm as a unified force. This exposure directly influenced Dylan's musical direction during his late-1970s period, most notably in the rhythmic textures of the Street-Legal album and the reggae-influenced arrangements he employed on his 1978 world tour. Marley's example of integrating overt spiritual conviction with modern popular music served as a precursor to Dylan's own exploration of gospel and message-driven songwriting in the years that followed.",
     example: {
       title: "Redemption Song",
       note:
@@ -2069,7 +2081,7 @@ export const TERMS: Term[] = [
     definition:
       "A central architect of rock and roll, Chuck Berry was a masterful guitarist and songwriter whose work defined the genre's initial vocabulary. His signature double-stop guitar riffs and his ability to write detailed, rhythmic lyrics about teenage life and American culture established him as rock's first great poet. Berry's songs were characterized by a sharp, witty delivery and a propulsive beat that married the swing of jump blues with the storytelling clarity of country music, creating a style that was both commercially successful and artistically revolutionary.",
     inDylan:
-      "The influence of Chuck Berry on Dylan is most evident in the frantic, rhythmic wordplay of his mid-1960s electric transition. Specifically, the tumbling, comic narrative style of Subterranean Homesick Blues was directly inspired by Berry's own rapid-fire delivery in Too Much Monkey Business. Beyond specific song structures, Berry's ability to elevate the vernacular of everyday life into sophisticated, rhyming verse provided a roadmap for Dylan's own expansion of the rock lyric. By adopting Berry's sense of pace and internal rhyme, Dylan was able to bridge the gap between folk tradition and the modern, high-velocity sound of the electric guitar.",
+      "The influence of Chuck Berry on Dylan is most evident in the frantic, rhythmic wordplay of his mid-1960s electric transition. Specifically, the tumbling, comic narrative style of Subterranean Homesick Blues was directly inspired by Berry's own rapid-fire delivery in Too Much Monkey Business. Beyond specific song structures, Berry's ability to elevate the vernacular of everyday life into sophisticated, rhyming verse provided a roadmap for Dylan's own expansion of the rock lyric. By adopting Berry's sense of pace and internal rhyme, Dylan was able to bridge the gap between folk tradition and the modern, high-velocity sound of the electric guitar. He kept coming back to Berry decades later: Thunder on the Mountain, from 2006's Modern Times, rides a riff that sounds a lot like Johnny B. Goode.",
     example: {
       title: "Too Much Monkey Business",
       note:
@@ -2175,7 +2187,7 @@ export const TERMS: Term[] = [
     title: "Daniel Lanois",
     categories: ["People, Places & Moments"],
     definition:
-      "A Canadian producer and multi-instrumentalist, Daniel Lanois is renowned for his atmospheric, room-heavy production style. He specializes in creating sonic textures that feel both ancient and modern, often using pedal steel, heavy reverb, and natural room acoustics to build a sense of place. His work is characterized by a moody, immersive quality that emphasizes emotional resonance.",
+      "A Canadian producer and multi-instrumentalist, Daniel Lanois is renowned for his atmospheric, room-heavy production style. Beyond Dylan, he co-produced U2's The Unforgettable Fire, The Joshua Tree and Achtung Baby with Brian Eno, and produced Peter Gabriel's So, Emmylou Harris's Wrecking Ball and Neil Young's Le Noise. He specializes in creating sonic textures that feel both ancient and modern, often using pedal steel, heavy reverb, and natural room acoustics to build a sense of place. His work is characterized by a moody, immersive quality that emphasizes emotional resonance.",
     inDylan:
       "Lanois is responsible for the sound of Dylan's two great late-period masterpieces, Oh Mercy and Time Out of Mind. He helped Dylan find a new voice by placing him in swampy, evocative soundscapes that matched the gravity of his aging vocals. On Time Out of Mind, the Grammy-winning collaboration resulted in a haunting, layered aesthetic that many critics consider the definitive sound of Dylan's twilight years, blending blues roots with ghostly modernism.",
     example: {
@@ -2192,9 +2204,9 @@ export const TERMS: Term[] = [
     title: "Film",
     categories: ["Context"],
     definition:
-      "Motion pictures represent Bob Dylan's long and often restless relationship with the camera, encompassing roles as an actor, subject, composer, and director. This fascination with the medium extends beyond simple performance into the structural logic of his storytelling, mirroring the jump-cuts and surrealist juxtapositions found in his lyrics. His cinematic output reflects a desire to control his own myth while simultaneously deconstructing it through fractured narratives and observational documentaries that challenge the traditional boundaries of the celebrity profile.",
+      "Film, or the motion picture, is the art of telling stories and recording the world through moving images, usually joined with sound. It began in the 1890s with the short films of the Lumi\u00e8re brothers and Thomas Edison, grew through the silent era into the Hollywood studio system, and gained synchronized sound in the late 1920s. Over the following century it branched into documentary, the art-house and New Wave cinemas of Europe, independent film and television, becoming the defining popular art of the modern age. Its basic tools \u2014 framing, editing, the cut from one image to the next \u2014 shaped how audiences of the 20th century learned to see and tell stories.",
     inDylan:
-      "Dylan's film life began with D.A. Pennebaker's cinema verite landmark Don't Look Back (1967) and continued with his own experimental collage Eat the Document. After a traditional acting role in Sam Peckinpah's Pat Garrett and Billy the Kid (1973), he took a primary creative role in Renaldo and Clara (1978), the sprawling four-hour Rolling Thunder experiment he co-wrote and starred in, and later appeared in the dystopian fable Masked and Anonymous (2003). Martin Scorsese later refined Dylan's history through No Direction Home (2005) and a semi-fictionalized Rolling Thunder Revue (2019), while A Complete Unknown (2024) brought his early years to a modern audience.",
+      "Dylan's relationship with the camera has been long and restless — as actor, subject, composer and director — and the jump-cuts and surreal juxtapositions of his lyrics often feel cinematic, while his films tend to build up his myth and take it apart at the same time. His film life began with D.A. Pennebaker's cinema verite landmark Don't Look Back (1967) and continued with his own experimental collage Eat the Document. After a traditional acting role in Sam Peckinpah's Pat Garrett and Billy the Kid (1973), he took a primary creative role in Renaldo and Clara (1978), the sprawling four-hour Rolling Thunder experiment he co-wrote and starred in, and later appeared in the dystopian fable Masked and Anonymous (2003). Martin Scorsese later refined Dylan's history through No Direction Home (2005) and a semi-fictionalized Rolling Thunder Revue (2019), while A Complete Unknown (2024) brought his early years to a modern audience.",
     example: {
       title: "Cold Irons Bound (Live, Masked & Anonymous)",
       note:

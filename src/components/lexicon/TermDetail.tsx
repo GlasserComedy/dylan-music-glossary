@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
+import { createPortal } from "react-dom";
 import type { Term } from "@/content/terms";
 import { TERMS } from "@/content/terms";
 import { MediaEmbed } from "./MediaEmbed";
@@ -17,6 +18,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
       ? [term.example]
       : []
   ).filter((ex) => ex.media);
+  const [zoomed, setZoomed] = useState<{ src: string; caption: string } | null>(null);
 
   return (
     <aside
@@ -76,12 +78,19 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {term.documents.map((doc) => (
               <figure key={doc.src}>
+                <button
+                  type="button"
+                  onClick={() => setZoomed(doc)}
+                  className="block w-full cursor-zoom-in"
+                  aria-label={`View larger: ${doc.caption}`}
+                >
                 <img
                   src={doc.src}
                   alt={doc.caption}
                   loading="lazy"
                   className="w-full border border-ink/15 bg-paper"
                 />
+                </button>
                 <figcaption className="mt-2 font-body text-[13px] leading-relaxed text-ink/60">
                   {doc.caption}
                 </figcaption>
@@ -109,6 +118,27 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
             })}
           </div>
         </Section>
+      )}
+      {zoomed && createPortal(
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink/80 p-4"
+          onClick={() => setZoomed(null)}
+          role="dialog"
+          aria-modal="true"
+        >
+          <button
+            onClick={() => setZoomed(null)}
+            className="absolute right-4 top-4 rounded bg-paper p-2 text-ink"
+            aria-label="Close image"
+          >
+            <X className="h-5 w-5" />
+          </button>
+          <figure className="max-h-full max-w-4xl" onClick={(e) => e.stopPropagation()}>
+            <img src={zoomed.src} alt={zoomed.caption} className="max-h-[85vh] w-auto bg-paper object-contain" />
+            <figcaption className="mt-2 text-center font-body text-[13px] text-paper">{zoomed.caption}</figcaption>
+          </figure>
+        </div>,
+        document.body,
       )}
     </aside>
   );
