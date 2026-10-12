@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
+import { createPortal } from "react-dom";
 import type { Term } from "@/content/terms";
 import { TERMS } from "@/content/terms";
 import { MediaEmbed } from "./MediaEmbed";
@@ -118,7 +119,7 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
           </div>
         </Section>
       )}
-      {zoomed && (
+      {zoomed && createPortal(
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center bg-ink/80 p-4"
           onClick={() => setZoomed(null)}
@@ -136,7 +137,8 @@ export function TermDetail({ term, onSelectTerm, onClose }: Props) {
             <img src={zoomed.src} alt={zoomed.caption} className="max-h-[85vh] w-auto bg-paper object-contain" />
             <figcaption className="mt-2 text-center font-body text-[13px] text-paper">{zoomed.caption}</figcaption>
           </figure>
-        </div>
+        </div>,
+        document.body,
       )}
     </aside>
   );
