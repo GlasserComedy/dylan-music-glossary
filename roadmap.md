@@ -11,3 +11,4 @@
 - [x] Correct the All the Tired Horses note: the opening bars are strictly a cappella before instruments enter.
 - [x] A cappella entry: add Kurtis Blow's "Street Rock" opening — Dylan rapping a cappella (second example box, real Spotify/YouTube links); rap entry note corrected to "raps a cappella over the opening"
 - [x] Shorten and simplify the "All the Tired Horses" note: the intro is a cappella before the instruments join in.
+- [x] Apply the uploaded "Dylan website updates" list (Blues through Guitar), plus enlargeable documents.
