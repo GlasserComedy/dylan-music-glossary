@@ -235,11 +235,11 @@ export const TERMS: Term[] = [
     definition:
       "The mid-20th-century American movement that brought traditional folk songs and rural ballads back into the mainstream popular culture. Centered in urban hubs like Greenwich Village and popularized by figures such as Pete Seeger, The Weavers, and Joan Baez, the revival emphasized acoustic instrumentation, social activism, and the preservation of historical oral traditions that had been largely ignored by the commercial recording industry of the 1940s.",
     inDylan:
-      "Dylan arrived in New York City in 1961 at the height of this movement, immersing himself in the repertoire of the Anthology of American Folk Music and the archives of the New York Public Library. While he initially mastered the traditional idiom, he eventually catalyzed the movement's evolution toward original songwriting and electric rock, famously causing a schism at the 1965 Newport Folk Festival by challenging the rigid boundaries of acoustic purity.",
+      "Dylan arrived in New York City in 1961 at the height of this movement, learning from Village mentors like Dave Van Ronk — whose arrangement of House of the Rising Sun Dylan took for his debut album — and immersing himself in the repertoire of the Anthology of American Folk Music and the archives of the New York Public Library. While he initially mastered the traditional idiom, he eventually catalyzed the movement's evolution toward original songwriting and electric rock, famously causing a schism at the 1965 Newport Folk Festival by challenging the rigid boundaries of acoustic purity.",
     example: {
       title: "House of the Risin' Sun",
       note:
-        "A traditional song Dylan learned in the Village and recorded on his debut, showing how the revival passed old material into new hands.",
+        "A traditional song Dylan learned in the Village and recorded on his debut using Dave Van Ronk's rendition and chord arrangement, showing how the revival passed old material into new hands.",
       media: { kind: "youtube", id: "RP_caKDfoyU", spotifyId: "3yFRbFaSj8MeNuYaN21HIu" },
     },
     related: ["acoustic", "woody-guthrie", "protest-song"],
@@ -249,9 +249,9 @@ export const TERMS: Term[] = [
     title: "Gospel",
     categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
-      "A genre of Christian devotional music deeply rooted in African-American church traditions, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
+      "A genre of Christian devotional music deeply rooted in African-American church traditions and growing out of the spirituals sung by enslaved people in the 18th and 19th centuries, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
     inDylan:
-      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records utilized professional gospel choirs and impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
+      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records used a small group of gospel-trained backing singers — among them Regina McCrary, Clydie King, Mona Lisa Young and Helena Springs — rather than full choirs, along with impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
     example: {
       title: "What Can I Do for You?",
       note:
@@ -962,13 +962,13 @@ export const TERMS: Term[] = [
     title: "Folklore",
     categories: ["Roots & Tradition"],
     definition:
-      "Folklore encompasses the traditional beliefs, customs, and stories of a community, typically passed through generations via word of mouth or music. It serves as a repository for cultural identity, containing myths, legends, and ballads that reflect the hardships and triumphs of everyday people. Unlike commercial pop, folklore is often viewed as a living, breathing lineage where songs are adapted and reinterpreted by each new performer who encounters the material.",
+      "Folklore is the body of expressive culture shared by a particular group of people, culture or subculture. It includes oral traditions such as tales, legends, proverbs, poems, jokes and songs; material culture, such as traditional building styles and crafts; and customary lore \u2014 folk beliefs and folk religion, and the forms and rituals of celebrations such as festivals, weddings, folk dances and initiation rites. Passed on by word of mouth and example rather than by institutions, it is a living lineage that each generation adapts and reinterprets, and a store of a community's identity, hardships and triumphs.",
     inDylan:
       "Dylan drew deeply from the wells of American and British folklore, utilizing the structures of ancient ballads to ground his songwriting. By tapping into the oral tradition, he carried forward a legacy of storytelling while injecting it with a modern, individualistic voice. He frequently borrowed melodies and motifs from traditional songs he discovered in the Harry Smith anthology, treating the past not as a museum piece but as a foundation for creating new, resonant works of art.",
     example: {
       title: "The Water Is Wide",
       note:
-        "A traditional British folk song Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice. It also shows his life-long love and appreciation of traditional songs \u2014 he has gone back to them again and again as a way of getting renewed inspiration.",
+        "A traditional British folk song, also known as O Waly, Waly, that Dylan recorded during the Time Out of Mind sessions, showing how an old melody could be renewed by his weathered voice. It also shows his life-long love and appreciation of traditional songs \u2014 he has gone back to them again and again as a way of getting renewed inspiration.",
       media: { kind: "youtube", id: "ozKv_Nmgrkw", spotifyId: "6EmdWTaN4455ZPfZqoc0pT" },
     },
     related: ["traditional", "ballad", "greenwich-village", "folklore-center", "izzy-young", "talkin-blues"],
@@ -1022,7 +1022,7 @@ export const TERMS: Term[] = [
     example: {
       title: "Girl from the North Country",
       note:
-        "From The Freewheelin' Bob Dylan, this solo acoustic performance is built around a steady fingerpicked figure and open-tuned resonance that leaves room for the vocal to tell the story.",
+        "From The Freewheelin' Bob Dylan, this solo acoustic performance is built around a steady fingerpicked figure in standard tuning, with ringing open strings that leave room for the vocal to tell the story.",
       media: { kind: "youtube", id: "JncbFS5ek74", spotifyId: "739sLmfUkVFoyPtb0C3263" },
     },
     related: ["strumming", "finger-picking"],
@@ -1719,13 +1719,25 @@ export const TERMS: Term[] = [
     definition:
       "The small shop at 110 MacDougal Street in Greenwich Village that sold instruments, songbooks and records, and served as the folk revival's meeting room. Owned and operated by Izzy Young, the store was an essential information hub where musicians gathered to trade techniques and study the Harry Smith anthology. It functioned as a clubhouse, library, and concert hall for the burgeoning underground folk scene.",
     inDylan:
-      "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged his first formal concert at Carnegie Chapter Hall in November 1961. The shop provided Dylan with the source material for many of his early covers and original compositions. Young was a key early supporter, keeping files and notes on Dylan's progress that later became vital historical documents. The store represents the physical center of the community that shaped Dylan's transition from an aspiring performer to a professional artist.",
-    example: {
-      title: "Izzy Young and the Folklore Center (film)",
-      note:
-        "Archive footage of Izzy Young and the MacDougal Street shop that served as the folk revival's front room.",
-      media: { kind: "youtube", id: "If3WGtI5v9s" },
-    },
+      "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there; Izzy Young staged Dylan's first formal concert at Carnegie Chapter Hall in November 1961. The shop provided Dylan with the source material for many of his early covers and original compositions. Young was a key early supporter, keeping files and notes on Dylan's progress that later became vital historical documents. The store represents the physical center of the community that shaped Dylan's transition from an aspiring performer to a professional artist. In 1973 Young moved the Folklore Center to Stockholm, Sweden, and ran it there until his death in 2019; much of his collection now belongs to the Smithsonian.",
+    examples: [
+      {
+        title: "Live at Carnegie Chapter Hall, November 4, 1961",
+        note:
+          "Recordings from the concert Izzy Young organized for Dylan \u2014 his first formal concert, attended by only a few dozen people.",
+        media: {
+          kind: "youtube",
+          youtubeUrl: "https://www.youtube.com/watch?v=e9dwNwd30X0&list=PLo8l_QnwdNOmlYJX3hzrK0N5dZQTh0Epi",
+          albumId: "4ry3Ryew4ZUOWCMQbbw5c0",
+        },
+      },
+      {
+        title: "Izzy Young and the Folklore Center (documentary)",
+        note:
+          "A documentary about Izzy Young and the Folklore Center, from MacDougal Street to Stockholm.",
+        media: { kind: "link", url: "https://www.youtube.com/watch?v=If3WGtI5v9s&t=974s", label: "Watch the documentary" },
+      },
+    ],
     documents: [
       {
         src: folkloreCover,
