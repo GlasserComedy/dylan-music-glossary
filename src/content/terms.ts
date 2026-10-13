@@ -1,6 +1,7 @@
 import folkloreCover from "@/assets/Talking_folklore_center_cover.jpg";
 import folkloreSheet from "@/assets/talking-folklore-center-2.jpg";
 import folkloreSeries from "@/assets/talking-folklore-center-3.jpg";
+import izzyPortrait from "@/assets/izzy-young.webp";
 
 export type Category =
   | "Music"
@@ -1721,16 +1722,6 @@ export const TERMS: Term[] = [
     inDylan:
       "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there. It was where Izzy Young introduced him to Dave Van Ronk; Pete Seeger was also a regular visitor to the shop. In Chronicles: Volume One, Dylan devotes several pages to vivid descriptions of Izzy and the Folklore Center, recalling both Young's larger-than-life personality and the little shop's wealth of folk music. Young staged Dylan's first formal concert at Carnegie Chapter Hall in November 1961. The shop provided Dylan with the source material for many of his early covers and original compositions. Young was a key early supporter, keeping files and notes on Dylan's progress that later became vital historical documents. The store represents the physical center of the community that shaped Dylan's transition from an aspiring performer to a professional artist. In 1973 Young moved the Folklore Center to Stockholm, Sweden, and ran it there until his death in 2019; much of his collection now belongs to the Smithsonian.",
     examples: [
-      {
-        title: "Song to Woody (Live 1961 Carnegie Chapter Hall)",
-        note:
-          "Dylan performs \u201cSong to Woody\u201d at the concert Izzy Young organized at Carnegie Chapter Hall on November 4, 1961 \u2014 his first formal concert, attended by only a few dozen people.",
-        media: {
-          kind: "youtube",
-          youtubeUrl: "https://www.youtube.com/watch?v=BJYe23zMR2Y&list=RDBJYe23zMR2Y&start_radio=1",
-          spotifyId: "7A6hQL07zN2nWOalDmAmft",
-        },
-      },
       {
         title: "Izzy Young and the Folklore Center (documentary)",
         note:
