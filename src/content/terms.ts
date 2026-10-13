@@ -1762,13 +1762,29 @@ export const TERMS: Term[] = [
       "Israel \u201cIzzy\u201d Young, folklorist and founder of the Folklore Center, who promoted concerts, kept notebooks on the scene, and later ran the Folklore Centrum in Stockholm.",
     inDylan:
       "Young interviewed Dylan in 1961 and produced his first New York concert, becoming one of the earliest people to write down who this singer said he was. He was also the unassuming leader of the protest against the city's ban on instrument playing in Washington Square Park: after the Parks Department refused the musicians' permit in the spring of 1961, Young organised the demonstration that became known as the Beatnik Riot on 9 April, marching to the fountain with hundreds of singers. When the police moved in, he led the crowd in the one song that could not be called unpatriotic \u2014 The Star-Spangled Banner.",
-    example: {
-      title: "Izzy Young and the Folklore Center (film)",
-      note:
-        "Archive footage of Izzy Young and the MacDougal Street shop that served as the folk revival's front room.",
-      media: { kind: "youtube", id: "If3WGtI5v9s" },
-    },
+    examples: [
+      {
+        title: "Song to Woody (Live 1961 Carnegie Chapter Hall)",
+        note:
+          "Dylan performs \u201cSong to Woody\u201d at the concert Izzy Young organized at Carnegie Chapter Hall on November 4, 1961 \u2014 his first formal concert, attended by only a few dozen people.",
+        media: {
+          kind: "youtube",
+          youtubeUrl: "https://youtube.com/playlist?list=OLAK5uy_kmTrWL-8sjVSV9osOzr6KmiS6TJBAz8cs",
+          albumId: "4ry3Ryew4ZUOWCMQbbw5c0",
+        },
+      },
+      {
+        title: "Izzy Young and the Folklore Center (film)",
+        note:
+          "Archive footage of Izzy Young and the MacDougal Street shop that served as the folk revival's front room.",
+        media: { kind: "youtube", id: "If3WGtI5v9s" },
+      },
+    ],
     documents: [
+      {
+        src: izzyPortrait,
+        caption: "Izzy Young, folklorist and founder of the Folklore Center.",
+      },
       {
         src: folkloreCover,
         caption:
