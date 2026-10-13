@@ -1723,6 +1723,16 @@ export const TERMS: Term[] = [
       "Dylan hung around the Folklore Center from his first weeks in New York, borrowing records and songs there. It was where Izzy Young introduced him to Dave Van Ronk; Pete Seeger was also a regular visitor to the shop. In Chronicles: Volume One, Dylan devotes several pages to vivid descriptions of Izzy and the Folklore Center, recalling both Young's larger-than-life personality and the little shop's wealth of folk music. Young staged Dylan's first formal concert at Carnegie Chapter Hall in November 1961. The shop provided Dylan with the source material for many of his early covers and original compositions. Young was a key early supporter, keeping files and notes on Dylan's progress that later became vital historical documents. The store represents the physical center of the community that shaped Dylan's transition from an aspiring performer to a professional artist. In 1973 Young moved the Folklore Center to Stockholm, Sweden, and ran it there until his death in 2019; much of his collection now belongs to the Smithsonian.",
     examples: [
       {
+        title: "Live from the Folklore Center",
+        note:
+          "Live recordings from the Folklore Center, the shop and gathering place founded by Izzy Young.",
+        media: {
+          kind: "youtube",
+          youtubeUrl: "https://youtube.com/playlist?list=OLAK5uy_kmTrWL-8sjVSV9osOzr6KmiS6TJBAz8cs",
+          albumId: "4ry3Ryew4ZUOWCMQbbw5c0",
+        },
+      },
+      {
         title: "Izzy Young and the Folklore Center (documentary)",
         note:
           "A documentary about Izzy Young and the Folklore Center, from MacDougal Street to Stockholm.",
@@ -1769,15 +1779,15 @@ export const TERMS: Term[] = [
           "Dylan performs \u201cSong to Woody\u201d at the concert Izzy Young organized at Carnegie Chapter Hall on November 4, 1961 \u2014 his first formal concert, attended by only a few dozen people.",
         media: {
           kind: "youtube",
-          youtubeUrl: "https://youtube.com/playlist?list=OLAK5uy_kmTrWL-8sjVSV9osOzr6KmiS6TJBAz8cs",
-          albumId: "4ry3Ryew4ZUOWCMQbbw5c0",
+          id: "BJYe23zMR2Y",
+          spotifyId: "7A6hQL07zN2nWOalDmAmft",
         },
       },
       {
         title: "Izzy Young and the Folklore Center (film)",
         note:
           "Archive footage of Izzy Young and the MacDougal Street shop that served as the folk revival's front room.",
-        media: { kind: "youtube", id: "If3WGtI5v9s" },
+        media: { kind: "link", url: "https://www.youtube.com/watch?v=If3WGtI5v9s&t=974s", label: "Watch the documentary" },
       },
     ],
     documents: [

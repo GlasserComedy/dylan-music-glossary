@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Content-link regression tests use Node's built-in test runner to check exact per-entry destinations without requiring asset imports.
