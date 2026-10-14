@@ -28,3 +28,21 @@ test("Both entries retain the documentary separately", () => {
     assert.match(entry(slug), /kind: "link", url: "https:\/\/www.youtube.com\/watch\?v=If3WGtI5v9s&t=974s"/);
   }
 });
+
+test("Chuck Berry uses the requested replacement video", () => {
+  assert.match(entry("chuck-berry"), /youtubeUrl: "https:\/\/www.youtube.com\/watch\?v=vQ2FIdJ_uhE&list=RDvQ2FIdJ_uhE&start_radio=1"/);
+});
+
+test("Folk Revival links to the existing Dave Van Ronk entry", () => {
+  const related = entry("folk-revival").match(/related: \[([^\]]+)\]/);
+  assert.ok(related);
+  assert.match(related[1], /"dave-van-ronk"/);
+});
+
+test("Folklore Center shares Izzy Young's portrait", () => {
+  for (const slug of ["folklore-center", "izzy-young"]) {
+    const documents = entry(slug).split("documents: [")[1]?.split("related:")[0];
+    assert.ok(documents);
+    assert.match(documents, /src: izzyPortrait/);
+  }
+});

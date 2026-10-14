@@ -240,10 +240,10 @@ export const TERMS: Term[] = [
     example: {
       title: "House of the Risin' Sun",
       note:
-        "A traditional song Dylan learned in the Village and recorded on his debut using Dave Van Ronk's rendition and chord arrangement, showing how the revival passed old material into new hands.",
+        "A traditional song Dylan learned in the Village and recorded on his debut using Dave Van Ronk's rendition and chord arrangement, showing how the revival passed old material into new hands. Read the Dave Van Ronk entry for more on the story behind this arrangement.",
       media: { kind: "youtube", id: "RP_caKDfoyU", spotifyId: "3yFRbFaSj8MeNuYaN21HIu" },
     },
-    related: ["acoustic", "woody-guthrie", "protest-song"],
+    related: ["acoustic", "woody-guthrie", "protest-song", "dave-van-ronk"],
   },
   {
     slug: "gospel",
@@ -252,7 +252,7 @@ export const TERMS: Term[] = [
     definition:
       "A genre of Christian devotional music deeply rooted in African-American church traditions and growing out of the spirituals sung by enslaved people in the 18th and 19th centuries, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
     inDylan:
-      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records used a small group of gospel-trained backing singers — among them Regina McCrary, Clydie King, Mona Lisa Young and Helena Springs — rather than full choirs, along with impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
+      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records used a small group of gospel-trained backing singers — among them Regina McCrary, Clydie King, Mona Lisa Young and Helena Springs — along with impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
     example: {
       title: "What Can I Do for You?",
       note:
@@ -306,9 +306,9 @@ export const TERMS: Term[] = [
     title: "Imagery",
     categories: ["Songwriting"],
     definition:
-      "Descriptive language that appeals to the senses and conjures pictures in the mind. In Dylan's work it ranges from concrete, almost cinematic snapshots to dreamlike, symbolist visions, sometimes packing a vivid scene into a single line.",
+      "Descriptive language that appeals to the senses, evoking sights, sounds, smells, tastes, and physical sensations. In poetry, prose, and song, imagery can make an abstract feeling tangible or establish a scene without explaining it directly. It ranges from precise, everyday details to dreamlike visions, inviting the reader or listener to experience a moment rather than simply be told about it.",
     inDylan:
-      "From the early 'foggy ruins of time' and 'sad forests' to the hallucinogenic visions of the mid-1960s and the parched, weathered landscapes of his later albums, Dylan built his songs out of pictures. His images are rarely decorative; they act as emotional arguments, turning a train whistle, a pebble, or a ghost of electricity into something the listener can almost see. 'A Hard Rain's A-Gonna Fall' piles up apocalyptic pictures, while 'Visions of Johanna' lets disconnected images float like projections in a dark room.",
+      "In Dylan's work, imagery ranges from concrete, almost cinematic snapshots to dreamlike, symbolist visions, sometimes packing a vivid scene into a single line. From the early 'foggy ruins of time' and 'sad forests' to the hallucinogenic visions of the mid-1960s and the parched, weathered landscapes of his later albums, Dylan built his songs out of pictures. His images are rarely decorative; they act as emotional arguments, turning a train whistle, a pebble, or a ghost of electricity into something the listener can almost see. 'A Hard Rain's A-Gonna Fall' piles up apocalyptic pictures, while 'Visions of Johanna' lets disconnected images float like projections in a dark room.",
     example: {
       title: "Visions of Johanna",
       note:
@@ -921,7 +921,7 @@ export const TERMS: Term[] = [
     example: {
       title: "Ballad of a Thin Man",
       note:
-        "Mr. Jones \u2014 baffled, respectable and out of his depth \u2014 became the counter-culture's shorthand for the establishment.",
+        "Mr. Jones \u2014 baffled, respectable and out of his depth \u2014 is confronted with a world he cannot understand, suggesting the gulf between conventional respectability and a changing culture.",
       media: { kind: "youtube", id: "we37yX3zpKA", spotifyId: "0f5N14nB8xi0p3o4BlVvbx" },
     },
     related: ["1960s", "protest-song"],
@@ -1400,7 +1400,7 @@ export const TERMS: Term[] = [
     definition:
       "A sustained note or chord that holds steady underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone eliminates the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch.",
     inDylan:
-      "The drone links Dylan's writing back to the modal folk tradition, where a fixed bass note anchors a melody instead of a moving chord sequence. This technique is particularly evident in his mid-sixties work and his later explorations of blues-based structures. By utilizing a drone-like approach, Dylan emphasizes the circular nature of his lyrics and the relentless delivery of his vocals, often allowing the atmosphere to build tension without the relief of a traditional chord progression.",
+      "The drone links Dylan's writing back to the modal folk tradition, where a fixed bass note anchors a melody instead of a moving chord sequence. This technique is particularly evident in his mid-sixties work and his later explorations of blues-based structures. By utilizing a drone-like approach, Dylan emphasizes the circular nature of his lyrics and the often times relentless delivery of his vocals, often allowing the atmosphere to build tension without the relief of a traditional chord progression.",
     example: {
       title: "Masters of War",
       note:
@@ -1568,7 +1568,7 @@ export const TERMS: Term[] = [
     title: "Dave Van Ronk",
     categories: ["Influences"],
     definition:
-      "Dave Van Ronk was a central figure of the Greenwich Village folk revival, a formidable guitarist and singer whose command of ragtime, jazz, and traditional blues earned him the nickname 'The Mayor of MacDougal Street' — he played the street's clubs and basket houses so constantly that he seemed to preside over it. His raspy, expressive baritone and intricate fingerpicking style made him a sophisticated bridge between the archival recordings of the 1920s and the urban folk scene of the 1960s. He acted as a mentor and gatekeeper, guiding countless younger musicians through the complexities of the American songbook.",
+      "Dave Van Ronk was a central figure of the Greenwich Village folk revival. He performed so constantly in MacDougal Street's clubs and basket houses that he earned the nickname 'The Mayor of MacDougal Street.' A formidable guitarist and singer with a command of ragtime, jazz, and traditional blues, his raspy, expressive baritone and intricate fingerpicking style made him a sophisticated bridge between the archival recordings of the 1920s and the urban folk scene of the 1960s. He acted as a mentor and gatekeeper, guiding countless younger musicians through the complexities of the American songbook.",
     inDylan:
       "Dylan sought out Van Ronk shortly after his arrival in New York, and the older musician's influence is evident in Dylan's early repertoire and vocal phrasing. Van Ronk's arrangement of 'House of the Risin' Sun' was famously borrowed by Dylan for his debut album, much to Van Ronk's chagrin, since he had planned to record it himself. Ironically, when the Animals scored a hit with the song in 1964 using that same arrangement, Dylan had to stop playing it because audiences assumed he was copying them. Van Ronk retells the story in No Direction Home, a showcase for his great storytelling. Dylan's early performance of 'He Was a Friend of Mine' mirrors the gravelly, blues-inflected delivery and steady thumb-beat guitar work that Van Ronk pioneered, marking a crucial apprenticeship in the art of the folk blues.",
     example: {
@@ -1740,6 +1740,10 @@ export const TERMS: Term[] = [
       },
     ],
     documents: [
+      {
+        src: izzyPortrait,
+        caption: "Izzy Young, folklorist and founder of the Folklore Center.",
+      },
       {
         src: folkloreCover,
         caption:
@@ -2047,7 +2051,7 @@ export const TERMS: Term[] = [
     definition:
       "A visionary Jamaican singer, songwriter, and musician, Bob Marley became the global face of reggae, elevating the genre from a local Caribbean sound to an international force for social and spiritual change. His music was deeply rooted in the Rastafarian faith, combining infectious rhythmic grooves with lyrics that addressed systemic oppression, redemption, and pan-African unity. Marley's work remains a primary example of how popular music can function as a vehicle for profound political and religious testimony while maintaining a broad, melodic appeal.",
     inDylan:
-      "Dylan saw Bob Marley and the Wailers at the Roxy in Los Angeles in May 1976 — the one documented occasion — and was profoundly moved by the experience, noting the power of a single voice carrying faith, politics, and rhythm as a unified force. This exposure directly influenced Dylan's musical direction during his late-1970s period, most notably in the rhythmic textures of the Street-Legal album and the reggae-influenced arrangements he employed on his 1978 world tour. Marley's example of integrating overt spiritual conviction with modern popular music served as a precursor to Dylan's own exploration of gospel and message-driven songwriting in the years that followed.",
+      "Dylan saw Bob Marley and the Wailers at the Roxy in Los Angeles in May 1976 and was profoundly moved by the experience, noting the power of a single voice carrying faith, politics, and rhythm as a unified force. This exposure directly influenced Dylan's musical direction during his late-1970s period, most notably in the rhythmic textures of the Street-Legal album and the reggae-influenced arrangements he employed on his 1978 world tour. Marley's example of integrating overt spiritual conviction with modern popular music served as a precursor to Dylan's own exploration of gospel and message-driven songwriting in the years that followed.",
     example: {
       title: "Redemption Song",
       note:
@@ -2098,12 +2102,12 @@ export const TERMS: Term[] = [
     definition:
       "A central architect of rock and roll, Chuck Berry was a masterful guitarist and songwriter whose work defined the genre's initial vocabulary. His signature double-stop guitar riffs and his ability to write detailed, rhythmic lyrics about teenage life and American culture established him as rock's first great poet. Berry's songs were characterized by a sharp, witty delivery and a propulsive beat that married the swing of jump blues with the storytelling clarity of country music, creating a style that was both commercially successful and artistically revolutionary.",
     inDylan:
-      "The influence of Chuck Berry on Dylan is most evident in the frantic, rhythmic wordplay of his mid-1960s electric transition. Specifically, the tumbling, comic narrative style of Subterranean Homesick Blues was directly inspired by Berry's own rapid-fire delivery in Too Much Monkey Business. Beyond specific song structures, Berry's ability to elevate the vernacular of everyday life into sophisticated, rhyming verse provided a roadmap for Dylan's own expansion of the rock lyric. By adopting Berry's sense of pace and internal rhyme, Dylan was able to bridge the gap between folk tradition and the modern, high-velocity sound of the electric guitar. He kept coming back to Berry decades later: Thunder on the Mountain, from 2006's Modern Times, rides a riff that sounds a lot like Johnny B. Goode.",
+      "The influence of Chuck Berry on Dylan is most evident in the frantic, rhythmic wordplay of his mid-1960s electric transition. Specifically, the tumbling, comic narrative style of Subterranean Homesick Blues was directly inspired by Berry's own rapid-fire delivery in Too Much Monkey Business. Beyond specific song structures, Berry's ability to elevate the vernacular of everyday life into sophisticated, rhyming verse provided a roadmap for Dylan's own expansion of the rock lyric. By adopting Berry's sense of pace and internal rhyme, Dylan was able to bridge the gap between folk tradition and the modern, high-velocity sound of the electric guitar. He kept coming back to Berry decades later: Thunder on the Mountain, from 2006's Modern Times, is directly inspired by the melody and rhythm of Johnny B. Goode, recasting that familiar musical framework with new lyrics rather than simply borrowing a guitar riff.",
     example: {
       title: "Too Much Monkey Business",
       note:
         "A list-song of daily irritations delivered at speed \u2014 the rhythmic template Dylan borrowed for Subterranean Homesick Blues.",
-      media: { kind: "youtube", id: "gxMDKzOgVVo", spotifyId: "7cYcfTspJ2r3xEnilg9B5o" },
+      media: { kind: "youtube", id: "vQ2FIdJ_uhE", youtubeUrl: "https://www.youtube.com/watch?v=vQ2FIdJ_uhE&list=RDvQ2FIdJ_uhE&start_radio=1", spotifyId: "7cYcfTspJ2r3xEnilg9B5o" },
     },
     related: ["rock", "rhyme", "narrative"],
     aliases: ["Johnny B. Goode", "St. Louis", "duck walk", "Chess Records"],
