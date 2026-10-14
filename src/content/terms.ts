@@ -306,7 +306,7 @@ export const TERMS: Term[] = [
     title: "Imagery",
     categories: ["Songwriting"],
     definition:
-      "Descriptive language that appeals to the senses and conjures pictures in the mind. In Dylan's work it ranges from concrete, almost cinematic snapshots to dreamlike, symbolist visions, often compressing a whole world into a single line.",
+      "Descriptive language that appeals to the senses and conjures pictures in the mind. In Dylan's work it ranges from concrete, almost cinematic snapshots to dreamlike, symbolist visions, sometimes packing a vivid scene into a single line.",
     inDylan:
       "From the early 'foggy ruins of time' and 'sad forests' to the hallucinogenic visions of the mid-1960s and the parched, weathered landscapes of his later albums, Dylan built his songs out of pictures. His images are rarely decorative; they act as emotional arguments, turning a train whistle, a pebble, or a ghost of electricity into something the listener can almost see. 'A Hard Rain's A-Gonna Fall' piles up apocalyptic pictures, while 'Visions of Johanna' lets disconnected images float like projections in a dark room.",
     example: {
@@ -1655,7 +1655,7 @@ export const TERMS: Term[] = [
     definition:
       "Hank Williams was the definitive singer-songwriter of post-war country music, whose stark, emotionally transparent lyrics earned him the title of the 'Hillbilly Shakespeare.' His ability to distill complex feelings of loneliness, devotion, and despair into simple, resonant melodies revolutionized the genre. Despite a brief career, his work established the template for the modern country song, emphasizing the songwriter's personal voice and a direct, unadorned delivery that spoke to the experiences of a broad American audience.",
     inDylan:
-      "Dylan has consistently identified Hank Williams as his primary musical hero, noting that the country star's songs provided his earliest lessons in the economy of language and the power of plainspoken truth. Williams' influence is woven into the fabric of Dylan's songwriting, particularly in his ability to convey deep pathos through minimalist structures. For Dylan, Williams was not just a performer but a spiritual guide whose rhythmic phrasing and clarity of expression remained a foundational standard for his own explorations of the American musical landscape.",
+      "Dylan has consistently identified Hank Williams as his primary musical hero, noting that the country star's songs provided his earliest lessons in the economy of language and the power of plainspoken truth. Williams' influence is woven into the fabric of Dylan's songwriting, particularly in his ability to convey deep pathos through minimalist structures. For Dylan, Williams was not just a performer but a spiritual guide whose rhythmic phrasing and clarity of expression remained a foundational standard for his own explorations of the American musical landscape. Williams' \u201cLost Highway\u201d even opens with the line \u201cI'm a rolling stone,\u201d which leads one to wonder whether the song directly fed into one of Dylan's greatest hits, \u201cLike a Rolling Stone.\u201d",
     example: {
       title: "Lost Highway",
       note:
@@ -1725,7 +1725,7 @@ export const TERMS: Term[] = [
       {
         title: "Live from the Folklore Center",
         note:
-          "Live recordings from the Folklore Center, the shop and gathering place founded by Izzy Young.",
+          "An album of a Tim Buckley concert recorded at the Folklore Center, the shop and gathering place founded by Izzy Young.",
         media: {
           kind: "youtube",
           youtubeUrl: "https://youtube.com/playlist?list=OLAK5uy_kmTrWL-8sjVSV9osOzr6KmiS6TJBAz8cs",
@@ -1769,9 +1769,9 @@ export const TERMS: Term[] = [
     title: "Izzy Young",
     categories: ["People, Places & Moments"],
     definition:
-      "Israel \u201cIzzy\u201d Young, folklorist and founder of the Folklore Center, who promoted concerts, kept notebooks on the scene, and later ran the Folklore Centrum in Stockholm.",
+      "Israel \u201cIzzy\u201d Young, folklorist and founder of the Folklore Center, who promoted concerts, kept notebooks on the scene, and later ran the Folklore Centrum in Stockholm. Born in the Bronx in 1928, he opened his tiny MacDougal Street shop in 1957, selling records, books and instruments, and it quickly became a meeting place, message board and informal concert venue for the folk revival. He championed young performers, published columns on the scene, and kept detailed diaries that remain an invaluable record of Greenwich Village in its folk heyday.",
     inDylan:
-      "Young interviewed Dylan in 1961 and produced his first New York concert, becoming one of the earliest people to write down who this singer said he was. He was also the unassuming leader of the protest against the city's ban on instrument playing in Washington Square Park: after the Parks Department refused the musicians' permit in the spring of 1961, Young organised the demonstration that became known as the Beatnik Riot on 9 April, marching to the fountain with hundreds of singers. When the police moved in, he led the crowd in the one song that could not be called unpatriotic \u2014 The Star-Spangled Banner.",
+      "Young interviewed Dylan in 1961 and organized Dylan's first New York concert, at Carnegie Chapter Hall in November 1961. Dylan hung out at the Folklore Center, and in Chronicles: Volume One he writes several pages about Izzy and the shop. Young was also one of the earliest people to write down who this singer said he was. He was also the unassuming leader of the protest against the city's ban on instrument playing in Washington Square Park: after the Parks Department refused the musicians' permit in the spring of 1961, Young organised the demonstration that became known as the Beatnik Riot on 9 April, marching to the fountain with hundreds of singers. When the police moved in, he led the crowd in the one song that could not be called unpatriotic \u2014 The Star-Spangled Banner.",
     examples: [
       {
         title: "Song to Woody (Live 1961 Carnegie Chapter Hall)",
