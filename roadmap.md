@@ -17,3 +17,5 @@
 - [x] Shorten and simplify the "All the Tired Horses" note: the intro is a cappella before the instruments join in.
 - [x] Apply the uploaded "Dylan website updates" list (Blues through Guitar), plus enlargeable documents.
 - [x] Update Folklore Center connections, Chronicles description, and the Song to Woody recording links; verify the entry.
+
+- [x] Apply the Chuck Berry through Jimi Hendrix wording updates (riff line, drone "often", Van Ronk "avidly", Gospel singers, Imagery "often", Improvisation refocused on melody/instruments, Instrumental Nashville Skyline Rag, Cash "bass-driven", expanded Baez/Joni/Hendrix definitions).
