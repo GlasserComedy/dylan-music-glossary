@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Apply the uploaded Drone through Protest Song wording corrections and Newport video; check questioned musical claims and verify the entries.
+
 - [x] Apply the nine requested entry updates, replace Chuck Berry's video link, and share Izzy's portrait with Folklore Center.
 
 - [x] Restore Live from the Folklore Center to its own entry, correct Izzy Young's track/video links, and retain separate documentaries and the clickable portrait.
