@@ -1384,7 +1384,7 @@ export const TERMS: Term[] = [
     title: "Drone",
     categories: ["Music"],
     definition:
-      "A sustained note, interval, or chord that holds steady underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone eliminates the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch.",
+      "A sustained note, interval, or chord that holds steady underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone reduces the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch. It may be continuously held or repeatedly sounded.",
     inDylan:
       "The drone links Dylan's writing back to the modal folk tradition, where a fixed bass note anchors a melody instead of a moving chord sequence. This technique is particularly evident in his mid-sixties work and his later explorations of blues-based structures. By utilizing a drone-like approach, Dylan emphasizes the circular nature of his lyrics and the often times relentless delivery of his vocals, allowing the atmosphere to build tension without the relief of a traditional chord progression.",
     example: {
@@ -2103,7 +2103,7 @@ export const TERMS: Term[] = [
     title: "Little Richard",
     categories: ["Influences"],
     definition:
-      "Richard Penniman, known as Little Richard, was one of the architects of rock and roll. His frantic piano pounding, gospel-inflected shrieks, and flamboyant persona transformed R&B into a new, kinetic American music. By integrating sacred fervor with profane rhythm, he offered a blueprint for the rebellious energy of the 1950s, influencing generations of singers who followed.",
+      "Richard Penniman, known as Little Richard, was one of the architects of rock and roll. His frantic piano pounding, gospel-inflected shrieks, and flamboyant persona transformed R&B into a new, kinetic American music. Recordings such as Tutti Frutti, Long Tall Sally, and Good Golly, Miss Molly combined pounding rhythms with explosive vocals, making the sound and physical excitement of performance inseparable. By integrating sacred fervor with profane rhythm, he offered a blueprint for the rebellious energy of the 1950s, influencing generations of singers who followed.",
     inDylan:
       "Before he discovered acoustic folk, Dylan was a teenage rock and roller. His 1959 high school yearbook famously stated his ambition to join Little Richard's band. This was his initial archetype for a performer: a high-energy, wild-haired piano man. Decades later, Dylan continued to speak of Richard as the greatest of the greats, acknowledging that the singer's raw vocal power remained a foundational spark for his own artistic identity.",
     example: {
