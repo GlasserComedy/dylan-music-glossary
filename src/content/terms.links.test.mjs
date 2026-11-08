@@ -46,3 +46,11 @@ test("Folklore Center shares Izzy Young's portrait", () => {
     assert.match(documents, /src: izzyPortrait/);
   }
 });
+
+test("Newport 1965 uses the requested replacement clip", () => {
+  assert.match(entry("newport-1965"), /youtubeUrl: "https:\/\/www.youtube.com\/shorts\/vFaMaJY8zjA"/);
+});
+
+test("Mode no longer includes Man of Constant Sorrow as a listening example", () => {
+  assert.doesNotMatch(entry("mode"), /title: "Man of Constant Sorrow"/);
+});
