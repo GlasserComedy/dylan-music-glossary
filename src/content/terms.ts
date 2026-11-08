@@ -137,7 +137,7 @@ export const TERMS: Term[] = [
     title: "Martin Carthy",
     categories: ["People, Places & Moments"],
     definition:
-      "Martin Carthy is a preeminent English folk singer and guitarist recognized for his scholarly approach to traditional ballads and his innovative use of percussive, unorthodox guitar tunings. As a central figure in the British folk revival, Carthy sought to reclaim the rhythmic and melodic idiosyncrasies of English music, moving away from Americanized styles to find a distinct voice that reflected the complex heritage of the British Isles through meticulous research and performance.",
+      "Martin Carthy is a preeminent English folk singer and guitarist recognized for his scholarly approach to traditional ballads, his percussive guitar playing, and his innovative use of unorthodox tunings. As a central figure in the British folk revival, Carthy sought to reclaim the rhythmic and melodic idiosyncrasies of English music, moving away from Americanized styles to find a distinct voice that reflected the complex heritage of the British Isles through meticulous research and performance.",
     inDylan:
       "Dylan encountered Carthy in the London folk clubs during his first visit to England in late 1962, and the meeting proved highly influential. Dylan closely studied Carthy's arrangements and vocal style, incorporating specific elements into his own work. Most famously, Carthy's version of the traditional song Lord Franklin served as the direct melodic blueprint for Bob Dylan's Dream, and his specific arrangement of Scarborough Fair was the clear inspiration for the melody and phrasing found in Dylan's Girl from the North Country.",
     example: {
@@ -252,7 +252,7 @@ export const TERMS: Term[] = [
     definition:
       "A genre of Christian devotional music deeply rooted in African-American church traditions and growing out of the spirituals sung by enslaved people in the 18th and 19th centuries, characterized by dominant vocals, call-and-response structures, and rhythmic intensity. Historically, gospel music served as a vital influence on the development of soul and rock and roll, blending spiritual yearning with sophisticated harmonic arrangements and emotive, testifying delivery that intended to evoke a transcendent experience for both the performers and the congregation.",
     inDylan:
-      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a prolific trilogy of albums, most notably Slow Train Coming and Saved. These records used a small yet powerful group of gospel-trained backing singers — among them Regina McCrary, Clydie King, Mona Lisa Young and Helena Springs — along with impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
+      "Dylan's dramatic conversion to Christianity in the late 1970s resulted in a creative burst and a trilogy of albums: Slow Train Coming, Saved, and Shot of Love. These records used a small yet powerful group of gospel-trained backing singers — among them Regina McCrary, Clydie King, Mona Lisa Young and Helena Springs — along with impassioned arrangements to express his newfound faith. Even after his explicitly religious period ended, the moral weight and stylistic flourishes of the gospel tradition remained a staple of his live performances and recording sessions, informing his vocal phrasing for decades.",
     example: {
       title: "What Can I Do for You?",
       note:
@@ -372,7 +372,7 @@ export const TERMS: Term[] = [
     definition:
       "A structural approach to songwriting that prioritizes a coherent story featuring specific characters, settings, and a sequence of events. Unlike purely lyrical or abstract songs, a narrative work functions like a short film or a novella set to music, often employing a clear point of view and a sense of dramatic progression that leads the listener from an established beginning through a conflict toward a resolution, providing a detailed window into a specific life or moment.",
     inDylan:
-      "Dylan mastered the narrative form early in his career, often adopting the personas of those on the fringes of society. In North Country Blues, he depicts the slow, painful collapse of an iron-range mining town through the eyes of a woman witnessing her community's disintegration. By providing specific details of work, family loss, and economic hardship, he creates a miniature novel in verse, proving that a song can carry the weight of a complex history through a single witness.",
+      "Dylan mastered the narrative form early in his career, often adopting the personas of those on the fringes of society. In North Country Blues, he depicts the slow, painful collapse of an iron-range mining town through the eyes of a woman witnessing her community's disintegration. Through specific details of work, family loss, and economic hardship, he builds a compact, moving account of a life and a community, showing how a song can convey a wider history through one person's experience.",
     example: {
       title: "North Country Blues",
       note:
@@ -393,7 +393,7 @@ export const TERMS: Term[] = [
       title: "Maggie's Farm (Newport 1965)",
       note:
         "The opening number of the electric set — the recording captures the crowd's confusion, applause, and the sense that something irreversible was happening in real time.",
-      media: { kind: "youtube", id: "32Rz7RLKUWA", spotifyId: "0DPYCtNwxDxAFZD9S6W2Jk" },
+      media: { kind: "youtube", youtubeUrl: "https://www.youtube.com/shorts/vFaMaJY8zjA", spotifyId: "0DPYCtNwxDxAFZD9S6W2Jk" },
     },
     related: ["acoustic", "folk-revival", "pete-seeger", "jimi-hendrix"],
   },
@@ -402,7 +402,7 @@ export const TERMS: Term[] = [
     title: "Nobel Prize",
     categories: ["Context"],
     definition:
-      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.' He was the first laureate chiefly known as a popular songwriter, and the announcement by Permanent Secretary Sara Danius on 13 October 2016 was met with a long, startled silence in the Stockholm press room before the questions began.",
+      "The 2016 Nobel Prize in Literature, awarded to Dylan 'for having created new poetic expressions within the great American song tradition.' He was the first laureate chiefly known as a popular songwriter. The announcement by Permanent Secretary Sara Danius on 13 October 2016 met with mixed reactions: celebrated by many, it was also considered a controversial choice that challenged familiar boundaries between songwriting and literature.",
     inDylan:
       "The award reframed the popular song as literature and set off a wide argument about the boundaries of the form \u2014 novelists objecting that a songwriter had taken a slot from literature, critics answering that Homer and Sappho were also meant to be heard rather than read, a comparison Danius made explicitly. Dylan said nothing for two weeks, did not attend the December ceremony, and sent Patti Smith to sing A Hard Rain's a-Gonna Fall in his place; she stopped mid-song, apologised, and began the verse again, a moment that became as remembered as the prize itself. He accepted with a short written speech read on his behalf, admitting he had never once asked himself whether his songs were literature, and delivered the required Nobel lecture only in June 2017, days before the deadline \u2014 a recorded talk in which he traced his writing back to Moby-Dick, All Quiet on the Western Front and the Odyssey, and closed by saying that songs, like plays, are meant to be performed, not read.",
     example: {
@@ -418,13 +418,13 @@ export const TERMS: Term[] = [
     title: "Protest Song",
     categories: ["Songwriting"],
     definition:
-      "A song specifically composed to challenge social injustice, voice opposition to war, or critique institutional power. These works often serve as anthems for political movements, utilizing direct language and moral urgency to mobilize listeners and articulate collective grievances. Historically, the genre is tied to the labor movements and the civil rights struggles of the 20th century, where music functioned as both a tactical tool for organizing and a powerful medium for dissent.",
+      "A song specifically composed to challenge social injustice, voice opposition to war, or critique institutional power. These works often serve as anthems for political movements, utilizing direct language and moral urgency to mobilize listeners and articulate collective grievances. Historically, the genre is tied to labor movements and civil rights struggles. The labor organizer and songwriter Joe Hill was an important predecessor, adapting familiar tunes into songs of workers' solidarity and resistance. Music could be both a practical tool for organizing and a powerful medium for dissent.",
     inDylan:
-      "Songs like Masters of War established Dylan as a definitive voice of social critique, though he frequently resisted the narrow constraints of being labeled a protest singer. He described Masters of War as a curse rather than a plea, emphasizing its visceral anger. During a 1965 press conference in San Francisco, when asked if he sang protest songs, he replied that he sang all love songs, effectively collapsing the distinction between private emotional experience and public political statement.",
+      "Songs like Masters of War established Dylan as a definitive voice of social critique, though he frequently resisted the narrow constraints of being labeled a protest singer. He described Masters of War as a curse rather than a plea, emphasizing its visceral anger. At a Los Angeles press conference on 16 December 1965, asked whether he preferred songs with an obvious message or subtle message, he answered, 'I don't write protest songs,' and then, 'I sing all love songs.' His playful refusal of the label challenged the division between private feeling and public political statement.",
     example: {
       title: "Masters of War",
       note:
-        "A direct address to arms manufacturers, unsparing and unrhetorical \u2014 protest with no attempt at persuasion.",
+        "An unsparing address to the makers of war — including arms manufacturers and the political leaders who send young people to fight while remaining safely out of danger themselves. Its anger is directed at those who profit from and organize war, not the soldiers sent into it.",
       media: { kind: "youtube", id: "JEmI_FT4YHU", spotifyId: "5kZotoDYqPbLgcB35jkmRZ" },
     },
     related: ["folk-revival", "narrative", "social-commentary"],
@@ -569,9 +569,9 @@ export const TERMS: Term[] = [
     title: "Keyboard",
     categories: ["Performance"],
     definition:
-      "A family of instruments played from a set of keys \u2014 piano, upright and grand, church and electric organ, harmonium, electric piano and synthesizer. In a band arrangement the keyboard does work no other instrument can: it can lay down chords, carry a bass line, sustain a pad underneath the vocal, or answer the singer with a countermelody, all from one seat.",
+      "A family of instruments played from a set of keys — including upright and grand pianos, church and electric organs, harmoniums, electric pianos, and synthesizers. A piano accordion also has a keyboard: its keys select notes while bellows push air through reeds; other accordions use buttons instead. In a band arrangement, a keyboard can play chords, carry a bass line, hold a layer of sustained notes underneath the vocal, or answer the singer with a countermelody. Different instruments bring different sounds and possibilities, from a piano's struck notes to an organ's long, continuous tones.",
     inDylan:
-      "Keyboards run through Dylan's records from the beginning and eventually became his own instrument on stage. Al Kooper's improvised Hammond organ on Like a Rolling Stone \u2014 played by a guitarist who had never touched the instrument professionally, and pushed up in the mix at Dylan's insistence \u2014 defined the sound of the 1965 electric records. Garth Hudson's organ gave the Basement Tapes and the 1974 tour their churchy undertow; Paul Griffin's piano drives Ballad of a Thin Man. Dylan himself played piano on Highway 61 sessions, on New Morning, and across the gospel albums, and from roughly 2003 onward he abandoned the guitar in concert almost entirely, fronting the band from an upright piano or an electric keyboard \u2014 a shift that changed his phrasing, letting him punch chords between vocal lines rather than strum through them.",
+      "Keyboards run through Dylan's records from the beginning and eventually became his own instrument on stage. Al Kooper's improvised Hammond organ on Like a Rolling Stone — played by a guitarist who had never touched the instrument professionally, and pushed up in the mix at Dylan's insistence — defined the sound of the 1965 electric records. Garth Hudson's organ gave the Basement Tapes and the 1974 tour their churchy undertow; piano and organ give Ballad of a Thin Man its ominous atmosphere. Paul Griffin was another important keyboard player on Dylan's mid-sixties sessions. Dylan himself played piano on Highway 61 sessions, on New Morning, and across the gospel albums, and from roughly 2003 onward he abandoned the guitar in concert almost entirely, fronting the band from an upright piano or an electric keyboard — a shift that changed his phrasing, letting him punch chords between vocal lines rather than strum through them.",
     example: {
       title: "Blind Willie McTell",
       note:
@@ -1035,7 +1035,7 @@ export const TERMS: Term[] = [
     definition:
       "Making music spontaneously, in real time, rather than from a fixed score. It is a universal practice across traditions: jazz soloists spin variations on a chord sequence, folk singers adapt lyrics and melodies in performance, Indian classical musicians explore a raga's mood through extemporized phrasing, and even Baroque composers such as Bach and Handel were celebrated improvisers at the keyboard. For many composers, improvisation is a workshop — a way to discover themes, test phrases, and generate the raw material that later becomes a finished piece.",
     inDylan:
-      "Dylan's approach to improvisation was shaped by folk's loose, oral tradition and by the freedom of jazz phrasing. He rarely performs a song the same way twice: his singing constantly improvises on the melody, stretching, dropping, and reshaping phrases from night to night, and he improvises freely on piano, harmonica, and guitar, from loose stage solos to the spontaneous runs that open many live arrangements. His recorded work keeps the same restless quality, treating a fixed melody as a sketch rather than a final statement.",
+      "Dylan's approach to improvisation was shaped by folk's loose, oral tradition and by the freedom of jazz phrasing. He rarely performs a song the same way twice: he varies the vocal melody, lengthening notes, changing their pitch, and shifting where a line falls against the beat from night to night. He also improvises freely on piano, harmonica, and guitar, from loose stage solos to the spontaneous runs that open many live arrangements. His recorded work keeps the same restless quality, treating a fixed melody as a sketch rather than a final statement.",
     example: {
       title: "Shelter from the Storm (Live at Hughes Stadium, 1976)",
       note:
@@ -1096,9 +1096,9 @@ export const TERMS: Term[] = [
     title: "Literature",
     categories: ["Context"],
     definition:
-      "Written works of lasting artistic value, ranging from poetry and drama to fiction and scripture, distinguished by imaginative power, formal craft, and a voice that survives beyond its moment.",
+      "Literature encompasses writing valued for its imaginative, expressive, or artistic qualities, including poetry, drama, fiction, essays, and scripture. Through language, rhythm, character, and narrative, it explores human experience and preserves or challenges a culture's ideas. Its forms range from carefully composed texts to works rooted in oral storytelling and performance. What counts as literature changes across places and periods, making the boundary between a poem, a spoken story, and a song an enduring subject of debate.",
     inDylan:
-      "Dylan came to songwriting as a reader first. He absorbed the Bible's thunder and prophecy, the Symbolists' dream logic, the Beats' open-road cadences, and the Modernists' habit of making the familiar strange. T. S. Eliot and Ezra Pound taught him that fragments could be arranged into new architectures; Dylan Thomas proved that a name could be carried like a torch. In turn, Dylan's songs began to read as literature themselves: printed in collections, studied in classrooms, and, in 2016, recognized with the Nobel Prize in Literature for having created new poetic expressions within the great American song tradition.",
+      "Dylan's songwriting grew from musical and literary influences together. As a teenager in Minnesota, he absorbed radio broadcasts, records, and live acts, including Buddy Holly and Little Richard; reading later became another rich source alongside those musical foundations. His writing draws on the Bible's prophecy, the Symbolists' dream logic, and the Beats' open-road cadences. T. S. Eliot and Ezra Pound appear by name in Desolation Row, while writers such as Jack Kerouac helped widen his imaginative world. In turn, Dylan's songs have been printed in collections, studied in classrooms, and, in 2016, recognized with the Nobel Prize in Literature for having created new poetic expressions within the great American song tradition.",
     example: {
       title: "Gates of Eden",
       note:
@@ -1112,7 +1112,7 @@ export const TERMS: Term[] = [
     title: "Melody",
     categories: ["Music"],
     definition:
-      "A sequence of notes forming a recognizable tune that the listener perceives as a single entity. It is the linear aspect of music, often contrasting with harmony, and serves as the primary hook or emotional anchor of a composition. In traditional song structures, the melody provides the framework upon which lyrics are draped and rhythm is applied.",
+      "A sequence of notes forming a recognizable tune that the listener perceives as a single musical line. Melody unfolds through changes in pitch, note length, and phrasing, while harmony concerns notes sounding together. A melody can carry emotion and give sung words their musical shape. It is not the same as a hook: a hook is a memorable detail that catches the ear, which might be a short melodic phrase, a rhythm, a lyric, or an instrumental sound. A song's melody can extend well beyond that one catchy moment.",
     inDylan:
       "Dylan frequently employed simple, recurring melodies to ensure his complex lyrics remained the focal point of the listener's experience. However, he also possessed the ability to craft soaring, anthemic tunes that became ingrained in the public consciousness across generations. From the driving, repetitive patterns of his mid-sixties rock period to the country-inflected lilts of his later work, his approach to melody evolved alongside his poetic style. Even when he reworked these melodies in live performance, the underlying structure remained a vital component of how his songs communicated meaning, demonstrating that his musicality was as integral to his impact as his words.",
     example: {
@@ -1304,9 +1304,9 @@ export const TERMS: Term[] = [
     title: "Minor Key",
     categories: ["Music"],
     definition:
-      "A minor key is a musical tonality built upon the minor scale, characterized by the flattened third interval which traditionally evokes a sense of melancholy, tension, or introspection. In the context of American roots music, the minor key provides a necessary contrast to the standard major progressions of folk and blues, offering a harmonic space for tragic storytelling and psychological complexity. It is often employed to signal a shift from the literal or celebratory into the realm of the existential, the gothic, or the mournful.",
+      "A minor key is a musical tonality whose tonic chord has a minor third above its root, distinguishing it from a major key. Minor-key music can use natural, harmonic, and melodic minor scales, with different notes available for melody and harmony. Minor tonalities have long been part of folk, classical, and popular traditions, including American roots music; they are not a later addition to an otherwise major-key tradition. They are often associated with melancholy or tension, but tempo, rhythm, arrangement, and performance also shape the mood: minor does not automatically mean sad.",
     inDylan:
-      "Dylan frequently utilizes minor keys to heighten the gravity of his lyrical content, especially when navigating themes of injustice or societal decay. Many of his early topical compositions rely on minor progressions to underscore the starkness of his message, while his mid-1970s output, notably on Blood on the Tracks, uses these tonalities to explore the intricacies of heartbreak and domestic dissolution. By grounding a song in a minor key, he creates a sense of unresolved unease that prevents the listener from finding easy comfort, forcing a closer engagement with the stark narrative at hand.",
+      "Dylan uses minor-key and minor-colored writing to create a range of moods, from the unease of As I Went Out One Morning to the intensity of his version of House of the Risin' Sun. The harmony works with the narrative and his vocal delivery rather than prescribing a single emotion. Heartbreak alone is not evidence of a minor key: most songs on Blood on the Tracks are in major keys, despite their painful subject matter. His songs show why musical tonality and lyrical mood should be considered separately, even when they reinforce one another.",
     example: {
       title: "As I Went Out One Morning",
       note:
@@ -1320,9 +1320,9 @@ export const TERMS: Term[] = [
     title: "Major Key",
     categories: ["Music"],
     definition:
-      "A major key is a musical system based on the major scale, widely recognized for its stable, bright, and traditionally optimistic character. It serves as the foundational harmonic structure for the vast majority of Western popular music, providing a sense of resolution and clarity. In the tradition of folk and country, the major key acts as a sturdy frame for straightforward narrative delivery, offering a reliable melodic backbone that supports both rhythmic drive and lyrical accessibility without the inherent weight of more dissonant tonalities.",
+      "A major key is a musical tonality centered on a major tonic chord, with a major third above its root, and generally drawing its notes from the major scale. It is widely used in Western folk, classical, and popular music and can provide a strong sense of tonal arrival or resolution. Although often associated with brightness, major does not always mean happy. Tempo, phrasing, lyrics, and arrangement can make a major-key song mournful, tense, or devastating; its emotional meaning cannot be read from the key alone.",
     inDylan:
-      "Many of Dylan’s most enduring compositions are rooted in major keys, particularly those influenced by the buoyancy of country-blues and early rock and roll. These brighter tonalities allow for a specific type of lyrical playfulness and dry humor to emerge, as heard in his more whimsical or satirical sketches. Even when the lyrics are biting or complex, the major key provides a grounding stability that keeps the song moving forward. This harmonic choice often highlights the rhythmic phrasing of his delivery, ensuring the wit and cadence of his poetry remain the focal point for the audience.",
+      "Many of Dylan's most enduring compositions are rooted in major keys, but their emotional range extends far beyond buoyancy or humor. A Hard Rain's a-Gonna Fall is major despite its images of suffering and catastrophe, as are most songs on Blood on the Tracks. Some of his saddest and most painful songs use major-key harmony: the sense of musical openness can sharpen, rather than soften, what the words describe. His work makes clear that a key supplies a harmonic framework, not a fixed emotional label, and that voice, rhythm, and narrative can transform how that framework feels.",
     example: {
       title: "Honey, Just Allow Me One More Chance",
       note:
@@ -1370,27 +1370,13 @@ export const TERMS: Term[] = [
     definition:
       "A musical scale pattern distinct from the standard Western major and minor keys, frequently associated with traditional folk, liturgical, and ancient music. These structures, such as the Dorian, Phrygian, or Mixolydian modes, are defined by their unique intervals, which often evoke archaic, mysterious, or melancholic atmospheres that predate modern harmonic conventions.",
     inDylan:
-      "Dylan drew heavily from traditional folk songs, many of which utilize modal melodies inherited from British Isles and Appalachian vocal traditions. By favoring these patterns over conventional pop chord changes, he connects his work to a pre-industrial musical lineage. Songs like Girl from the North Country or various tracks on John Wesley Harding rely on these structures to create a timeless, stark quality that bypasses the sentimentality of standard major-key resolutions.",
+      "Dylan drew heavily from traditional folk songs, many of which carry modal melodies inherited from British Isles and Appalachian vocal traditions. These tunes can organize their notes differently from familiar major- and minor-key patterns, with repeated figures and fewer chord changes keeping attention on the sung line. His recordings of traditional material such as Little Sadie connect him to that older repertoire. An old ballad's influence does not automatically make a new song modal: Girl from the North Country, though indebted to Scarborough Fair, is better understood here as major-key writing rather than used as a clear modal example.",
     example: {
       title: "Little Sadie",
       note:
         "Little Sadie leans on a Mixolydian melody — a modal tune carried over from the older folk repertoire.",
       media: { kind: "youtube", id: "Xl3bBttxRz4", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
     },
-    examples: [
-      {
-        title: "Little Sadie",
-        note:
-          "Little Sadie leans on a Mixolydian melody — a modal tune carried over from the older folk repertoire.",
-        media: { kind: "youtube", id: "Xl3bBttxRz4", spotifyId: "2QEZRXy7t6lzbzS1dJ9Lck" },
-      },
-      {
-        title: "Man of Constant Sorrow",
-        note:
-          "Man of Constant Sorrow sits in Dorian mode, the flattened third giving the old ballad its ancient, unresolved colour.",
-        media: { kind: "youtube", id: "GC_Q-OWbPeo", spotifyId: "3SF5puV5eb6bgRSxBeMOk9" },
-      },
-    ],
     related: ["minor-key", "major-key", "traditional"],
   },
   {
@@ -1398,7 +1384,7 @@ export const TERMS: Term[] = [
     title: "Drone",
     categories: ["Music"],
     definition:
-      "A sustained note or chord that holds steady underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone eliminates the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch.",
+      "A sustained note, interval, or chord that holds steady underneath a changing melody, creating a hypnotic, meditative, or rooted sonic foundation. Commonly produced by instruments like the dulcimer, bagpipes, or tambura, the drone eliminates the need for complex harmonic movement, focusing the listener's ear on the rhythmic and melodic variations occurring above the stationary pitch.",
     inDylan:
       "The drone links Dylan's writing back to the modal folk tradition, where a fixed bass note anchors a melody instead of a moving chord sequence. This technique is particularly evident in his mid-sixties work and his later explorations of blues-based structures. By utilizing a drone-like approach, Dylan emphasizes the circular nature of his lyrics and the often times relentless delivery of his vocals, allowing the atmosphere to build tension without the relief of a traditional chord progression.",
     example: {
@@ -1568,7 +1554,7 @@ export const TERMS: Term[] = [
     title: "Dave Van Ronk",
     categories: ["Influences"],
     definition:
-      "Dave Van Ronk was a central figure of the Greenwich Village folk revival. He performed so avidly in MacDougal Street's clubs and basket houses that he earned the nickname 'The Mayor of MacDougal Street.' A formidable guitarist and singer with a command of ragtime, jazz, and traditional blues, his raspy, expressive baritone and intricate fingerpicking style made him a sophisticated bridge between the archival recordings of the 1920s and the urban folk scene of the 1960s. He acted as a mentor and gatekeeper, guiding countless younger musicians through the complexities of the American songbook.",
+      "Dave Van Ronk was a central figure of the Greenwich Village folk revival, performing avidly in MacDougal Street's clubs and basket houses. His nickname, 'The Mayor of MacDougal Street,' captured both his deep association with the neighborhood and his status as an influential mentor and unofficial authority within its folk scene. He wasn't just a musician who played there; he helped shape the community itself. A formidable guitarist and singer with a command of ragtime, jazz, and traditional blues, his raspy, expressive baritone and intricate fingerpicking style bridged the archival recordings of the 1920s and the urban folk scene of the 1960s.",
     inDylan:
       "Dylan sought out Van Ronk shortly after his arrival in New York, and the older musician's influence is evident in Dylan's early repertoire and vocal phrasing. Van Ronk's arrangement of 'House of the Risin' Sun' was famously borrowed by Dylan for his debut album, much to Van Ronk's chagrin, since he had planned to record it himself. Ironically, when the Animals scored a hit with the song in 1964 using that same arrangement, Dylan had to stop playing it because audiences assumed he was copying them. Van Ronk retells the story in No Direction Home, a showcase for his great storytelling. Dylan's early performance of 'He Was a Friend of Mine' mirrors the gravelly, blues-inflected delivery and steady thumb-beat guitar work that Van Ronk pioneered, marking a crucial apprenticeship in the art of the folk blues.",
     example: {
@@ -1830,7 +1816,7 @@ export const TERMS: Term[] = [
     definition:
       "Classically trained pianist and singer who fused jazz, blues, gospel and civil rights protest into a singular, commanding voice. Known as the High Priestess of Soul, she brought conservatory discipline to a repertoire that stretched from Gershwin to the spirituals of the movement, and she treated every song as a statement of identity.",
     inDylan:
-      "Simone covered Dylan repeatedly — her readings of his songs stripped them back to raw moral weight and showed how far his writing could travel outside folk. Dylan was deeply impressed by her; he admired the force of her piano playing, the authority of her delivery, and the way she could turn a song into a confrontation. In the mid-1960s, when both artists were reshaping their respective forms, they were often discussed as parallel voices — writers and performers who refused the categories others tried to place them in.",
+      "Simone covered Dylan repeatedly — her readings brought out the emotional depth of his songs and showed how far his writing could travel outside folk. Depending on the song, that could mean political anger, vulnerability, irony, or weary reflection rather than a single moral message. Dylan was deeply impressed by her; he admired the force of her piano playing, the authority of her delivery, and the way she could turn a song into a confrontation. In the mid-1960s, when both artists were reshaping their respective forms, they were often discussed as parallel voices — writers and performers who refused the categories others tried to place them in.",
     example: {
       title: "Just Like Tom Thumb's Blues (Nina Simone)",
       note:
@@ -1845,9 +1831,9 @@ export const TERMS: Term[] = [
     title: "Odetta",
     categories: ["Influences"],
     definition:
-      "Folk and blues singer whose booming voice and guitar work carried spirituals, work songs and ballads into the revival. Known as the Queen of Folk, Odetta possessed a powerful contralto and a percussive guitar style she called the Odetta strum. Her performances were deeply rooted in the African American experience and the civil rights movement, providing a moral and musical gravity that influenced the entire generation of 1960s urban folk singers.",
+      "Folk and blues singer whose booming voice and guitar work carried spirituals, work songs and ballads into the revival. Known as the Queen of Folk, Odetta possessed a powerful contralto and a percussive guitar style she called the Odetta strum. Her performances were deeply rooted in the African American experience and the Civil Rights Movement, providing a moral and musical gravity that influenced the entire generation of 1960s urban folk singers.",
     inDylan:
-      "Dylan has said hearing Odetta's records made him trade his electric guitar for an acoustic she was one of his first direct models. Her 1956 album Odetta Sings Ballads and Blues was a transformative record for him, revealing the depth and seriousness possible within the folk idiom. He learned her arrangements and adapted her intense, focused delivery. By modeling himself after Odetta, Dylan moved away from teen pop and rockabilly toward the historical and social consciousness that would define his early masterpiece albums.",
+      "Dylan has said hearing Odetta's records made him trade his electric guitar for an acoustic. She was one of his first direct models. Her 1956 album Odetta Sings Ballads and Blues was a transformative record for him, revealing the depth and seriousness possible within the folk idiom. He learned her arrangements and adapted her intense, focused delivery. By modeling himself after Odetta, Dylan moved away from teen pop and rockabilly toward the historical and social consciousness that would define his early masterpiece albums.",
     example: {
       title: "No More Auction Block",
       note:
@@ -1898,7 +1884,7 @@ export const TERMS: Term[] = [
     definition:
       "A Canadian songwriter, painter, and guitarist celebrated for her innovative open tunings, painterly approach to harmony, and candid, emotionally detailed writing that fundamentally stretched what a pop song could confess. Her beautiful, unmistakable voice — a wide-ranging soprano marked by a characteristic slow vibrato — is as distinctive as her writing. Her career tracked a move from acoustic folk toward sophisticated jazz-inflected compositions while mining the depths of her own experience. She approached the guitar as an orchestra, utilizing non-standard tunings to create a harmonic language that felt both ancient and modernist.",
     inDylan:
-      "Considered a peer rather than a follower, she toured with Dylan during the first leg of the 1975 Rolling Thunder Revue. While Dylan had already broadened songwriting into social, mythic, and interior territory, Mitchell pushed even further into the openly confessional, mapping private feeling with a specificity that made the personal landscape feel as vast as his symbolic one. Their creative relationship was marked by mutual respect and occasionally sharp artistic competition, as seen in the intimate footage from the 1975 tour.",
+      "Considered a peer rather than a follower, she toured with Dylan during the first leg of the 1975 Rolling Thunder Revue. While Dylan had already broadened songwriting into social, mythic, and interior territory, Mitchell pushed even further into the openly confessional, mapping private feeling with a specificity that made the personal landscape feel as vast as his symbolic one. Their creative relationship included mutual respect and occasionally sharp artistic competition. The Coyote performance illustrates her distinctive songwriting and musical presence, not evidence of competition with Dylan.",
     example: {
       title: "Coyote",
       note:
@@ -2117,7 +2103,7 @@ export const TERMS: Term[] = [
     title: "Little Richard",
     categories: ["Influences"],
     definition:
-      "Richard Penniman, known as Little Richard, was the architect of rock and roll. His frantic piano pounding, gospel-inflected shrieks, and flamboyant persona transformed R&B into a new, kinetic American music. By integrating sacred fervor with profane rhythm, he offered a blueprint for the rebellious energy of the 1950s, influencing every singer who followed.",
+      "Richard Penniman, known as Little Richard, was one of the architects of rock and roll. His frantic piano pounding, gospel-inflected shrieks, and flamboyant persona transformed R&B into a new, kinetic American music. By integrating sacred fervor with profane rhythm, he offered a blueprint for the rebellious energy of the 1950s, influencing generations of singers who followed.",
     inDylan:
       "Before he discovered acoustic folk, Dylan was a teenage rock and roller. His 1959 high school yearbook famously stated his ambition to join Little Richard's band. This was his initial archetype for a performer: a high-energy, wild-haired piano man. Decades later, Dylan continued to speak of Richard as the greatest of the greats, acknowledging that the singer's raw vocal power remained a foundational spark for his own artistic identity.",
     example: {
