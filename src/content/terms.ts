@@ -434,13 +434,13 @@ export const TERMS: Term[] = [
     title: "Rhythm",
     categories: ["Music"],
     definition:
-      "Rhythm comprises the systematic arrangement of musical sounds according to duration and periodic stress. It functions as the foundational pulse that drives a composition forward, dictate the physical movement of the listener, and organizes the relationship between melody and time. In American roots music, rhythm often derives from the interplay of backbeats and syncopation, providing a structural framework that can evoke anything from a funeral march to a frantic dance.",
+      "Rhythm comprises the systematic arrangement of musical sounds according to duration and periodic stress. It functions as the foundational pulse that drives a composition forward, dictates the physical movement of the listener, and organizes the relationship between melody and time. In American roots music, rhythm often derives from the interplay of backbeats and syncopation, providing a structural framework that can evoke anything from a funeral march to an ecstatic dance.",
     inDylan:
-      "Dylan uses rhythm as a primary delivery vehicle for his dense lyrical clusters. Subterranean Homesick Blues moves in a rapid-fire talking rhythm that anticipates rap by more than a decade, utilizing a percussive vocal cadence that emphasizes internal rhymes over melodic variation. Throughout his career, he has shifted from the steady four-four thrum of acoustic folk to the swinging, erratic shuffles of his later blues-rock period, always prioritizing the groove as the essential canvas for his shifting poetic narratives.",
+      "Dylan uses rhythm as a primary delivery vehicle for dense lyrics, changing the feel as readily as the words. The steady acoustic pulse of The Times They Are a-Changin' gives its verses a public, processional force; the rolling shuffle of It Takes a Lot to Laugh, It Takes a Train to Cry lets the vocal lean back into a looser groove. On 'Love and Theft', songs such as Summer Days draw on swing and jump blues, placing his lines against a buoyant dance rhythm. Across these settings, the band supplies a rhythmic framework while his voice pushes ahead, hangs back, or stretches a phrase across the bar line, making familiar patterns feel conversational and alive.",
     example: {
       title: "Subterranean Homesick Blues",
       note:
-        "The words come in a clipped, hammering rhythm that pushes ahead of the beat, driving the song more than the melody does.",
+        "Chuck Berry's Too Much Monkey Business provides a clear template for Subterranean Homesick Blues: rapid-fire, speech-like lines riding a driving rock-and-roll rhythm. Dylan recasts that approach with his own torrent of images, internal rhymes, and clipped, percussive phrasing, crowding syllables into the pulse and then snapping a line short. The vocal rhythm is as memorable as the tune.",
       media: { kind: "youtube", id: "MGxjIBEZvx0", spotifyId: "6k9DUKMJpWvu6eFG3O64Lg" },
     },
     related: ["chord-progression", "harmony"],
@@ -450,7 +450,7 @@ export const TERMS: Term[] = [
     title: "Singer-Songwriter",
     categories: ["Songwriting"],
     definition:
-      "An artist who writes, composes, and performs their own songs, so that the voice, the words, and the music all come from a single source. The term has existed as long as troubadours and folk singers, but in the 1960s it became a recognized category of popular music: a figure who was not merely interpreting professional songwriters but presenting an original, self-authored world.",
+      "An artist who writes, composes, and performs their own songs, so that the voice, the words, and the music all come from a single source. The practice of writing and performing one's own songs reaches back to troubadours and folk singers; the modern label is much newer. In the 1960s, singer-songwriter became a recognized category of popular music: a figure who was not merely interpreting professional songwriters but presenting an original, self-authored world.",
     inDylan:
       "Dylan is often called the first major singer-songwriter of the modern pop era, even though he was not the first person to write and sing his own material. Woody Guthrie, Pete Seeger, Lead Belly, Hank Williams, Chuck Berry, and blues singers had all done it before him; the Brill Building and Tin Pan Alley had also produced writers who sang. What changed was scale and expectation. Dylan's songs arrived at a moment when the mainstream music industry still separated the composer from the performer, and when his albums began selling as statements by a single author, they helped collapse that division. The sheer density of his writing, the sense that every line was freighted with a personal vision, made audiences hear the singer-songwriter as a serious literary artist, not just an entertainer. After him, it became normal to expect an album to be a personal statement from the person singing it, and artists like Joni Mitchell, Neil Young, Paul Simon, Carole King, and hundreds of others were able to enter a landscape that Dylan had made visible. He is cited as the first major figure of this movement because he did not just write songs; he redefined the contract between popular music and authorship.",
     example: {
@@ -587,13 +587,14 @@ export const TERMS: Term[] = [
     definition:
       "Reggae is a music genre that originated in Jamaica in the late 1960s, defined by its distinctive offbeat rhythmic patterns, known as the skank. It typically features a heavy emphasis on the bass line and a steady, syncopated beat on the drums. Beyond its musical traits, reggae is often associated with social and political themes, spiritual reflection, and the Rastafari movement, exerting a global influence on popular music through its focus on groove and message.",
     inDylan:
-      "Dylan's interest in reggae intensified after he saw Bob Marley perform live, an experience that left a lasting impression on his musical direction. During the late 1970s and early 80s, he began experimenting with these rhythms, most notably on the 1979 track Man Gave Names to All the Animals. His exploration of reggae was not merely stylistic; he incorporated the genre's spiritual weight and rhythmic elasticity into his own gospel-inflected period, using the steady Jamaican pulse to provide a new structural context for his evolving lyrical themes.",
+      "Dylan's interest in reggae grew alongside his admiration for Bob Marley and the rhythmic possibilities of Jamaican music. The connection became especially tangible on Infidels (1983), recorded with the celebrated Jamaican rhythm section Sly Dunbar on drums and Robbie Shakespeare on bass. Their supple grooves give many of the album's songs a reggae-inflected sound: I and I and Don't Fall Apart on Me Tonight are particularly clear examples of the spacious bass movement, relaxed pulse, and offbeat accents. These are not simply genre exercises; Sly and Robbie bring a rhythmic elasticity that lets Dylan's voice settle into the spaces between the instruments. Reggae became another living tradition he could draw into his own songwriting and arrangements.",
     example: {
       title: "Man Gave Names to All the Animals",
       note:
-        "The offbeat guitar accents and loping bass line lift a straight rock tune into reggae-inflected territory.",
+        "On Slow Train Coming (1979), Man Gave Names to All the Animals sets its biblical tale to a loping, reggae-inflected groove. Offbeat accents and the buoyant bass line give the repeated verses an easy, swaying motion, an early example of Dylan drawing Jamaican rhythmic ideas into his gospel-period music.",
       media: { kind: "youtube", id: "OmxhajWJAnY", spotifyId: "5mGq3cybgQDZgTEbu9ldV9" },
     },
+    related: ["sly-and-robbie", "bob-marley"],
   },
   {
     slug: "social-commentary",
@@ -635,7 +636,7 @@ export const TERMS: Term[] = [
     definition:
       "Strumming is a guitar technique where the player brushes the strings in a rhythmic up-and-down motion to sound chords. It is the most fundamental way to provide harmonic accompaniment to a singer, creating a broad wash of sound that sustains the rhythm and fills the sonic space. Different strumming patterns can completely alter the feel of a song, turning a simple chord progression into a driving anthem or a gentle, swaying ballad.",
     inDylan:
-      "Dylan's vigorous strumming was the engine behind many of his most famous folk songs, creating a relentless rhythmic wall for his complex lyrics to ride upon. His right-hand technique often focused on a heavy, consistent downbeat that helped him maintain tempo while playing the harmonica simultaneously. By varying the intensity and speed of his strumming, he could shift the mood of a performance instantly, moving from the soft, contemplative patterns of his ballads to the percussive, urgent thrash of his protest songs, demonstrating the power of the guitar as a rhythmic tool.",
+      "Dylan's vigorous strumming was the engine behind many of his most famous folk songs, creating a relentless rhythmic wall for his complex lyrics to ride upon. His right-hand technique often focused on a heavy, consistent downbeat that helped him maintain tempo while playing the harmonica simultaneously. By varying the intensity and speed of his strumming, he could shift the mood of a performance instantly, moving from the soft, contemplative patterns of his ballads to the percussive, urgent drive of his protest songs, demonstrating the power of the guitar as a rhythmic tool.",
     example: {
       title: "Pretty Peggy-O",
       note:
@@ -1177,7 +1178,7 @@ export const TERMS: Term[] = [
     title: "Rock",
     categories: ["Genres & Styles"],
     definition:
-      "A broad popular-music form rooted in rhythm and blues, country, gospel, and Tin Pan Alley, powered by electric guitars, bass, drums, and a driving backbeat. From its 1950s birth through endless offshoots — rockabilly, surf, psychedelic, hard rock, punk, and beyond — rock has remained a vessel for rebellion, romance, and social commentary, loud enough to fill a stadium and intimate enough to carry a single voice.",
+      "A broad popular-music form rooted in rhythm and blues, country, gospel, and Tin Pan Alley, powered by electric guitars, bass, drums, and a driving backbeat. Rockabilly was one of the earliest forms of 1950s rock and roll, blending country with rhythm and blues, rather than a later offshoot of the broader rock genre. Through subsequent styles — surf, psychedelic, hard rock, punk, and beyond — rock has remained a vessel for rebellion, romance, and social commentary, loud enough to fill a stadium and intimate enough to carry a single voice.",
     inDylan:
       "Dylan carried the ambition of folk and modernist poetry straight into rock, showing that a three-minute single could be as dense and unsettling as a novel. His leap to electric instrumentation at the 1965 Newport Folk Festival and on albums like Bringing It All Back Home, Highway 61 Revisited, and Blonde on Blonde reframed the genre: rock no longer had to be simple teenage entertainment, and lyrics could be surreal, personal, and literary. Backed by the Hawks (later The Band), his 1966 world tour pushed the music into bruising, improvisatory territory that foreshadowed much of the rock that followed.",
     example: {
@@ -1226,10 +1227,10 @@ export const TERMS: Term[] = [
     inDylan:
       "Phrasing is arguably Dylan's greatest instrument. He sings behind and ahead of the beat almost at will, crams extra syllables into a bar and then leaves a whole measure empty, snaps a line off early, or hangs a single word out past the chord change. Rhymes arrive slightly askew; conversational asides are delivered as if he has just thought of them. This is why he is notoriously difficult to cover \u2014 the notes on the page are simple, but the meaning lives in the timing, the sneer, the drawl and the sudden acceleration. Covers that sing the melody straight often sound oddly empty, and singers who imitate the phrasing sound like impersonators. Dylan himself rephrases constantly in performance, which is why the same song can be unrecognisable from one tour to the next.",
     example: {
-      title: "I Am a Lonesome Hobo",
+      title: "Hurricane",
       note:
-        "A plain three-chord frame that Dylan bends purely with delivery \u2014 lines pushed late, syllables crowded together and then stretched out, the last word of each verse hung in the air. Nothing in the melody explains the effect; it is all phrasing.",
-      media: { kind: "youtube", id: "20vc2DnceYc", spotifyId: "49pZlXa9pZ6N0j6O4xduoC" },
+        "Dylan packs a long, detailed narrative into fast-moving verses, crowding names and incidents into the beat without losing their conversational shape. He stretches a syllable, clips the next phrase, and accelerates through a line before landing firmly on a rhyme. The urgent delivery shows how phrasing can turn a written story into a performance that feels as if it is unfolding on the spot.",
+      media: { kind: "youtube", id: "bpZvg_FjL3Q", spotifyId: "1fYdZW9CJOwEjOjVHaxvQ5" },
     },
     aliases: ["timing", "delivery", "behind the beat", "hard to cover"],
     related: ["vocal-style", "rhythm", "lyric"],
@@ -1494,9 +1495,9 @@ export const TERMS: Term[] = [
     title: "Rap/Hip Hop",
     categories: ["Genres & Styles"],
     definition:
-      "Rap and hip-hop are defined by rhythmic, rhymed speech delivered over a percussive beat, emerging from an African American vocal tradition that includes boasting, signifyin', and street poetry. This style prioritizes the cadence and flow of the human voice as a lead instrument, often utilizing internal rhymes and complex meter to convey social commentary, personal narrative, or linguistic virtuosity. While its modern form crystallized in late-1970s New York, its roots extend deep into older oral traditions and talking blues.",
+      "Rap is rhythmic, rhymed speech in which cadence, flow, and wordplay make the voice a lead instrument. Hip-hop is the wider culture that developed in the Bronx during the 1970s, encompassing MCing, DJing, breaking, and graffiti. Rappers work with beats, internal rhymes, and complex patterns of stress to tell stories, boast, joke, or offer social commentary. The music draws on African American and Caribbean oral and musical traditions, but it is a distinct modern form rather than simply another name for talking blues.",
     inDylan:
-      "Dylan is frequently cited as a precursor to the hip-hop aesthetic through his development of the 'talking blues' style and his surrealist, rapid-fire lyrical delivery. Songs like 'Subterranean Homesick Blues' showcased a torrent of wordplay and percussive phrasing that anticipated the rhythmic density of rap. Later in his career, he directly acknowledged the genre's power and cultural dominance, even collaborating with Kurtis Blow in the 1980s and mentioning his appreciation for the genre's focus on the intensity of the word.",
+      "Dylan's rapid-fire delivery in Subterranean Homesick Blues is often heard as a precursor to rap's rhythmic density, though hip-hop developed from its own musical and cultural roots. He also engaged with the genre directly, rapping the opening of Kurtis Blow's Street Rock in 1986. In Chronicles: Volume One he praises Ice-T, Public Enemy, N.W.A., and Run-D.M.C., writing: 'They were all poets and knew what was going on.' Later he celebrated the art of rhyming in interviews and played hip-hop on Theme Time Radio Hour, including the Beastie Boys. His support reached another generation in 2025, when he narrated the trailer launching Lost Americana by rapper-turned-rocker MGK, formerly known as Machine Gun Kelly. That was a contribution to the album's introduction and promotion, not a claim that Dylan financed or produced it.",
     example: {
       title: "Kurtis Blow \u2014 Street Rock (with Bob Dylan)",
       note:
@@ -1512,7 +1513,7 @@ export const TERMS: Term[] = [
     definition:
       "Broadcast sound sent over the air \u2014 the medium that turned music from a local, live event into something shared across a whole country. Commercial broadcasting began in the early 1920s, and by the 1930s and 1940s network shows, barn dances like the Grand Ole Opry, and border stations blasting from Mexico were carrying blues, country, gospel and pop into farmhouses and city apartments alike. In the 1950s the transistor radio put that signal in a teenager's pocket, and disc jockeys \u2014 playing records across the colour line \u2014 became tastemakers who could break a song nationally in a week. Radio mixed genres that segregation and geography had kept apart, and it is the reason a boy in northern Minnesota could grow up hearing Delta blues, Appalachian ballads and Chicago R&B in the same evening.",
     inDylan:
-      "Radio was Dylan's first conservatory. Growing up in Hibbing, Minnesota, far from any music scene, he listened late at night to distant stations \u2014 Gatemouth Page out of Shreveport, blues and hillbilly programmes fading in and out across the Iron Range \u2014 and absorbed a whole American songbook from the airwaves. That accidental education explains the range in his own writing: country, blues, gospel, rockabilly and Tin Pan Alley sitting side by side. He later returned the favour as a broadcaster himself. From 2006 to 2009 he hosted Theme Time Radio Hour on XM Satellite Radio, 100-plus episodes built around a single theme \u2014 Weather, Whiskey, Coffee, Dogs, Mothers \u2014 in which he played 78s, obscure R&B sides, Bing Crosby and punk records back to back, reading poetry and telling deadpan jokes between songs. The show revealed him as an obsessive listener and archivist, and functioned as a public syllabus for the tradition his own work grew out of.",
+      "Radio was Dylan's first conservatory. Growing up in Hibbing, Minnesota, far from any music scene, he listened late at night to distant stations \u2014 Gatemouth Page out of Shreveport, blues and hillbilly programmes fading in and out across the Iron Range \u2014 and absorbed a whole American songbook from the airwaves. That accidental education explains the range in his own writing: country, blues, gospel, rockabilly and Tin Pan Alley sitting side by side. He later returned the favour as a broadcaster himself. From 2006 to 2009 he hosted Theme Time Radio Hour on XM Satellite Radio, 100 episodes built around different themes, each episode taking one subject \u2014 Weather, Dogs, Mothers, and many others \u2014 in which he played 78s, obscure R&B sides, Bing Crosby and punk records back to back, reading poetry and telling deadpan jokes between songs. The show revealed him as an obsessive listener and archivist, and functioned as a public syllabus for the tradition his own work grew out of.",
     example: {
       title: "Theme Time Radio Hour \u2014 The Whiskey Episode",
       note:
@@ -1538,7 +1539,7 @@ export const TERMS: Term[] = [
     title: "Pete Seeger",
     categories: ["Influences"],
     definition:
-      "American folk singer, songwriter, and activist (1919–2014) who did as much as anyone to keep the folk tradition alive as a living, political force. Raised in a musical family, Seeger was a founding member of the Almanac Singers and the Weavers, helping bring folk song into the mainstream in the 1940s and 1950s. After the Weavers were blacklisted during the McCarthy era, he carved out a second career as a solo performer, union organiser, and teacher, travelling with a long-neck banjo and a belief that a good song could make people want to change the world. He later founded the Clearwater project to clean up the Hudson River, proving that environmental activism and folk music could be part of the same life.",
+      "American folk singer, songwriter, and activist (1919–2014) who did as much as anyone to keep the folk tradition alive as a living, political force. Raised in a musical family, Seeger was a founding member of the Almanac Singers and the Weavers, helping bring folk song into the mainstream in the 1940s and 1950s. After the Weavers were blacklisted during the McCarthy era, he carved out a second career as a solo performer, union organiser, and teacher, travelling with a long-neck banjo and a belief that a good song could make people want to change the world. He later founded the Clearwater project to clean up the Hudson River, showing how environmental activism and folk music could serve the same cause.",
     inDylan:
       "Seeger was one of Dylan's earliest and most influential champions. He introduced the young singer to the Newport Folk Festival, put him in front of large audiences, and treated him as a natural heir to the folk tradition. Their relationship was complicated by Dylan's 1965 electric turn at Newport, when legend says Seeger threatened to cut the cables with a hatchet; whatever the exact details, the moment marked a public break between the old guard and the new. Yet the connection endured. Seeger remained a lifelong figure in Dylan's memory of apprenticeship, the link between Greenwich Village, the labour movement, and the idea that a song could carry a conscience.",
     example: {
@@ -1673,11 +1674,11 @@ export const TERMS: Term[] = [
     definition:
       "The eighteenth-century Scottish poet and songwriter regarded as Scotland's national bard. Burns collected, revised, and immortalized folk songs in both Scots and English, turning everyday speech into some of the most durable love, drinking, and social-justice verses in the language; he also penned the words to Auld Lang Syne, the song now sung the world over to mark the turn of a year. His work bridged the gap between oral tradition and high literature, often celebrating the common man and the democratic spirit.",
     inDylan:
-      "In 2008 Dylan named Burns his greatest inspiration, citing the 1794 love song A Red, Red Rose as the lyric or verse that had the biggest effect on his life. The choice placed a Scottish folk poet at the root of a distinctly American songwriting voice. Dylan has often utilized the cadences of British and Scottish balladry to structure his own narratives, demonstrating how the archaic structures found in Burns's collections remain foundational to modern folk-rock songwriting and the lyrical economy of his own most enduring compositions.",
+      "In 2008, as the 100th participant in the music retailer HMV's My Inspiration advertising campaign, Dylan selected lines from Burns's 1794 love song A Red, Red Rose. Contemporary reports described the question as asking which lyric or verse had the biggest effect on his life, not specifically on his work as a songwriter. HMV described the campaign more broadly as celebrating inspiration in artists' lives and work; Dylan's selection appeared in press advertisements and store displays alongside the promotion of Tell Tale Signs. The choice placed a Scottish folk poet close to the heart of a distinctly American songwriting voice. Dylan's use of British and Scottish ballad cadences shows how the traditions Burns collected and reshaped could remain alive within modern songs.",
     example: {
       title: "A Red, Red Rose",
       note:
-        "Burns's song of love outlasting seas and stones is the very lyric Dylan singled out as his most important inspiration as a songwriter, heard here in Eva Cassidy's tender reading.",
+        "Burns's song of love outlasting seas and stones is the lyric Dylan chose for HMV's My Inspiration campaign, heard here in Eva Cassidy's tender reading.",
       media: { kind: "youtube", id: "5e0D_B0tdc0", spotifyId: "589xpSCKySfBHl9QSarZ1g" },
     },
     aliases: ["Jean Redpath", "Burns", "Scottish bard", "A Red Red Rose"],
@@ -1971,13 +1972,13 @@ export const TERMS: Term[] = [
     inDylan:
       "In a legendary piece of Dylan lore, he spotted her carrying a violin case on a street in New York, invited her to his studio to audition that same day, and immediately incorporated her into the recording sessions for the album Desire. Her contribution proved so integral that she was recruited for the Rolling Thunder Revue, where her presence on stage—often appearing in elaborate costume—provided a visual and sonic counterpoint to Dylan's white-faced, high-energy performances throughout 1975 and 1976.",
     example: {
-      title: "Hurricane",
+      title: "One More Cup of Coffee (Valley Below)",
       note:
-        "Her violin answers every vocal phrase, driving the narrative forward like a second storyteller.",
-      media: { kind: "youtube", id: "ujgqOgMIwfA", spotifyId: "1fYdZW9CJOwEjOjVHaxvQ5" },
+        "Rivera's violin curls around Dylan's vocal line, sustaining notes and answering phrases with winding, improvised figures. Against the steady pulse and Emmylou Harris's harmony, it lends the song its restless, mournful atmosphere. Her playing is not simply background accompaniment: it acts as another voice, adding tension and a sense of unresolved longing to the Desire recording.",
+      media: { kind: "youtube", id: "95cufW4h-gA", spotifyId: "4WOruM7TiQSETsWYy8bDSX" },
     },
     related: ["violin", "reinvention", "improvisation"],
-    aliases: ["violin", "fiddle", "Desire 1976", "Hurricane"],
+    aliases: ["violin", "fiddle", "Desire 1976", "Hurricane", "One More Cup of Coffee"],
   },
   {
     slug: "rob-stoner",
@@ -2291,7 +2292,7 @@ export const TERMS: Term[] = [
     definition:
       "Ramblin' Jack Elliott is a Brooklyn-born folk singer who became the vital link between Woody Guthrie and the 1960s folk revival. By mastering Guthrie's idiosyncratic guitar style, flat-picking technique, and weathered vocal delivery, Elliott carried the rambling cowboy persona across the Atlantic and back. He served as a living repository of American roots music, bridging the gap between the original Dust Bowl balladeers and the urban bohemians of Greenwich Village, ensuring the survival of a specific regional aesthetic within the broader American songbook.",
     inDylan:
-      "Dylan learned Woody Guthrie's songs largely by emulating Elliott, mimicking his phrasing, his particular yodel, and his dry talking-blues patter. Upon arriving in New York, Dylan was frequently billed as a second Elliott or a Jack Elliott disciple. In 1963, Dylan told Studs Terkel that Jack Elliott influenced everybody, while Guthrie himself once remarked that Jack sounded more like him than he did. Decades after their initial meeting, Elliott joined the 1975 Rolling Thunder Revue as a featured performer, closing a twenty-year circle of mutual influence and shared musical heritage.",
+      "Dylan learned Woody Guthrie's songs largely by emulating Elliott, mimicking his phrasing, his particular yodel, and his dry talking-blues patter. Upon arriving in New York, Dylan was frequently billed as a second Elliott or a Jack Elliott disciple. In Chronicles: Volume One, he recalls Elliott's commanding voice and effortless flat-picking, calling him the 'King of the Folksingers.' His admiration is vivid: 'He drawls and he's so confident it makes me sick.' In 1963, Dylan told Studs Terkel that Jack Elliott influenced everybody, while Guthrie himself once remarked that Jack sounded more like him than he did. Elliott later joined the 1975 Rolling Thunder Revue as a featured performer, bringing Dylan's early apprenticeship back onto the stage.",
     example: {
       title: "San Francisco Bay Blues",
       note:
