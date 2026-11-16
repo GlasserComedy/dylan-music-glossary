@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import type { Term } from "@/content/terms";
+import { alphabetLetter } from "@/content/alphabet.mjs";
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
@@ -12,7 +13,7 @@ type Props = {
 export function AlphabetStrip({ terms, activeLetter, onSelectLetter }: Props) {
   const available = useMemo(() => {
     const set = new Set<string>();
-    for (const t of terms) set.add(t.title[0]!.toUpperCase());
+    for (const t of terms) set.add(alphabetLetter(t.title));
     return set;
   }, [terms]);
 

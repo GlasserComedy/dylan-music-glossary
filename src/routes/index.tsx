@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Coffee, Mail, Search, X } from "lucide-react";
 import { TERMS, CATEGORIES, type Category } from "@/content/terms";
+import { alphabetLetter, compareTitles } from "@/content/alphabet.mjs";
 import { MindMap } from "@/components/lexicon/MindMap";
 import { TermList } from "@/components/lexicon/TermList";
 import { TermDetail } from "@/components/lexicon/TermDetail";
@@ -116,7 +117,7 @@ function LexiconPage() {
     [activeSlug],
   );
   const activeLetter = activeTerm
-    ? activeTerm.title[0]!.toUpperCase()
+    ? alphabetLetter(activeTerm.title)
     : selectedLetter;
 
   const searchResults = useMemo(() => {
@@ -141,7 +142,7 @@ function LexiconPage() {
       const score = title.startsWith(q) ? 0 : title.includes(q) ? 1 : 2;
       return { term: t, score };
     }).filter((r): r is { term: (typeof TERMS)[number]; score: number } => r !== null);
-    scored.sort((a, b) => a.score - b.score || a.term.title.localeCompare(b.term.title));
+    scored.sort((a, b) => a.score - b.score || compareTitles(a.term, b.term));
     return scored.slice(0, 8).map((r) => r.term);
   }, [query]);
 
@@ -171,7 +172,7 @@ function LexiconPage() {
       }
     }
     return [...groups.values()]
-      .sort((a, b) => a.score - b.score || a.title.localeCompare(b.title))
+      .sort((a, b) => a.score - b.score || compareTitles(a, b))
       .slice(0, 6);
   }, [query]);
 
@@ -206,12 +207,12 @@ function LexiconPage() {
     return TERMS.filter((t) =>
       selectedCategory
         ? t.categories.includes(selectedCategory as Category)
-        : t.title[0]!.toUpperCase() === selectedLetter,
+        : alphabetLetter(t.title) === selectedLetter,
     ).map((t) => ({ id: t.slug, label: t.title }));
   }, [mapMode, selectedCategory, selectedLetter]);
 
   const allTermsSorted = useMemo(
-    () => [...TERMS].sort((a, b) => a.title.localeCompare(b.title)),
+    () => [...TERMS].sort(compareTitles),
     [],
   );
 

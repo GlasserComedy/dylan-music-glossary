@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Content-link regression tests use Node's built-in test runner to check exact per-entry destinations without requiring asset imports.
+- Use the shared alphabet helpers for sorting, letter filtering, grouping and active-letter display so leading articles are treated consistently without renaming entries.

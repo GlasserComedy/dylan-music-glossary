@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { type Term, type Category } from "@/content/terms";
+import { alphabetLetter, compareTitles } from "@/content/alphabet.mjs";
 
 type Props = {
   terms: Term[];
@@ -21,14 +22,14 @@ export function TermList({
     const filtered = terms
       .filter((t) => (selectedCategory ? t.categories.includes(selectedCategory as Category) : true))
       .filter((t) =>
-        selectedLetter ? t.title[0]!.toUpperCase() === selectedLetter : true,
+        selectedLetter ? alphabetLetter(t.title) === selectedLetter : true,
       )
       .slice()
-      .sort((a, b) => a.title.localeCompare(b.title));
+      .sort(compareTitles);
 
     const map = new Map<string, Term[]>();
     for (const t of filtered) {
-      const letter = t.title[0]!.toUpperCase();
+      const letter = alphabetLetter(t.title);
       const bucket = map.get(letter);
       if (bucket) bucket.push(t);
       else map.set(letter, [t]);
