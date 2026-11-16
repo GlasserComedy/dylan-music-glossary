@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Apply the Phrasing through Strumming updates, verify questioned references, and sort leading-The entries by the next word throughout the glossary.
+
 - [x] Apply the uploaded Drone through Protest Song wording corrections and Newport video; check questioned musical claims and verify the entries.
 
 - [x] Apply the nine requested entry updates, replace Chuck Berry's video link, and share Izzy's portrait with Folklore Center.
