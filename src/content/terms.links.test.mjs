@@ -54,3 +54,15 @@ test("Newport 1965 uses the requested replacement clip", () => {
 test("Mode no longer includes Man of Constant Sorrow as a listening example", () => {
   assert.doesNotMatch(entry("mode"), /title: "Man of Constant Sorrow"/);
 });
+
+test("Phrasing uses Hurricane's recording destinations", () => {
+  const content = entry("phrasing");
+  assert.match(content, /id: "bpZvg_FjL3Q"/);
+  assert.match(content, /spotifyId: "1fYdZW9CJOwEjOjVHaxvQ5"/);
+});
+
+test("Scarlet Rivera uses One More Cup of Coffee's recording destinations", () => {
+  const content = entry("scarlet-rivera");
+  assert.match(content, /id: "95cufW4h-gA"/);
+  assert.match(content, /spotifyId: "4WOruM7TiQSETsWYy8bDSX"/);
+});

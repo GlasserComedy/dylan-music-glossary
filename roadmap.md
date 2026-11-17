@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Apply the Phrasing through Strumming updates, verify questioned references, and sort leading-The entries by the next word throughout the glossary.
+- [x] Apply the Phrasing through Strumming updates, verify questioned references, and sort leading-The entries by the next word throughout the glossary.
 
 - [x] Apply the uploaded Drone through Protest Song wording corrections and Newport video; check questioned musical claims and verify the entries.
 
