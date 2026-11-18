@@ -482,7 +482,7 @@ export const TERMS: Term[] = [
     title: "Talkin' Blues",
     categories: ["Genres & Styles", "Roots & Tradition"],
     definition:
-      "The talkin' blues is a distinctive rhythmic speech form performed over a repetitive, usually twelve-bar blues progression. Characterized by dry wit, social commentary, and a conversational delivery, it allows for a flexible narrative structure where the performer can pause for comedic timing or emphasize specific satirical points. The style was famously popularized by Woody Guthrie, who used the format to chronicle the struggles of the working class during the Great Depression.",
+      "The talkin' blues is a distinctive rhythmic speech form performed over a repetitive blues progression. Characterized by dry wit, social commentary, and a conversational delivery, it allows for a flexible narrative structure where the performer can pause for comedic timing or emphasize specific satirical points. The style was famously popularized by Woody Guthrie, who used the format to chronicle the struggles of the working class during the Great Depression.",
     inDylan:
       "Dylan's early club sets and debut recordings were full of talkin' blues, a format that allowed his sharp, funny persona to emerge. Pieces like Talkin' New York and Talkin' World War III Blues are unmistakably indebted to Guthrie, utilizing the rhythmic lilt of the form to deliver biting observations on urban life and Cold War anxieties. This style was foundational to his development, teaching him how to balance humor with gravity while maintaining a steady, driving musical pulse that kept the audience focused on the unfolding story.",
     example: {
@@ -652,7 +652,7 @@ export const TERMS: Term[] = [
     definition:
       "A musical notation indicating how many beats are contained in each measure and which note value represents one beat. Most Western popular music adheres to the common 4/4 time signature, but time signatures like 3/4 or 6/8 introduce a rhythmic lilt or circular momentum that alters the emotional weight of a lyric. These structures dictate the pulse of the composition and how the listener perceives the flow of the melody against the harmonic changes.",
     inDylan:
-      "Dylan frequently employs standard signatures while subverting their rigid constraints through his unique vocal phrasing and unconventional breath control. In Just Like a Woman, he utilizes a lilting 6/8 feel to create a delicate, swaying rhythm that mirrors the song's vulnerability. To Ramona rides the same waltzing 3/4 signature, underscoring its folk roots. By stretching syllables across measures, he makes these familiar rhythms feel spontaneous and fresh, often blurring the line between speech and song.",
+      "Dylan frequently employs standard signatures while subverting their rigid constraints through his unique vocal phrasing and unconventional breath control. In Just Like a Woman, he utilizes a lilting 6/8 feel to create a delicate, swaying rhythm that mirrors the song's vulnerability. To Ramona rides a waltzing 3/4 signature, underscoring its folk roots. By stretching syllables across measures, he makes these familiar rhythms feel spontaneous and fresh, often blurring the line between speech and song.",
     example: {
       title: "Sad Eyed Lady of the Lowlands",
       note:
@@ -666,14 +666,14 @@ export const TERMS: Term[] = [
     title: "Topical Song",
     categories: ["Songwriting"],
     definition:
-      "A subgenre of folk music where lyrics address specific current events, social issues, or political controversies. Rooted in the broadside ballad tradition of the 18th and 19th centuries, topical songs serve as a form of musical journalism, often aiming to provoke public debate or express moral outrage. While they are tethered to a particular moment in time, the most effective examples transcend their immediate origins to touch upon universal themes of justice, power, and human suffering.",
+      "A subgenre of folk music where lyrics address specific current events, social issues, or political controversies. Its roots include the printed broadside ballads circulating in the 16th century and later, as well as older traditions of singing about public events. Topical songs serve as a form of musical journalism, often aiming to provoke public debate or express moral outrage. While they are tethered to a particular moment in time, the most effective examples transcend their immediate origins to touch upon universal themes of justice, power, and human suffering.",
     inDylan:
       "Dylan emerged as the preeminent voice of the 1960s folk revival through masterworks like The Lonesome Death of Hattie Carroll, which detailed a real-life homicide with cinematic precision. Even as his writing turned toward the surreal, he returned to the form with the 1975 protest anthem Hurricane, advocating for the release of boxer Rubin Carter. His topical writing is distinguished by a refusal to offer simple didacticism, instead creating complex narratives that force the listener to confront the systemic failures and personal tragedies of the American experience.",
     example: {
       title: "Who Killed Davey Moore?",
       note:
         "Written days after the boxer's 1963 death, the song puts the question to the referee, the crowd, the manager, the gambler, the writer and the fighter \u2014 and every one of them denies the blame.",
-      media: { kind: "youtube", id: "", spotifyId: "640qDNJeKHunZ7c90unilf" },
+      media: { kind: "youtube", youtubeUrl: "https://www.youtube.com/watch?v=LY31HqK135Q&list=RDLY31HqK135Q&start_radio=1", spotifyId: "640qDNJeKHunZ7c90unilf" },
     },
     related: ["protest-song", "social-commentary", "narrative"],
   },
@@ -682,13 +682,13 @@ export const TERMS: Term[] = [
     title: "Traditional",
     categories: ["Roots & Tradition"],
     definition:
-      "Music that is passed down through oral tradition rather than composed by a single known author. Traditional songs are living material: lyrics change, verses get added or dropped, and melodies adapt to the singer, the region, and the moment. They carry centuries of anonymous craft and serve as a shared language among musicians.",
+      "Music passed down and widely used within a community over generations, often through oral tradition. Authorship may be unknown, but a song by a known writer can also enter tradition as people adopt it, circulate it, and make their own versions. Popularity alone does not make a song traditional; sustained communal use and transmission matter. Traditional songs are living material: lyrics change, verses get added or dropped, and melodies adapt to the singer, the region, and the moment. They carry generations of shared craft and serve as a common language among musicians.",
     inDylan:
       "Traditional song was the foundation Dylan stood on when he arrived in New York. He learned from Lomax field recordings, Harry Smith's Anthology of American Folk Music, and older performers in the Village, and he treated the songs as a craft to master rather than a museum to visit. Places like Washington Square Park and Greenwich Village were where young musicians gathered on Sundays and in back rooms to swap verses, compare versions, and sharpen their skills. Learning the old songs there was a rite of passage; it was how you proved you could inhabit the music. That immersion in traditional material was essential to the folk revival, and it gave Dylan the vocabulary that let his own songs sound like they had already existed for a hundred years. He recorded many traditional songs on his early albums, and the practice of borrowing, reshaping, and re-singing old material never really left him.",
     example: {
       title: "Froggie Went a-Courtin'",
       note:
-        "An old children's folk song passed down for centuries, recorded by Dylan almost exactly as it was handed to him.",
+        "An old folk song passed down for centuries in many versions. On Good as I Been to You, Dylan makes its animal courtship story his own through his vocal phrasing and acoustic guitar accompaniment, continuing the tradition rather than preserving a single fixed original.",
       media: { kind: "youtube", id: "47NFLztId4E", spotifyId: "5sEiHlDvo5CRpX5AT3Q8z1" },
     },
     related: ["folk-revival", "folklore"],
@@ -715,11 +715,11 @@ export const TERMS: Term[] = [
     definition:
       "A bowed string instrument that evolved from medieval fiddles and reached its modern form in 16th-century Italy, above all in Cremona, where luthiers such as Andrea Amati and later Antonio Stradivari refined its curved body, four strings, and singing tone. The violin became the leading melodic instrument in European classical music and, as the fiddle, a cornerstone of folk, country, bluegrass, and Celtic traditions on both sides of the Atlantic.",
     inDylan:
-      "Dylan sometimes incorporated violin (fiddle) in his arrangements to add a rustic or dramatic feel. Scarlet Rivera's exotic, gypsy-tinged playing on Desire is the classic example, and the instrument's portability and vocal-like sustain have made it a natural partner for singers in folk and roots settings.",
+      "Dylan sometimes incorporated violin (fiddle) in his arrangements to add a rustic or dramatic feel. Scarlet Rivera's playing on Desire is the classic example: her winding lines answer his voice, sustain tension between phrases, and give the album's stories a restless character. On Hurricane the violin helps propel the narrative; on One More Cup of Coffee it adds a mournful, hovering counterpoint. Rivera also brought that sound to the Rolling Thunder Revue. The instrument's portability and vocal-like sustain have made it a natural partner for singers in folk and roots settings, able to suggest both a communal dance and a solitary lament.",
     example: {
       title: "Black Diamond Bay",
       note:
-        "Scarlet Rivera's violin darts through every verse of this Desire story-song, answering the vocal line and giving the whole tall tale its restless, cinematic motion.",
+        "Scarlet Rivera's violin darts through every verse of this Desire story-song, answering the vocal line and giving its fictional island-disaster narrative a restless, cinematic motion.",
       media: { kind: "youtube", id: "73N211qQCZU", spotifyId: "2OqE96IZhnQ7uNunN6Opag" },
     },
   },
@@ -1208,9 +1208,10 @@ export const TERMS: Term[] = [
     slug: "vocal-style",
     title: "Vocal Style",
     categories: ["Performance"],
-    definition: "The unique sound and approach of a singer.",
+    definition:
+      "The distinctive way a singer uses tone, phrasing, articulation, range, vibrato, and breath to give a song character. Styles reflect both individual choices and musical traditions: jazz singing often plays freely with the beat and melody; folk singing may favor direct storytelling; classical singing emphasizes trained resonance, sustained tone, and controlled projection. Blues, gospel, country, and rock each offer further approaches, from bent notes and call-and-response to a close croon or a raw shout. These are not rigid categories: singers borrow across them, and a recognizable voice can change greatly over a lifetime.",
     inDylan:
-      "Dylan's nasal, gritty vocal style became iconic, even as it divided listeners — and he has reshaped it many times, from Nashville Skyline's croon to the sandpaper rasp of his late records.",
+      "Dylan's nasal, gritty delivery challenged the idea that a good singer must have a conventionally beautiful tone. Woody Guthrie's conversational storytelling, Odetta's forceful folk singing, Hank Williams's country plaintiveness, and Little Richard's rock-and-roll intensity all helped shape his early vocabulary. He absorbed models rather than settling into one: the pointed diction of his early folk records became the elastic, cutting phrasing of his electric years, then the rounded Nashville Skyline croon and the impassioned singing of his gospel period. Later, his roughened voice gave blues-based songs a weathered intimacy, while his recordings of standards associated with Frank Sinatra explored restrained melody and phrasing. Dylan and contemporaries across folk and rock made individuality central to singing; jazz offered lessons in rhythmic freedom, while the classical ideal of sustained, polished tone was only one possibility, not a standard they had to follow.",
     example: {
       title: "To Be Alone with You",
       note:
@@ -1274,11 +1275,11 @@ export const TERMS: Term[] = [
     definition:
       "Umm Kulthum, also known as Om Kalsoum, was the preeminent singer of the Arab world, celebrated as the Star of the East. Her career spanned several decades, during which she became a cultural icon known for her immense vocal range and the emotional intensity of her long-form poetic performances. Her concerts featured elaborate orchestral arrangements that responded to her improvised vocal ornamentations, creating a transcendental experience where single phrases could be repeated and varied for minutes at a time to achieve a state of musical ecstasy known as tarab.",
     inDylan:
-      "Dylan explicitly named Umm Kulthum his favorite singer after encountering her music while visiting Jerusalem. He was profoundly affected by her ability to sustain tension and her sophisticated use of microtonal inflections. This influence surfaced prominently in the mid-1970s, particularly on the Desire album. The track One More Cup of Coffee (Valley Below) showcases Dylan employing a distinctive, winding vocal style that mirrors the melismatic ornamentation found in Kulthum’s work, allowing his voice to hang and wander over the melody in a departure from Western folk traditions.",
+      "Dylan named Umm Kulthum as a favorite singer after hearing her music while visiting Jerusalem. Her sustained phrases and elaborate vocal ornamentation may have helped inspire the winding singing on One More Cup of Coffee (Valley Below), though a direct influence on that particular performance is not certain. Dylan also connected the song with his visit to a Romani celebration at Saintes-Maries-de-la-Mer in France in 1975. Those experiences may both belong to the song's imaginative background, alongside Scarlet Rivera's violin and Emmylou Harris's harmonies; they should not be reduced to a single proven source for his vocal style.",
     example: {
       title: "Alf Leila We Leila (A Thousand and One Nights)",
       note:
-        "An hour-long meditation on a single night of love, where one line can be turned over for minutes at a time \u2014 the sustained, ornamental phrasing that fascinated Dylan and echoes in his most Eastern-tinged vocals.",
+        "An hour-long meditation on a single night of love, where one line can be turned over for minutes at a time — sustained, ornamental phrasing that offers a useful comparison with Dylan's winding vocals on One More Cup of Coffee, without proving a direct influence.",
       media: { kind: "youtube", id: "MmZDniLCa1c", spotifyId: "0l0DQO6jlzwdKUX6iv5WWO" },
     },
     aliases: ["Om Khalsoum", "Umm Kalthoum", "Om Kalsoum", "Oum Kalthoum"],
@@ -1433,9 +1434,9 @@ export const TERMS: Term[] = [
     title: "Tempo",
     categories: ["Music"],
     definition:
-      "The specific speed or pace at which a piece of music is performed, usually measured in beats per minute. Tempo is a primary driver of a song's emotional character, capable of instilling feelings of urgency, frantic excitement, serenity, or somber reflection. Adjusting the tempo can fundamentally alter the listener's perception of a song's meaning, regardless of the fixed lyrics.",
+      "The specific speed or pace at which a piece of music is performed, usually measured in beats per minute. Tempo is a primary driver of a song's emotional character, capable of instilling feelings of urgency, frantic excitement, serenity, or somber reflection. Adjusting the tempo can fundamentally alter the listener's perception of a song's meaning, regardless of the fixed lyrics. It describes how fast the pulse moves, not how many beats a measure contains or how notes are arranged around that pulse.",
     inDylan:
-      "Dylan is famous for re-tempos his own catalog in live performance, frequently turning a brisk, agitated number into a slow, haunting meditation or vice versa. This constant alteration ensures that his material remains a living entity rather than a fixed artifact. By slowing down a song like It's All Over Now, Baby Blue, he may uncover hidden nuances in the text, while speeding up an older folk ballad can transform a tragic story into a defiant, high-energy rock performance.",
+      "Dylan is famous for changing the tempos of his own songs in live performance, frequently turning a brisk, agitated number into a slow, haunting meditation or vice versa. This constant alteration ensures that his material remains a living entity rather than a fixed artifact. By slowing down a song like It's All Over Now, Baby Blue, he may uncover hidden nuances in the text, while speeding up an older folk ballad can transform a tragic story into a defiant, high-energy rock performance.",
     example: {
       title: "Lily, Rosemary and the Jack of Hearts",
       note:
@@ -1591,9 +1592,9 @@ export const TERMS: Term[] = [
     title: "The Band",
     categories: ["People, Places & Moments"],
     definition:
-      "A Canadian-American roots-rock group, originally the backing band for rockabilly singer Ronnie Hawkins, who became the definitive ensemble behind Dylan's electric reinvention and went on to shape American rock as a self-contained unit. Their sound was a deliberate rejection of late-1960s psychedelic excess: slowed tempos, wood-and-rust textures, organ, piano, mandolin, and interlocking vocals that sounded like a front-porch conversation. In their early years with Hawkins they were known as the Hawks, and after they broke away they toured briefly as Levon and the Hawks before settling on the simple, self-effacing name The Band.",
+      "A Canadian-American roots-rock group which began as the backing band for rockabilly singer Ronnie Hawkins, became the definitive ensemble behind Dylan's electric reinvention, and went on to shape American rock as a self-contained unit. Their sound was a deliberate rejection of late-1960s psychedelic excess: slowed tempos, wood-and-rust textures, organ, piano, mandolin, and interlocking vocals that sounded like a front-porch conversation. In their early years with Hawkins they were known as the Hawks, and after they broke away they toured briefly as Levon and the Hawks before settling on the simple, self-effacing name The Band.",
     inDylan:
-      "They weathered the boos of the 1966 world tour with him, anchored the informal Basement Tapes recordings in Woodstock in 1967, and rejoined him for the triumphant 1974 comeback tour. Rick Danko's bass and Levon Helm's drums gave the songs a rolling, conversational feel; Richard Manuel's and Helm's harmonies wrapped Dylan's voice in a rough, gospel warmth; Garth Hudson's Lowrey organ and Robbie Robertson's guitar supplied color without clutter. When Dylan retreated from the spotlight after his 1966 motorcycle accident, The Band's music from the Big Pink house in West Saugerties became the soundtrack of his seclusion, and their first two albums, Music from Big Pink and The Band, are inseparable from the sound world Dylan helped create. Their later appearances together — the 1974 tour, the Last Waltz concert film — confirmed that the partnership was one of the deepest in rock history.",
+      "They weathered the boos of the 1966 world tour with Dylan, anchored the informal Basement Tapes recordings in Woodstock in 1967, and rejoined him for the triumphant 1974 comeback tour. Rick Danko's bass and Levon Helm's drums gave the songs a rolling, conversational feel; Richard Manuel's and Helm's harmonies wrapped Dylan's voice in a rough, gospel warmth; Garth Hudson's Lowrey organ and Robbie Robertson's guitar supplied color without clutter. When Dylan retreated from the spotlight after his 1966 motorcycle accident, The Band's music from the Big Pink house in West Saugerties became the soundtrack of his seclusion, and their first two albums, Music from Big Pink and The Band, are inseparable from the sound world Dylan helped create. Their later appearances together — the 1974 tour, the Last Waltz concert film — confirmed that the partnership was one of the deepest in rock history.",
     example: {
       title: "The Night They Drove Old Dixie Down",
       note:
@@ -1613,7 +1614,7 @@ export const TERMS: Term[] = [
     example: {
       title: "I Want to Hold Your Hand",
       note:
-        "The song that broke them in America and that Dylan heard on the radio in 1964 — pop craft with harmonic surprises, the sound he began writing toward.",
+        "Their first US number-one hit, which helped bring The Beatles to a mass American audience in 1964. Dylan heard it on the radio that year — pop craft with harmonic surprises, part of the sound that encouraged his renewed interest in rock and roll.",
       media: { kind: "youtube", id: "jenWdylTtzs", spotifyId: "4DRBaZ760gyk7LWnaJFqsJ" },
     },
     related: ["rock", "folk-rock", "electric"],
@@ -1851,7 +1852,7 @@ export const TERMS: Term[] = [
     definition:
       "Gospel singer and electric guitarist whose distorted, swinging playing helped invent rock and roll. A virtuosic performer, she was one of the first artists to use heavy distortion on an electric guitar while singing sacred music. Tharpe broke barriers by performing in secular nightclubs while maintaining her gospel roots, blending the fervor of the church with the driving rhythm of the blues and big band jazz.",
     inDylan:
-      "Tharpe is the bridge Dylan's electric turn stands on sacred song played loud on an electric guitar, decades before Newport. He has praised her as a magnificent performer and a powerful presence who could shake the rafters. Her influence is most visible in the way Dylan combined religious imagery with loud, aggressive instrumentation during his mid-sixties period and his later gospel years. Tharpe proved that spiritual conviction and electric volume were not mutually exclusive, providing a historical precedent for Dylan's most controversial stylistic shifts.",
+      "Decades before Dylan plugged in at Newport, Tharpe was singing sacred songs with a loud electric guitar. Her music bridged gospel and the emerging sound of rock and roll, showing that electric instruments could extend a tradition rather than abandon it. Dylan has praised her as a magnificent performer and a powerful presence who could shake the rafters. Her example provides a historical context for his own combinations of religious imagery and amplified music, especially in his later gospel years. Tharpe proved that spiritual conviction and electric volume were not mutually exclusive, long before Dylan's controversial stylistic shifts.",
     example: {
       title: "Up Above My Head",
       note:
@@ -2174,7 +2175,7 @@ export const TERMS: Term[] = [
     definition:
       "Drummer Sly Dunbar and bassist Robbie Shakespeare were the most prolific and influential rhythm section in Jamaican music history. Together, they refined the sound of reggae, dub, and dancehall. Their distinctive approach focused on a deep, heavy pocket and innovative electronic percussion, making them sought-after collaborators for artists across the pop and rock spectrum.",
     inDylan:
-      "For the Infidels sessions in 1983, Dylan recruited Sly and Robbie to provide a solid, contemporary foundation. Their presence injected a subtle reggae pulse and a modern rhythmic toughness into the recordings. By pairing his dense lyrics with their steady, muscular grooves, Dylan moved away from the sprawling arrangements of his previous tours toward a leaner, more physically grounded sound that reflected the production trends of the early 1980s.",
+      "For the Infidels sessions in 1983, Dylan recruited Sly and Robbie to provide a solid, contemporary foundation. Their presence injected a subtle reggae pulse and a modern rhythmic toughness into the recordings. The combination of their rhythm section with Mark Knopfler's clear, melodic guitar playing and co-production was central to the album's distinctive sound, with Mick Taylor's guitar adding another important voice. By pairing his dense lyrics with their steady, muscular grooves, Dylan moved away from the sprawling arrangements of his previous tours toward a leaner, more physically grounded sound that reflected the production trends of the early 1980s.",
     example: {
       title: "Don't Fall Apart on Me Tonight",
       note:

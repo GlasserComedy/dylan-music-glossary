@@ -66,3 +66,7 @@ test("Scarlet Rivera uses One More Cup of Coffee's recording destinations", () =
   assert.match(content, /id: "95cufW4h-gA"/);
   assert.match(content, /spotifyId: "4WOruM7TiQSETsWYy8bDSX"/);
 });
+
+test("Topical Song uses the requested direct Davey Moore video", () => {
+  assert.match(entry("topical-song"), /youtubeUrl: "https:\/\/www.youtube.com\/watch\?v=LY31HqK135Q&list=RDLY31HqK135Q&start_radio=1"/);
+});
