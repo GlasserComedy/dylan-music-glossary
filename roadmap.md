@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Apply the uploaded Improvisation through Narrative edits, replace Keyboard's example with Must Be Santa, and verify the entries and links.
+
 - [x] Apply the uploaded Tharpe through Violin corrections, check historical claims, and verify the updated entries and Topical Song video.
 
 - [x] Apply the Phrasing through Strumming updates, verify questioned references, and sort leading-The entries by the next word throughout the glossary.
