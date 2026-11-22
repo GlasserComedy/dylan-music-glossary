@@ -450,7 +450,7 @@ export const TERMS: Term[] = [
     title: "Singer-Songwriter",
     categories: ["Songwriting"],
     definition:
-      "An artist who writes, composes, and performs their own songs, so that the voice, the words, and the music all come from a single source. The practice of writing and performing one's own songs reaches back to troubadours and folk singers; the modern label is much newer. In the 1960s, singer-songwriter became a recognized category of popular music: a figure who was not merely interpreting professional songwriters but presenting an original, self-authored world.",
+      "An artist who writes, composes, and performs their own songs, so that the voice, the words, and the music all come from a single source. The practice of writing and performing one's own songs reaches back to troubadours and folk singers. In the 1960s, singer-songwriter became a recognized category of popular music: a figure who was not merely interpreting professional songwriters but presenting an original, self-authored world.",
     inDylan:
       "Dylan is often called the first major singer-songwriter of the modern pop era, even though he was not the first person to write and sing his own material. Woody Guthrie, Pete Seeger, Lead Belly, Hank Williams, Chuck Berry, and blues singers had all done it before him; the Brill Building and Tin Pan Alley had also produced writers who sang. What changed was scale and expectation. Dylan's songs arrived at a moment when the mainstream music industry still separated the composer from the performer, and when his albums began selling as statements by a single author, they helped collapse that division. The sheer density of his writing, the sense that every line was freighted with a personal vision, made audiences hear the singer-songwriter as a serious literary artist, not just an entertainer. After him, it became normal to expect an album to be a personal statement from the person singing it, and artists like Joni Mitchell, Neil Young, Paul Simon, Carole King, and hundreds of others were able to enter a landscape that Dylan had made visible. He is cited as the first major figure of this movement because he did not just write songs; he redefined the contract between popular music and authorship.",
     example: {
@@ -636,7 +636,7 @@ export const TERMS: Term[] = [
     definition:
       "Strumming is a guitar technique where the player brushes the strings in a rhythmic up-and-down motion to sound chords. It is the most fundamental way to provide harmonic accompaniment to a singer, creating a broad wash of sound that sustains the rhythm and fills the sonic space. Different strumming patterns can completely alter the feel of a song, turning a simple chord progression into a driving anthem or a gentle, swaying ballad.",
     inDylan:
-      "Dylan's vigorous strumming was the engine behind many of his most famous folk songs, creating a relentless rhythmic wall for his complex lyrics to ride upon. His right-hand technique often focused on a heavy, consistent downbeat that helped him maintain tempo while playing the harmonica simultaneously. By varying the intensity and speed of his strumming, he could shift the mood of a performance instantly, moving from the soft, contemplative patterns of his ballads to the percussive, urgent drive of his protest songs, demonstrating the power of the guitar as a rhythmic tool.",
+      "Dylan uses strumming to shape a song's pulse and leave space for its words, from a gentle brush of the strings to a forceful, percussive attack. His right hand can keep a steady accompaniment while he sings or plays harmonica, but the weight and placement of each stroke change the performance's character. The restrained guitar on With God on Our Side shows that a protest song need not have an aggressive accompaniment. By varying the intensity and speed of his strumming, he can move from the soft, contemplative patterns of a ballad to the percussive, urgent drive of an up-tempo acoustic performance, demonstrating the guitar's range as a rhythmic tool.",
     example: {
       title: "Pretty Peggy-O",
       note:
@@ -656,7 +656,7 @@ export const TERMS: Term[] = [
     example: {
       title: "Sad Eyed Lady of the Lowlands",
       note:
-        "An eleven-minute song carried on a slow, swaying 6/8 waltz feel \u2014 the triple pulse is what lets the verses roll on and on without ever sounding hurried.",
+        "An eleven-minute song carried on a slow, swaying 6/8 feel \u2014 the triple pulse is what lets the verses roll on and on without ever sounding hurried.",
       media: { kind: "youtube", id: "0c1NJPCN6nA", spotifyId: "4jdtLLyEL7wY0TlCdMKhxq" },
     },
     related: ["rhythm"],
@@ -1275,7 +1275,7 @@ export const TERMS: Term[] = [
     definition:
       "Umm Kulthum, also known as Om Kalsoum, was the preeminent singer of the Arab world, celebrated as the Star of the East. Her career spanned several decades, during which she became a cultural icon known for her immense vocal range and the emotional intensity of her long-form poetic performances. Her concerts featured elaborate orchestral arrangements that responded to her improvised vocal ornamentations, creating a transcendental experience where single phrases could be repeated and varied for minutes at a time to achieve a state of musical ecstasy known as tarab.",
     inDylan:
-      "Dylan named Umm Kulthum as a favorite singer after hearing her music while visiting Jerusalem. Her sustained phrases and elaborate vocal ornamentation may have helped inspire the winding singing on One More Cup of Coffee (Valley Below), though a direct influence on that particular performance is not certain. Dylan also connected the song with his visit to a Romani celebration at Saintes-Maries-de-la-Mer in France in 1975. Those experiences may both belong to the song's imaginative background, alongside Scarlet Rivera's violin and Emmylou Harris's harmonies; they should not be reduced to a single proven source for his vocal style.",
+      "Dylan named Umm Kulthum as a favorite singer after hearing her music while visiting Jerusalem. Her sustained phrases and elaborate vocal ornamentation may have helped inspire the winding singing on One More Cup of Coffee (Valley Below), along with his visit to a Romani celebration at Saintes-Maries-de-la-Mer in France in 1975.",
     example: {
       title: "Alf Leila We Leila (A Thousand and One Nights)",
       note:
@@ -1614,7 +1614,7 @@ export const TERMS: Term[] = [
     example: {
       title: "I Want to Hold Your Hand",
       note:
-        "Their first US number-one hit, which helped bring The Beatles to a mass American audience in 1964. Dylan heard it on the radio that year — pop craft with harmonic surprises, part of the sound that encouraged his renewed interest in rock and roll.",
+        "Their first US number-one hit, which helped bring The Beatles to a mass American audience in 1964. During a cross-country road trip, Dylan heard it on the car radio in Colorado. Recalling the journey to biographer Anthony Scaduto in 1971, he said: 'Then, when we were driving through Colorado we had the radio on and eight of the ten top songs were Beatles songs.' Their impact went beyond popularity: 'Their chords were outrageous, just outrageous, and their harmonies made it all valid.' Hearing that sound helped him imagine working with other musicians and rekindled his rock-and-roll ambitions.",
       media: { kind: "youtube", id: "jenWdylTtzs", spotifyId: "4DRBaZ760gyk7LWnaJFqsJ" },
     },
     related: ["rock", "folk-rock", "electric"],
@@ -1675,11 +1675,11 @@ export const TERMS: Term[] = [
     definition:
       "The eighteenth-century Scottish poet and songwriter regarded as Scotland's national bard. Burns collected, revised, and immortalized folk songs in both Scots and English, turning everyday speech into some of the most durable love, drinking, and social-justice verses in the language; he also penned the words to Auld Lang Syne, the song now sung the world over to mark the turn of a year. His work bridged the gap between oral tradition and high literature, often celebrating the common man and the democratic spirit.",
     inDylan:
-      "In 2008, as the 100th participant in the music retailer HMV's My Inspiration advertising campaign, Dylan selected lines from Burns's 1794 love song A Red, Red Rose. Contemporary reports described the question as asking which lyric or verse had the biggest effect on his life, not specifically on his work as a songwriter. HMV described the campaign more broadly as celebrating inspiration in artists' lives and work; Dylan's selection appeared in press advertisements and store displays alongside the promotion of Tell Tale Signs. The choice placed a Scottish folk poet close to the heart of a distinctly American songwriting voice. Dylan's use of British and Scottish ballad cadences shows how the traditions Burns collected and reshaped could remain alive within modern songs.",
+      "In 2008, as the 100th participant in the music retailer HMV's My Inspiration advertising campaign, Dylan selected lines from Burns's 1794 love song A Red, Red Rose. The choice placed a Scottish folk poet close to the heart of a distinctly American songwriting voice. Dylan's use of British and Scottish ballad cadences shows how the traditions Burns collected and reshaped could remain alive within modern songs.",
     example: {
       title: "A Red, Red Rose",
       note:
-        "Burns's song of love outlasting seas and stones is the lyric Dylan chose for HMV's My Inspiration campaign, heard here in Eva Cassidy's tender reading.",
+        "A quintessential love song whose plain declarations and vivid images have remained moving across centuries. Love lasts until the seas run dry and the rocks melt with the sun; a farewell becomes a promise to return, however great the distance. Heard here in Eva Cassidy's tender reading, the lyric shows how simple words and a familiar melody can carry a timeless feeling.",
       media: { kind: "youtube", id: "5e0D_B0tdc0", spotifyId: "589xpSCKySfBHl9QSarZ1g" },
     },
     aliases: ["Jean Redpath", "Burns", "Scottish bard", "A Red Red Rose"],
