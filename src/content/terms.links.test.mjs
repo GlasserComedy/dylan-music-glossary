@@ -78,3 +78,10 @@ test("Keyboard uses the requested Must Be Santa video", () => {
 test("Keyboard uses the requested Must Be Santa Spotify recording", () => {
   assert.match(entry("keyboard"), /spotifyId: "26H5lCAcFqSSZHGi5iFm71"/);
 });
+
+test("Rhyme uses I Want You's recording destinations", () => {
+  const content = entry("rhyme");
+  assert.match(content, /id: "-iIS6ZZ9RVA"/);
+  assert.match(content, /spotifyId: "7tJQ4Ekp2vN3NlI3vJJW3v"/);
+  assert.doesNotMatch(content, /bpZvg_FjL3Q|1fYdZW9CJOwEjOjVHaxvQ5/);
+});

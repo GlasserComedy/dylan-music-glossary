@@ -1,5 +1,7 @@
 # Roadmap
 
+- [x] Apply the new uploaded Odetta, Rhyme, Pete Seeger, Rap/Hip Hop, Rhythm and Rock notes; confirm prior edits and verify song links.
+
 - [x] Apply the uploaded Improvisation through Narrative edits, replace Keyboard's example with Must Be Santa, and verify the entries and links.
 
 - [x] Apply the uploaded Tharpe through Violin corrections, check historical claims, and verify the updated entries and Topical Song video.
